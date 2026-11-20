@@ -129,9 +129,11 @@ function done(key){
        if(Array.isArray(a)) return a.filter(v=>typeof v==='number').length; }catch(e){}
   try{ const o=JSON.parse(localStorage.getItem('hsk4-'+key+'-v1')||'null');
        if(o && typeof o==='object') return Number(o.done)||0; }catch(e){}
-  /* Bài ôn HSK4 (assets/on-tap.js) lưu ở hsk4-<key>: man = 'kq' là đã làm xong, p = các câu phản xạ đã trả lời. */
+  /* Bài ôn HSK4 (assets/on-tap.js) lưu ở hsk4-<key>: man = màn đang làm (ng1 → ng2 → xng → dc1 → dc2 → xdc → sp → kq).
+     Quy ra thang 12 điểm để vẽ thanh tiến độ; 'kq' = đã nộp. */
   try{ const o=JSON.parse(localStorage.getItem('hsk4-'+key)||'null');
-       if(o && typeof o==='object'){ if(o.man==='kq') return Infinity; return Array.isArray(o.p)?o.p.length:0; } }catch(e){}
+       if(o && typeof o==='object'){ if(o.man==='kq') return Infinity;
+         return ({ng2:2, xng:4, dc1:4, dc2:6, xdc:8, sp:10})[o.man]||0; } }catch(e){}
   return 0;
 }
 
@@ -172,7 +174,8 @@ async function readLesson(n){
     if(p.chat)   L.push(p.chat+' nhắn tin');
     tags=L.slice(0,4);
   }
-  if(!tags.length && /window\.CHE_DO\s*=\s*'on'/.test(html)) tags=['Phản xạ','Nối câu','Ghép đoạn','Đoạn của em'];
+  /* Bài ôn 4 kỹ năng: bài lẻ viết đoạn, bài chẵn nói đoạn */
+  if(!tags.length && /window\.CHE_DO\s*=\s*'on'/.test(html)) tags=['🎧 Nghe','📖 Đọc', n%2 ? '✍️ Viết đoạn văn' : '🗣 Nói một đoạn'];
   /* Phiếu tự học gửi trước Buổi 1 (bai/tu-hoc-NN.html), nếu có. */
   let tuhoc=null;
   try{ const t=await fetch('bai/tu-hoc-'+pad(n)+'.html',{method:'HEAD',cache:'no-cache'}); if(t.ok) tuhoc='bai/tu-hoc-'+pad(n)+'.html'; }catch(e){}
