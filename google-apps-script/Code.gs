@@ -10,14 +10,19 @@
  *   · "Bài ôn"      — mỗi lượt nộp bài ôn một dòng (điểm, bài viết, link ghi âm)
  *   · "Từng câu"    — mỗi câu của mỗi lượt một dòng (đề · em trả lời · đáp án)
  *   · "Tự học"      — mỗi lượt làm phiếu tự học trước Buổi 1 một dòng
- *  Bài nói (bài chẵn) lưu thành file trong thư mục Drive "HSK4 - Bài nói".
+ *  Bài nói (bài chẵn) lưu thành file trong thư mục Drive
+ *  "ÔN TẬP HSK4 – Kết quả học sinh / Bài nói học sinh (ghi âm) / Bài NN",
+ *  cột "Ghi âm" của trang "Bài ôn" có link bấm vào nghe ngay.
  * ══════════════════════════════════════════════════════════════════
  */
 
 var SHEET_BAI    = 'Bài ôn';
 var SHEET_CAU    = 'Từng câu';
 var SHEET_TUHOC  = 'Tự học';
-var THU_MUC_NOI  = 'HSK4 - Bài nói';
+/* ID thư mục "Bài nói học sinh (ghi âm)" — lấy ở đường link drive.google.com/drive/folders/<ID>.
+   Đổi thư mục khác thì dán ID mới vào đây rồi triển khai phiên bản mới. */
+var THU_MUC_NOI_ID = '1QL9kEkcgKbg70NhPV7SkTU_0RHno2-jm';
+var THU_MUC_NOI    = 'Bài nói học sinh (ghi âm)';   // dự phòng: không mở được ID thì tìm / tạo theo tên
 
 function doPost(e) {
   var lock = LockService.getScriptLock();
@@ -85,19 +90,35 @@ function ghiBaiOn(ss, d, luc) {
   var r = sh.getLastRow();
   sh.getRange(r, 19).setWrap(true).setVerticalAlignment('top');
   sh.setColumnWidth(19, 360);
+  if (/^https:/.test(ghiAm)) sh.getRange(r, 20).setFormula('=HYPERLINK("' + ghiAm + '","▶ Nghe bài nói")');   // setFormula luôn dùng dấu phẩy
 }
 
-/* Lưu bài nói vào Drive, trả về link */
+/* Thư mục gốc chứa bài nói */
+function thuMucNoi() {
+  try { return DriveApp.getFolderById(THU_MUC_NOI_ID); } catch (e) {}
+  var it = DriveApp.getFoldersByName(THU_MUC_NOI);
+  return it.hasNext() ? it.next() : DriveApp.createFolder(THU_MUC_NOI);
+}
+
+/* Thư mục con theo bài: "Bài 02", "Bài 04"… */
+function thuMucBai(goc, bai) {
+  var ten = 'Bài ' + ('0' + (bai || 0)).slice(-2);
+  var it = goc.getFoldersByName(ten);
+  return it.hasNext() ? it.next() : goc.createFolder(ten);
+}
+
+/* Lưu bài nói vào Drive, trả về link file */
 function luuGhiAm(d) {
   try {
     var m = String(d.amThanh).match(/^data:([^;]+);base64,(.*)$/);
     if (!m) return '(không đọc được bản ghi)';
-    var loai = d.amLoai || m[1];
+    var loai = (d.amLoai || m[1]).split(';')[0];
     var duoi = /mp4|m4a|aac/.test(loai) ? '.m4a' : (/ogg/.test(loai) ? '.ogg' : '.webm');
-    var it = DriveApp.getFoldersByName(THU_MUC_NOI);
-    var thuMuc = it.hasNext() ? it.next() : DriveApp.createFolder(THU_MUC_NOI);
-    var ten = String(d.amTen || ('HSK4-' + d.ma)).replace(/[\\\/:*?"<>|]/g, '_') + duoi;
-    var f = thuMuc.createFile(Utilities.newBlob(Utilities.base64Decode(m[2]), loai.split(';')[0], ten));
+    var luc = Utilities.formatDate(new Date(), Session.getScriptTimeZone(), 'dd-MM HH.mm');
+    var ten = ['Bài ' + ('0' + (d.bai || 0)).slice(-2), d.ten || 'chưa ghi tên', d.lop || '', luc]
+      .filter(String).join(' - ').replace(/[\\\/:*?"<>|]/g, '_') + duoi;
+    var f = thuMucBai(thuMucNoi(), d.bai).createFile(Utilities.newBlob(Utilities.base64Decode(m[2]), loai, ten));
+    f.setDescription((d.ten || '') + ' · ' + (d.lop || '') + ' · Bài ' + d.bai + ' · ' + (d.amGiay || 0) + ' giây · mã ' + (d.ma || ''));
     return f.getUrl();
   } catch (err) {
     return '(lỗi lưu ghi âm: ' + err + ')';
