@@ -112,7 +112,8 @@ function thuMucBai(goc, bai) {
 /* Lưu bài nói vào Drive, trả về link file */
 function luuGhiAm(d) {
   try {
-    var m = String(d.amThanh).match(/^data:([^;]+);base64,(.*)$/);
+    // Chrome ghi ra "data:audio/webm;codecs=opus;base64,…", Safari "data:audio/mp4;base64,…" — chấp nhận cả hai
+    var m = String(d.amThanh).match(/^data:([^,]*?);base64,(.*)$/);
     if (!m) return '(không đọc được bản ghi)';
     var loai = (d.amLoai || m[1]).split(';')[0];
     var duoi = /mp4|m4a|aac/.test(loai) ? '.m4a' : (/ogg/.test(loai) ? '.ogg' : '.webm');
