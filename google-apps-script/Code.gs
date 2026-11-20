@@ -90,7 +90,9 @@ function ghiBaiOn(ss, d, luc) {
   var r = sh.getLastRow();
   sh.getRange(r, 19).setWrap(true).setVerticalAlignment('top');
   sh.setColumnWidth(19, 360);
-  if (/^https:/.test(ghiAm)) sh.getRange(r, 20).setFormula('=HYPERLINK("' + ghiAm + '","▶ Nghe bài nói")');   // setFormula luôn dùng dấu phẩy
+  // ô chữ gắn link (không dùng công thức HYPERLINK vì dấu ngăn đổi theo ngôn ngữ bảng tính)
+  if (/^https:/.test(ghiAm)) sh.getRange(r, 20).setRichTextValue(
+    SpreadsheetApp.newRichTextValue().setText('▶ Nghe bài nói').setLinkUrl(ghiAm).build());
 }
 
 /* Thư mục gốc chứa bài nói */
