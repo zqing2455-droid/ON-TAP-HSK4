@@ -187,7 +187,8 @@ async function readLesson(n){
   const list=document.getElementById('list');
   list.innerHTML='<p class="meta">Đang tải danh sách bài…</p>';
   const found=[];
-  for(let n=1;n<=200;n++){ const l=await readLesson(n); if(!l) break; found.push(l); }
+  /* Dò qua chỗ trống: bài nào chưa đăng thì bỏ qua, chỉ dừng khi thiếu liền 3 bài (VD có Bài 4 mà Bài 3 chưa lên vẫn hiện). */
+  for(let n=1,thieu=0;n<=200&&thieu<3;n++){ const l=await readLesson(n); if(!l){ thieu++; continue; } thieu=0; found.push(l); }
   list.innerHTML='';
   if(!found.length){ list.innerHTML='<p class="meta">Các bài ôn đang được soạn, sẽ thêm dần vào đây. Em học từ vựng qua flashcard trước nhé.</p>'; return; }
   const newest=Math.max(...found.map(l=>l.so));
