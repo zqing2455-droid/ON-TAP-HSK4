@@ -96,13 +96,30 @@
   /* ══════════ TRÌNH PHÁT — mỗi đoạn được nghe tối đa 2 lần ══════════ */
   function khungNghe(id) {
     return '<div class="nghe"><audio id="am-' + id + '" preload="auto" src="' + esc(D.audio[id]) + '"></audio>' +
-      '<button class="nut" id="phat-' + id + '"></button><div class="tien"><i id="tien-' + id + '"></i></div><div class="phu" id="ghi-' + id + '" style="margin:0"></div></div>';
+      '<button class="nut" id="phat-' + id + '"></button><div class="tien"><i id="tien-' + id + '"></i></div>' +
+      '<div class="dk"><button class="nut-nho" id="lui-' + id + '" aria-label="Lùi lại 5 giây">⏪ 5 giây</button>' +
+      '<span class="dk-toc"><span class="dk-nhan">Tốc độ</span>' +
+      TOC.map(function (r) { return '<button class="nut-nho toc" data-id="' + id + '" data-r="' + r + '">' + String(r).replace('.', ',') + '×</button>'; }).join('') +
+      '</span></div><div class="phu" id="ghi-' + id + '" style="margin:0"></div></div>';
   }
+  var TOC = [0.75, 1, 1.25, 1.5];   // tốc độ phát cho phép — dùng chung cho mọi đoạn nghe, nhớ trong S.toc
   function ganNghe(id) {
     var am = document.getElementById('am-' + id), nut = document.getElementById('phat-' + id), tien = document.getElementById('tien-' + id), ghi = document.getElementById('ghi-' + id);
     var luot = function () { return S.luot[id] || 0; };
     var dangLuot = false;   // một lượt nghe đang dở (đã bấm phát, chưa nghe hết)
+    var lui = document.getElementById('lui-' + id);
+    var tocNut = document.querySelectorAll('.toc[data-id="' + id + '"]');
+    var datToc = function (r) {
+      S.toc = r; luu(); am.playbackRate = r;
+      if ('preservesPitch' in am) am.preservesPitch = true;   // đổi tốc độ không đổi giọng
+      Array.prototype.forEach.call(tocNut, function (b) { b.classList.toggle('chon', +b.getAttribute('data-r') === r); });
+    };
+    datToc(TOC.indexOf(S.toc) >= 0 ? S.toc : 1);
+    Array.prototype.forEach.call(tocNut, function (b) { b.addEventListener('click', function () { datToc(+b.getAttribute('data-r')); }); });
+    // ⏪ chỉ lùi TRONG lượt đang nghe — không mở thêm lượt, không tính thêm lượt
+    lui.addEventListener('click', function () { if (!dangLuot) return; am.currentTime = Math.max(0, am.currentTime - 5); });
     var veNut = function () {
+      lui.disabled = !dangLuot;
       if (!am.paused) { nut.textContent = '⏸ Tạm dừng'; nut.disabled = false; return; }
       if (dangLuot) { nut.textContent = '▶ Nghe tiếp'; nut.disabled = false; return; }
       nut.disabled = luot() >= 2;
@@ -114,7 +131,7 @@
       if (dangLuot) { am.play(); return veNut(); }
       if (luot() >= 2) return;
       S.luot[id] = luot() + 1; luu(); dangLuot = true;
-      am.currentTime = 0;
+      am.currentTime = 0; am.playbackRate = S.toc || 1;
       var hua = am.play();
       if (hua && hua.catch) hua.catch(function () { S.luot[id] = luot() - 1; luu(); dangLuot = false; ghi.textContent = 'Không phát được âm thanh — em bấm lại nhé.'; veNut(); });
       veNut();

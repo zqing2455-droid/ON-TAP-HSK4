@@ -170,3 +170,13 @@ footer { text-align: center; font-size: 12px; color: var(--chu-phu); margin-top:
 .loi-goc summary { cursor: pointer; font-weight: 700; color: var(--la); font-size: 14px; }
 .loi-goc p.han { font-size: 16px; line-height: 1.9; }
 .nho-h { font-size: 15px; color: var(--la); margin: 16px 0 0; }
+
+/* máy nghe: lùi 5 giây + tốc độ phát (dùng chung mọi bài) */
+.dk { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.dk-toc { display: inline-flex; flex-wrap: nowrap; align-items: center; gap: 5px; }
+.nut-nho { border: 1px solid var(--la-vua); background: var(--the); color: var(--la-dam); border-radius: 99px; padding: 6px 12px; font-size: 14px; font-weight: 700; line-height: 1.2; min-height: 36px; }
+.nut-nho:hover:not(:disabled) { background: var(--la-nhat); }
+.nut-nho:disabled { opacity: .4; cursor: default; }
+.nut-nho.toc { padding: 6px 8px; min-width: 48px; }
+.nut-nho.toc.chon { background: var(--la); border-color: var(--la); color: #fff; }
+.dk-nhan { font-size: 13px; font-weight: 700; color: var(--chu-phu); margin-right: 2px; }
