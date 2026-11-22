@@ -1,0 +1,1367 @@
+[
+ {
+  "hz": "厉害",
+  "py": "lìhai",
+  "pos": "tính từ · adj.",
+  "vn": "dữ dội, ghê; (khẩu ngữ) giỏi, cừ",
+  "hv": "LỆ HẠI",
+  "use": "Dùng khi nói mức độ RẤT CAO của một trạng thái khó chịu (ho, đau, lạnh, cay, gió): V / Adj + 得 + (很) + 厉害; khẩu ngữ còn để KHEN ai giỏi: 你真厉害！ Đứng SAU động từ / tính từ với 得 (✗ 很厉害地咳). Bệnh, vấn đề NGHIÊM TRỌNG thì dùng 严重: 病很严重.",
+  "tip": "厂 vách đá + 万 vạn: vạn tảng đá đổ xuống → dữ dội, ghê gớm. Hán Việt LỆ HẠI.",
+  "ph": [
+   [
+    "咳得很厉害",
+    "ké de hěn lìhai",
+    "ho dữ lắm"
+   ],
+   [
+    "你真厉害",
+    "nǐ zhēn lìhai",
+    "bạn giỏi thật"
+   ]
+  ],
+  "se": [
+   [
+    "我牙疼得很厉害，去看医生了。",
+    "Wǒ yá téng de hěn lìhai, qù kàn yīshēng le.",
+    "Tôi đau răng dữ quá, đi khám bác sĩ rồi.",
+    "疼得很厉害"
+   ],
+   [
+    "我吃过一道四川菜，辣得厉害，我吃了一口就不敢再吃了。",
+    "Wǒ chī guò yí dào Sìchuān cài, là de lìhai, wǒ chī le yì kǒu jiù bù gǎn zài chī le.",
+    "Tôi từng ăn một món Tứ Xuyên, cay kinh khủng, ăn một miếng là không dám ăn nữa.",
+    "辣得厉害"
+   ]
+  ]
+ },
+ {
+  "hz": "严重",
+  "py": "yánzhòng",
+  "pos": "tính từ · adj.",
+  "vn": "nghiêm trọng, nặng",
+  "hv": "NGHIÊM TRỌNG",
+  "use": "Dùng khi nói bệnh, vấn đề, hậu quả ở mức NGUY HIỂM, cần xử lý ngay: S + 很 / 挺 / 不太 + 严重, 严重的 + 问题 / 病. 严重 làm vị ngữ hoặc định ngữ cho bệnh, vấn đề; mức độ của một hành động (ho dữ) thì nói V + 得很厉害.",
+  "tip": "严 (nghiêm) + 重 (nặng): vừa nghiêm vừa nặng. Hán Việt NGHIÊM TRỌNG y hệt tiếng Việt.",
+  "ph": [
+   [
+    "挺严重的",
+    "tǐng yánzhòng de",
+    "khá nghiêm trọng"
+   ],
+   [
+    "严重的问题",
+    "yánzhòng de wèntí",
+    "vấn đề nghiêm trọng"
+   ]
+  ],
+  "se": [
+   [
+    "你的脚严重吗？要不要去医院？",
+    "Nǐ de jiǎo yánzhòng ma? Yào bu yào qù yīyuàn?",
+    "Chân bạn có nặng không? Có cần đi bệnh viện không?",
+    "脚严重吗"
+   ],
+   [
+    "我觉得我们城市最严重的问题是堵车。",
+    "Wǒ juéde wǒmen chéngshì zuì yánzhòng de wèntí shì dǔchē.",
+    "Tôi thấy vấn đề nghiêm trọng nhất của thành phố mình là tắc đường.",
+    "最严重的问题"
+   ]
+  ]
+ },
+ {
+  "hz": "赶快",
+  "py": "gǎnkuài",
+  "pos": "phó từ · adv.",
+  "vn": "mau, nhanh lên",
+  "hv": "CẢN KHOÁI",
+  "use": "Dùng khi GIỤC ai (hoặc tự nhắc mình) làm NGAY một việc gấp vì sợ trễ, sợ nặng thêm: 赶快 + V (+ 吧), 最好赶快 + V. Đứng TRƯỚC động từ, chỉ dùng cho việc CHƯA làm (✗ 他昨天赶快来了 → 他很快就来了). ≈ 赶紧.",
+  "tip": "赶 (走 chạy + 干) + 快 (nhanh): chạy nhanh đuổi cho kịp. Hán Việt CẢN KHOÁI, “khoái” là nhanh.",
+  "ph": [
+   [
+    "赶快去医院",
+    "gǎnkuài qù yīyuàn",
+    "mau đi bệnh viện"
+   ],
+   [
+    "赶快走吧",
+    "gǎnkuài zǒu ba",
+    "mau đi thôi"
+   ]
+  ],
+  "se": [
+   [
+    "要下雨了，赶快把衣服拿进来！",
+    "Yào xià yǔ le, gǎnkuài bǎ yīfu ná jìnlái!",
+    "Sắp mưa rồi, mau mang quần áo vào!",
+    "赶快把衣服拿进来"
+   ],
+   [
+    "不会，我一般先在家休息一两天。",
+    "Bú huì, wǒ yìbān xiān zài jiā xiūxi yì liǎng tiān.",
+    "Không, tôi thường nghỉ ở nhà một hai ngày trước đã.",
+    "先在家休息一两天"
+   ]
+  ]
+ },
+ {
+  "hz": "陪",
+  "py": "péi",
+  "pos": "động từ · v.",
+  "vn": "đi cùng, ở bên (ai)",
+  "hv": "BỒI",
+  "use": "Dùng khi ĐI CÙNG hoặc Ở BÊN ai để giúp, chăm sóc, cho họ đỡ lo, đỡ buồn: 陪 + người + V (去看病 / 逛街), 陪着 + người, 有……陪着. Người nói là người GIÚP, đi theo người cần: 我陪你去. Chỉ “cùng nhau” trung tính thì dùng 跟……一起.",
+  "tip": "阝 (người đứng cạnh) + 咅: có người đứng sát bên mình → ĐI CÙNG. Hán Việt BỒI.",
+  "ph": [
+   [
+    "陪你去看病",
+    "péi nǐ qù kànbìng",
+    "đi khám cùng bạn"
+   ],
+   [
+    "有你陪着",
+    "yǒu nǐ péizhe",
+    "có bạn ở bên"
+   ]
+  ],
+  "se": [
+   [
+    "别担心，明天我陪你去医院。",
+    "Bié dānxīn, míngtiān wǒ péi nǐ qù yīyuàn.",
+    "Đừng lo, mai tôi đi bệnh viện cùng bạn.",
+    "陪你去医院"
+   ],
+   [
+    "周末我常常陪孩子去公园玩。",
+    "Zhōumò wǒ chángcháng péi háizi qù gōngyuán wán.",
+    "Cuối tuần tôi thường đưa con đi công viên chơi.",
+    "陪孩子去公园玩"
+   ]
+  ]
+ },
+ {
+  "hz": "咳嗽",
+  "py": "késou",
+  "pos": "động từ · v.",
+  "vn": "ho",
+  "hv": "KHÁI THẤU",
+  "use": "Dùng khi nói mình bị HO (khi ốm, cảm): 咳嗽, 一直咳嗽, 有点儿咳嗽. 嗽 đọc nhẹ sou. Khi có 得 thường dùng dạng ngắn 咳: 咳得很厉害.",
+  "tip": "咳 (口 + 亥) + 嗽 (口 + 欶): cả hai chữ đều có 口 miệng → âm bật ra từ miệng: ho. Hán Việt KHÁI THẤU.",
+  "ph": [
+   [
+    "一直咳嗽",
+    "yìzhí késou",
+    "ho suốt"
+   ],
+   [
+    "有点儿咳嗽",
+    "yǒudiǎnr késou",
+    "hơi ho"
+   ]
+  ],
+  "se": [
+   [
+    "对，我还发烧，一直咳嗽，咳得很厉害。",
+    "Duì, wǒ hái fāshāo, yìzhí késou, ké de hěn lìhai.",
+    "Ừ, tớ còn sốt, ho suốt, ho dữ lắm.",
+    "一直咳嗽"
+   ],
+   [
+    "我这两天有点儿咳嗽，不知道是不是感冒了。",
+    "Wǒ zhè liǎng tiān yǒudiǎnr késou, bù zhīdào shì bu shì gǎnmào le.",
+    "Hai hôm nay mình hơi ho, không biết có phải bị cảm không.",
+    "有点儿咳嗽"
+   ]
+  ]
+ },
+ {
+  "hz": "咳",
+  "py": "ké",
+  "pos": "động từ · v.",
+  "vn": "ho (dạng ngắn của 咳嗽)",
+  "hv": "KHÁI",
+  "use": "Dùng sau 得 hoặc khi đếm số lần ho: 咳得 + 厉害, 咳了几声. Một chữ dùng riêng khá ít; nói “bị ho” thì dùng 咳嗽.",
+  "tip": "口 miệng + 亥: tiếng “khục khục” bật ra từ miệng. Hán Việt KHÁI.",
+  "ph": [
+   [
+    "咳得很厉害",
+    "ké de hěn lìhai",
+    "ho dữ lắm"
+   ],
+   [
+    "咳了两声",
+    "ké le liǎng shēng",
+    "ho hai tiếng"
+   ]
+  ],
+  "se": [
+   [
+    "我咳得很厉害，晚上睡不好。",
+    "Wǒ ké de hěn lìhai, wǎnshang shuì bu hǎo.",
+    "Mình ho dữ quá, tối ngủ không ngon.",
+    "咳得很厉害"
+   ],
+   [
+    "他咳了两声，开始说话。",
+    "Tā ké le liǎng shēng, kāishǐ shuōhuà.",
+    "Anh ấy ho khẽ hai tiếng rồi bắt đầu nói.",
+    "咳了两声"
+   ]
+  ]
+ },
+ {
+  "hz": "翻译",
+  "py": "fānyì",
+  "pos": "động từ / danh từ",
+  "vn": "dịch; người phiên dịch",
+  "hv": "PHIÊN DỊCH",
+  "use": "Dùng khi CHUYỂN lời, chữ sang ngôn ngữ khác, hoặc nói người làm nghề đó: 帮 + người + 翻译, 翻译成 + ngôn ngữ, 当翻译. Dịch sang tiếng gì thì nói 翻译成 + ngôn ngữ. Đã gặp ở phần mở rộng Bài 1 (当翻译).",
+  "tip": "翻 (lật: 番 + 羽 cánh) + 译 (讠 lời): lật lời từ thứ tiếng này sang thứ tiếng khác. Hán Việt PHIÊN DỊCH.",
+  "ph": [
+   [
+    "帮你翻译",
+    "bāng nǐ fānyì",
+    "dịch giúp bạn"
+   ],
+   [
+    "翻译成中文",
+    "fānyì chéng Zhōngwén",
+    "dịch sang tiếng Trung"
+   ]
+  ],
+  "se": [
+   [
+    "我陪你一起去，还能帮你翻译。",
+    "Wǒ péi nǐ yìqǐ qù, hái néng bāng nǐ fānyì.",
+    "Tớ đi cùng cậu, còn phiên dịch giúp cậu được.",
+    "帮你翻译"
+   ],
+   [
+    "请把这句话翻译成越南语。",
+    "Qǐng bǎ zhè jù huà fānyì chéng Yuènányǔ.",
+    "Hãy dịch câu này sang tiếng Việt.",
+    "翻译成越南语"
+   ]
+  ]
+ },
+ {
+  "hz": "表",
+  "py": "biǎo",
+  "pos": "danh từ · n.",
+  "vn": "tờ khai, bảng biểu",
+  "hv": "BIỂU",
+  "use": "Dùng khi nói TỜ GIẤY phải điền thông tin (khám bệnh, đăng ký, xin việc): 一张表, 填表, 在表上写……, X表 (申请表 / 报名表). Cùng chữ với 手表 (đồng hồ), xem ngữ cảnh. Điền thì nói 填 / 写, không nói 做表.",
+  "tip": "Phần dưới của 表 là 衣 áo: lớp “áo ngoài” ghi thông tin cho người khác xem. Hán Việt BIỂU như “biểu mẫu”.",
+  "ph": [
+   [
+    "一张表",
+    "yì zhāng biǎo",
+    "một tờ khai"
+   ],
+   [
+    "在表上写",
+    "zài biǎo shàng xiě",
+    "ghi lên tờ khai"
+   ]
+  ],
+  "se": [
+   [
+    "请先填一下这张表，然后去挂号。",
+    "Qǐng xiān tián yíxià zhè zhāng biǎo, ránhòu qù guàhào.",
+    "Mời anh/chị điền tờ này trước, rồi đi lấy số.",
+    "填一下这张表"
+   ],
+   [
+    "我上个月填过一张签证申请表。",
+    "Wǒ shàng gè yuè tián guò yì zhāng qiānzhèng shēnqǐngbiǎo.",
+    "Tháng trước tôi đã điền một tờ đơn xin visa.",
+    "一张签证申请表"
+   ]
+  ]
+ },
+ {
+  "hz": "挂号",
+  "py": "guàhào",
+  "pos": "động từ · v.",
+  "vn": "lấy số (khám bệnh), đăng ký khám",
+  "hv": "QUẢI HIỆU",
+  "use": "Dùng khi ĐĂNG KÝ lấy số khám ở bệnh viện trước khi gặp bác sĩ: 挂号, 去挂号, 排队挂号, 在网上 / 手机上挂号. Ly hợp từ: 挂了号, 挂一个号. Đề cương xếp cấp 5, nhưng là bước bắt buộc khi khám ở Trung Quốc nên cần học kĩ.",
+  "tip": "挂 (扌 tay + 圭: treo lên) + 号 (số): treo tấm thẻ số lên → lấy số chờ khám. Hán Việt QUẢI HIỆU.",
+  "ph": [
+   [
+    "去挂号",
+    "qù guàhào",
+    "đi lấy số"
+   ],
+   [
+    "在网上挂号",
+    "zài wǎngshàng guàhào",
+    "lấy số trên mạng"
+   ]
+  ],
+  "se": [
+   [
+    "先去挂号，然后再去找医生。",
+    "Xiān qù guàhào, ránhòu zài qù zhǎo yīshēng.",
+    "Đi lấy số trước, rồi mới đi gặp bác sĩ.",
+    "先去挂号"
+   ],
+   [
+    "也要挂号，现在可以在手机上挂号。",
+    "Yě yào guàhào, xiànzài kěyǐ zài shǒujī shàng guàhào.",
+    "Cũng phải lấy số, bây giờ có thể lấy số trên điện thoại.",
+    "在手机上挂号"
+   ]
+  ]
+ },
+ {
+  "hz": "排队",
+  "py": "páiduì",
+  "pos": "động từ · v.",
+  "vn": "xếp hàng",
+  "hv": "BÀI ĐỘI",
+  "use": "Dùng khi nhiều người phải ĐỨNG THEO THỨ TỰ chờ đến lượt (bệnh viện, siêu thị, quán ăn): 排队 + V (排队挂号 / 排队买票), 排了 + thời gian + 的队, 排队的人很多. Ly hợp từ: thời gian chèn vào giữa, 排了一个小时的队.",
+  "tip": "排 (扌 tay xếp) + 队 (阝 + 人: đoàn người): tay xếp người thành hàng. Hán Việt BÀI ĐỘI, “đội” là hàng người.",
+  "ph": [
+   [
+    "排队挂号",
+    "páiduì guàhào",
+    "xếp hàng lấy số"
+   ],
+   [
+    "排了很长时间的队",
+    "pái le hěn cháng shíjiān de duì",
+    "xếp hàng rất lâu"
+   ]
+  ],
+  "se": [
+   [
+    "那家饭馆要排很长时间的队。",
+    "Nà jiā fànguǎn yào pái hěn cháng shíjiān de duì.",
+    "Quán ăn đó phải xếp hàng lâu lắm.",
+    "排很长时间的队"
+   ],
+   [
+    "上次买新手机的时候，我排了两个小时的队。",
+    "Shàng cì mǎi xīn shǒujī de shíhou, wǒ pái le liǎng gè xiǎoshí de duì.",
+    "Lần trước mua điện thoại mới, tôi xếp hàng mất hai tiếng.",
+    "排了两个小时的队"
+   ]
+  ]
+ },
+ {
+  "hz": "护士",
+  "py": "hùshi",
+  "pos": "danh từ · n.",
+  "vn": "y tá",
+  "hv": "HỘ SĨ",
+  "use": "Dùng khi nói người CHĂM SÓC bệnh nhân, hướng dẫn thủ tục ở bệnh viện: 问护士, 护士说 / 让, 一位护士. 士 đọc nhẹ shi; tiếng Việt nói “y tá”, không nói “hộ sĩ”.",
+  "tip": "护 (扌 tay che chở) + 士 (người): người dùng tay che chở, chăm sóc. Hán Việt HỘ SĨ, “hộ” như “hộ lý, bảo hộ”.",
+  "ph": [
+   [
+    "问护士",
+    "wèn hùshi",
+    "hỏi y tá"
+   ],
+   [
+    "一位护士",
+    "yí wèi hùshi",
+    "một y tá"
+   ]
+  ],
+  "se": [
+   [
+    "护士，您好，我的这位外国朋友生病了。",
+    "Hùshi, nín hǎo, wǒ de zhè wèi wàiguó péngyou shēngbìng le.",
+    "Chào chị y tá, bạn nước ngoài của em bị ốm.",
+    "护士"
+   ],
+   [
+    "第一次去医院，可以先问护士应该怎么做。",
+    "Dì yī cì qù yīyuàn, kěyǐ xiān wèn hùshi yīnggāi zěnme zuò.",
+    "Lần đầu đi viện, có thể hỏi y tá trước nên làm thế nào.",
+    "问护士"
+   ]
+  ]
+ },
+ {
+  "hz": "性别",
+  "py": "xìngbié",
+  "pos": "danh từ · n.",
+  "vn": "giới tính",
+  "hv": "TÍNH BIỆT",
+  "use": "Dùng khi điền hoặc hỏi NAM hay NỮ trên giấy tờ: 性别：男 / 女, 写性别. Chỉ dùng trên giấy tờ; nói thường thì hỏi 男的还是女的？",
+  "tip": "性 (tính) + 别 (khác biệt): khác nhau về tính → giới tính. Hán Việt TÍNH BIỆT.",
+  "ph": [
+   [
+    "写性别",
+    "xiě xìngbié",
+    "ghi giới tính"
+   ],
+   [
+    "性别：女",
+    "xìngbié: nǚ",
+    "giới tính: nữ"
+   ]
+  ],
+  "se": [
+   [
+    "请在这张表上写上病人的姓名、性别……",
+    "Qǐng zài zhè zhāng biǎo shàng xiě shàng bìngrén de xìngmíng, xìngbié……",
+    "Anh điền vào tờ này họ tên, giới tính của bệnh nhân…",
+    "性别"
+   ],
+   [
+    "表上要写性别和年龄。",
+    "Biǎo shàng yào xiě xìngbié hé niánlíng.",
+    "Trên tờ khai phải ghi giới tính và tuổi.",
+    "写性别和年龄"
+   ]
+  ]
+ },
+ {
+  "hz": "国籍",
+  "py": "guójí",
+  "pos": "danh từ · n.",
+  "vn": "quốc tịch",
+  "hv": "QUỐC TỊCH",
+  "use": "Dùng khi điền hoặc hỏi người đó thuộc NƯỚC nào: 国籍：越南, 什么国籍. Nói thường thì hỏi 你是哪国人？ nhiều hơn.",
+  "tip": "国 nước + 籍 (竹 sổ ghi bằng thẻ tre): tên được ghi trong sổ của một nước. Hán Việt QUỐC TỊCH y hệt tiếng Việt.",
+  "ph": [
+   [
+    "写国籍",
+    "xiě guójí",
+    "ghi quốc tịch"
+   ],
+   [
+    "什么国籍",
+    "shénme guójí",
+    "quốc tịch gì"
+   ]
+  ],
+  "se": [
+   [
+    "……写上病人的姓名、性别、国籍、年龄……",
+    "……xiě shàng bìngrén de xìngmíng, xìngbié, guójí, niánlíng……",
+    "…ghi họ tên, giới tính, quốc tịch, tuổi của bệnh nhân…",
+    "国籍"
+   ],
+   [
+    "你是什么国籍？——越南。",
+    "Nǐ shì shénme guójí? —— Yuènán.",
+    "— Bạn quốc tịch gì? — Việt Nam.",
+    "什么国籍"
+   ]
+  ]
+ },
+ {
+  "hz": "家庭",
+  "py": "jiātíng",
+  "pos": "danh từ · n.",
+  "vn": "gia đình (văn viết)",
+  "hv": "GIA ĐÌNH",
+  "use": "Dùng khi nói gia đình như một ĐƠN VỊ (địa chỉ, hoàn cảnh, giáo dục), thường trên giấy tờ: 家庭 + 地址 / 情况 / 教育, 一个家庭. Nói “nhà mình” hằng ngày thì dùng 我家 (✗ 我家庭有四口人).",
+  "tip": "家 nhà + 庭 (广 mái + 廷: cái sân trong nhà): cả mái nhà lẫn sân → cả gia đình. Hán Việt GIA ĐÌNH.",
+  "ph": [
+   [
+    "家庭地址",
+    "jiātíng dìzhǐ",
+    "địa chỉ nhà"
+   ],
+   [
+    "家庭情况",
+    "jiātíng qíngkuàng",
+    "hoàn cảnh gia đình"
+   ]
+  ],
+  "se": [
+   [
+    "……电话号码和家庭地址。",
+    "……diànhuà hàomǎ hé jiātíng dìzhǐ.",
+    "…số điện thoại và địa chỉ nhà.",
+    "家庭地址"
+   ],
+   [
+    "他家庭条件很好。",
+    "Tā jiātíng tiáojiàn hěn hǎo.",
+    "Điều kiện gia đình anh ấy rất tốt.",
+    "家庭条件"
+   ]
+  ]
+ },
+ {
+  "hz": "地址",
+  "py": "dìzhǐ",
+  "pos": "danh từ · n.",
+  "vn": "địa chỉ",
+  "hv": "ĐỊA CHỈ",
+  "use": "Dùng khi nói hoặc hỏi CHỖ Ở, nơi nhận đồ cụ thể: 家庭 / 公司 + 地址, 写地址. Hán Việt giống tiếng Việt. Địa chỉ email thì nói 邮箱地址.",
+  "tip": "地 (đất) + 址 (土 đất + 止 dừng lại): mảnh đất mình dừng chân → địa chỉ. Hán Việt ĐỊA CHỈ.",
+  "ph": [
+   [
+    "家庭地址",
+    "jiātíng dìzhǐ",
+    "địa chỉ nhà"
+   ],
+   [
+    "写地址",
+    "xiě dìzhǐ",
+    "ghi địa chỉ"
+   ]
+  ],
+  "se": [
+   [
+    "把你的地址给我吧，我给你寄点儿东西。",
+    "Bǎ nǐ de dìzhǐ gěi wǒ ba, wǒ gěi nǐ jì diǎnr dōngxi.",
+    "Cho mình địa chỉ của cậu, mình gửi ít đồ cho cậu.",
+    "你的地址"
+   ],
+   [
+    "请在这儿写上你的地址。",
+    "Qǐng zài zhèr xiě shàng nǐ de dìzhǐ.",
+    "Mời ghi địa chỉ của bạn vào đây.",
+    "写上你的地址"
+   ]
+  ]
+ },
+ {
+  "hz": "大厅",
+  "py": "dàtīng",
+  "pos": "danh từ · n.",
+  "vn": "sảnh lớn",
+  "hv": "ĐẠI SẢNH",
+  "use": "Dùng khi nói gian phòng LỚN ở tầng dưới của bệnh viện, khách sạn, ngân hàng: 在大厅 + V, 医院 / 酒店 + 大厅. Chữ 厅 đã gặp ở 客厅 (Bài 2).",
+  "tip": "大 lớn + 厅 (phòng rộng, đã học ở 客厅 Bài 2): phòng rộng lớn. Hán Việt ĐẠI SẢNH.",
+  "ph": [
+   [
+    "在大厅休息",
+    "zài dàtīng xiūxi",
+    "nghỉ ở sảnh"
+   ],
+   [
+    "医院大厅",
+    "yīyuàn dàtīng",
+    "sảnh bệnh viện"
+   ]
+  ],
+  "se": [
+   [
+    "你先在大厅休息，别着急。",
+    "Nǐ xiān zài dàtīng xiūxi, bié zháojí.",
+    "Cậu ngồi nghỉ ở sảnh trước, đừng sốt ruột.",
+    "在大厅休息"
+   ],
+   [
+    "我们在酒店大厅见面吧。",
+    "Wǒmen zài jiǔdiàn dàtīng jiànmiàn ba.",
+    "Mình gặp nhau ở sảnh khách sạn nhé.",
+    "酒店大厅"
+   ]
+  ]
+ },
+ {
+  "hz": "偶尔",
+  "py": "ǒu’ěr",
+  "pos": "phó từ / tính từ",
+  "vn": "thỉnh thoảng, đôi khi (rất ít)",
+  "hv": "NGẪU NHĨ",
+  "use": "Dùng khi nói một việc xảy ra RẤT ÍT lần, không thường xuyên: (S) + 偶尔 + (才 / 也 / 会) + V, 一般 / 经常 A，偶尔 B. Ít hơn 有时候; hay đi với 才 để nhấn “ít khi”: 偶尔才去 (✗ 偶尔就去). Đối lập với 经常.",
+  "tip": "偶 (亻 người + 禺: tình cờ gặp) + 尔: tình cờ mới gặp một lần → ít khi. Hán Việt NGẪU NHĨ, “ngẫu” như “ngẫu nhiên”.",
+  "ph": [
+   [
+    "偶尔才……",
+    "ǒu’ěr cái……",
+    "thỉnh thoảng mới…"
+   ],
+   [
+    "偶尔也……",
+    "ǒu’ěr yě……",
+    "thỉnh thoảng cũng…"
+   ]
+  ],
+  "se": [
+   [
+    "我偶尔喝一点儿。",
+    "Wǒ ǒu’ěr hē yìdiǎnr.",
+    "Tôi thỉnh thoảng uống một chút thôi.",
+    "偶尔喝一点儿"
+   ],
+   [
+    "我周末一般在家休息，偶尔和朋友去爬山。",
+    "Wǒ zhōumò yìbān zài jiā xiūxi, ǒu’ěr hé péngyou qù páshān.",
+    "Cuối tuần tôi thường nghỉ ở nhà, thỉnh thoảng đi leo núi với bạn.",
+    "偶尔和朋友去爬山"
+   ]
+  ]
+ },
+ {
+  "hz": "结果",
+  "py": "jiéguǒ",
+  "pos": "danh từ / liên từ",
+  "vn": "kết quả; kết cục là, rốt cuộc",
+  "hv": "KẾT QUẢ",
+  "use": "Danh từ: dùng khi nói KẾT QUẢ của một việc (xét nghiệm, thi): 检查 / 考试 + 结果, 结果出来了. Liên từ: dùng khi kể chuyện “rốt cuộc thì…”, thường ngoài dự tính, đứng đầu vế sau, chỉ kể chuyện ĐÃ xảy ra: ……，结果 + kết quả bất ngờ. Nguyên nhân → kết quả tất yếu thì dùng 所以.",
+  "tip": "结 (纟 thắt nút) + 果 (quả): hoa thắt lại thành QUẢ → kết quả. Hán Việt KẾT QUẢ y hệt tiếng Việt.",
+  "ph": [
+   [
+    "检查结果",
+    "jiǎnchá jiéguǒ",
+    "kết quả xét nghiệm"
+   ],
+   [
+    "结果出来了",
+    "jiéguǒ chūlái le",
+    "kết quả đã có rồi"
+   ]
+  ],
+  "se": [
+   [
+    "我以为今天不会下雨，结果下了大雨。",
+    "Wǒ yǐwéi jīntiān bú huì xià yǔ, jiéguǒ xià le dàyǔ.",
+    "Tôi tưởng hôm nay không mưa, rốt cuộc mưa to.",
+    "结果下了大雨"
+   ],
+   [
+    "我想周末去爬山，结果下雨了。",
+    "Wǒ xiǎng zhōumò qù páshān, jiéguǒ xià yǔ le.",
+    "Tôi định cuối tuần đi leo núi, rốt cuộc trời mưa.",
+    "结果下雨了"
+   ]
+  ]
+ },
+ {
+  "hz": "光",
+  "py": "guāng",
+  "pos": "phó từ · adv.",
+  "vn": "chỉ, chỉ riêng",
+  "hv": "QUANG",
+  "use": "Dùng trong khẩu ngữ khi nói CHỈ có một cách / một thứ thôi thì CHƯA ĐỦ: 光 + V (+ O) + 不够 / 不行, 光 + V，……都没……. ≈ 只, thường kèm ý “chưa đủ, còn cần thêm”. Nghĩa “ánh sáng” (阳光) là danh từ, xem ngữ cảnh.",
+  "tip": "Ngọn lửa trên đầu người 儿: ánh sáng chiếu sạch hết, chỉ còn trơ một thứ → chỉ. Hán Việt QUANG như “quang đãng”.",
+  "ph": [
+   [
+    "光吃药不够",
+    "guāng chī yào bú gòu",
+    "chỉ uống thuốc thì chưa đủ"
+   ],
+   [
+    "光喝了点儿水",
+    "guāng hē le diǎnr shuǐ",
+    "chỉ uống chút nước"
+   ]
+  ],
+  "se": [
+   [
+    "光少吃不够，还要多运动。",
+    "Guāng shǎo chī bú gòu, hái yào duō yùndòng.",
+    "Chỉ ăn ít thôi chưa đủ, còn phải tập thể dục nhiều nữa.",
+    "光少吃不够"
+   ],
+   [
+    "光记生词是不够的，还要多用。",
+    "Guāng jì shēngcí shì bú gòu de, hái yào duō yòng.",
+    "Chỉ học thuộc từ mới là chưa đủ, còn phải dùng nhiều nữa.",
+    "光记生词是不够的"
+   ]
+  ]
+ },
+ {
+  "hz": "按时",
+  "py": "ànshí",
+  "pos": "phó từ · adv.",
+  "vn": "đúng giờ, đúng hạn (theo lịch)",
+  "hv": "ÁN THỜI",
+  "use": "Dùng khi làm một việc ĐÚNG THỜI GIAN đã quy định, đều đặn theo lịch (uống thuốc, nộp bài, đóng tiền): 按时 + V (吃药 / 交 / 上班), 按时完成. Chỉ đứng TRƯỚC động từ. ≈ 准时, nhưng 准时 nhấn “không trễ” (准时到), 按时 nhấn “theo lịch đã định” (按时吃药).",
+  "tip": "按 (扌 tay ấn) + 时 (giờ): ấn đúng theo giờ → làm theo giờ đã định. Hán Việt ÁN THỜI, “án” như “án theo”.",
+  "ph": [
+   [
+    "按时吃药",
+    "ànshí chī yào",
+    "uống thuốc đúng giờ"
+   ],
+   [
+    "按时完成",
+    "ànshí wánchéng",
+    "hoàn thành đúng hạn"
+   ]
+  ],
+  "se": [
+   [
+    "报告一定要在周五按时交。",
+    "Bàogào yídìng yào zài zhōuwǔ ànshí jiāo.",
+    "Báo cáo nhất định phải nộp đúng hạn vào thứ Sáu.",
+    "按时交"
+   ],
+   [
+    "一般能，不过忙的时候也会晚一点儿。",
+    "Yìbān néng, búguò máng de shíhou yě huì wǎn yìdiǎnr.",
+    "Thường thì được, nhưng lúc bận cũng có khi muộn một chút.",
+    "忙的时候也会晚一点儿"
+   ]
+  ]
+ },
+ {
+  "hz": "感觉",
+  "py": "gǎnjué",
+  "pos": "động từ / danh từ",
+  "vn": "cảm thấy; cảm giác",
+  "hv": "CẢM GIÁC",
+  "use": "Dùng khi nói CẢM NHẬN của cơ thể hoặc ấn tượng của mình (đau, mệt, đỡ hơn; thấy một nơi thế nào): 感觉 + Adj / câu (感觉好多了), 有 / 没有 + 感觉, 给人的感觉. Động từ ≈ 觉得, nhưng làm DANH TỪ thì chỉ dùng 感觉 (✗ 有觉得). Nêu ý kiến có lý lẽ thì dùng 认为.",
+  "tip": "感 (心 lòng bị chạm) + 觉 (见 thấy): lòng chạm vào, mắt nhìn thấy → cảm giác. Hán Việt CẢM GIÁC y hệt tiếng Việt.",
+  "ph": [
+   [
+    "感觉好多了",
+    "gǎnjué hǎo duō le",
+    "thấy đỡ hơn nhiều"
+   ],
+   [
+    "有感觉",
+    "yǒu gǎnjué",
+    "có cảm giác"
+   ]
+  ],
+  "se": [
+   [
+    "吃了药以后，我感觉好多了。",
+    "Chī le yào yǐhòu, wǒ gǎnjué hǎo duō le.",
+    "Uống thuốc xong, tôi thấy đỡ hơn nhiều rồi.",
+    "感觉好多了"
+   ],
+   [
+    "我第一次来上海，感觉这里人特别多。",
+    "Wǒ dì yī cì lái Shànghǎi, gǎnjué zhèlǐ rén tèbié duō.",
+    "Lần đầu tôi đến Thượng Hải, cảm thấy ở đây người đông cực kỳ.",
+    "感觉这里人特别多"
+   ]
+  ]
+ },
+ {
+  "hz": "难受",
+  "py": "nánshòu",
+  "pos": "tính từ · adj.",
+  "vn": "khó chịu (trong người); buồn bực (trong lòng)",
+  "hv": "NAN THỤ",
+  "use": "Dùng khi CƠ THỂ thấy khó chịu (ốm, mệt, đau) hoặc TRONG LÒNG buồn, bứt rứt: 很难受, 身体难受, 心里难受, 难受得 + V. ≈ 不舒服 nhưng mạnh hơn; dùng cho tâm trạng thì 心里很难受 (≈ 难过).",
+  "tip": "难 (khó) + 受 (chịu): khó mà chịu được. Hán Việt NAN THỤ, “nan” là khó, “thụ” là chịu.",
+  "ph": [
+   [
+    "很难受",
+    "hěn nánshòu",
+    "rất khó chịu"
+   ],
+   [
+    "心里难受",
+    "xīnli nánshòu",
+    "trong lòng khó chịu"
+   ]
+  ],
+  "se": [
+   [
+    "我头疼，很难受，想请一天假。",
+    "Wǒ tóuténg, hěn nánshòu, xiǎng qǐng yì tiān jià.",
+    "Tôi đau đầu, khó chịu lắm, muốn xin nghỉ một ngày.",
+    "很难受"
+   ],
+   [
+    "我感冒的时候，头最难受。",
+    "Wǒ gǎnmào de shíhou, tóu zuì nánshòu.",
+    "Lúc bị cảm, đầu tôi khó chịu nhất.",
+    "头最难受"
+   ]
+  ]
+ },
+ {
+  "hz": "身",
+  "py": "shēn",
+  "pos": "danh từ / lượng từ",
+  "vn": "thân người; (lượng từ) cả người, một bộ",
+  "hv": "THÂN",
+  "use": "Dùng khi nói KHẮP NGƯỜI, hoặc làm lượng từ “cả người đầy…”, “một bộ (quần áo)”: 身上, 出了一身汗, 一身衣服. 身体 = cơ thể, sức khoẻ; 一身 = cả người đầy (汗 / 水).",
+  "tip": "Hình người có cái bụng to nhìn nghiêng → thân mình. Hán Việt THÂN như “thân thể”.",
+  "ph": [
+   [
+    "身上",
+    "shēnshang",
+    "trên người"
+   ],
+   [
+    "一身汗",
+    "yì shēn hàn",
+    "mồ hôi đầy người"
+   ]
+  ],
+  "se": [
+   [
+    "她头也一直疼，身上一点儿力气都没有。",
+    "Tā tóu yě yìzhí téng, shēnshang yìdiǎnr lìqi dōu méiyǒu.",
+    "Đầu cô ấy cũng đau suốt, người không còn chút sức nào.",
+    "身上"
+   ],
+   [
+    "晚上，白家月睡觉时出了一身汗。",
+    "Wǎnshang, Bái Jiāyuè shuìjiào shí chū le yì shēn hàn.",
+    "Tối đó, lúc ngủ Gia Nguyệt ra mồ hôi khắp người.",
+    "一身汗"
+   ]
+  ]
+ },
+ {
+  "hz": "性",
+  "py": "xìng",
+  "pos": "hậu tố",
+  "vn": "(tính) … — hậu tố",
+  "hv": "TÍNH",
+  "use": "Dùng khi tạo từ chỉ TÍNH CHẤT: N / V + 性, X性的 + N. 重要性, 安全性 không có trong đề cương, chỉ cần hiểu; giống hậu tố 感 (Bài 2).",
+  "tip": "忄 lòng + 生 sinh: cái sinh ra từ trong lòng → bản tính, tính chất. Hán Việt TÍNH như “tính chất”.",
+  "ph": [
+   [
+    "流行性感冒",
+    "liúxíngxìng gǎnmào",
+    "cúm"
+   ],
+   [
+    "重要性",
+    "zhòngyàoxìng",
+    "tầm quan trọng"
+   ]
+  ],
+  "se": [
+   [
+    "发现她得了比较严重的流行性感冒。",
+    "Fāxiàn tā dé le bǐjiào yánzhòng de liúxíngxìng gǎnmào.",
+    "Mới biết cô ấy bị cúm khá nặng.",
+    "流行性感冒"
+   ],
+   [
+    "大家都知道运动的重要性。",
+    "Dàjiā dōu zhīdào yùndòng de zhòngyàoxìng.",
+    "Ai cũng biết tầm quan trọng của vận động.",
+    "重要性"
+   ]
+  ]
+ },
+ {
+  "hz": "体温",
+  "py": "tǐwēn",
+  "pos": "danh từ · n.",
+  "vn": "nhiệt độ cơ thể",
+  "hv": "THỂ ÔN",
+  "use": "Dùng khi nói NHIỆT ĐỘ người (có sốt hay không): 体温 + 高 / 低, 把体温降下来, 量体温. Đo nhiệt độ thì nói 量体温; cao / thấp thì nói 高 / 低.",
+  "tip": "体 thân + 温 (氵 + 昷: nước ấm): độ ấm của cơ thể. Hán Việt THỂ ÔN, “ôn” là ấm.",
+  "ph": [
+   [
+    "体温很高",
+    "tǐwēn hěn gāo",
+    "nhiệt độ rất cao"
+   ],
+   [
+    "体温降下来",
+    "tǐwēn jiàng xiàlái",
+    "nhiệt độ hạ xuống"
+   ]
+  ],
+  "se": [
+   [
+    "现在需要把体温降下来。",
+    "Xiànzài xūyào bǎ tǐwēn jiàng xiàlái.",
+    "Bây giờ cần hạ nhiệt độ cơ thể xuống.",
+    "把体温降下来"
+   ],
+   [
+    "医生想看看她的体温是多少。",
+    "Yīshēng xiǎng kànkan tā de tǐwēn shì duōshao.",
+    "Bác sĩ muốn xem nhiệt độ của cô ấy bao nhiêu.",
+    "她的体温"
+   ]
+  ]
+ },
+ {
+  "hz": "降",
+  "py": "jiàng",
+  "pos": "động từ · v.",
+  "vn": "hạ xuống, giảm",
+  "hv": "GIÁNG",
+  "use": "Dùng khi NHIỆT ĐỘ, giá, mức nào đó GIẢM xuống: 降 + 下来, 降到 + số, 降价. Số lượng người / đồ giảm thì dùng 减少; giá, nhiệt độ hạ thì dùng 降.",
+  "tip": "阝 gò đất + 夅 (bàn chân bước xuống): bước xuống dốc → hạ xuống. Hán Việt GIÁNG như “giáng xuống”.",
+  "ph": [
+   [
+    "降下来",
+    "jiàng xiàlái",
+    "hạ xuống"
+   ],
+   [
+    "降价",
+    "jiàngjià",
+    "giảm giá"
+   ]
+  ],
+  "se": [
+   [
+    "现在需要把体温降下来。",
+    "Xiànzài xūyào bǎ tǐwēn jiàng xiàlái.",
+    "Bây giờ cần hạ sốt.",
+    "降下来"
+   ],
+   [
+    "这件衣服降价了，很便宜。",
+    "Zhè jiàn yīfu jiàngjià le, hěn piányi.",
+    "Cái áo này giảm giá rồi, rẻ lắm.",
+    "降价了"
+   ]
+  ]
+ },
+ {
+  "hz": "打针",
+  "py": "dǎzhēn",
+  "pos": "động từ · v.",
+  "vn": "tiêm",
+  "hv": "ĐẢ CHÂM",
+  "use": "Dùng khi nói TIÊM thuốc: 打针, 打一针, 给 + người + 打针. Ly hợp từ: 打了一针.",
+  "tip": "打 + 针 (钅 kim loại + 十: cây kim): đâm cây kim vào → tiêm. Hán Việt ĐẢ CHÂM, “châm” như “châm cứu”.",
+  "ph": [
+   [
+    "打针",
+    "dǎzhēn",
+    "tiêm"
+   ],
+   [
+    "怕打针",
+    "pà dǎzhēn",
+    "sợ tiêm"
+   ]
+  ],
+  "se": [
+   [
+    "光吃药恐怕不够，打针会更有效。",
+    "Guāng chī yào kǒngpà bú gòu, dǎzhēn huì gèng yǒuxiào.",
+    "Chỉ uống thuốc e là không đủ, tiêm sẽ hiệu quả hơn.",
+    "打针"
+   ],
+   [
+    "孩子很怕打针。",
+    "Háizi hěn pà dǎzhēn.",
+    "Bọn trẻ rất sợ tiêm.",
+    "怕打针"
+   ]
+  ]
+ },
+ {
+  "hz": "有效",
+  "py": "yǒuxiào",
+  "pos": "động từ · v.",
+  "vn": "có hiệu quả; còn hiệu lực",
+  "hv": "HỮU HIỆU",
+  "use": "Dùng khi một cách làm, một loại thuốc CÓ TÁC DỤNG, hoặc giấy tờ còn HIỆU LỰC: 很有效, 更有效, 有效的方法. Hán Việt “hữu hiệu” dùng giống tiếng Việt.",
+  "tip": "有 + 效 (交 + 攵 tay: dạy dỗ có kết quả): có kết quả. Hán Việt HỮU HIỆU y hệt tiếng Việt.",
+  "ph": [
+   [
+    "更有效",
+    "gèng yǒuxiào",
+    "hiệu quả hơn"
+   ],
+   [
+    "有效的方法",
+    "yǒuxiào de fāngfǎ",
+    "cách làm hiệu quả"
+   ]
+  ],
+  "se": [
+   [
+    "打针会更有效。",
+    "Dǎzhēn huì gèng yǒuxiào.",
+    "Tiêm sẽ hiệu quả hơn.",
+    "更有效"
+   ],
+   [
+    "我觉得看电影学中文很有效。",
+    "Wǒ juéde kàn diànyǐng xué Zhōngwén hěn yǒuxiào.",
+    "Mình thấy xem phim học tiếng Trung rất hiệu quả.",
+    "很有效"
+   ]
+  ]
+ },
+ {
+  "hz": "汗",
+  "py": "hàn",
+  "pos": "danh từ · n.",
+  "vn": "mồ hôi",
+  "hv": "HÃN",
+  "use": "Dùng khi nói MỒ HÔI ra khi nóng, sốt, vận động: 出汗, 出了一身汗. Động từ đi kèm là 出: 出汗.",
+  "tip": "氵 nước + 干 khô: nước chảy ra rồi khô trên da → mồ hôi. Hán Việt HÃN.",
+  "ph": [
+   [
+    "出汗",
+    "chū hàn",
+    "ra mồ hôi"
+   ],
+   [
+    "出了一身汗",
+    "chū le yì shēn hàn",
+    "ra mồ hôi khắp người"
+   ]
+  ],
+  "se": [
+   [
+    "晚上，白家月睡觉时出了一身汗。",
+    "Wǎnshang, Bái Jiāyuè shuìjiào shí chū le yì shēn hàn.",
+    "Tối đó, lúc ngủ Gia Nguyệt ra mồ hôi khắp người.",
+    "出了一身汗"
+   ],
+   [
+    "跑完步，我出了很多汗。",
+    "Pǎo wán bù, wǒ chū le hěn duō hàn.",
+    "Chạy xong mình ra rất nhiều mồ hôi.",
+    "出了很多汗"
+   ]
+  ]
+ },
+ {
+  "hz": "醒",
+  "py": "xǐng",
+  "pos": "động từ · v.",
+  "vn": "tỉnh dậy, thức giấc",
+  "hv": "TỈNH",
+  "use": "Dùng khi nói THỨC GIẤC sau khi ngủ: 醒来, 醒了, 叫醒 / 睡醒. Khác 起床 (rời giường): 醒了 nhưng có thể chưa 起床.",
+  "tip": "酉 (bình rượu) + 星 (sao): say rượu đến lúc sao lên mới TỈNH. Hán Việt TỈNH y hệt tiếng Việt.",
+  "ph": [
+   [
+    "醒来",
+    "xǐnglái",
+    "tỉnh dậy"
+   ],
+   [
+    "叫醒",
+    "jiàoxǐng",
+    "gọi dậy"
+   ]
+  ],
+  "se": [
+   [
+    "第二天醒来时，她感觉头不那么疼了。",
+    "Dì èr tiān xǐnglái shí, tā gǎnjué tóu bú nàme téng le.",
+    "Sáng hôm sau tỉnh dậy, cô thấy đầu bớt đau.",
+    "醒来"
+   ],
+   [
+    "昨天睡得太晚了，今天10点才醒。",
+    "Zuótiān shuì de tài wǎn le, jīntiān shí diǎn cái xǐng.",
+    "Hôm qua ngủ muộn quá, hôm nay 10 giờ mới dậy.",
+    "才醒"
+   ]
+  ]
+ },
+ {
+  "hz": "低",
+  "py": "dī",
+  "pos": "tính từ · adj.",
+  "vn": "thấp",
+  "hv": "ĐÊ",
+  "use": "Dùng khi nói nhiệt độ, giá, mức, giọng nói THẤP: 体温 / 价格 + 低, 低一些. Đã gặp ở HSK3 Bài 8. Người thấp (chiều cao) thì dùng 矮.",
+  "tip": "亻 người + 氐 (đáy, gốc): người cúi xuống tận đáy → thấp. Hán Việt ĐÊ.",
+  "ph": [
+   [
+    "低了一些",
+    "dī le yìxiē",
+    "thấp đi một chút"
+   ],
+   [
+    "体温很低",
+    "tǐwēn hěn dī",
+    "nhiệt độ rất thấp"
+   ]
+  ],
+  "se": [
+   [
+    "体温也低了一些。",
+    "Tǐwēn yě dī le yìxiē.",
+    "Nhiệt độ cũng hạ bớt.",
+    "低了一些"
+   ],
+   [
+    "这家店的价格比较低。",
+    "Zhè jiā diàn de jiàgé bǐjiào dī.",
+    "Giá ở cửa hàng này khá thấp.",
+    "价格比较低"
+   ]
+  ]
+ },
+ {
+  "hz": "过程",
+  "py": "guòchéng",
+  "pos": "danh từ · n.",
+  "vn": "quá trình",
+  "hv": "QUÁ TRÌNH",
+  "use": "Dùng khi nói CÁC BƯỚC một việc diễn ra từ đầu đến cuối: N / V + 的过程, 在……(的)过程中, 过程很简单 / 复杂. Hán Việt dùng như tiếng Việt, nhưng trật tự ngược: 看病的过程 (✗ 过程看病).",
+  "tip": "过 (đi qua) + 程 (trình tự): các bước lần lượt đi qua. Hán Việt QUÁ TRÌNH y hệt tiếng Việt.",
+  "ph": [
+   [
+    "看病的过程",
+    "kànbìng de guòchéng",
+    "quá trình khám bệnh"
+   ],
+   [
+    "在……过程中",
+    "zài…… guòchéng zhōng",
+    "trong quá trình…"
+   ]
+  ],
+  "se": [
+   [
+    "办签证的过程不太复杂。",
+    "Bàn qiānzhèng de guòchéng bú tài fùzá.",
+    "Quá trình làm visa không phức tạp lắm.",
+    "办签证的过程"
+   ],
+   [
+    "我先学了拼音，然后学汉字，现在在学HSK四级。",
+    "Wǒ xiān xué le pīnyīn, ránhòu xué Hànzì, xiànzài zài xué HSK sì jí.",
+    "Tôi học pinyin trước, rồi học chữ Hán, bây giờ đang học HSK 4.",
+    "先学了拼音，然后学汉字"
+   ]
+  ]
+ },
+ {
+  "hz": "情况",
+  "py": "qíngkuàng",
+  "pos": "danh từ · n.",
+  "vn": "tình hình, tình trạng",
+  "hv": "TÌNH HUỐNG",
+  "use": "Dùng khi nói TÌNH HÌNH, trạng thái hiện tại của người hay việc (bệnh, công việc, giao thông): X 的情况, 了解 / 问 + 情况, 情况怎么样 / 不太好. Bẫy Hán Việt: “tình huống” tiếng Việt thường là một sự việc bất ngờ; 情况 trước hết là “tình hình”.",
+  "tip": "情 (忄 lòng + 青) + 况 (冫 + 兄): trạng thái trong lòng ra sao → tình hình. Hán Việt TÌNH HUỐNG, nhưng nghĩa là “tình hình”.",
+  "ph": [
+   [
+    "了解一下情况",
+    "liǎojiě yíxià qíngkuàng",
+    "tìm hiểu tình hình"
+   ],
+   [
+    "病人的情况",
+    "bìngrén de qíngkuàng",
+    "tình trạng của bệnh nhân"
+   ]
+  ],
+  "se": [
+   [
+    "经理想了解一下最近的工作情况。",
+    "Jīnglǐ xiǎng liǎojiě yíxià zuìjìn de gōngzuò qíngkuàng.",
+    "Giám đốc muốn nắm tình hình công việc gần đây.",
+    "最近的工作情况"
+   ],
+   [
+    "我们公司最近情况不错，来了很多新同事。",
+    "Wǒmen gōngsī zuìjìn qíngkuàng búcuò, lái le hěn duō xīn tóngshì.",
+    "Công ty tôi dạo này tình hình khá tốt, có nhiều đồng nghiệp mới về.",
+    "情况不错"
+   ]
+  ]
+ },
+ {
+  "hz": "好",
+  "py": "hǎo",
+  "pos": "động từ · v.",
+  "vn": "để, để cho (dễ…)",
+  "hv": "HẢO",
+  "use": "Động từ chỉ mục đích: dùng khi làm việc TRƯỚC để việc SAU dễ làm, làm được: A (việc làm trước)，(S) + 好 + V; ……，好让 + người + V. 好 đứng ở VẾ SAU, ngay trước động từ. Khác 为了 (đứng vế trước, trang trọng hơn). Chủ ngữ vế sau là người khác thì dùng 好让 + người.",
+  "tip": "“……，好……” = làm vậy để mọi việc sau được TỐT (好), được dễ. Hán Việt HẢO.",
+  "ph": [
+   [
+    "好给出……",
+    "hǎo gěichū……",
+    "để đưa ra…"
+   ],
+   [
+    "好联系我",
+    "hǎo liánxì wǒ",
+    "để liên lạc với tôi"
+   ]
+  ],
+  "se": [
+   [
+    "你今天早点儿睡，明天好早点儿起床去机场。",
+    "Nǐ jīntiān zǎo diǎnr shuì, míngtiān hǎo zǎo diǎnr qǐchuáng qù jīchǎng.",
+    "Hôm nay bạn ngủ sớm đi, để mai dậy sớm ra sân bay.",
+    "好早点儿起床"
+   ],
+   [
+    "我每天把生词写在本子上，好每天复习。",
+    "Wǒ měi tiān bǎ shēngcí xiě zài běnzi shàng, hǎo měi tiān fùxí.",
+    "Ngày nào tôi cũng chép từ mới vào vở, để ngày nào cũng ôn được.",
+    "好每天复习"
+   ]
+  ]
+ },
+ {
+  "hz": "通",
+  "py": "tōng",
+  "pos": "động từ · v.",
+  "vn": "thông, hiểu được (ngôn ngữ)",
+  "hv": "THÔNG",
+  "use": "Dùng khi nói ngôn ngữ, đường, điện thoại KHÔNG THÔNG (không hiểu nhau, không đi được, không gọi được): 语言不通, 打不通, 走不通. Chữ đã gặp ở 通知, 通过 (Bài 1); ở đây là động từ.",
+  "tip": "辶 đi + 甬 lối đi: đi được qua lối → thông. Hán Việt THÔNG như “thông suốt”.",
+  "ph": [
+   [
+    "语言不通",
+    "yǔyán bù tōng",
+    "bất đồng ngôn ngữ"
+   ],
+   [
+    "打不通",
+    "dǎ bu tōng",
+    "gọi không được"
+   ]
+  ],
+  "se": [
+   [
+    "外国人第一次在中国看病，可能会担心语言不通。",
+    "Wàiguórén dì yī cì zài Zhōngguó kànbìng, kěnéng huì dānxīn yǔyán bù tōng.",
+    "Người nước ngoài lần đầu khám ở Trung Quốc có thể lo không hiểu tiếng.",
+    "语言不通"
+   ],
+   [
+    "他的电话一直打不通。",
+    "Tā de diànhuà yìzhí dǎ bu tōng.",
+    "Điện thoại anh ấy gọi mãi không được.",
+    "打不通"
+   ]
+  ]
+ },
+ {
+  "hz": "部",
+  "py": "bù",
+  "pos": "danh từ · n.",
+  "vn": "bộ phận, khoa, ban",
+  "hv": "BỘ",
+  "use": "Dùng khi nói một BỘ PHẬN của tổ chức (bệnh viện, công ty): X部 (国际部 / 普通部). Phương vị: 东部, 西部 = vùng phía đông / tây.",
+  "tip": "咅 + 阝 (thành ấp): chia thành từng khu → bộ phận. Hán Việt BỘ như “bộ phận”.",
+  "ph": [
+   [
+    "国际部",
+    "guójìbù",
+    "khoa quốc tế"
+   ],
+   [
+    "普通部",
+    "pǔtōngbù",
+    "khoa thường"
+   ]
+  ],
+  "se": [
+   [
+    "有的医院有国际部。",
+    "Yǒu de yīyuàn yǒu guójìbù.",
+    "Có bệnh viện có khoa quốc tế.",
+    "国际部"
+   ],
+   [
+    "可以选择普通部，用简单的中文和医生交流。",
+    "Kěyǐ xuǎnzé pǔtōngbù, yòng jiǎndān de Zhōngwén hé yīshēng jiāoliú.",
+    "Có thể chọn khoa thường, nói chuyện với bác sĩ bằng tiếng Trung đơn giản.",
+    "普通部"
+   ]
+  ]
+ },
+ {
+  "hz": "收费",
+  "py": "shōufèi",
+  "pos": "động từ · v.",
+  "vn": "thu phí; phí",
+  "hv": "THU PHÍ",
+  "use": "Dùng khi nói việc THU TIỀN của dịch vụ: 收费 + 高 / 低, 不收费. Không thu tiền còn nói 免费.",
+  "tip": "收 (thu) + 费 (có 贝 tiền, đã học ở 话费 Bài 4): thu tiền. Hán Việt THU PHÍ y hệt tiếng Việt.",
+  "ph": [
+   [
+    "收费比较高",
+    "shōufèi bǐjiào gāo",
+    "phí khá cao"
+   ],
+   [
+    "不收费",
+    "bù shōufèi",
+    "không thu phí"
+   ]
+  ],
+  "se": [
+   [
+    "国际部的收费比较高。",
+    "Guójìbù de shōufèi bǐjiào gāo.",
+    "Phí ở khoa quốc tế khá cao.",
+    "收费比较高"
+   ],
+   [
+    "这个停车场不收费。",
+    "Zhè ge tíngchēchǎng bù shōufèi.",
+    "Bãi đỗ xe này không thu phí.",
+    "不收费"
+   ]
+  ]
+ },
+ {
+  "hz": "治疗",
+  "py": "zhìliáo",
+  "pos": "động từ · v.",
+  "vn": "điều trị",
+  "hv": "TRỊ LIỆU",
+  "use": "Dùng khi nói bác sĩ CHỮA bệnh, quá trình điều trị: 治疗 + 方法, 得到治疗, 住院治疗. Đề cương xếp cấp 5; nói thường thì dùng 看病 / 治病.",
+  "tip": "治 (氵 nước + 台: trị thuỷ, sửa sang) + 疗 (疒 bệnh + 了 xong): xử lý cho hết bệnh. Hán Việt TRỊ LIỆU.",
+  "ph": [
+   [
+    "治疗方法",
+    "zhìliáo fāngfǎ",
+    "cách điều trị"
+   ],
+   [
+    "得到治疗",
+    "dédào zhìliáo",
+    "được chữa trị"
+   ]
+  ],
+  "se": [
+   [
+    "医生会做一些检查，好给出合适的治疗方法。",
+    "Yīshēng huì zuò yìxiē jiǎnchá, hǎo gěichū héshì de zhìliáo fāngfǎ.",
+    "Bác sĩ làm vài xét nghiệm để đưa ra cách điều trị phù hợp.",
+    "治疗方法"
+   ],
+   [
+    "一般都可以顺利得到治疗。",
+    "Yìbān dōu kěyǐ shùnlì dédào zhìliáo.",
+    "Thường đều được chữa trị suôn sẻ.",
+    "得到治疗"
+   ]
+  ]
+ },
+ {
+  "hz": "步",
+  "py": "bù",
+  "pos": "danh từ · n.",
+  "vn": "bước",
+  "hv": "BỘ",
+  "use": "Dùng khi nói từng BƯỚC của một việc, hoặc bước chân: 一步一步, 第一步, 走几步. Chữ đã gặp ở 跑步 (HSK2).",
+  "tip": "止 (bàn chân) ở trên + 少 (bàn chân kia) ở dưới: hai bàn chân nối nhau → bước. Hán Việt BỘ như “bộ hành”.",
+  "ph": [
+   [
+    "一步一步来",
+    "yí bù yí bù lái",
+    "làm từng bước một"
+   ],
+   [
+    "第一步",
+    "dì yī bù",
+    "bước đầu tiên"
+   ]
+  ],
+  "se": [
+   [
+    "只要按照医生说的一步一步来，一般都可以顺利得到治疗。",
+    "Zhǐyào ànzhào yīshēng shuō de yí bù yí bù lái, yìbān dōu kěyǐ shùnlì dédào zhìliáo.",
+    "Chỉ cần làm từng bước theo lời bác sĩ là thường chữa trị suôn sẻ.",
+    "一步一步来"
+   ],
+   [
+    "第一步是挂号。",
+    "Dì yī bù shì guàhào.",
+    "Bước đầu tiên là lấy số.",
+    "第一步"
+   ]
+  ]
+ }
+]

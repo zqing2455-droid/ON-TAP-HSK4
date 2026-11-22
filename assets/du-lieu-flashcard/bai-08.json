@@ -1,0 +1,1332 @@
+[
+ {
+  "hz": "紧张",
+  "py": "jǐnzhāng",
+  "pos": "tính từ · adj.",
+  "vn": "căng thẳng, hồi hộp; dồn dập, eo hẹp",
+  "hv": "KHẨN TRƯƠNG",
+  "use": "Dùng khi thấy LO, HỒI HỘP (trước thi, phỏng vấn, thi đấu) hoặc khi việc học, việc làm quá DỒN DẬP: 很 / 有点儿 / 十分 + 紧张, 学习 / 工作 + 紧张, 别紧张. Bẫy Hán Việt: “khẩn trương” tiếng Việt là nhanh lên (✗ 我们紧张做吧 → 我们快点儿做吧). Lo chuyện sắp tới là 担心, sốt ruột là 着急.",
+  "tip": "紧 (纟 sợi dây + 又 bàn tay: tay kéo căng dây) + 张 (弓 giương cung): dây cung kéo căng → căng thẳng. Hán Việt KHẨN TRƯƠNG.",
+  "ph": [
+   [
+    "别紧张",
+    "bié jǐnzhāng",
+    "đừng căng thẳng"
+   ],
+   [
+    "学习太紧张",
+    "xuéxí tài jǐnzhāng",
+    "học hành căng quá"
+   ]
+  ],
+  "se": [
+   [
+    "别紧张，你一定没问题！",
+    "Bié jǐnzhāng, nǐ yídìng méi wèntí!",
+    "Đừng căng thẳng, bạn chắc chắn không sao đâu!",
+    "别紧张"
+   ],
+   [
+    "第一次和经理开会的时候，我觉得很紧张。",
+    "Dì yī cì hé jīnglǐ kāihuì de shíhou, wǒ juéde hěn jǐnzhāng.",
+    "Lần đầu họp với giám đốc, tôi thấy rất hồi hộp.",
+    "很紧张"
+   ]
+  ]
+ },
+ {
+  "hz": "放松",
+  "py": "fàngsōng",
+  "pos": "động từ · v.",
+  "vn": "thư giãn, thả lỏng",
+  "hv": "PHÓNG TÙNG",
+  "use": "Dùng khi nghỉ ngơi cho đầu óc, cơ thể BỚT CĂNG sau một thời gian học, làm việc nhiều, kiểu “xả hơi”: 放松一下, 放松放松 (lặp ABAB), 放松 + 自己 / 心情 / 身体, 让 + người + 放松. “Xả hơi” tiếng Việt nói 放松一下, không nói ✗ 休闲一下 trong khẩu ngữ.",
+  "tip": "放 (thả ra) + 松 (lỏng, 木 cây thông cành mềm): thả cho lỏng ra. Hán Việt PHÓNG TÙNG, “phóng” như “phóng thích”.",
+  "ph": [
+   [
+    "放松放松",
+    "fàngsōng fàngsōng",
+    "thư giãn một chút"
+   ],
+   [
+    "放松自己",
+    "fàngsōng zìjǐ",
+    "thư giãn bản thân"
+   ]
+  ],
+  "se": [
+   [
+    "休息一下吧，我们去喝杯咖啡放松放松。",
+    "Xiūxi yíxià ba, wǒmen qù hē bēi kāfēi fàngsōng fàngsōng.",
+    "Nghỉ một lát đi, mình đi uống cốc cà phê thư giãn chút.",
+    "放松放松"
+   ],
+   [
+    "压力大的时候，我会去跑步，放松自己。",
+    "Yālì dà de shíhou, wǒ huì qù pǎobù, fàngsōng zìjǐ.",
+    "Lúc áp lực lớn, tôi sẽ đi chạy bộ để thư giãn.",
+    "放松自己"
+   ]
+  ]
+ },
+ {
+  "hz": "不管",
+  "py": "bùguǎn",
+  "pos": "liên từ · conj.",
+  "vn": "dù, bất kể",
+  "hv": "BẤT QUẢN",
+  "use": "Dùng khi nói KẾT QUẢ hay quyết định KHÔNG THAY ĐỔI trong mọi điều kiện: 不管 + từ để hỏi (什么 / 哪儿 / 谁 / 多) hoặc A 还是 B, A 不 A，S + 都 / 也 + V. Sau 不管 phải là một “lựa chọn” (✗ 不管下雨 → 不管下不下雨 / 不管雨多大); vế sau bắt buộc có 都 / 也.",
+  "tip": "不 + 管 (quản): “không cần quản” điều kiện gì, kết quả vẫn thế. Hán Việt BẤT QUẢN, “quản” như “quản lý”.",
+  "ph": [
+   [
+    "不管多晚",
+    "bùguǎn duō wǎn",
+    "dù muộn mấy"
+   ],
+   [
+    "不管去哪儿",
+    "bùguǎn qù nǎr",
+    "dù đi đâu"
+   ]
+  ],
+  "se": [
+   [
+    "不管多晚，我都回家吃晚饭。",
+    "Bùguǎn duō wǎn, wǒ dōu huí jiā chī wǎnfàn.",
+    "Dù muộn mấy, tôi cũng về nhà ăn tối.",
+    "不管多晚"
+   ],
+   [
+    "不管多忙，我每天都会学半个小时中文。",
+    "Bùguǎn duō máng, wǒ měi tiān dōu huì xué bàn gè xiǎoshí Zhōngwén.",
+    "Dù bận mấy, ngày nào tôi cũng học nửa tiếng tiếng Trung.",
+    "不管多忙"
+   ]
+  ]
+ },
+ {
+  "hz": "主意",
+  "py": "zhǔyi",
+  "pos": "danh từ · n.",
+  "vn": "ý, ý hay, cách làm",
+  "hv": "CHỦ Ý",
+  "use": "Dùng khi nói một CÁCH LÀM, một ý cụ thể vừa nghĩ ra để giải quyết việc: 好主意！, 有 / 没有 + 主意, 想出 / 出 + 主意, 改变主意. Đọc nhẹ zhǔyi. Khác 意见 (ý kiến nhận xét, góp ý) và 建议 (lời khuyên, Bài 2). Bẫy: “chủ ý” tiếng Việt là cố ý.",
+  "tip": "主 (chủ) + 意 (ý): cái ý làm chủ việc mình định làm. Hán Việt CHỦ Ý nhưng nghĩa là “ý hay, cách làm”.",
+  "ph": [
+   [
+    "好主意",
+    "hǎo zhǔyi",
+    "ý hay"
+   ],
+   [
+    "想出了一个主意",
+    "xiǎng chū le yí gè zhǔyi",
+    "nghĩ ra một ý"
+   ]
+  ],
+  "se": [
+   [
+    "好主意！我们一起去吧。",
+    "Hǎo zhǔyi! Wǒmen yìqǐ qù ba.",
+    "Ý hay đấy! Chúng mình cùng đi nhé.",
+    "好主意"
+   ],
+   [
+    "我有个好主意：我们去郊区爬山吧。",
+    "Wǒ yǒu gè hǎo zhǔyi: wǒmen qù jiāoqū páshān ba.",
+    "Tôi có một ý hay: chúng mình ra ngoại ô leo núi đi.",
+    "有个好主意"
+   ]
+  ]
+ },
+ {
+  "hz": "戴",
+  "py": "dài",
+  "pos": "động từ · v.",
+  "vn": "đội, đeo",
+  "hv": "ĐÁI",
+  "use": "Dùng khi mang đồ lên ĐẦU, MẶT, TAY, CỔ như mũ, kính, đồng hồ, nhẫn: 戴 + 帽子 / 眼镜 / 手表, 戴着, 戴上. Tiếng Việt chia “đội / đeo / mặc / đi”, tiếng Trung chỉ có hai: 戴 (phụ kiện) và 穿 (quần áo, giày, tất). ✗ 穿帽子 → 戴帽子.",
+  "tip": "Chữ nhiều nét: 異 (đội đồ lên đầu) + 戈, người đội, đeo đồ lên mình. Hán Việt ĐÁI.",
+  "ph": [
+   [
+    "戴帽子",
+    "dài màozi",
+    "đội mũ"
+   ],
+   [
+    "戴眼镜",
+    "dài yǎnjìng",
+    "đeo kính"
+   ]
+  ],
+  "se": [
+   [
+    "明天太阳很大，出门记得戴帽子。",
+    "Míngtiān tàiyáng hěn dà, chūmén jìde dài màozi.",
+    "Mai nắng to, ra ngoài nhớ đội mũ nhé.",
+    "戴帽子"
+   ],
+   [
+    "我不戴手表，因为用手机看时间就行了。",
+    "Wǒ bú dài shǒubiǎo, yīnwèi yòng shǒujī kàn shíjiān jiù xíng le.",
+    "Tôi không đeo đồng hồ, vì xem giờ bằng điện thoại là được rồi.",
+    "不戴手表"
+   ]
+  ]
+ },
+ {
+  "hz": "呀",
+  "py": "yā",
+  "pos": "thán từ · interj.",
+  "vn": "ôi, ơ, ồ (ngạc nhiên)",
+  "hv": "(THÁN TỪ, KHÔNG CÓ ÂM HÁN VIỆT)",
+  "use": "Dùng khi BẤT NGỜ, ngạc nhiên nhẹ, đứng đầu câu: 呀，……. Đề cương xếp cấp 5. Đứng cuối câu thì đọc nhẹ ya (好呀), là biến âm của 啊.",
+  "tip": "口 miệng + 牙 răng: há miệng thấy cả răng vì ngạc nhiên. Không có âm Hán Việt, chỉ là tiếng kêu.",
+  "ph": [
+   [
+    "呀，正好",
+    "yā, zhènghǎo",
+    "ơ, đúng lúc"
+   ],
+   [
+    "呀，下雨了",
+    "yā, xià yǔ le",
+    "ối, mưa rồi"
+   ]
+  ],
+  "se": [
+   [
+    "呀，正好我也想出去呢。",
+    "Yā, zhènghǎo wǒ yě xiǎng chūqù ne.",
+    "Ơ, đúng lúc tớ cũng muốn đi đây.",
+    "呀，正好"
+   ],
+   [
+    "呀，下雨了！",
+    "Yā, xià yǔ le!",
+    "Ối, mưa rồi!",
+    "呀，下雨了"
+   ]
+  ]
+ },
+ {
+  "hz": "郊区",
+  "py": "jiāoqū",
+  "pos": "danh từ · n.",
+  "vn": "ngoại ô",
+  "hv": "GIAO KHU",
+  "use": "Dùng khi nói vùng ở RÌA thành phố, ngoài nội thành: 去郊区, 郊区的 + N. Đối lập với 市区 (nội thành, cũng học trong bài này).",
+  "tip": "郊 (交 + 阝 thành ấp: chỗ giáp giữa thành và đồng) + 区 (vùng). Hán Việt GIAO KHU, “khu” như “khu vực”.",
+  "ph": [
+   [
+    "去郊区",
+    "qù jiāoqū",
+    "ra ngoại ô"
+   ],
+   [
+    "北京郊区",
+    "Běijīng jiāoqū",
+    "ngoại ô Bắc Kinh"
+   ]
+  ],
+  "se": [
+   [
+    "下周王老师要带咱们去郊区游玩呢。",
+    "Xià zhōu Wáng lǎoshī yào dài zánmen qù jiāoqū yóuwán ne.",
+    "Tuần sau thầy Vương sẽ dẫn bọn mình ra ngoại ô chơi đấy.",
+    "去郊区游玩"
+   ],
+   [
+    "郊区的空气比市区好。",
+    "Jiāoqū de kōngqì bǐ shìqū hǎo.",
+    "Không khí ngoại ô tốt hơn nội thành.",
+    "郊区的空气"
+   ]
+  ]
+ },
+ {
+  "hz": "游玩",
+  "py": "yóuwán",
+  "pos": "động từ · v.",
+  "vn": "đi chơi, vui chơi",
+  "hv": "DU NGOẠN",
+  "use": "Dùng khi đi CHƠI, ngắm cảnh cho vui ở công viên, ngoại ô, danh thắng: 去 + nơi + 游玩, 外出游玩. Hơi văn viết; nói thường thì là 去玩儿.",
+  "tip": "游 (đi khắp nơi) + 玩 (chơi): đi khắp nơi mà chơi. Hán Việt DU NGOẠN, “du” như “du lịch”.",
+  "ph": [
+   [
+    "外出游玩",
+    "wàichū yóuwán",
+    "ra ngoài đi chơi"
+   ],
+   [
+    "去郊区游玩",
+    "qù jiāoqū yóuwán",
+    "ra ngoại ô chơi"
+   ]
+  ],
+  "se": [
+   [
+    "一到周末，很多人都喜欢外出游玩。",
+    "Yí dào zhōumò, hěn duō rén dōu xǐhuan wàichū yóuwán.",
+    "Cứ đến cuối tuần nhiều người thích ra ngoài đi chơi.",
+    "外出游玩"
+   ],
+   [
+    "这个公园很大，很适合游玩。",
+    "Zhè ge gōngyuán hěn dà, hěn shìhé yóuwán.",
+    "Công viên này rộng, rất hợp để đi chơi.",
+    "适合游玩"
+   ]
+  ]
+ },
+ {
+  "hz": "外出",
+  "py": "wàichū",
+  "pos": "động từ · v.",
+  "vn": "ra ngoài, đi ra ngoài",
+  "hv": "NGOẠI XUẤT",
+  "use": "Dùng khi RỜI nhà hay văn phòng để đi đâu đó: 外出 + V, 外出时. Sắc thái văn viết hơn 出去 / 出门.",
+  "tip": "外 ngoài + 出 ra: đi ra ngoài. Hán Việt NGOẠI XUẤT, “ngoại” như “ngoại ô”.",
+  "ph": [
+   [
+    "外出游玩",
+    "wàichū yóuwán",
+    "ra ngoài đi chơi"
+   ],
+   [
+    "外出办事",
+    "wàichū bànshì",
+    "ra ngoài làm việc"
+   ]
+  ],
+  "se": [
+   [
+    "外出记得戴帽子。",
+    "Wàichū jìde dài màozi.",
+    "Ra ngoài nhớ đội mũ.",
+    "外出"
+   ],
+   [
+    "经理今天外出办事了，不在办公室。",
+    "Jīnglǐ jīntiān wàichū bànshì le, bú zài bàngōngshì.",
+    "Hôm nay giám đốc ra ngoài làm việc, không có ở văn phòng.",
+    "外出办事"
+   ]
+  ]
+ },
+ {
+  "hz": "帽子",
+  "py": "màozi",
+  "pos": "danh từ · n.",
+  "vn": "cái mũ",
+  "hv": "MẠO TỬ",
+  "use": "Dùng khi nói đồ đội trên đầu: 戴帽子, 一顶帽子. Động từ đi kèm là 戴, không phải 穿. Lượng từ 顶 dǐng (đề cương xếp cấp 6).",
+  "tip": "巾 mảnh vải + 冒 (trùm lên đầu): mảnh vải trùm lên đầu là cái mũ. Hán Việt MẠO TỬ.",
+  "ph": [
+   [
+    "戴帽子",
+    "dài màozi",
+    "đội mũ"
+   ],
+   [
+    "一顶帽子",
+    "yì dǐng màozi",
+    "một chiếc mũ"
+   ]
+  ],
+  "se": [
+   [
+    "外出记得戴帽子。",
+    "Wàichū jìde dài màozi.",
+    "Ra ngoài nhớ đội mũ.",
+    "戴帽子"
+   ],
+   [
+    "这顶帽子是我妈妈给我买的。",
+    "Zhè dǐng màozi shì wǒ māma gěi wǒ mǎi de.",
+    "Chiếc mũ này là mẹ mua cho mình.",
+    "这顶帽子"
+   ]
+  ]
+ },
+ {
+  "hz": "否则",
+  "py": "fǒuzé",
+  "pos": "liên từ · conj.",
+  "vn": "nếu không thì",
+  "hv": "PHỦ TẮC",
+  "use": "Dùng khi KHUYÊN hay nhắc ai làm gì, rồi nói HẬU QUẢ xấu nếu không làm: (lời khuyên / yêu cầu)，否则 + hậu quả. Vế trước thường có 要 / 应该 / 得 / 别; 否则 đứng ĐẦU vế hậu quả. Khẩu ngữ hay dùng 要不然.",
+  "tip": "否 (不 + 口: miệng nói “không”) + 则 (thì): “nếu không thì”. Hán Việt PHỦ TẮC, “phủ” như “phủ định”.",
+  "ph": [
+   [
+    "否则会迟到",
+    "fǒuzé huì chídào",
+    "nếu không sẽ muộn"
+   ],
+   [
+    "否则就不值得了",
+    "fǒuzé jiù bù zhídé le",
+    "nếu không thì không đáng nữa"
+   ]
+  ],
+  "se": [
+   [
+    "多穿点儿衣服，否则会感冒的。",
+    "Duō chuān diǎnr yīfu, fǒuzé huì gǎnmào de.",
+    "Mặc thêm áo vào, không thì sẽ bị cảm đấy.",
+    "否则会感冒的"
+   ],
+   [
+    "你别每天熬夜了，否则身体会出问题的。",
+    "Nǐ bié měi tiān áoyè le, fǒuzé shēntǐ huì chū wèntí de.",
+    "Bạn đừng thức khuya mỗi ngày nữa, không thì sức khoẻ sẽ có vấn đề đấy.",
+    "否则身体会出问题的"
+   ]
+  ]
+ },
+ {
+  "hz": "值得",
+  "py": "zhídé",
+  "pos": "động từ · v.",
+  "vn": "đáng, xứng đáng",
+  "hv": "TRỊ ĐẮC",
+  "use": "Dùng khi nói một việc, một nơi hay món đồ ĐÁNG để bỏ thời gian, tiền, công sức: 值得 + V (值得去 / 值得看), (很 / 不) 值得. Sau 值得 thường là ĐỘNG TỪ: 这本书值得看 (✗ 这本书值得). Bỏ ra nhiều mà không được gì là 不值得.",
+  "tip": "值 (亻 người + 直 thẳng: định giá thẳng thắn) + 得 (được): bỏ ra thì được lại xứng. Hán Việt TRỊ ĐẮC, “trị” như “giá trị”.",
+  "ph": [
+   [
+    "值得去",
+    "zhídé qù",
+    "đáng đi"
+   ],
+   [
+    "不值得",
+    "bù zhídé",
+    "không đáng"
+   ]
+  ],
+  "se": [
+   [
+    "这部电影很值得看。",
+    "Zhè bù diànyǐng hěn zhídé kàn.",
+    "Bộ phim này rất đáng xem.",
+    "很值得看"
+   ],
+   [
+    "我觉得学习花多少钱都值得。",
+    "Wǒ juéde xuéxí huā duōshao qián dōu zhídé.",
+    "Tôi thấy việc học tốn bao nhiêu tiền cũng đáng.",
+    "都值得"
+   ]
+  ]
+ },
+ {
+  "hz": "失去",
+  "py": "shīqù",
+  "pos": "động từ · v.",
+  "vn": "mất, đánh mất",
+  "hv": "THẤT KHỨ",
+  "use": "Dùng khi MẤT đi thứ QUAN TRỌNG, khó lấy lại như sức khoẻ, cơ hội, niềm tin, bạn bè: 失去 + 健康 / 机会 / 信心 / 朋友. Mất đồ vật cụ thể (ví, điện thoại) thì dùng 丢: ✗ 我失去了手机 → 我的手机丢了.",
+  "tip": "失 (giống 夫 nhưng nét phẩy nhô lên: vật tuột khỏi tay) + 去 (đi): tuột khỏi tay mà đi mất. Hán Việt THẤT KHỨ, “thất” như “thất bại”.",
+  "ph": [
+   [
+    "失去机会",
+    "shīqù jīhuì",
+    "mất cơ hội"
+   ],
+   [
+    "失去健康",
+    "shīqù jiànkāng",
+    "mất sức khoẻ"
+   ]
+  ],
+  "se": [
+   [
+    "你一定要去，否则你会失去一个好机会。",
+    "Nǐ yídìng yào qù, fǒuzé nǐ huì shīqù yí gè hǎo jīhuì.",
+    "Bạn nhất định phải đi, không thì bạn sẽ mất một cơ hội tốt.",
+    "失去一个好机会"
+   ],
+   [
+    "我觉得失去朋友最可惜。",
+    "Wǒ juéde shīqù péngyou zuì kěxī.",
+    "Tôi thấy mất bạn bè là đáng tiếc nhất.",
+    "失去朋友"
+   ]
+  ]
+ },
+ {
+  "hz": "之后",
+  "py": "zhīhòu",
+  "pos": "danh từ · n.",
+  "vn": "sau khi, sau đó",
+  "hv": "CHI HẬU",
+  "use": "Dùng khi nói việc xảy ra SAU một thời điểm hay một việc khác, hơi trang trọng hơn 以后: V(P) / khoảng thời gian + 之后; 之后，…… đứng đầu câu là “sau đó”, còn 以后 đứng một mình là “sau này” (tương lai). 休息之后 = 休息以后.",
+  "tip": "之 (cái đó) + 后 (sau): sau cái đó. Hán Việt CHI HẬU, “hậu” như “hậu quả”.",
+  "ph": [
+   [
+    "两年之后",
+    "liǎng nián zhīhòu",
+    "hai năm sau"
+   ],
+   [
+    "休息之后",
+    "xiūxi zhīhòu",
+    "sau khi nghỉ"
+   ]
+  ],
+  "se": [
+   [
+    "毕业两年之后，我搬到了河内。",
+    "Bìyè liǎng nián zhīhòu, wǒ bān dào le Hénèi.",
+    "Tốt nghiệp hai năm sau, tôi chuyển đến Hà Nội.",
+    "两年之后"
+   ],
+   [
+    "下班之后，我一般去健身房。",
+    "Xiàbān zhīhòu, wǒ yìbān qù jiànshēnfáng.",
+    "Sau khi tan làm, tôi thường đi phòng gym.",
+    "下班之后"
+   ]
+  ]
+ },
+ {
+  "hz": "项目",
+  "py": "xiàngmù",
+  "pos": "danh từ · n.",
+  "vn": "dự án; hạng mục, môn thi",
+  "hv": "HẠNG MỤC",
+  "use": "Dùng khi nói một DỰ ÁN công việc, hoặc một môn thi đấu: 参加 / 负责 / 接 + 项目. Đề cương xếp cấp 5.",
+  "tip": "项 (工 + 页 cái đầu: mục đứng đầu) + 目 (mục): từng mục việc. Hán Việt HẠNG MỤC giống tiếng Việt.",
+  "ph": [
+   [
+    "参加项目",
+    "cānjiā xiàngmù",
+    "tham gia dự án"
+   ],
+   [
+    "新项目",
+    "xīn xiàngmù",
+    "dự án mới"
+   ]
+  ],
+  "se": [
+   [
+    "以前我参加了公司里的很多项目。",
+    "Yǐqián wǒ cānjiā le gōngsī lǐ de hěn duō xiàngmù.",
+    "Trước đây anh tham gia rất nhiều dự án ở công ty.",
+    "很多项目"
+   ],
+   [
+    "我们公司最近有一个新项目。",
+    "Wǒmen gōngsī zuìjìn yǒu yí gè xīn xiàngmù.",
+    "Công ty mình gần đây có một dự án mới.",
+    "新项目"
+   ]
+  ]
+ },
+ {
+  "hz": "加班",
+  "py": "jiābān",
+  "pos": "động từ · v.",
+  "vn": "tăng ca, làm thêm giờ",
+  "hv": "GIA BAN",
+  "use": "Dùng khi phải làm việc NGOÀI giờ hành chính: 加班, 经常加班, 加 + thời lượng + 班. Là ly hợp từ nên tách được: 加了两个小时班.",
+  "tip": "加 thêm + 班 ca làm: thêm một ca. Hán Việt GIA BAN, “gia” như “gia tăng”.",
+  "ph": [
+   [
+    "经常加班",
+    "jīngcháng jiābān",
+    "thường xuyên tăng ca"
+   ],
+   [
+    "周末加班",
+    "zhōumò jiābān",
+    "cuối tuần tăng ca"
+   ]
+  ],
+  "se": [
+   [
+    "他们经常加班、熬夜。",
+    "Tāmen jīngcháng jiābān, áoyè.",
+    "Họ thường tăng ca, thức khuya.",
+    "经常加班"
+   ],
+   [
+    "今天我要加班，晚点儿回家。",
+    "Jīntiān wǒ yào jiābān, wǎn diǎnr huí jiā.",
+    "Hôm nay mình phải tăng ca, về muộn một chút.",
+    "要加班"
+   ]
+  ]
+ },
+ {
+  "hz": "熬夜",
+  "py": "áoyè",
+  "pos": "động từ · v.",
+  "vn": "thức khuya",
+  "hv": "NGAO DẠ",
+  "use": "Dùng khi THỨC rất khuya để học, làm việc hay chơi: 熬夜 + V, 别熬夜. Đề cương xếp cấp 5.",
+  "tip": "熬 (灬 lửa nhỏ, ninh lâu) + 夜 (đêm): ninh suốt cả đêm. Hán Việt NGAO DẠ, “dạ” là đêm như “dạ hội”.",
+  "ph": [
+   [
+    "经常熬夜",
+    "jīngcháng áoyè",
+    "hay thức khuya"
+   ],
+   [
+    "熬夜复习",
+    "áoyè fùxí",
+    "thức khuya ôn bài"
+   ]
+  ],
+  "se": [
+   [
+    "经常熬夜对身体不好。",
+    "Jīngcháng áoyè duì shēntǐ bù hǎo.",
+    "Hay thức khuya không tốt cho sức khoẻ.",
+    "经常熬夜"
+   ],
+   [
+    "考试前他熬夜复习。",
+    "Kǎoshì qián tā áoyè fùxí.",
+    "Trước kỳ thi anh ấy thức khuya ôn bài.",
+    "熬夜复习"
+   ]
+  ]
+ },
+ {
+  "hz": "暂停",
+  "py": "zàntíng",
+  "pos": "động từ · v.",
+  "vn": "tạm dừng",
+  "hv": "TẠM ĐÌNH",
+  "use": "Dùng khi DỪNG một việc trong một thời gian rồi sẽ làm tiếp: 暂停 + N, 暂停一下, 暂停下来. Khác 停 (dừng hẳn, đỗ xe, HSK4 Bài 4).",
+  "tip": "暂 (斩 chém + 日 ngày: thời gian bị cắt ngắn) + 停 (dừng): dừng trong chốc lát. Hán Việt TẠM ĐÌNH, “đình” như “đình chỉ”.",
+  "ph": [
+   [
+    "暂停下来",
+    "zàntíng xiàlai",
+    "tạm dừng lại"
+   ],
+   [
+    "暂停一下",
+    "zàntíng yíxià",
+    "tạm dừng một chút"
+   ]
+  ],
+  "se": [
+   [
+    "我发现暂停下来、好好休息之后，我能把工作做得更好。",
+    "Wǒ fāxiàn zàntíng xiàlai, hǎohǎo xiūxi zhīhòu, wǒ néng bǎ gōngzuò zuò de gèng hǎo.",
+    "Tôi nhận ra sau khi tạm dừng lại, nghỉ ngơi tử tế thì tôi làm việc tốt hơn.",
+    "暂停下来"
+   ],
+   [
+    "视频可以先暂停一下吗？",
+    "Shìpín kěyǐ xiān zàntíng yíxià ma?",
+    "Tạm dừng video một chút được không?",
+    "暂停一下"
+   ]
+  ]
+ },
+ {
+  "hz": "风景",
+  "py": "fēngjǐng",
+  "pos": "danh từ · n.",
+  "vn": "phong cảnh",
+  "hv": "PHONG CẢNH",
+  "use": "Dùng khi nói CẢNH thiên nhiên đẹp như núi, sông, biển: 风景 + 美 / 好, 看风景. Gần nghĩa 景色 (bài này) nhưng 风景 dùng nhiều trong khẩu ngữ hơn.",
+  "tip": "风 gió + 景 cảnh (日 mặt trời trên 京 kinh thành). Hán Việt PHONG CẢNH giống hệt tiếng Việt.",
+  "ph": [
+   [
+    "好风景",
+    "hǎo fēngjǐng",
+    "cảnh đẹp"
+   ],
+   [
+    "看风景",
+    "kàn fēngjǐng",
+    "ngắm cảnh"
+   ]
+  ],
+  "se": [
+   [
+    "现在我周末常来郊区，在好山好水好风景中放松自己。",
+    "Xiànzài wǒ zhōumò cháng lái jiāoqū, zài hǎo shān hǎo shuǐ hǎo fēngjǐng zhōng fàngsōng zìjǐ.",
+    "Giờ cuối tuần anh hay ra ngoại ô, thư giãn giữa non xanh nước biếc.",
+    "好风景"
+   ],
+   [
+    "这里的风景太美了！",
+    "Zhèlǐ de fēngjǐng tài měi le!",
+    "Phong cảnh ở đây đẹp quá!",
+    "风景太美了"
+   ]
+  ]
+ },
+ {
+  "hz": "相比",
+  "py": "xiāngbǐ",
+  "pos": "động từ · v.",
+  "vn": "so với",
+  "hv": "TƯƠNG TỶ",
+  "use": "Dùng khi SO SÁNH hai cách, hai thứ để nói cái nào hơn, thường mang tính nhận xét, trình bày: 跟 / 与 + A + 相比，B + 更 / 比较 + Adj. Vế sau hay có 更 / 比较 / 还是, không thêm 比 nữa. Khác câu 比 ngắn (A 比 B + Adj): 跟……相比 dài và trang trọng hơn.",
+  "tip": "相 (cùng nhau) + 比 (so): đặt cạnh nhau mà so. Hán Việt TƯƠNG TỶ, “tương” như “tương đối”.",
+  "ph": [
+   [
+    "跟……相比",
+    "gēn…… xiāngbǐ",
+    "so với…"
+   ],
+   [
+    "与去年相比",
+    "yǔ qùnián xiāngbǐ",
+    "so với năm ngoái"
+   ]
+  ],
+  "se": [
+   [
+    "跟在网上学相比，我更喜欢在教室上课。",
+    "Gēn zài wǎngshàng xué xiāngbǐ, wǒ gèng xǐhuan zài jiàoshì shàngkè.",
+    "So với học trên mạng, tôi thích học ở lớp hơn.",
+    "跟在网上学相比"
+   ],
+   [
+    "跟我的家乡相比，河内更热闹。",
+    "Gēn wǒ de jiāxiāng xiāngbǐ, Hénèi gèng rènao.",
+    "So với quê tôi, Hà Nội náo nhiệt hơn.",
+    "跟我的家乡相比"
+   ]
+  ]
+ },
+ {
+  "hz": "因此",
+  "py": "yīncǐ",
+  "pos": "liên từ · conj.",
+  "vn": "vì vậy, do đó",
+  "hv": "NHÂN THỬ",
+  "use": "Dùng khi nói KẾT QUẢ rút ra từ điều vừa nói, trong văn viết, bài trình bày: (nguyên nhân)。因此，(kết quả); 由于……，因此…… (Bài 2). Đứng ĐẦU vế kết quả. Không ghép với 因为 (✗ 因为……，因此…… → 因为……，所以……). Khẩu ngữ thì dùng 所以.",
+  "tip": "因 (vì) + 此 (điều này): vì điều này nên vì vậy. Hán Việt NHÂN THỬ, “nhân” như “nguyên nhân”.",
+  "ph": [
+   [
+    "因此，很多人……",
+    "yīncǐ, hěn duō rén……",
+    "vì vậy, nhiều người…"
+   ],
+   [
+    "由于……，因此……",
+    "yóuyú……, yīncǐ……",
+    "do… nên…"
+   ]
+  ],
+  "se": [
+   [
+    "今天下大雨，因此我们的活动改到下周。",
+    "Jīntiān xià dàyǔ, yīncǐ wǒmen de huódòng gǎi dào xià zhōu.",
+    "Hôm nay mưa to, vì vậy hoạt động của chúng ta dời sang tuần sau.",
+    "因此我们的活动改到下周"
+   ],
+   [
+    "我的工作常常要用中文，因此我开始学中文。",
+    "Wǒ de gōngzuò chángcháng yào yòng Zhōngwén, yīncǐ wǒ kāishǐ xué Zhōngwén.",
+    "Công việc của tôi thường phải dùng tiếng Trung, vì vậy tôi bắt đầu học tiếng Trung.",
+    "因此我开始学中文"
+   ]
+  ]
+ },
+ {
+  "hz": "提醒",
+  "py": "tíxǐng",
+  "pos": "động từ · v.",
+  "vn": "nhắc, nhắc nhở",
+  "hv": "ĐỀ TỈNH",
+  "use": "Dùng khi NHẮC ai nhớ làm việc gì hay chú ý điều gì, kẻo quên, kẻo gặp chuyện: 提醒 + người + (V / 别 V), 提醒自己, 谢谢你提醒我. Khác 告诉 (cho biết thông tin MỚI); 提醒 là nhắc điều người kia có thể QUÊN.",
+  "tip": "提 (nêu ra) + 醒 (tỉnh: 酉 bình rượu + 星, tỉnh rượu): nêu ra để người kia tỉnh ra, nhớ ra. Hán Việt ĐỀ TỈNH.",
+  "ph": [
+   [
+    "提醒他",
+    "tíxǐng tā",
+    "nhắc anh ấy"
+   ],
+   [
+    "提醒自己",
+    "tíxǐng zìjǐ",
+    "tự nhắc mình"
+   ]
+  ],
+  "se": [
+   [
+    "明天你提醒我带材料，好吗？",
+    "Míngtiān nǐ tíxǐng wǒ dài cáiliào, hǎo ma?",
+    "Mai bạn nhắc tôi mang tài liệu nhé, được không?",
+    "提醒我带材料"
+   ],
+   [
+    "我常常提醒自己多喝水、早点儿睡。",
+    "Wǒ chángcháng tíxǐng zìjǐ duō hē shuǐ, zǎo diǎnr shuì.",
+    "Tôi thường tự nhắc mình uống nhiều nước, ngủ sớm một chút.",
+    "提醒自己"
+   ]
+  ]
+ },
+ {
+  "hz": "下降",
+  "py": "xiàjiàng",
+  "pos": "động từ · v.",
+  "vn": "giảm, đi xuống",
+  "hv": "HẠ GIÁNG",
+  "use": "Dùng khi một CHỈ SỐ, MỨC ĐỘ giảm xuống như nhiệt độ, giá, điểm, hiệu suất, sức khoẻ: 温度 / 成绩 / 效率 / 价格 + 下降, 下降了 + số. Chủ ngữ phải là con số, mức độ: ✗ 东西下降了 → 价格下降了 / 东西便宜了. Đối lập với 提高.",
+  "tip": "下 (xuống) + 降 (阝 gò + bước chân đi xuống dốc): đi xuống. Hán Việt HẠ GIÁNG, “hạ” như “hạ xuống”.",
+  "ph": [
+   [
+    "成绩下降",
+    "chéngjì xiàjiàng",
+    "điểm giảm"
+   ],
+   [
+    "效率下降",
+    "xiàolǜ xiàjiàng",
+    "hiệu suất giảm"
+   ]
+  ],
+  "se": [
+   [
+    "你最近总玩游戏，成绩下降了。",
+    "Nǐ zuìjìn zǒng wán yóuxì, chéngjì xiàjiàng le.",
+    "Dạo này con toàn chơi game, điểm giảm rồi.",
+    "成绩下降了"
+   ],
+   [
+    "我觉得睡得不好会让工作效率下降。",
+    "Wǒ juéde shuì de bù hǎo huì ràng gōngzuò xiàolǜ xiàjiàng.",
+    "Tôi thấy ngủ không ngon sẽ làm hiệu suất làm việc giảm.",
+    "工作效率下降"
+   ]
+  ]
+ },
+ {
+  "hz": "效率",
+  "py": "xiàolǜ",
+  "pos": "danh từ · n.",
+  "vn": "hiệu suất, năng suất",
+  "hv": "HIỆU SUẤT",
+  "use": "Dùng khi nói làm được NHIỀU, NHANH trong cùng một thời gian: 效率 + 高 / 低, 工作 / 学习效率, 提高效率. Đề cương xếp cấp 5. 率 ở đây đọc lǜ.",
+  "tip": "效 (hiệu quả) + 率 (tỉ lệ): tỉ lệ hiệu quả. Hán Việt HIỆU SUẤT giống hệt tiếng Việt.",
+  "ph": [
+   [
+    "工作效率",
+    "gōngzuò xiàolǜ",
+    "hiệu suất làm việc"
+   ],
+   [
+    "效率很高",
+    "xiàolǜ hěn gāo",
+    "hiệu suất rất cao"
+   ]
+  ],
+  "se": [
+   [
+    "休息好了再工作，效率更高。",
+    "Xiūxi hǎo le zài gōngzuò, xiàolǜ gèng gāo.",
+    "Nghỉ ngơi đủ rồi mới làm thì hiệu suất cao hơn.",
+    "效率更高"
+   ],
+   [
+    "早上我的学习效率最高。",
+    "Zǎoshang wǒ de xuéxí xiàolǜ zuì gāo.",
+    "Buổi sáng mình học hiệu quả nhất.",
+    "学习效率最高"
+   ]
+  ]
+ },
+ {
+  "hz": "与",
+  "py": "yǔ",
+  "pos": "giới từ / liên từ",
+  "vn": "với; và (văn viết)",
+  "hv": "DỮ",
+  "use": "Dùng khi nói “với / và” trong VĂN VIẾT, văn trang trọng: 与 + người + V, A 与 B, 与……相比. Khẩu ngữ thì dùng 和 / 跟.",
+  "tip": "Hai nét móc nối liền vào nhau → cùng VỚI nhau. Hán Việt DỮ.",
+  "ph": [
+   [
+    "与朋友",
+    "yǔ péngyou",
+    "với bạn bè"
+   ],
+   [
+    "与……相比",
+    "yǔ…… xiāngbǐ",
+    "so với…"
+   ]
+  ],
+  "se": [
+   [
+    "杨同乐周末时或者与朋友们去郊区游玩。",
+    "Yáng Tónglè zhōumò shí huòzhě yǔ péngyoumen qù jiāoqū yóuwán.",
+    "Cuối tuần Dương Đồng Lạc hoặc cùng bạn bè ra ngoại ô chơi.",
+    "与朋友们"
+   ],
+   [
+    "与去年相比，今年的游客更多了。",
+    "Yǔ qùnián xiāngbǐ, jīnnián de yóukè gèng duō le.",
+    "So với năm ngoái, năm nay khách du lịch đông hơn.",
+    "与去年相比"
+   ]
+  ]
+ },
+ {
+  "hz": "大自然",
+  "py": "dàzìrán",
+  "pos": "danh từ · n.",
+  "vn": "thiên nhiên",
+  "hv": "ĐẠI TỰ NHIÊN",
+  "use": "Dùng khi nói thế giới thiên nhiên: núi, rừng, sông, cây cỏ: 在大自然中, 走进大自然. 自然 (HSK4) còn là tính từ “tự nhiên” (很自然).",
+  "tip": "大 to lớn + 自然 tự nhiên: thế giới tự nhiên rộng lớn. Hán Việt ĐẠI TỰ NHIÊN.",
+  "ph": [
+   [
+    "在大自然中",
+    "zài dàzìrán zhōng",
+    "trong thiên nhiên"
+   ],
+   [
+    "走进大自然",
+    "zǒu jìn dàzìrán",
+    "bước vào thiên nhiên"
+   ]
+  ],
+  "se": [
+   [
+    "在大自然美丽的景色中好好放松自己。",
+    "Zài dàzìrán měilì de jǐngsè zhōng hǎohǎo fàngsōng zìjǐ.",
+    "Thư giãn giữa cảnh đẹp của thiên nhiên.",
+    "在大自然美丽的景色中"
+   ],
+   [
+    "周末我喜欢去大自然里走走。",
+    "Zhōumò wǒ xǐhuan qù dàzìrán lǐ zǒuzou.",
+    "Cuối tuần mình thích ra với thiên nhiên đi dạo.",
+    "去大自然里走走"
+   ]
+  ]
+ },
+ {
+  "hz": "美丽",
+  "py": "měilì",
+  "pos": "tính từ · adj.",
+  "vn": "đẹp (văn viết)",
+  "hv": "MỸ LỆ",
+  "use": "Dùng khi tả CẢNH, nơi chốn, con người đẹp một cách trang trọng, văn chương: 美丽的 + N, 十分美丽. Khen người hằng ngày thì 漂亮 / 好看 tự nhiên hơn.",
+  "tip": "美 (羊 dê + 大 to: con dê to béo → tốt, đẹp) + 丽 (đẹp): đẹp đẽ. Hán Việt MỸ LỆ như “mỹ lệ, diễm lệ”.",
+  "ph": [
+   [
+    "美丽的景色",
+    "měilì de jǐngsè",
+    "cảnh sắc đẹp"
+   ],
+   [
+    "美丽的城市",
+    "měilì de chéngshì",
+    "thành phố đẹp"
+   ]
+  ],
+  "se": [
+   [
+    "在大自然美丽的景色中好好放松自己。",
+    "Zài dàzìrán měilì de jǐngsè zhōng hǎohǎo fàngsōng zìjǐ.",
+    "Thư giãn giữa cảnh sắc đẹp đẽ của thiên nhiên.",
+    "美丽的景色"
+   ],
+   [
+    "下龙湾是一个美丽的地方。",
+    "Xiàlóngwān shì yí gè měilì de dìfang.",
+    "Vịnh Hạ Long là một nơi rất đẹp.",
+    "美丽的地方"
+   ]
+  ]
+ },
+ {
+  "hz": "景色",
+  "py": "jǐngsè",
+  "pos": "danh từ · n.",
+  "vn": "cảnh sắc, cảnh vật",
+  "hv": "CẢNH SẮC",
+  "use": "Dùng khi tả CẢNH vật nhìn thấy, nhất là theo mùa, theo thời điểm: 景色 + 美, 春天的景色. Gần nghĩa 风景; 景色 thiên về sắc màu theo mùa (春天的景色).",
+  "tip": "景 cảnh + 色 màu sắc: cảnh và sắc màu. Hán Việt CẢNH SẮC giống hệt tiếng Việt.",
+  "ph": [
+   [
+    "春天的景色",
+    "chūntiān de jǐngsè",
+    "cảnh sắc mùa xuân"
+   ],
+   [
+    "景色很美",
+    "jǐngsè hěn měi",
+    "cảnh rất đẹp"
+   ]
+  ],
+  "se": [
+   [
+    "春天，这里的景色真漂亮！",
+    "Chūntiān, zhèlǐ de jǐngsè zhēn piàoliang!",
+    "Mùa xuân cảnh sắc ở đây đẹp thật!",
+    "这里的景色"
+   ],
+   [
+    "山上的景色非常美。",
+    "Shān shàng de jǐngsè fēicháng měi.",
+    "Cảnh trên núi rất đẹp.",
+    "山上的景色"
+   ]
+  ]
+ },
+ {
+  "hz": "参观",
+  "py": "cānguān",
+  "pos": "động từ · v.",
+  "vn": "tham quan",
+  "hv": "THAM QUAN",
+  "use": "Dùng khi đi XEM một NƠI có giá trị, có tổ chức như bảo tàng, danh thắng, nhà máy, trường học: 参观 + nơi (长城 / 故宫 / 学校 / 工厂), 去 + nơi + 参观. 参观 + NƠI, không + người (thăm người là 看 / 看望). Đi chơi cho vui thì là 游玩 / 旅游.",
+  "tip": "参 (tham gia) + 观 (又 tay + 见 thấy: lấy tay che mắt nhìn xa): tham gia để nhìn xem. Hán Việt THAM QUAN giống hệt tiếng Việt.",
+  "ph": [
+   [
+    "参观长城",
+    "cānguān Chángchéng",
+    "tham quan Trường Thành"
+   ],
+   [
+    "参观学校",
+    "cānguān xuéxiào",
+    "tham quan trường học"
+   ]
+  ],
+  "se": [
+   [
+    "明天我带你们去参观文庙吧。",
+    "Míngtiān wǒ dài nǐmen qù cānguān Wénmiào ba.",
+    "Mai tôi đưa các bạn đi tham quan Văn Miếu nhé.",
+    "参观文庙"
+   ],
+   [
+    "我参观过故宫，非常值得去。",
+    "Wǒ cānguān guò Gùgōng, fēicháng zhídé qù.",
+    "Tôi từng tham quan Cố Cung, rất đáng đi.",
+    "参观过故宫"
+   ]
+  ]
+ },
+ {
+  "hz": "乘坐",
+  "py": "chéngzuò",
+  "pos": "động từ · v.",
+  "vn": "đi (phương tiện), đi bằng",
+  "hv": "THỪA TOẠ",
+  "use": "Dùng khi nói ĐI BẰNG phương tiện công cộng trong văn viết, thông báo, loa ở ga hay sân bay: 乘坐 + 公交车 / 地铁 / 飞机 / 高铁. Nói chuyện hằng ngày thì dùng 坐 (坐地铁). 乘坐 trang trọng và chỉ dùng cho phương tiện (✗ 乘坐椅子).",
+  "tip": "乘 (người trèo lên cây → cưỡi lên) + 坐 (ngồi): lên ngồi trên xe. Hán Việt THỪA TOẠ, “toạ” là ngồi như “toạ đàm”.",
+  "ph": [
+   [
+    "乘坐高铁",
+    "chéngzuò gāotiě",
+    "đi tàu cao tốc"
+   ],
+   [
+    "乘坐公交车",
+    "chéngzuò gōngjiāochē",
+    "đi xe buýt"
+   ]
+  ],
+  "se": [
+   [
+    "乘坐高铁的乘客，请准备好证件。",
+    "Chéngzuò gāotiě de chéngkè, qǐng zhǔnbèi hǎo zhèngjiàn.",
+    "Hành khách đi tàu cao tốc, xin chuẩn bị sẵn giấy tờ.",
+    "乘坐高铁"
+   ],
+   [
+    "我一般乘坐地铁去上班。",
+    "Wǒ yìbān chéngzuò dìtiě qù shàngbān.",
+    "Tôi thường đi tàu điện ngầm đi làm.",
+    "乘坐地铁"
+   ]
+  ]
+ },
+ {
+  "hz": "十分",
+  "py": "shífēn",
+  "pos": "phó từ · adv.",
+  "vn": "rất, hết sức",
+  "hv": "THẬP PHÂN",
+  "use": "Dùng khi nhấn MỨC ĐỘ cao, hay gặp trong văn viết, lời giới thiệu (gần 非常): 十分 + Adj / V tâm lý, 十分不 + Adj, 不十分 + Adj (không hẳn). Chú ý: 不十分 = “không hẳn” (nhẹ) còn 十分不 = “rất không”; ✗ 不非常. Khẩu ngữ hay dùng 很 / 非常.",
+  "tip": "十分 = mười phần mười, đầy đủ rồi nên là rất. Hán Việt THẬP PHÂN, “thập” là mười.",
+  "ph": [
+   [
+    "十分方便",
+    "shífēn fāngbiàn",
+    "rất tiện"
+   ],
+   [
+    "十分紧张",
+    "shífēn jǐnzhāng",
+    "rất căng thẳng"
+   ]
+  ],
+  "se": [
+   [
+    "房间很干净，服务员十分热情。",
+    "Fángjiān hěn gānjìng, fúwùyuán shífēn rèqíng.",
+    "Phòng rất sạch, nhân viên hết sức nhiệt tình.",
+    "十分热情"
+   ],
+   [
+    "我的家乡十分安静，风景也十分美丽。",
+    "Wǒ de jiāxiāng shífēn ānjìng, fēngjǐng yě shífēn měilì.",
+    "Quê tôi rất yên tĩnh, phong cảnh cũng rất đẹp.",
+    "十分安静"
+   ]
+  ]
+ },
+ {
+  "hz": "实际上",
+  "py": "shíjìshang",
+  "pos": "phó từ · adv.",
+  "vn": "thực ra, trên thực tế",
+  "hv": "THỰC TẾ THƯỢNG",
+  "use": "Dùng khi nói SỰ THẬT khác với vẻ bên ngoài hay khác điều người ta tưởng: 实际上，……; S + 实际上 + V / Adj. Gần 其实 (HSK3). Bẫy: “thực tế” tiếng Việt còn là tính từ (người thực tế → 现实), còn 实际上 chỉ là phó từ “thực ra”.",
+  "tip": "实 (thật) + 际 (ranh giới) + 上: ở trong ranh giới của sự thật, tức thực ra. Hán Việt THỰC TẾ THƯỢNG.",
+  "ph": [
+   [
+    "实际上都是为了……",
+    "shíjìshang dōu shì wèile……",
+    "thực ra đều là vì…"
+   ],
+   [
+    "实际上挺好吃的",
+    "shíjìshang tǐng hǎochī de",
+    "thực ra khá ngon"
+   ]
+  ],
+  "se": [
+   [
+    "大家觉得他不好说话，实际上他人很好。",
+    "Dàjiā juéde tā bù hǎo shuōhuà, shíjìshang tā rén hěn hǎo.",
+    "Mọi người thấy anh ấy khó nói chuyện, thực ra anh ấy rất tốt.",
+    "实际上他人很好"
+   ],
+   [
+    "大家觉得汉字很难，实际上多写就容易了。",
+    "Dàjiā juéde Hànzì hěn nán, shíjìshang duō xiě jiù róngyì le.",
+    "Mọi người thấy chữ Hán rất khó, thực ra viết nhiều là dễ thôi.",
+    "实际上多写就容易了"
+   ]
+  ]
+ },
+ {
+  "hz": "首都",
+  "py": "shǒudū",
+  "pos": "danh từ · n.",
+  "vn": "thủ đô",
+  "hv": "THỦ ĐÔ",
+  "use": "Dùng khi nói thành phố là THỦ ĐÔ của một nước: X 的首都, 首都 + tên. 都 ở đây đọc dū, khác dōu “đều”.",
+  "tip": "首 (cái đầu) + 都 (đô thị): thành phố đứng đầu. Hán Việt THỦ ĐÔ giống hệt tiếng Việt.",
+  "ph": [
+   [
+    "中国的首都",
+    "Zhōngguó de shǒudū",
+    "thủ đô Trung Quốc"
+   ],
+   [
+    "越南的首都",
+    "Yuènán de shǒudū",
+    "thủ đô Việt Nam"
+   ]
+  ],
+  "se": [
+   [
+    "我生活在中国的首都——北京。",
+    "Wǒ shēnghuó zài Zhōngguó de shǒudū — Běijīng.",
+    "Tôi sống ở thủ đô của Trung Quốc — Bắc Kinh.",
+    "中国的首都"
+   ],
+   [
+    "越南的首都是河内。",
+    "Yuènán de shǒudū shì Hénèi.",
+    "Thủ đô của Việt Nam là Hà Nội.",
+    "越南的首都"
+   ]
+  ]
+ },
+ {
+  "hz": "市区",
+  "py": "shìqū",
+  "pos": "danh từ · n.",
+  "vn": "nội thành",
+  "hv": "THỊ KHU",
+  "use": "Dùng khi nói phần TRONG thành phố, đối lập với ngoại ô: 在市区, 市区 + N. Đối lập: 郊区 (cũng học trong bài này).",
+  "tip": "市 thành phố + 区 khu: khu trong thành phố. Hán Việt THỊ KHU, “thị” như “thành thị”.",
+  "ph": [
+   [
+    "市区公园",
+    "shìqū gōngyuán",
+    "công viên nội thành"
+   ],
+   [
+    "住在市区",
+    "zhù zài shìqū",
+    "sống ở nội thành"
+   ]
+  ],
+  "se": [
+   [
+    "在北京，有人会在市区公园走走。",
+    "Zài Běijīng, yǒu rén huì zài shìqū gōngyuán zǒuzou.",
+    "Ở Bắc Kinh, có người đi dạo công viên trong nội thành.",
+    "市区公园"
+   ],
+   [
+    "我家住在市区。",
+    "Wǒ jiā zhù zài shìqū.",
+    "Nhà mình ở nội thành.",
+    "住在市区"
+   ]
+  ]
+ },
+ {
+  "hz": "眼前",
+  "py": "yǎnqián",
+  "pos": "danh từ · n.",
+  "vn": "trước mắt",
+  "hv": "NHÃN TIỀN",
+  "use": "Dùng khi nói thứ NGAY TRƯỚC MẮT, hoặc chuyện hiện tại: 眼前的 + N, 就在眼前. “Nhãn tiền” tiếng Việt hay dùng trong “quả báo nhãn tiền”, nghĩa gốc vẫn là “trước mắt”.",
+  "tip": "眼 mắt + 前 trước: ngay trước mắt. Hán Việt NHÃN TIỀN, “nhãn” là mắt như “nhãn khoa”.",
+  "ph": [
+   [
+    "眼前的美景",
+    "yǎnqián de měijǐng",
+    "cảnh đẹp trước mắt"
+   ],
+   [
+    "就在眼前",
+    "jiù zài yǎnqián",
+    "ngay trước mắt"
+   ]
+  ],
+  "se": [
+   [
+    "有人会在市区公园走走，看看眼前的美景。",
+    "Yǒu rén huì zài shìqū gōngyuán zǒuzou, kànkan yǎnqián de měijǐng.",
+    "Có người đi dạo công viên nội thành, ngắm cảnh đẹp trước mắt.",
+    "眼前的美景"
+   ],
+   [
+    "一出门，大海就在眼前。",
+    "Yì chūmén, dàhǎi jiù zài yǎnqián.",
+    "Vừa ra khỏi cửa là biển ngay trước mắt.",
+    "就在眼前"
+   ]
+  ]
+ },
+ {
+  "hz": "美景",
+  "py": "měijǐng",
+  "pos": "danh từ · n.",
+  "vn": "cảnh đẹp",
+  "hv": "MỸ CẢNH",
+  "use": "Dùng khi nói một CẢNH ĐẸP cụ thể đang nhìn thấy: 看 + 美景, 眼前的美景. Chính là 美丽的景色 nói gọn lại.",
+  "tip": "美 đẹp + 景 cảnh: cảnh đẹp. Hán Việt MỸ CẢNH, “mỹ” như “mỹ thuật”.",
+  "ph": [
+   [
+    "眼前的美景",
+    "yǎnqián de měijǐng",
+    "cảnh đẹp trước mắt"
+   ],
+   [
+    "到处都是美景",
+    "dàochù dōu shì měijǐng",
+    "đâu đâu cũng là cảnh đẹp"
+   ]
+  ],
+  "se": [
+   [
+    "看看眼前的美景，心情就好了。",
+    "Kànkan yǎnqián de měijǐng, xīnqíng jiù hǎo le.",
+    "Ngắm cảnh đẹp trước mắt là tâm trạng tốt lên.",
+    "眼前的美景"
+   ],
+   [
+    "山上到处都是美景。",
+    "Shān shàng dàochù dōu shì měijǐng.",
+    "Trên núi đâu đâu cũng là cảnh đẹp.",
+    "到处都是美景"
+   ]
+  ]
+ },
+ {
+  "hz": "景点",
+  "py": "jǐngdiǎn",
+  "pos": "danh từ · n.",
+  "vn": "điểm tham quan, danh thắng",
+  "hv": "CẢNH ĐIỂM",
+  "use": "Dùng khi nói một ĐỊA ĐIỂM du lịch cụ thể: 有名的景点, 参观景点, 旅游景点. Đã gặp ở HSK3 Bài 15 (lúc đó là từ ngoài cấp), nay là từ chính thức cấp 4.",
+  "tip": "景 cảnh + 点 điểm: điểm có cảnh đẹp. Hán Việt CẢNH ĐIỂM, “điểm” như “địa điểm”.",
+  "ph": [
+   [
+    "有名的景点",
+    "yǒumíng de jǐngdiǎn",
+    "điểm tham quan nổi tiếng"
+   ],
+   [
+    "参观景点",
+    "cānguān jǐngdiǎn",
+    "tham quan danh thắng"
+   ]
+  ],
+  "se": [
+   [
+    "有人喜欢去参观长城、故宫等有名的景点。",
+    "Yǒu rén xǐhuan qù cānguān Chángchéng, Gùgōng děng yǒumíng de jǐngdiǎn.",
+    "Có người thích đi tham quan các danh thắng nổi tiếng như Trường Thành, Cố Cung.",
+    "有名的景点"
+   ],
+   [
+    "河内有很多有名的景点。",
+    "Hénèi yǒu hěn duō yǒumíng de jǐngdiǎn.",
+    "Hà Nội có nhiều điểm tham quan nổi tiếng.",
+    "有名的景点"
+   ]
+  ]
+ },
+ {
+  "hz": "交通",
+  "py": "jiāotōng",
+  "pos": "danh từ · n.",
+  "vn": "giao thông, đi lại",
+  "hv": "GIAO THÔNG",
+  "use": "Dùng khi nói việc ĐI LẠI, xe cộ, đường sá của một nơi: 交通 + 方便 / 乱, 交通工具. Hán Việt giống tiếng Việt. “Tắc đường” là 堵车 (HSK4).",
+  "tip": "交 qua lại + 通 thông suốt: xe người qua lại thông suốt. Hán Việt GIAO THÔNG giống hệt tiếng Việt.",
+  "ph": [
+   [
+    "交通方便",
+    "jiāotōng fāngbiàn",
+    "giao thông thuận tiện"
+   ],
+   [
+    "交通很乱",
+    "jiāotōng hěn luàn",
+    "giao thông rất lộn xộn"
+   ]
+  ],
+  "se": [
+   [
+    "北京交通很方便。",
+    "Běijīng jiāotōng hěn fāngbiàn.",
+    "Giao thông Bắc Kinh rất thuận tiện.",
+    "交通很方便"
+   ],
+   [
+    "这个十字路口的交通有点儿乱，你开车要小心。",
+    "Zhè ge shízìlùkǒu de jiāotōng yǒudiǎnr luàn, nǐ kāichē yào xiǎoxīn.",
+    "Giao thông ở ngã tư này hơi lộn xộn, cậu lái xe cẩn thận.",
+    "交通有点儿乱"
+   ]
+  ]
+ }
+]
