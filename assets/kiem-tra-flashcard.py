@@ -7,7 +7,7 @@ POS = {"danh từ · n.","động từ · v.","tính từ · adj.","phó từ ·
        "trợ từ · part.","giới từ · prep.","số từ · num.","thán từ · interj.","động từ / danh từ","danh từ / động từ",
        "cụm cố định","danh từ riêng","hậu tố","danh từ / tính từ","tính từ / danh từ","giới từ / động từ","động từ / giới từ",
        "động từ / tính từ","tính từ / động từ","danh từ / lượng từ","lượng từ / danh từ","trợ động từ · aux."}
-TONE = re.compile(r'[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]')
+TONE = re.compile(r'[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜńňǹḿ]')
 errs = []
 data = json.load(open(sys.argv[1], encoding='utf-8'))
 rows = list(csv.DictReader(io.StringIO(open(sys.argv[2], encoding='utf-8-sig').read())))
@@ -20,7 +20,8 @@ for i, w in enumerate(data):
     for f in ("hz","py","pos","vn","hv","use","tip"):
         if not isinstance(w[f], str) or not w[f].strip(): errs.append(f"[{i}] {w['hz']}: {f} rỗng")
     if w['py'] != csvpy.get(w['hz']): errs.append(f"[{i}] {w['hz']}: pinyin khác CSV ({w['py']} ≠ {csvpy.get(w['hz'])})")
-    if w['pos'] not in POS: errs.append(f"[{i}] {w['hz']}: pos lạ “{w['pos']}”")
+    GOC = {"danh từ","động từ","tính từ","phó từ","liên từ","đại từ","lượng từ","trợ từ","giới từ","số từ","thán từ","hậu tố","trợ động từ"}
+    if w['pos'] not in POS and not (' / ' in w['pos'] and all(x in GOC for x in w['pos'].split(' / '))): errs.append(f"[{i}] {w['hz']}: pos lạ “{w['pos']}”")
     if w['hv'] != w['hv'].upper(): errs.append(f"[{i}] {w['hz']}: hv phải viết hoa")
     if not TONE.search(w['py']): errs.append(f"[{i}] {w['hz']}: py thiếu dấu thanh")
     if not (isinstance(w['ph'], list) and len(w['ph']) == 2 and all(isinstance(p, list) and len(p) == 3 for p in w['ph'])): errs.append(f"[{i}] {w['hz']}: ph phải là 2 bộ [zh, py, vn]")
@@ -29,10 +30,14 @@ for i, w in enumerate(data):
         if s[3] not in s[0]: errs.append(f"[{i}] {w['hz']}: se[{j}] cụm nổi bật “{s[3]}” không nằm trong câu")
         if not re.search(r'[。？！]$', s[0]): errs.append(f"[{i}] {w['hz']}: se[{j}] câu thiếu dấu kết câu “{s[0]}”")
         if not TONE.search(s[1]): errs.append(f"[{i}] {w['hz']}: se[{j}] pinyin thiếu dấu")
-        if w['hz'] not in s[0]: errs.append(f"[{i}] {w['hz']}: se[{j}] câu không chứa từ đang học")
-        if w['hz'] not in s[3]: errs.append(f"[{i}] {w['hz']}: se[{j}] cụm nổi bật không chứa từ đang học")
-        cau = {rows[i]['cau_1'], rows[i]['cau_2']}
-        if s[0] not in cau: errs.append(f"[{i}] {w['hz']}: se[{j}] câu không có trong CSV: {s[0]}")
+        # chấp nhận ly hợp từ (充一下电) và dạng phủ định của X得Y (来不及)
+        def chua(t): return w['hz'] in t or all(c in t for c in w['hz']) or (len(w['hz']) == 3 and w['hz'][1] == '得' and w['hz'][0] + '不' + w['hz'][2] in t)
+        cau_rieng = {rows[i]['cau_1'], rows[i]['cau_2']}
+        cau_bai = {r[k] for r in rows for k in ('cau_1', 'cau_2')}
+        if s[0] not in cau_bai: errs.append(f"[{i}] {w['hz']}: se[{j}] câu không có trong CSV: {s[0]}")
+        # câu của chính dòng từ đó (cô chọn sẵn) không bắt buộc chứa từ; câu mượn từ dòng khác thì phải chứa từ
+        if s[0] not in cau_rieng and not chua(s[0]): errs.append(f"[{i}] {w['hz']}: se[{j}] câu mượn không chứa từ đang học")
+        if not chua(s[3]) and chua(s[0]): errs.append(f"[{i}] {w['hz']}: se[{j}] cụm nổi bật không chứa từ đang học")
     for j, p in enumerate(w['ph']):
         if not TONE.search(p[1]): errs.append(f"[{i}] {w['hz']}: ph[{j}] pinyin thiếu dấu")
         if p[0] not in [c.strip() for c in rows[i]['cum_tu'].split('·')]: errs.append(f"[{i}] {w['hz']}: ph[{j}] cụm “{p[0]}” không có trong CSV")
