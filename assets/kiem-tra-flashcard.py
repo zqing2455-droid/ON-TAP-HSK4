@@ -28,7 +28,7 @@ for i, w in enumerate(data):
     if not (isinstance(w['se'], list) and len(w['se']) == 2 and all(isinstance(s, list) and len(s) == 4 for s in w['se'])): errs.append(f"[{i}] {w['hz']}: se phải là 2 bộ"); continue
     for j, s in enumerate(w['se']):
         if s[3] not in s[0]: errs.append(f"[{i}] {w['hz']}: se[{j}] cụm nổi bật “{s[3]}” không nằm trong câu")
-        if not re.search(r'[。？！]$', s[0]): errs.append(f"[{i}] {w['hz']}: se[{j}] câu thiếu dấu kết câu “{s[0]}”")
+        if not re.search(r'[。？！…”]$', s[0]): errs.append(f"[{i}] {w['hz']}: se[{j}] câu thiếu dấu kết câu “{s[0]}”")
         if not TONE.search(s[1]): errs.append(f"[{i}] {w['hz']}: se[{j}] pinyin thiếu dấu")
         # chấp nhận ly hợp từ (充一下电) và dạng phủ định của X得Y (来不及)
         def chua(t): return w['hz'] in t or all(c in t for c in w['hz']) or (len(w['hz']) == 3 and w['hz'][1] == '得' and w['hz'][0] + '不' + w['hz'][2] in t)
