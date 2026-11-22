@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="fc-key" content="flashcard-hsk4-bai02">
+<meta name="fc-han" content="租到了合适的房子">
+<meta name="fc-total" content="37">
+<meta name="fc-sub" content="37 từ mới">
+<meta name="fc-lesson" content="2">
+<title>Flashcard từ vựng · HSK4 Bài 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&family=Quicksand:wght@500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F6F4EC; --ink:#26221A; --soft:#7A6E64;
+  --accent:#E3963B; --rose:#C2697A; --green:#4F7E62; --blue:#4A7398;
+  --card:#FFFDF7; --line:#E4DCCB;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:'Quicksand',sans-serif; font-weight:600;
+  padding:18px 14px 80px; line-height:1.5;
+}
+.wrap{max-width:720px;margin:0 auto}
+.backlink{font-size:.85rem;margin-bottom:10px}
+.backlink a{color:var(--soft);text-decoration:none;font-weight:700}
+.backlink a:hover{color:var(--ink)}
+.han{font-family:'Noto Serif SC',serif}
+.py{font-family:'Space Mono',monospace}
+
+/* ---------- đầu trang ---------- */
+header{text-align:center;margin-bottom:14px}
+header .kicker{font-size:.78rem;letter-spacing:2px;text-transform:uppercase;color:var(--accent);font-weight:800}
+header h1{font-size:1.45rem;font-weight:800;letter-spacing:-.3px;margin-top:4px}
+header h1 .han{color:var(--rose)}
+header p{color:var(--soft);font-size:.9rem;margin-top:4px}
+
+/* ---------- thanh điều khiển ---------- */
+.bar{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:14px 0}
+.bar + .bar{margin-top:0}
+.btn{
+  font-family:inherit;font-weight:700;font-size:.88rem;cursor:pointer;
+  background:var(--card);color:var(--soft);border:1.5px solid var(--line);
+  border-radius:999px;padding:9px 15px;min-height:42px;transition:.15s;
+}
+.btn:hover{color:var(--ink);border-color:var(--soft)}
+.btn.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+/* ---------- thẻ lật ---------- */
+.flip{perspective:1600px;margin-bottom:16px}
+.inner{
+  position:relative;width:100%;
+  transform-style:preserve-3d;
+  transition:transform .6s cubic-bezier(.4,.1,.3,1), height .35s ease;
+}
+.inner.flipped{transform:rotateY(180deg)}
+.face{
+  position:absolute;top:0;left:0;width:100%;
+  -webkit-backface-visibility:hidden;backface-visibility:hidden;
+  background:var(--card);border:1.5px solid var(--line);border-radius:22px;
+  box-shadow:0 3px 0 var(--line);
+  padding:20px 18px;cursor:pointer;
+}
+.face.back{transform:rotateY(180deg)}
+
+/* --- mặt trước --- */
+.front .inner-front{
+  min-height:270px;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;text-align:center;gap:6px;
+}
+.front .hz{font-family:'Noto Serif SC',serif;font-weight:900;font-size:4.6rem;line-height:1.1;color:var(--rose)}
+.front .vnfront{font-size:1.75rem;font-weight:800;line-height:1.3;max-width:420px}
+
+.tag{
+  position:absolute;top:16px;left:16px;
+  width:30px;height:30px;border-radius:50%;
+  background:#F3E7D5;color:var(--accent);
+  font-size:.82rem;font-weight:800;
+  display:flex;align-items:center;justify-content:center;
+}
+.pos{
+  position:absolute;top:16px;right:16px;
+  font-size:.7rem;font-weight:800;letter-spacing:.4px;
+  color:#fff;background:var(--blue);border-radius:999px;padding:4px 10px;
+}
+.flipnote{
+  position:absolute;left:0;right:0;bottom:12px;text-align:center;
+  font-size:.74rem;color:var(--soft);opacity:.75;
+}
+.back .flipnote{position:static;margin-top:10px}
+
+/* ---------- phân loại ---------- */
+.state{
+  position:absolute;top:16px;right:16px;
+  font-size:.7rem;font-weight:800;border-radius:999px;padding:4px 10px;
+}
+.state.known{background:#E4EFE7;color:var(--green)}
+.state.review{background:#FAEBD5;color:#B0751E}
+.face.st-known{border-color:var(--green)}
+.face.st-review{border-color:var(--accent)}
+
+.acts{display:flex;gap:8px;margin-top:16px}
+.acts button{
+  flex:1 1 0;font-family:inherit;font-weight:800;font-size:.86rem;cursor:pointer;
+  border-radius:999px;padding:11px 8px;min-height:46px;
+  border:1.5px solid var(--line);background:var(--card);color:var(--soft);transition:.15s;
+}
+.acts button:hover{border-color:var(--soft);color:var(--ink)}
+.acts .ok.on{background:var(--green);border-color:var(--green);color:#fff}
+.acts .re.on{background:var(--accent);border-color:var(--accent);color:#fff}
+
+.counts{text-align:center;font-size:.82rem;color:var(--soft);margin:2px 0 14px}
+.counts .cK{color:var(--green);font-weight:800}
+.counts .cR{color:#B0751E;font-weight:800}
+.empty{
+  text-align:center;color:var(--soft);font-weight:700;
+  background:var(--card);border:1.5px dashed var(--line);border-radius:22px;padding:46px 20px;
+}
+
+/* --- mặt sau --- */
+.bhead{display:flex;align-items:center;gap:12px;margin:30px 0 4px}
+.bhead .hz{font-family:'Noto Serif SC',serif;font-weight:900;font-size:2.1rem;color:var(--rose);line-height:1.2}
+.bhead .pin{font-family:'Space Mono',monospace;font-size:.92rem;color:var(--soft)}
+.bhead .vnb{font-size:1.3rem;font-weight:800;line-height:1.3}
+
+.mean{
+  margin:10px 0 2px;
+  background:#FBF3E8;border:1.5px dashed var(--line);border-radius:14px;padding:10px 12px;
+}
+.mean .vn{font-size:1.12rem;font-weight:800;color:var(--ink)}
+.mean .hv{font-size:.72rem;font-weight:800;letter-spacing:1px;color:var(--accent);text-transform:uppercase;margin-top:3px}
+
+.use{
+  margin-top:10px;border-left:4px solid var(--green);
+  background:#F1F5F1;border-radius:0 12px 12px 0;padding:9px 12px;
+}
+.use .ulab{
+  font-size:.68rem;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;
+  color:var(--green);margin-bottom:2px;
+}
+.use .utxt{font-size:.9rem;font-weight:600;line-height:1.55}
+
+.tip{
+  margin-top:8px;border-left:4px solid var(--rose);
+  background:#FAF1F2;border-radius:0 12px 12px 0;padding:9px 12px;
+}
+.tip .ulab{
+  font-size:.68rem;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;
+  color:var(--rose);margin-bottom:2px;
+}
+.tip .utxt{font-size:.9rem;font-weight:600;line-height:1.55}
+
+.sec{margin-top:14px}
+.sec h3{
+  font-size:.7rem;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;
+  color:var(--soft);border-bottom:1.5px solid var(--line);padding-bottom:5px;margin-bottom:8px;
+}
+.item{display:flex;gap:10px;align-items:flex-start;padding:6px 0}
+.item + .item{border-top:1px dashed var(--line)}
+.item .body{flex:1 1 auto;min-width:0}
+.item .zh{font-family:'Noto Serif SC',serif;font-weight:700;font-size:1.18rem;line-height:1.35}
+.item .pz{font-family:'Space Mono',monospace;font-size:.74rem;color:var(--soft);margin-top:1px}
+.item .vn2{font-size:.9rem;color:var(--green);font-weight:700;margin-top:2px}
+.item .idx{font-family:'Quicksand',sans-serif;font-size:.8rem;color:var(--soft);margin-right:6px}
+.item .hl{color:var(--rose)}
+
+/* --- nút loa --- */
+.spk{
+  display:inline-flex;align-items:center;justify-content:center;
+  background:none;border:1.5px solid var(--line);border-radius:999px;
+  width:44px;height:44px;cursor:pointer;color:var(--accent);font-size:1.1rem;
+  transition:.15s;flex:0 0 auto;
+}
+.spk:hover{background:#F9F1E4;border-color:var(--accent)}
+.spk.sm{width:30px;height:30px;font-size:.8rem;margin-top:2px}
+.spk.playing{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+/* ---------- điều hướng ---------- */
+.nav{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:4px}
+.nav .arrow{
+  width:52px;height:52px;border-radius:50%;font-size:1.3rem;
+  background:var(--card);border:1.5px solid var(--line);color:var(--ink);
+  cursor:pointer;font-family:inherit;
+}
+.nav .arrow:hover{border-color:var(--soft)}
+.count{font-family:'Space Mono',monospace;font-size:.95rem;color:var(--soft);min-width:72px;text-align:center}
+.prog{height:6px;background:var(--line);border-radius:99px;margin-top:14px;overflow:hidden}
+.prog i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .25s}
+
+.hint{text-align:center;color:var(--soft);font-size:.78rem;margin-top:16px;line-height:1.75}
+.hidden{display:none}
+
+/* ---------- chế độ xem tất cả ---------- */
+#stage.grid .flip{margin-bottom:14px}
+#stage.grid .front .inner-front{min-height:190px}
+#stage.grid .front .hz{font-size:3rem}
+#stage.grid .front .vnfront{font-size:1.3rem}
+
+@media(max-width:480px){
+  .front .hz{font-size:3.3rem}
+  .front .vnfront{font-size:1.45rem}
+  .item .zh{font-size:1.1rem}
+  .pos{font-size:.66rem;padding:3px 9px}
+}
+</style>
+<!-- MAM-XANH:dau -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito:wght@500;600;700;800&family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/giao-dien.css">
+<!-- MAM-XANH:cuoi -->
+
+</head>
+<body>
+<div class="wrap">
+
+  <p class="backlink"><a href="./">← Danh sách flashcard</a></p>
+
+  <header>
+    <div class="kicker">新HSK教程 4 · Bài 2</div>
+    <h1><span class="han">租到了合适的房子</span></h1>
+    <p>Flashcard từ vựng — 37 từ mới</p>
+  </header>
+
+  <div class="bar">
+    <button class="btn on" id="dir-zh">汉字 → Việt</button>
+    <button class="btn" id="dir-vi">Việt → 汉字</button>
+  </div>
+  <div class="bar">
+    <button class="btn on" id="mode-deck">Lật từng thẻ</button>
+    <button class="btn" id="mode-grid">Xem tất cả</button>
+    <button class="btn" id="shuffle">Trộn thẻ</button>
+    <button class="btn" id="reset">Xoá phân loại</button>
+  </div>
+  <div class="bar">
+    <button class="btn on" id="f-all">Tất cả</button>
+    <button class="btn" id="f-new">Chưa phân loại</button>
+    <button class="btn" id="f-review">Cần ôn thêm</button>
+    <button class="btn" id="f-known">Đã thuộc</button>
+  </div>
+
+  <div class="counts" id="counts"></div>
+
+  <div id="stage"></div>
+
+  <div class="nav" id="nav">
+    <button class="arrow" id="prev" aria-label="Thẻ trước">‹</button>
+    <div class="count" id="count">1 / 37</div>
+    <button class="arrow" id="next" aria-label="Thẻ sau">›</button>
+  </div>
+  <div class="prog" id="progwrap"><i id="prog" style="width:3%"></i></div>
+
+  <p class="hint">
+    Chạm vào thẻ để lật · nhấn 🔊 để nghe đọc · lật xong thì chọn “Đã thuộc” hoặc “Cần ôn thêm”<br>
+    Bàn phím: ← → đổi thẻ · phím cách lật thẻ · phím 1 đã thuộc · phím 2 cần ôn thêm<br>
+    Phân loại được lưu lại trên máy, lần sau mở vẫn còn
+  </p>
+
+</div>
+
+<script>
+const DATA = {
+  lesson: 2,
+  words: [
+    {hz:"租", py:"zū", pos:"động từ · v.", vn:"thuê", hv:"TÔ", use:"Dùng khi trả tiền để DÙNG nhà, xe, đồ của người khác trong một thời gian: 租 + 房子 / 车, 租到 (thuê được), 租给 + người (cho ai thuê). Mượn KHÔNG trả tiền thì dùng 借 (✗ 我借了一个房子); phía chủ đưa ra cho thuê là 出租 / 租给.", tip:"禾 (lúa) + 且: ngày xưa tiền thuê ruộng trả bằng LÚA → thuê. Hán Việt TÔ như “tô thuế, địa tô”.",
+      ph:[["租房子", "zū fángzi", "thuê nhà"], ["租到了", "zūdào le", "thuê được rồi"]],
+      se:[["我在公司附近租了一个房子。", "Wǒ zài gōngsī fùjìn zū le yí gè fángzi.", "Tôi thuê một căn nhà ở gần công ty.", "租了一个房子"], ["我租过，房租一个月三百万越南盾。", "Wǒ zū guo, fángzū yí gè yuè sānbǎi wàn Yuènán dùn.", "Tôi thuê rồi, tiền nhà một tháng ba triệu đồng Việt Nam.", "租过"]]},
+
+    {hz:"收拾", py:"shōushi", pos:"động từ · v.", vn:"dọn dẹp, thu dọn", hv:"THU THẬP", use:"Dùng khi XẾP lại đồ đạc cho GỌN (phòng, bàn, hành lý) trước khi có khách, khi chuyển nhà hay trước chuyến đi: 收拾 + 房间 / 东西 / 行李, 收拾好了, 收拾收拾. ≠ 打扫 (quét, lau cho SẠCH bụi bẩn); dọn nhà nói chung: 打扫打扫，收拾收拾.", tip:"收 (thu lại) + 拾 (扌 tay + 合 gom): dùng tay nhặt từng món gom lại cho gọn. Hán Việt THU THẬP.",
+      ph:[["收拾房间", "shōushi fángjiān", "dọn phòng"], ["收拾好了", "shōushi hǎo le", "dọn xong rồi"]],
+      se:[["下午有客人来，你快收拾一下房间吧。", "Xiàwǔ yǒu kèrén lái, nǐ kuài shōushi yíxià fángjiān ba.", "Chiều nay có khách đến, em mau dọn phòng một chút đi.", "收拾一下房间"], ["我每个周末收拾一次房间。", "Wǒ měi gè zhōumò shōushi yí cì fángjiān.", "Mỗi cuối tuần tôi dọn phòng một lần.", "收拾一次房间"]]},
+
+    {hz:"就是", py:"jiùshì", pos:"trợ từ · part.", vn:"cứ… là được (cuối câu)", hv:"TỰU THỊ", use:"Dùng ở dạng 就是了 khi bảo người kia cứ YÊN TÂM, cứ làm vậy là xong — trấn an, hứa, khuyên dứt khoát trong khẩu ngữ: (câu / cụm động từ) + 就是了, đặt ở CUỐI câu: 告诉我就是了. Không dùng trong câu hỏi; ≠ 就是 “chính là” (这就是我家).", tip:"就是了 = “cứ thế là xong”: việc đơn giản, đừng lo. Hán Việt TỰU THỊ.",
+      ph:[["放心就是了", "fàngxīn jiùshì le", "cứ yên tâm là được"], ["告诉我就是了", "gàosu wǒ jiùshì le", "cứ nói với tôi là được"]],
+      se:[["我帮你，你放心就是了。", "Wǒ bāng nǐ, nǐ fàngxīn jiùshì le.", "Tôi giúp bạn, bạn cứ yên tâm là được.", "放心就是了"], ["没关系，叫外卖就是了。", "Méi guānxi, jiào wàimài jiùshì le.", "Không sao, cứ gọi đồ ăn ngoài là được.", "叫外卖就是了"]]},
+
+    {hz:"房东", py:"fángdōng", pos:"danh từ · n.", vn:"chủ nhà (cho thuê)", hv:"PHÒNG ĐÔNG", use:"Dùng khi nói NGƯỜI cho mình thuê nhà: 房东 + 说 / 告诉, 给房东打电话. Người thuê nhà thì gọi là 租房的人 / 租客.", tip:"房 (nhà) + 东 (chủ): ngày xưa chủ nhà ngồi phía ĐÔNG, khách ngồi phía tây → 房东 là chủ nhà.",
+      ph:[["房东说", "fángdōng shuō", "chủ nhà nói"], ["给房东打电话", "gěi fángdōng dǎ diànhuà", "gọi điện cho chủ nhà"]],
+      se:[["房东告诉我，今天就可以搬进来。", "Fángdōng gàosu wǒ, jīntiān jiù kěyǐ bān jìnlai.", "Chủ nhà bảo hôm nay dọn vào được luôn.", "房东告诉我"], ["房子有问题，就给房东打电话。", "Fángzi yǒu wèntí, jiù gěi fángdōng dǎ diànhuà.", "Nhà có vấn đề gì thì gọi cho chủ nhà.", "给房东打电话"]]},
+
+    {hz:"出租", py:"chūzū", pos:"động từ · v.", vn:"cho thuê", hv:"XUẤT TÔ", use:"Dùng khi phía CHỦ đưa nhà, xe, đồ ra cho người khác thuê: 出租 + N, N + 出租, 出租车. Người đi thuê dùng 租; chủ cho thuê dùng 出租.", tip:"出 (đưa ra) + 租 (thuê): đưa ra cho thuê. 出租车 = xe đưa ra cho thuê = taxi!",
+      ph:[["房屋出租", "fángwū chūzū", "nhà cho thuê"], ["出租车", "chūzūchē", "taxi"]],
+      se:[["那个大房间出租，房租每月5500元。", "Nà ge dà fángjiān chūzū, fángzū měi yuè 5500 yuán.", "Phòng lớn kia cho thuê, tiền thuê 5.500 tệ một tháng.", "大房间出租"], ["我们坐出租车去吧。", "Wǒmen zuò chūzūchē qù ba.", "Bọn mình đi taxi đi.", "出租车"]]},
+
+    {hz:"房租", py:"fángzū", pos:"danh từ · n.", vn:"tiền thuê nhà", hv:"PHÒNG TÔ", use:"Dùng khi nói KHOẢN TIỀN trả hằng tháng để ở nhà thuê: 房租 + 多少 / 贵 / 便宜, 交房租. 房租 (danh từ — tiền) ≠ 租房 (động từ — đi thuê nhà).", tip:"房 (nhà) + 租 (thuê): tiền thuê nhà. Đảo lại 租房 = đi thuê nhà (động từ)!",
+      ph:[["交房租", "jiāo fángzū", "đóng tiền nhà"], ["房租不高", "fángzū bù gāo", "tiền nhà không cao"]],
+      se:[["这里房租合适，环境很好。", "Zhèlǐ fángzū héshì, huánjìng hěn hǎo.", "Ở đây tiền thuê vừa phải, môi trường tốt.", "房租合适"], ["这个月的房租我已经交了。", "Zhè ge yuè de fángzū wǒ yǐjīng jiāo le.", "Tiền nhà tháng này mình đóng rồi.", "房租我已经交了"]]},
+
+    {hz:"嗯", py:"ǹg", pos:"thán từ · interj.", vn:"ừ, ừm", hv:"(THÁN TỪ, KHÔNG CÓ ÂM HÁN VIỆT)", use:"Dùng khi ĐỒNG Ý nhẹ, hoặc đáp lại để cho biết mình đang nghe: 嗯，…… đứng đầu câu. Đọc âm mũi (ǹg / ńg). Với người trên nên nói 好的 / 是的 cho lịch sự.", tip:"口 (miệng) + 恩 (ơn): miệng ậm ừ như gật đầu cảm ơn → “ừm”.",
+      ph:[["嗯，好的", "Ǹg, hǎo de", "ừm, được"], ["嗯，不错", "Ǹg, búcuò", "ừm, không tồi"]],
+      se:[["嗯，这个房间真不小，还挺亮。", "Ǹg, zhè ge fángjiān zhēn bù xiǎo, hái tǐng liàng.", "Ừm, phòng này rộng thật, lại khá sáng.", "嗯"], ["——明天八点见？——嗯。", "— Míngtiān bā diǎn jiàn? — Ǹg.", "— Mai 8 giờ gặp nhé? — Ừ.", "嗯"]]},
+
+    {hz:"亮", py:"liàng", pos:"tính từ / động từ", vn:"sáng", hv:"LƯỢNG", use:"Dùng khi nói phòng, đèn, trời có nhiều ÁNH SÁNG: 很亮 (tính từ), 灯亮了 / 天亮了 (động từ: sáng lên). 漂亮 (đẹp) cũng có chữ 亮.", tip:"Trên là mái 亠 + 口 cửa sổ, dưới 冖 + 几: ngôi nhà có cửa sổ → ánh SÁNG chiếu vào. Hán Việt LƯỢNG.",
+      ph:[["房间很亮", "fángjiān hěn liàng", "phòng rất sáng"], ["天亮了", "tiān liàng le", "trời sáng rồi"]],
+      se:[["这个房间真不小，还挺亮。", "Zhè ge fángjiān zhēn bù xiǎo, hái tǐng liàng.", "Phòng này rộng thật, lại khá sáng.", "挺亮"], ["天亮了，快起床吧！", "Tiān liàng le, kuài qǐchuáng ba!", "Trời sáng rồi, dậy mau đi!", "天亮了"]]},
+
+    {hz:"周围", py:"zhōuwéi", pos:"danh từ · n.", vn:"xung quanh", hv:"CHU VI", use:"Dùng khi nói MÔI TRƯỜNG, những thứ hay người ở XUNG QUANH một nơi / một người: N + 周围, 周围的 + N, 周围 + 有 / 很 + Adj. Danh từ đứng TRƯỚC: ✗ 周围我家 → 我家周围. “Chu vi” hình học tiếng Việt là nghĩa khác.", tip:"周 (một vòng) + 围 (囗 bao quanh): một vòng bao quanh. Hán Việt CHU VI.",
+      ph:[["小区周围", "xiǎoqū zhōuwéi", "xung quanh khu dân cư"], ["周围的环境", "zhōuwéi de huánjìng", "môi trường xung quanh"]],
+      se:[["我家周围不太安静，因为附近有很多饭馆。", "Wǒ jiā zhōuwéi bú tài ānjìng, yīnwèi fùjìn yǒu hěn duō fànguǎn.", "Xung quanh nhà tôi không yên tĩnh lắm, vì gần đó có nhiều quán ăn.", "我家周围"], ["我家周围有超市和医院，很方便。", "Wǒ jiā zhōuwéi yǒu chāoshì hé yīyuàn, hěn fāngbiàn.", "Xung quanh nhà tôi có siêu thị và bệnh viện, rất tiện.", "周围有超市和医院"]]},
+
+    {hz:"不过", py:"búguò", pos:"liên từ · conj.", vn:"nhưng, có điều", hv:"BẤT QUÁ", use:"Dùng khi khen / đồng ý trước rồi nói thêm một điểm NGƯỢC LẠI một cách nhẹ nhàng: A，不过 B — 不过 đứng ĐẦU vế sau. Nhẹ, khẩu ngữ hơn 但是. Hai vế không ngược ý thì không dùng (✗ 房子很大，不过也很漂亮).", tip:"不 + 过 (vượt qua): “không vượt qua được” — còn vướng một điểm. Hán Việt BẤT QUÁ.",
+      ph:[["不错，不过……", "Búcuò, búguò……", "không tồi, có điều…"], ["不过我听说……", "Búguò wǒ tīngshuō……", "nhưng tôi nghe nói…"]],
+      se:[["我很想去，不过今天晚上要加班。", "Wǒ hěn xiǎng qù, búguò jīntiān wǎnshang yào jiābān.", "Tôi rất muốn đi, có điều tối nay phải tăng ca.", "不过今天晚上要加班"], ["我的工作很有意思，不过有点儿累。", "Wǒ de gōngzuò hěn yǒu yìsi, búguò yǒudiǎnr lèi.", "Công việc của tôi rất thú vị, có điều hơi mệt.", "不过有点儿累"]]},
+
+    {hz:"恐怕", py:"kǒngpà", pos:"phó từ · adv.", vn:"e rằng, sợ là", hv:"KHỦNG PHẠ", use:"Dùng khi ĐOÁN một kết quả KHÔNG TỐT và hơi lo — hay dùng để báo tin xấu, từ chối cho lịch sự: 恐怕 + (会 / 要 / 不能) + V, S + 恐怕……. ≠ 害怕 (sợ thật sự): 恐怕 là phó từ, KHÔNG có tân ngữ: ✗ 我恐怕狗 → 我害怕狗.", tip:"恐 (lòng 心 run) + 怕 (忄 sợ): hai lần “sợ” → e là chuyện xấu sẽ xảy ra. Hán Việt KHỦNG PHẠ.",
+      ph:[["恐怕会影响", "kǒngpà huì yǐngxiǎng", "e là sẽ ảnh hưởng"], ["恐怕不行", "kǒngpà bùxíng", "e là không được"]],
+      se:[["我现在在机场，恐怕不能参加了。", "Wǒ xiànzài zài jīchǎng, kǒngpà bù néng cānjiā le.", "Tôi đang ở sân bay, e là không tham gia được rồi.", "恐怕不能参加"], ["对不起，明天我恐怕没有时间。", "Duìbuqǐ, míngtiān wǒ kǒngpà méiyǒu shíjiān.", "Xin lỗi, mai tôi e là không có thời gian.", "恐怕没有时间"]]},
+
+    {hz:"热闹", py:"rènao", pos:"tính từ / động từ", vn:"náo nhiệt, đông vui; vui vẻ cùng nhau", hv:"NHIỆT NÁO", use:"Dùng khi nói nơi / dịp ĐÔNG NGƯỜI, VUI, nhộn nhịp (nghĩa tốt): 很热闹, 热闹的 + N; hoặc rủ nhau tụ tập cho đông vui: 热闹热闹 (động từ, ABAB). Ồn khó chịu thì là 吵. Lặp tính từ: 热热闹闹 (AABB).", tip:"热 (nóng) + 闹 (门 cửa + 市 chợ — chợ ngay trước cửa): nóng như chợ → nhộn nhịp. Hán Việt NHIỆT NÁO.",
+      ph:[["热闹热闹", "rènao rènao", "tụ tập cho đông vui"], ["很热闹", "hěn rènao", "rất náo nhiệt"]],
+      se:[["今天是我的生日，晚上大家来我家热闹热闹吧！", "Jīntiān shì wǒ de shēngrì, wǎnshang dàjiā lái wǒ jiā rènao rènao ba!", "Hôm nay là sinh nhật tôi, tối nay mọi người đến nhà tôi vui vẻ một bữa nhé!", "热闹热闹"], ["我喜欢安静的地方，因为热闹的地方让我觉得很累。", "Wǒ xǐhuan ānjìng de dìfang, yīnwèi rènao de dìfang ràng wǒ juéde hěn lèi.", "Tôi thích nơi yên tĩnh, vì nơi náo nhiệt làm tôi thấy rất mệt.", "热闹的地方"]]},
+
+    {hz:"种", py:"zhòng", pos:"động từ · v.", vn:"trồng", hv:"CHỦNG", use:"Dùng khi nói TRỒNG cây, hoa, rau: 种 + 树 / 花 / 菜. MỘT CHỮ HAI ÂM: zhòng (trồng: 种树) · zhǒng (loại: 这种书).", tip:"禾 (lúa) + 中 (giữa): gieo hạt lúa vào GIỮA ruộng → trồng. Hán Việt CHỦNG.",
+      ph:[["种树", "zhòng shù", "trồng cây"], ["种花", "zhòng huā", "trồng hoa"]],
+      se:[["这个小区到处是花，还种了不少树。", "Zhè ge xiǎoqū dàochù shì huā, hái zhòng le bù shǎo shù.", "Khu này đâu đâu cũng có hoa, lại trồng khá nhiều cây.", "种了不少树"], ["我奶奶在家里种了很多花。", "Wǒ nǎinai zài jiā li zhòng le hěn duō huā.", "Bà mình trồng rất nhiều hoa ở nhà.", "种了很多花"]]},
+
+    {hz:"毕业", py:"bìyè", pos:"động từ · v.", vn:"tốt nghiệp", hv:"TẤT NGHIỆP", use:"Dùng khi HỌC XONG một bậc học: 大学毕业, 毕业以后, 从 + trường + 毕业. Không mang tân ngữ: ✗ 毕业大学 → 大学毕业 / 从大学毕业. Đã gặp ở HSK3 Bài 18.", tip:"毕 (xong, hết) + 业 (việc học): học xong việc. Hán Việt TẤT NGHIỆP.",
+      ph:[["刚毕业", "gāng bìyè", "vừa tốt nghiệp"], ["大学毕业", "dàxué bìyè", "tốt nghiệp đại học"]],
+      se:[["很多刚毕业的学生都租住在这里。", "Hěn duō gāng bìyè de xuésheng dōu zūzhù zài zhèlǐ.", "Nhiều sinh viên mới ra trường thuê ở đây.", "刚毕业"], ["我是2020年从河内大学毕业的。", "Wǒ shì 2020 nián cóng Hénèi Dàxué bìyè de.", "Mình tốt nghiệp Đại học Hà Nội năm 2020.", "从河内大学毕业"]]},
+
+    {hz:"入住", py:"rùzhù", pos:"động từ · v.", vn:"dọn vào ở; nhận phòng", hv:"NHẬP TRÚ", use:"Dùng khi bắt đầu Ở một nơi mới (nhà mới, khách sạn): 入住 + 新家 / 酒店, N + 入住. Hơi trang trọng (khách sạn, thông báo); nói thường → 搬进去 / 住进去.", tip:"入 (vào) + 住 (ở): vào ở. Hán Việt NHẬP TRÚ như “nhập trú, lưu trú”.",
+      ph:[["入住新家", "rùzhù xīn jiā", "dọn vào nhà mới"], ["入住酒店", "rùzhù jiǔdiàn", "nhận phòng khách sạn"]],
+      se:[["我决定租这个房子了，明天就入住新家。", "Wǒ juédìng zū zhè ge fángzi le, míngtiān jiù rùzhù xīn jiā.", "Mình quyết định thuê căn này rồi, mai dọn vào nhà mới luôn.", "入住新家"], ["我们下午两点可以入住酒店。", "Wǒmen xiàwǔ liǎng diǎn kěyǐ rùzhù jiǔdiàn.", "Hai giờ chiều bọn mình nhận phòng khách sạn được.", "入住酒店"]]},
+
+    {hz:"顺利", py:"shùnlì", pos:"tính từ · adj.", vn:"suôn sẻ, trôi chảy", hv:"THUẬN LỢI", use:"Dùng khi một việc diễn ra SUÔN SẺ, không gặp trở ngại (thi, phỏng vấn, chuyến đi, thủ tục): 很顺利, 顺利(地) + V, V + 得很顺利, 祝你……顺利. Bẫy Hán–Việt: “thuận lợi” tiếng Việt hay chỉ ĐIỀU KIỆN tốt (→ 条件好 / 方便); 顺利 chỉ QUÁ TRÌNH suôn sẻ.", tip:"顺 (川 dòng sông + 页 cái đầu: xuôi theo dòng) + 利 (lợi): đi thuận dòng nước — trôi chảy.",
+      ph:[["很顺利", "hěn shùnlì", "rất suôn sẻ"], ["顺利租到", "shùnlì zūdào", "thuê được suôn sẻ"]],
+      se:[["祝你面试顺利！", "Zhù nǐ miànshì shùnlì!", "Chúc bạn phỏng vấn suôn sẻ!", "面试顺利"], ["我最近搬家很顺利，不过找工作不太顺利。", "Wǒ zuìjìn bānjiā hěn shùnlì, búguò zhǎo gōngzuò bú tài shùnlì.", "Dạo này tôi chuyển nhà rất suôn sẻ, có điều tìm việc thì không suôn sẻ lắm.", "很顺利"]]},
+
+    {hz:"并", py:"bìng", pos:"liên từ / phó từ", vn:"và, đồng thời; (trước phủ định) hoàn toàn không, thật ra không", hv:"TỊNH", use:"Liên từ: dùng khi kể HAI HÀNH ĐỘNG nối nhau, việc sau tiến thêm một bước (văn viết): V1 + O1，并 + V2 + O2. Phó từ: dùng khi BÁC BỎ điều người khác tưởng: 并 + 不 / 没(有) + V / Adj. 并 nối động từ / vế câu, không nối danh từ (✗ 我并他 → 我和他).", tip:"并 như hai người đứng SÁT VAI nhau (丷 + 开) → đi kèm, cùng làm. Hán Việt TỊNH.",
+      ph:[["并告诉我", "bìng gàosu wǒ", "và nói với tôi"], ["并不容易", "bìng bù róngyì", "thật ra không dễ"]],
+      se:[["昨天我收拾了房间，并做了晚饭。", "Zuótiān wǒ shōushi le fángjiān, bìng zuò le wǎnfàn.", "Hôm qua tôi dọn phòng và nấu bữa tối.", "并做了晚饭"], ["中文并不难，你多练习就是了。", "Zhōngwén bìng bù nán, nǐ duō liànxí jiùshì le.", "Tiếng Trung thật ra không khó, bạn cứ luyện tập nhiều là được.", "并不难"]]},
+
+    {hz:"平常", py:"píngcháng", pos:"danh từ / tính từ", vn:"ngày thường; bình thường", hv:"BÌNH THƯỜNG", use:"Danh từ: dùng khi nói THÓI QUEN ngày thường, so với dịp đặc biệt: 平常 + V (đầu câu hoặc sau chủ ngữ), 跟平常一样. Tính từ: việc bình thường, không có gì lạ: 很平常. ≈ 平时 khi là danh từ, nhưng 平时 không làm tính từ: 这是很平常的事 (✗ 很平时).", tip:"平 (phẳng lặng) + 常 (thường xuyên): những ngày phẳng lặng, lặp đi lặp lại. Hán Việt BÌNH THƯỜNG.",
+      ph:[["平常主要在……", "píngcháng zhǔyào zài……", "ngày thường chủ yếu ở…"], ["跟平常一样", "gēn píngcháng yíyàng", "giống như mọi khi"]],
+      se:[["我平常开车上班，今天车坏了。", "Wǒ píngcháng kāichē shàngbān, jīntiān chē huài le.", "Ngày thường tôi lái xe đi làm, hôm nay xe hỏng rồi.", "平常开车上班"], ["我平常六点起床，周末八点才起。", "Wǒ píngcháng liù diǎn qǐchuáng, zhōumò bā diǎn cái qǐ.", "Ngày thường tôi dậy lúc sáu giờ, cuối tuần tám giờ mới dậy.", "平常六点起床"]]},
+
+    {hz:"基本上", py:"jīběnshang", pos:"phó từ · adv.", vn:"về cơ bản, hầu như", hv:"CƠ BẢN THƯỢNG", use:"Dùng khi nói một việc ĐÚNG PHẦN LỚN, HẦU NHƯ luôn như vậy (không phải 100%): (S) + 基本上 + V / Adj, 基本上 + 不 / 没 + V. Đứng TRƯỚC động từ, không đứng cuối câu. Gần 差不多 / 几乎 nhưng trang trọng hơn.", tip:"基 (nền móng: 其 + 土) + 本 (gốc) + 上: xét từ móng, từ gốc — đại thể là vậy. Hán Việt CƠ BẢN THƯỢNG.",
+      ph:[["基本上不做饭", "jīběnshang bú zuòfàn", "hầu như không nấu ăn"], ["基本上完成了", "jīběnshang wánchéng le", "về cơ bản đã xong"]],
+      se:[["我基本上不回家吃晚饭，都在公司吃。", "Wǒ jīběnshang bù huí jiā chī wǎnfàn, dōu zài gōngsī chī.", "Tôi hầu như không về nhà ăn tối, toàn ăn ở công ty.", "基本上不回家吃晚饭"], ["我每天基本上都要学一个小时中文。", "Wǒ měi tiān jīběnshang dōu yào xué yí gè xiǎoshí Zhōngwén.", "Mỗi ngày tôi hầu như đều học tiếng Trung một tiếng.", "基本上都要学"]]},
+
+    {hz:"日记", py:"rìjì", pos:"danh từ · n.", vn:"nhật ký", hv:"NHẬT KÝ", use:"Dùng khi nói ghi chép chuyện mỗi ngày của bản thân: 写 + 日记 (viết nhật ký), 一篇日记. Lượng từ đi với 日记 là 篇 (dùng cho bài viết): 一篇日记.", tip:"日 (ngày) + 记 (ghi): ghi chép mỗi ngày. Hán Việt NHẬT KÝ, đọc gần như tiếng Việt.",
+      ph:[["写日记", "xiě rìjì", "viết nhật ký"], ["一篇日记", "yì piān rìjì", "một bài nhật ký"]],
+      se:[["我每天晚上写日记。", "Wǒ měi tiān wǎnshang xiě rìjì.", "Tối nào mình cũng viết nhật ký.", "写日记"], ["搬进新家后，白家月写了一篇日记。", "Bān jìn xīn jiā hòu, Bái Jiāyuè xiě le yì piān rìjì.", "Dọn vào nhà mới xong, Gia Nguyệt viết một bài nhật ký.", "写了一篇日记"]]},
+
+    {hz:"客厅", py:"kètīng", pos:"danh từ · n.", vn:"phòng khách", hv:"KHÁCH SẢNH", use:"Dùng khi nói căn phòng để tiếp khách, xem TV, ngồi chơi: 客厅里, 在客厅 + V. Quảng cáo nhà: 两室一厅 = 2 phòng ngủ 1 phòng khách.", tip:"客 (khách) + 厅 (厂 mái + 丁: phòng rộng): phòng rộng để đón khách. Hán Việt KHÁCH SẢNH.",
+      ph:[["客厅里", "kètīng li", "trong phòng khách"], ["大客厅", "dà kètīng", "phòng khách lớn"]],
+      se:[["客厅里有椅子、沙发，还有一台大电视。", "Kètīng li yǒu yǐzi, shāfā, hái yǒu yì tái dà diànshì.", "Phòng khách có ghế, sofa, còn có một chiếc tivi lớn.", "客厅里"], ["我们在客厅看电视吧。", "Wǒmen zài kètīng kàn diànshì ba.", "Mình ra phòng khách xem tivi đi.", "在客厅看电视"]]},
+
+    {hz:"台", py:"tái", pos:"lượng từ · m.", vn:"chiếc (máy móc)", hv:"ĐÀI", use:"Dùng khi đếm MÁY MÓC, thiết bị: tivi, máy tính, điều hoà, tủ lạnh: 一台 + 电视 / 电脑 / 空调 / 冰箱. Nói thường cũng có thể dùng 个, nhưng 台 chuẩn hơn.", tip:"厶 + 口: cái bệ có miệng — như chiếc máy đặt trên bệ. 台 là phần phải của 始 (开始). Hán Việt ĐÀI.",
+      ph:[["一台空调", "yì tái kōngtiáo", "một chiếc điều hoà"], ["一台电脑", "yì tái diànnǎo", "một chiếc máy tính"]],
+      se:[["我租的房间里还有一台空调。", "Wǒ zū de fángjiān li hái yǒu yì tái kōngtiáo.", "Phòng mình thuê còn có một cái điều hoà.", "一台空调"], ["我新买了一台电脑。", "Wǒ xīn mǎi le yì tái diànnǎo.", "Mình mới mua một cái máy tính.", "一台电脑"]]},
+
+    {hz:"厨房", py:"chúfáng", pos:"danh từ · n.", vn:"nhà bếp", hv:"TRÙ PHÒNG", use:"Dùng khi nói căn phòng để NẤU ĂN: 厨房里 (trong bếp), 在厨房 + 做饭 (nấu ăn trong bếp), 收拾厨房 (dọn bếp). Đầu bếp là 厨师.", tip:"厂 (mái) + 豆 (bát đựng đồ ăn) + 寸 (tay): dưới mái nhà, tay bưng bát → BẾP. Hán Việt TRÙ PHÒNG.",
+      ph:[["厨房里", "chúfáng li", "trong bếp"], ["在厨房做饭", "zài chúfáng zuòfàn", "nấu ăn trong bếp"]],
+      se:[["厨房里有冰箱和一些做饭用的东西。", "Chúfáng li yǒu bīngxiāng hé yìxiē zuòfàn yòng de dōngxi.", "Bếp có tủ lạnh và ít đồ nấu ăn.", "厨房里"], ["妈妈在厨房做饭呢。", "Māma zài chúfáng zuòfàn ne.", "Mẹ đang nấu cơm trong bếp.", "在厨房做饭"]]},
+
+    {hz:"整个", py:"zhěnggè", pos:"tính từ · adj.", vn:"cả, toàn bộ", hv:"CHỈNH CÁ", use:"Dùng khi nói TOÀN BỘ một vật hoặc một khoảng thời gian, không sót phần nào: 整个 + N (房子 / 下午 / 城市). 整个 + MỘT vật / khối; nhiều vật thì dùng 所有 / 全部: 所有的人.", tip:"整 (束 bó + 攵 tay + 正 ngay: bó lại cho ngay ngắn, trọn vẹn) + 个: cả cái trọn vẹn. Hán Việt CHỈNH CÁ.",
+      ph:[["整个房子", "zhěnggè fángzi", "cả căn nhà"], ["整个下午", "zhěnggè xiàwǔ", "cả buổi chiều"]],
+      se:[["看完整个房子后，我准备再去买几条毛巾。", "Kàn wán zhěnggè fángzi hòu, wǒ zhǔnbèi zài qù mǎi jǐ tiáo máojīn.", "Xem hết cả căn nhà xong, mình định đi mua thêm mấy chiếc khăn.", "整个房子"], ["我整个下午都在收拾房间。", "Wǒ zhěnggè xiàwǔ dōu zài shōushi fángjiān.", "Cả buổi chiều mình dọn phòng.", "整个下午"]]},
+
+    {hz:"毛巾", py:"máojīn", pos:"danh từ · n.", vn:"khăn mặt, khăn tắm", hv:"MAO CÂN", use:"Dùng khi nói KHĂN để lau mặt, lau người: 一条毛巾, 买几条毛巾, 新毛巾. Lượng từ đi với 毛巾 là 条: 一条毛巾, 这条毛巾.", tip:"毛 (lông) + 巾 (mảnh vải): mảnh vải có lông tơ mềm → khăn bông. Hán Việt MAO CÂN.",
+      ph:[["买几条毛巾", "mǎi jǐ tiáo máojīn", "mua mấy chiếc khăn"], ["一条毛巾", "yì tiáo máojīn", "một chiếc khăn"]],
+      se:[["我准备再去买几条毛巾。", "Wǒ zhǔnbèi zài qù mǎi jǐ tiáo máojīn.", "Mình định đi mua thêm mấy chiếc khăn.", "买几条毛巾"], ["这条毛巾是新的。", "Zhè tiáo máojīn shì xīn de.", "Chiếc khăn này là khăn mới.", "这条毛巾"]]},
+
+    {hz:"建议", py:"jiànyì", pos:"danh từ / động từ", vn:"lời khuyên, đề xuất; khuyên, đề nghị", hv:"KIẾN NGHỊ", use:"Dùng khi KHUYÊN, GỢI Ý cách làm cho người khác (lịch sự, có lý do): 建议 + người + V; hoặc nói về lời khuyên: 给 + người + 提建议, 根据 / 听 + 某人的建议. Bẫy Hán–Việt: “kiến nghị” tiếng Việt nghe như đơn gửi cơ quan; 建议 dùng hằng ngày như “khuyên”.", tip:"建 (dựng lên) + 议 (讠 bàn bạc): dựng một ý lên cho mọi người bàn → đề xuất. Hán Việt KIẾN NGHỊ.",
+      ph:[["我建议你……", "Wǒ jiànyì nǐ……", "tôi khuyên bạn…"], ["根据……的建议", "gēnjù…… de jiànyì", "theo lời khuyên của…"]],
+      se:[["我建议你租公司附近的房子。", "Wǒ jiànyì nǐ zū gōngsī fùjìn de fángzi.", "Tôi khuyên bạn thuê nhà gần công ty.", "建议你租"], ["我建议你先学几句越南语。", "Wǒ jiànyì nǐ xiān xué jǐ jù Yuènányǔ.", "Tôi khuyên bạn học vài câu tiếng Việt trước.", "建议你先学"]]},
+
+    {hz:"接着", py:"jiēzhe", pos:"phó từ / động từ", vn:"tiếp đó, rồi tiếp; tiếp tục", hv:"TIẾP TRƯỚC", use:"Dùng khi kể các BƯỚC nối nhau, việc sau làm NGAY sau việc trước: 先 A，接着 (又) B; hoặc bảo ai làm TIẾP việc đang dở: 接着 + V (接着说 · 接着看). Gần 然后 nhưng 接着 nhấn “ngay sau, liền mạch”; 接着 + V còn nghĩa “tiếp tục” như 继续.", tip:"接 (扌 tay đón lấy) + 着: tay nối tay đón tiếp → nối tiếp ngay. Hán Việt TIẾP TRƯỚC.",
+      ph:[["接着又去……", "jiēzhe yòu qù……", "tiếp đó lại đi…"], ["接着说", "jiēzhe shuō", "nói tiếp"]],
+      se:[["我起床以后先洗澡，接着吃早饭。", "Wǒ qǐchuáng yǐhòu xiān xǐzǎo, jiēzhe chī zǎofàn.", "Sau khi dậy tôi tắm trước, tiếp đó ăn sáng.", "接着吃早饭"], ["你接着说吧。", "Nǐ jiēzhe shuō ba.", "Bạn nói tiếp đi.", "接着说"]]},
+
+    {hz:"同时", py:"tóngshí", pos:"liên từ / danh từ", vn:"đồng thời, cùng lúc", hv:"ĐỒNG THỜI", use:"Dùng khi hai việc diễn ra CÙNG LÚC, hoặc khi thêm một ý cũng quan trọng (“đồng thời cũng…”): A，同时 (也 / 还) B, 同时 + V, 在……的同时. Khi là liên từ, đứng đầu vế sau và hay đi với 也 / 还; Hán–Việt “đồng thời” dùng giống tiếng Việt.", tip:"同 (cùng) + 时 (lúc): cùng một lúc. Hán Việt ĐỒNG THỜI, đọc gần như tiếng Việt.",
+      ph:[["同时也要……", "tóngshí yě yào……", "đồng thời cũng phải…"], ["同时了解……", "tóngshí liǎojiě……", "đồng thời tìm hiểu…"]],
+      se:[["学中文要多练口语，同时也要多写汉字。", "Xué Zhōngwén yào duō liàn kǒuyǔ, tóngshí yě yào duō xiě Hànzì.", "Học tiếng Trung phải luyện nói nhiều, đồng thời cũng phải viết chữ Hán nhiều.", "同时也要多写汉字"], ["我能一边听音乐，一边工作，同时还能回信息。", "Wǒ néng yìbiān tīng yīnyuè, yìbiān gōngzuò, tóngshí hái néng huí xìnxī.", "Tôi có thể vừa nghe nhạc vừa làm việc, đồng thời còn trả lời tin nhắn được.", "同时还能回信息"]]},
+
+    {hz:"理想", py:"lǐxiǎng", pos:"tính từ / danh từ", vn:"lý tưởng, đúng ý; ước mơ", hv:"LÝ TƯỞNG", use:"Tính từ: dùng khi nói một thứ ĐÚNG Ý, như mong muốn (nhà, việc, trường): 理想的 + N, 很 / 不太 + 理想. Danh từ: ước mơ lớn trong đời: 我的理想是 + V. 不太理想 là cách nói khéo “không tốt lắm” (điểm thi, kết quả).", tip:"理 (lý lẽ) + 想 (nghĩ): điều mình nghĩ là đúng nhất, tốt nhất. Hán Việt LÝ TƯỞNG.",
+      ph:[["理想的房子", "lǐxiǎng de fángzi", "căn nhà lý tưởng"], ["不太理想", "bú tài lǐxiǎng", "không được như ý lắm"]],
+      se:[["我理想的房子离公司近，周围很安静，还有一个小花园。", "Wǒ lǐxiǎng de fángzi lí gōngsī jìn, zhōuwéi hěn ānjìng, hái yǒu yí gè xiǎo huāyuán.", "Căn nhà lý tưởng của tôi gần công ty, xung quanh rất yên tĩnh, còn có một vườn hoa nhỏ.", "理想的房子"], ["这次考试的成绩不太理想。", "Zhè cì kǎoshì de chéngjì bú tài lǐxiǎng.", "Kết quả kỳ thi lần này không được như ý lắm.", "不太理想"]]},
+
+    {hz:"由于", py:"yóuyú", pos:"liên từ / giới từ", vn:"do, bởi vì", hv:"DO VU", use:"Dùng khi nêu NGUYÊN NHÂN một cách khách quan, hơi trang trọng (bài viết, thông báo, tin tức): 由于 + nguyên nhân，所以 / 因此 + kết quả; 由于 + N，……. Chỉ đứng ở VẾ TRƯỚC (✗ 我不去了，由于下雨). Nói chuyện thường ngày → 因为.", tip:"由 (từ) + 于 (ở): xuất phát TỪ đâu → do đâu mà ra. Hán Việt DO VU.",
+      ph:[["由于工资不高", "yóuyú gōngzī bù gāo", "do lương không cao"], ["由于大家的努力", "yóuyú dàjiā de nǔlì", "nhờ sự nỗ lực của mọi người"]],
+      se:[["由于很多人有事，会议下周五再开。", "Yóuyú hěn duō rén yǒu shì, huìyì xià zhōuwǔ zài kāi.", "Do nhiều người có việc, cuộc họp để thứ Sáu tuần sau mới họp.", "由于很多人有事"], ["由于这家公司离我家很近，所以我选择了它。", "Yóuyú zhè jiā gōngsī lí wǒ jiā hěn jìn, suǒyǐ wǒ xuǎnzé le tā.", "Do công ty này gần nhà tôi nên tôi đã chọn nó.", "由于这家公司离我家很近"]]},
+
+    {hz:"查看", py:"chákàn", pos:"động từ · v.", vn:"xem xét, kiểm tra", hv:"TRA KHÁN", use:"Dùng khi XEM KỸ thông tin, đồ vật đã có để kiểm tra: 查看 + 信息 / 邮件 / 房间, 查看一下. 查看 = xem cái ĐÃ có · 查找 = tìm cái CHƯA có.", tip:"查 (tra) + 看 (xem): tra và xem. Hán Việt TRA KHÁN.",
+      ph:[["查看信息", "chákàn xìnxī", "xem thông tin"], ["查看邮件", "chákàn yóujiàn", "kiểm tra email"]],
+      se:[["她先在租房网站和App上查看有关信息。", "Tā xiān zài zūfáng wǎngzhàn hé App shang chákàn yǒuguān xìnxī.", "Trước tiên cô ấy xem thông tin trên trang web và app thuê nhà.", "查看有关信息"], ["通知已经发到邮箱了，请注意查看。", "Tōngzhī yǐjīng fādào yóuxiāng le, qǐng zhùyì chákàn.", "Thông báo đã gửi vào email, mọi người nhớ kiểm tra.", "注意查看"]]},
+
+    {hz:"信息", py:"xìnxī", pos:"danh từ · n.", vn:"thông tin; tin nhắn", hv:"TÍN TỨC", use:"Dùng khi nói THÔNG TIN nói chung, hoặc tin nhắn điện thoại: 查看 / 发 + 信息, X信息 (租房信息), 一条信息. Lượng từ đi với 信息 là 条: 一条信息.", tip:"信 (tin) + 息 (hơi thở, tin tức): tin truyền đến. Hán Việt TÍN TỨC.",
+      ph:[["租房信息", "zūfáng xìnxī", "tin thuê nhà"], ["发信息", "fā xìnxī", "nhắn tin"]],
+      se:[["她在网上查找到一条出租信息。", "Tā zài wǎngshàng cházhǎo dào yì tiáo chūzū xìnxī.", "Cô ấy tìm được một tin cho thuê trên mạng.", "一条出租信息"], ["到了给我发个信息。", "Dào le gěi wǒ fā gè xìnxī.", "Đến nơi thì nhắn tin cho mình.", "发个信息"]]},
+
+    {hz:"查找", py:"cházhǎo", pos:"động từ · v.", vn:"tìm kiếm", hv:"TRA TRẢO", use:"Dùng khi TÌM thứ mình chưa có, chưa biết (thông tin, nhà, tài liệu): 查找 + N, 上网查找. 查找 = tìm cái chưa có · 查看 = xem cái đã có.", tip:"查 (tra) + 找 (tìm): vừa tra vừa tìm. Hán Việt TRA TRẢO.",
+      ph:[["查找房子", "cházhǎo fángzi", "tìm nhà"], ["上网查找", "shàngwǎng cházhǎo", "lên mạng tìm"]],
+      se:[["她查找合适的房子，接着又去看了看房子。", "Tā cházhǎo héshì de fángzi, jiēzhe yòu qù kàn le kàn fángzi.", "Cô ấy tìm nhà phù hợp, rồi tiếp đó đi xem nhà.", "查找合适的房子"], ["你上网查找租房信息时，一定要小心。", "Nǐ shàngwǎng cházhǎo zūfáng xìnxī shí, yídìng yào xiǎoxīn.", "Lúc lên mạng tìm tin thuê nhà, cậu nhất định phải cẩn thận.", "上网查找租房信息"]]},
+
+    {hz:"位置", py:"wèizhi", pos:"danh từ · n.", vn:"vị trí", hv:"VỊ TRÍ", use:"Dùng khi nói CHỖ một nơi nằm (gần đâu, tiện hay không): 位置 + 好 / 方便, 房子的位置. Hán–Việt “vị trí” giống tiếng Việt. ◇ Đề cương xếp cấp 5.", tip:"位 (亻 người + 立 đứng) + 置 (đặt): chỗ người đứng, chỗ đặt. Hán Việt VỊ TRÍ.",
+      ph:[["位置很好", "wèizhi hěn hǎo", "vị trí rất tốt"], ["房子的位置", "fángzi de wèizhi", "vị trí căn nhà"]],
+      se:[["这家酒店位置很好，离地铁站很近。", "Zhè jiā jiǔdiàn wèizhi hěn hǎo, lí dìtiězhàn hěn jìn.", "Khách sạn này vị trí rất tốt, gần ga tàu điện.", "位置很好"], ["她才找到一个位置、环境和价格都合适的房子。", "Tā cái zhǎodào yí gè wèizhi, huánjìng hé jiàgé dōu héshì de fángzi.", "Cô ấy mới tìm được một căn vị trí, môi trường và giá đều hợp.", "位置、环境和价格都合适"]]},
+
+    {hz:"价格", py:"jiàgé", pos:"danh từ · n.", vn:"giá cả", hv:"GIÁ CÁCH", use:"Dùng khi nói GIÁ của hàng hoá, nhà, dịch vụ (trang trọng hơn 价钱): 价格 + 高 / 低 / 合适. Giá cao / thấp → 价格高 / 低 (✗ 价格很贵 — 贵 dùng cho đồ: 东西很贵).", tip:"价 (亻 người + 介 ở giữa: người đứng giữa ra giá) + 格 (khung, mức). Hán Việt GIÁ CÁCH.",
+      ph:[["价格合适", "jiàgé héshì", "giá hợp lý"], ["价格不高", "jiàgé bù gāo", "giá không cao"]],
+      se:[["这个小区很安静，房子价格也不高。", "Zhè ge xiǎoqū hěn ānjìng, fángzi jiàgé yě bù gāo.", "Khu này rất yên tĩnh, giá nhà cũng không cao.", "价格也不高"], ["这里的东西价格太高了。", "Zhèlǐ de dōngxi jiàgé tài gāo le.", "Đồ ở đây giá cao quá.", "价格太高"]]},
+
+    {hz:"工资", py:"gōngzī", pos:"danh từ · n.", vn:"tiền lương", hv:"CÔNG TƯ", use:"Dùng khi nói TIỀN công ty trả hằng tháng: 工资 + 高 / 低, 发工资 (trả lương), 一个月的工资. Lương cao / thấp nói là 工资高 / 低.", tip:"工 (công việc) + 资 (贝 tiền): tiền nhận từ công việc. Hán Việt CÔNG TƯ.",
+      ph:[["工资不高", "gōngzī bù gāo", "lương không cao"], ["发工资", "fā gōngzī", "trả lương"]],
+      se:[["很多刚工作的年轻人工资还不太高。", "Hěn duō gāng gōngzuò de niánqīngrén gōngzī hái bú tài gāo.", "Nhiều người trẻ mới đi làm lương còn chưa cao.", "工资还不太高"], ["我们公司每月十号发工资。", "Wǒmen gōngsī měi yuè shí hào fā gōngzī.", "Công ty mình ngày 10 hằng tháng trả lương.", "发工资"]]},
+
+    {hz:"感", py:"gǎn", pos:"hậu tố", vn:"(cảm giác) … — hậu tố", hv:"CẢM", use:"Dùng khi tạo từ chỉ một CẢM GIÁC: N / Adj + 感 (安全感, 幸福感, 成就感); 有 + X感, 没有 + X感. ◇ Các từ 安全感 · 幸福感 · 成就感 không có trong đề cương — chỉ cần hiểu.", tip:"咸 (tất cả) + 心 (lòng): mọi thứ chạm tới lòng → CẢM. Hán Việt CẢM như “cảm giác, cảm xúc”.",
+      ph:[["安全感", "ānquángǎn", "cảm giác an toàn"], ["成就感", "chéngjiùgǎn", "cảm giác thành tựu"]],
+      se:[["有自己的房子会更有安全感。", "Yǒu zìjǐ de fángzi huì gèng yǒu ānquángǎn.", "Có nhà riêng sẽ thấy an tâm hơn.", "安全感"], ["这份工作让我很有成就感。", "Zhè fèn gōngzuò ràng wǒ hěn yǒu chéngjiùgǎn.", "Công việc này cho mình nhiều cảm giác thành tựu.", "成就感"]]}
+  ]
+};
+
+/* ====================== phát âm ====================== */
+let zhVoice = null;
+function pickVoice(){
+  const vs = window.speechSynthesis ? speechSynthesis.getVoices() : [];
+  const zh = vs.filter(v => /^zh/i.test(v.lang));
+  zhVoice = zh.find(v => /CN|Hans|Chinese \(China\)|普通话|Mandarin/i.test(v.lang + v.name)) || zh[0] || null;
+}
+if (window.speechSynthesis){
+  pickVoice();
+  speechSynthesis.onvoiceschanged = pickVoice;
+}
+function speak(text, btn){
+  if (btn){
+    document.querySelectorAll('.spk.playing').forEach(b => b.classList.remove('playing'));
+    btn.classList.add('playing');
+    setTimeout(() => btn.classList.remove('playing'), 1400);
+  }
+  if (window.speechSynthesis && zhVoice){
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.voice = zhVoice; u.lang = zhVoice.lang; u.rate = 0.8;
+    speechSynthesis.speak(u);
+    return;
+  }
+  try{
+    const a = new Audio('https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=zh-CN&q=' + encodeURIComponent(text));
+    a.play().catch(() => {});
+  }catch(e){}
+}
+
+/* ====================== dựng thẻ ====================== */
+function esc(s){ return s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+const MARK = ['①','②','③','④','⑤'];
+
+function rows(list, hl){
+  return list.map((r, i) => {
+    let zh = esc(r[0]);
+    if (hl && r[3]){
+      const k = esc(r[3]);
+      zh = zh.replace(k, '<span class="hl">' + k + '</span>');
+    }
+    return `
+    <div class="item">
+      <button class="spk sm" data-say="${esc(r[0].replace(/[…]/g,''))}">🔊</button>
+      <div class="body">
+        <div class="zh han"><span class="idx">${MARK[i] || ''}</span>${zh}</div>
+        <div class="pz py">${esc(r[1])}</div>
+        <div class="vn2">${esc(r[2])}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function cardHTML(w, idx){
+  // mặt trước đổi theo chiều học
+  const front = (dir === 'zh')
+    ? `<div class="hz han">${esc(w.hz)}</div>
+       <button class="spk" data-say="${esc(w.hz)}" aria-label="Nghe đọc">🔊</button>`
+    : `<div class="vnfront">${esc(w.vn)}</div>`;
+
+  const st = marks[idx] || '';
+  const stCls = st ? ' st-' + st : '';
+  const pill = st
+    ? `<div class="state ${st}">${st === 'known' ? '✓ Đã thuộc' : '↻ Cần ôn thêm'}</div>`
+    : '';
+
+  return `
+  <div class="flip" data-i="${idx}">
+    <div class="inner">
+
+      <div class="face front${stCls}">
+        <div class="tag">${idx + 1}</div>
+        ${pill}
+        <div class="inner-front">${front}</div>
+        <div class="flipnote">chạm để lật ↻</div>
+      </div>
+
+      <div class="face back${stCls}">
+        <div class="tag">${idx + 1}</div>
+        <div class="pos">${esc(w.pos)}</div>
+
+        <div class="bhead">
+          <button class="spk" data-say="${esc(w.hz)}" aria-label="Nghe đọc">🔊</button>
+          <div>
+            <div class="hz han">${esc(w.hz)}</div>
+            <div class="pin py">${esc(w.py)}</div>
+          </div>
+        </div>
+
+        <div class="mean">
+          <div class="vn">${esc(w.vn)}</div>
+          <div class="hv">Hán Việt: ${esc(w.hv)}</div>
+        </div>
+
+        <div class="use">
+          <div class="ulab">Dùng khi nào</div>
+          <div class="utxt">${esc(w.use)}</div>
+        </div>
+
+        <div class="tip">
+          <div class="ulab">💡 Mẹo nhớ</div>
+          <div class="utxt">${esc(w.tip)}</div>
+        </div>
+
+        <div class="sec">
+          <h3>Cụm từ thường dùng</h3>
+          ${rows(w.ph, false)}
+        </div>
+
+        <div class="sec">
+          <h3>Câu ví dụ — theo thứ tự cụm từ ở trên</h3>
+          ${rows(w.se, true)}
+        </div>
+
+        <div class="acts">
+          <button class="ok${st === 'known' ? ' on' : ''}" data-mark="known">✓ Đã thuộc</button>
+          <button class="re${st === 'review' ? ' on' : ''}" data-mark="review">↻ Cần ôn thêm</button>
+        </div>
+        <div class="flipnote">chạm vào thẻ để lật lại ↺</div>
+      </div>
+
+    </div>
+  </div>`;
+}
+
+/* ====================== chiều cao thẻ lật ====================== */
+function fit(flipEl){
+  const inner = flipEl.querySelector('.inner');
+  const face = flipEl.querySelector(inner.classList.contains('flipped') ? '.back' : '.front');
+  inner.style.height = face.offsetHeight + 'px';
+}
+function fitAll(){ document.querySelectorAll('.flip').forEach(fit); }
+
+/* ====================== trạng thái ====================== */
+const stage = document.getElementById('stage');
+const nav = document.getElementById('nav');
+const progwrap = document.getElementById('progwrap');
+const countEl = document.getElementById('count');
+const progEl = document.getElementById('prog');
+
+const KEY = 'flashcard-hsk4-bai02';
+let marks = {};
+try{
+  const raw = localStorage.getItem(KEY);
+  if (raw) marks = JSON.parse(raw) || {};
+}catch(e){ marks = {}; }
+function save(){
+  try{ localStorage.setItem(KEY, JSON.stringify(marks)); }catch(e){}
+}
+
+let base = DATA.words.map((_, i) => i);
+let order = base.slice();
+let pos = 0;
+let mode = 'deck';
+let dir = 'zh';
+let filter = 'all';
+
+function applyFilter(){
+  order = base.filter(i => {
+    const m = marks[i];
+    if (filter === 'known')  return m === 'known';
+    if (filter === 'review') return m === 'review';
+    if (filter === 'new')    return !m;
+    return true;
+  });
+  if (pos >= order.length) pos = Math.max(0, order.length - 1);
+}
+
+function updateCounts(){
+  const vals = Object.values(marks);
+  const k = vals.filter(v => v === 'known').length;
+  const r = vals.filter(v => v === 'review').length;
+  const n = DATA.words.length - k - r;
+  document.getElementById('counts').innerHTML =
+    `<span class="cK">✓ Đã thuộc ${k}</span> · <span class="cR">↻ Cần ôn thêm ${r}</span> · Chưa phân loại ${n}`;
+}
+
+function mark(i, val){
+  if (marks[i] === val) delete marks[i]; else marks[i] = val;
+  save();
+  updateCounts();
+
+  const cur = order[pos];
+  applyFilter();
+
+  if (mode === 'grid'){ render(); return; }
+  if (order.length === 0){ render(); return; }
+
+  const at = order.indexOf(cur);
+  if (at === -1){ render(); }        // thẻ vừa phân loại đã bị bộ lọc ẩn đi
+  else { pos = at; go(1); }          // còn trong danh sách thì sang thẻ kế tiếp
+}
+
+function render(){
+  updateCounts();
+
+  if (order.length === 0){
+    stage.className = '';
+    stage.innerHTML = '<div class="empty">Không có thẻ nào trong mục này.</div>';
+    nav.classList.add('hidden');
+    progwrap.classList.add('hidden');
+    return;
+  }
+
+  if (mode === 'deck'){
+    stage.className = '';
+    stage.innerHTML = cardHTML(DATA.words[order[pos]], order[pos]);
+    nav.classList.remove('hidden');
+    progwrap.classList.remove('hidden');
+    countEl.textContent = (pos + 1) + ' / ' + order.length;
+    progEl.style.width = ((pos + 1) / order.length * 100) + '%';
+  } else {
+    stage.className = 'grid';
+    stage.innerHTML = order.map(i => cardHTML(DATA.words[i], i)).join('');
+    nav.classList.add('hidden');
+    progwrap.classList.add('hidden');
+  }
+  fitAll();
+  requestAnimationFrame(fitAll);
+}
+
+function go(d){
+  pos = (pos + d + order.length) % order.length;
+  render();
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function flip(flipEl){
+  const inner = flipEl.querySelector('.inner');
+  inner.classList.toggle('flipped');
+  fit(flipEl);
+}
+
+/* ====================== sự kiện ====================== */
+stage.addEventListener('click', e => {
+  const sp = e.target.closest('.spk');
+  if (sp){ e.stopPropagation(); speak(sp.dataset.say, sp); return; }
+  const mk = e.target.closest('[data-mark]');
+  if (mk){
+    e.stopPropagation();
+    mark(parseInt(mk.closest('.flip').dataset.i, 10), mk.dataset.mark);
+    return;
+  }
+  const fl = e.target.closest('.flip');
+  if (fl) flip(fl);
+});
+
+document.getElementById('prev').onclick = () => go(-1);
+document.getElementById('next').onclick = () => go(1);
+
+document.getElementById('mode-deck').onclick = function(){
+  mode = 'deck'; this.classList.add('on');
+  document.getElementById('mode-grid').classList.remove('on');
+  render();
+};
+document.getElementById('mode-grid').onclick = function(){
+  mode = 'grid'; this.classList.add('on');
+  document.getElementById('mode-deck').classList.remove('on');
+  render();
+};
+document.getElementById('dir-zh').onclick = function(){
+  dir = 'zh'; this.classList.add('on');
+  document.getElementById('dir-vi').classList.remove('on');
+  render();
+};
+document.getElementById('dir-vi').onclick = function(){
+  dir = 'vi'; this.classList.add('on');
+  document.getElementById('dir-zh').classList.remove('on');
+  render();
+};
+document.getElementById('shuffle').onclick = () => {
+  for (let i = base.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [base[i], base[j]] = [base[j], base[i]];
+  }
+  pos = 0; applyFilter(); render();
+};
+
+document.getElementById('reset').onclick = () => {
+  if (!Object.keys(marks).length) return;
+  if (!confirm('Xoá toàn bộ phân loại “đã thuộc / cần ôn thêm”?')) return;
+  marks = {}; save(); pos = 0; applyFilter(); render();
+};
+
+[['f-all','all'], ['f-new','new'], ['f-review','review'], ['f-known','known']].forEach(([id, val]) => {
+  document.getElementById(id).onclick = function(){
+    filter = val; pos = 0;
+    document.querySelectorAll('#f-all,#f-new,#f-review,#f-known').forEach(b => b.classList.remove('on'));
+    this.classList.add('on');
+    applyFilter(); render();
+  };
+});
+
+document.addEventListener('keydown', e => {
+  if (mode !== 'deck' || order.length === 0) return;
+  if (e.key === 'ArrowRight') go(1);
+  else if (e.key === 'ArrowLeft') go(-1);
+  else if (e.key === '1') mark(order[pos], 'known');
+  else if (e.key === '2') mark(order[pos], 'review');
+  else if (e.key === ' ' || e.key === 'Enter'){
+    e.preventDefault();
+    const fl = document.querySelector('.flip');
+    if (fl) flip(fl);
+  }
+});
+
+window.addEventListener('resize', fitAll);
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitAll);
+window.addEventListener('load', fitAll);
+
+render();
+</script>
+<!-- CHAY-NET:dau -->
+<script src="../assets/chay-net.js" defer></script>
+<!-- CHAY-NET:cuoi -->
+</body>
+</html>
