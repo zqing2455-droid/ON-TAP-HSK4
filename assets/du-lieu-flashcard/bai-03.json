@@ -1,0 +1,1402 @@
+[
+ {
+  "hz": "直接",
+  "py": "zhíjiē",
+  "pos": "tính từ · adj.",
+  "vn": "trực tiếp, thẳng",
+  "hv": "TRỰC TIẾP",
+  "use": "Dùng khi làm một việc THẲNG LUÔN, không qua bước trung gian, không đi vòng (đi thẳng, gọi thẳng, nói thẳng): 直接 + V (直接右转 / 直接去 / 直接说), 说话很直接. 直接 đứng TRƯỚC động từ: ✗ 你去直接 → 你直接去. 说话很直接 là nói thẳng, có khi hơi thẳng thừng.",
+  "tip": "直 (十 + 目: mắt nhìn thẳng) + 接 (nối): nối thẳng tới, không qua ai. Hán Việt TRỰC TIẾP giống hệt tiếng Việt.",
+  "ph": [
+   [
+    "直接右转",
+    "zhíjiē yòu zhuǎn",
+    "rẽ phải luôn"
+   ],
+   [
+    "直接去",
+    "zhíjiē qù",
+    "đi thẳng luôn"
+   ]
+  ],
+  "se": [
+   [
+    "不用，你直接给经理打电话吧。",
+    "Bú yòng, nǐ zhíjiē gěi jīnglǐ dǎ diànhuà ba.",
+    "Không cần đâu, cậu cứ gọi thẳng cho giám đốc đi.",
+    "直接给经理打电话"
+   ],
+   [
+    "我一般直接回家，有时候先去超市。",
+    "Wǒ yìbān zhíjiē huí jiā, yǒu shíhou xiān qù chāoshì.",
+    "Tôi thường về thẳng nhà, thỉnh thoảng ghé siêu thị trước.",
+    "直接回家"
+   ]
+  ]
+ },
+ {
+  "hz": "转",
+  "py": "zhuǎn",
+  "pos": "động từ · v.",
+  "vn": "rẽ; chuyển, đổi",
+  "hv": "CHUYỂN",
+  "use": "Dùng khi chỉ đường bảo RẼ trái / phải, hoặc khi chuyển sang thứ khác (chuyển xe, chuyển cho ai): 往 / 向 + 左 / 右 + 转, 左转 / 右转, 转车, 转给 + người. Hướng đứng TRƯỚC 转: 往右转 / 右转 (✗ 转右). Một chữ hai âm: zhuǎn (rẽ, chuyển) · zhuàn (quay vòng: 转圈).",
+  "tip": "车 (xe) + 专: chiếc xe đổi hướng → RẼ, chuyển. Hán Việt CHUYỂN như “chuyển hướng, chuyển xe”.",
+  "ph": [
+   [
+    "往右转",
+    "wǎng yòu zhuǎn",
+    "rẽ phải"
+   ],
+   [
+    "转给你",
+    "zhuǎn gěi nǐ",
+    "chuyển cho bạn"
+   ]
+  ],
+  "se": [
+   [
+    "师傅，前边十字路口右转。",
+    "Shīfu, qiánbian shízì lùkǒu yòu zhuǎn.",
+    "Bác tài ơi, đến ngã tư phía trước thì rẽ phải.",
+    "右转"
+   ],
+   [
+    "出门往前走，第一个路口左转，再右转就到了。",
+    "Chū mén wǎng qián zǒu, dì yī gè lùkǒu zuǒ zhuǎn, zài yòu zhuǎn jiù dào le.",
+    "Ra cửa đi thẳng, đến ngã rẽ đầu tiên rẽ trái, rồi rẽ phải là tới.",
+    "左转"
+   ]
+  ]
+ },
+ {
+  "hz": "正好",
+  "py": "zhènghǎo",
+  "pos": "phó từ / tính từ",
+  "vn": "vừa hay, vừa đúng lúc; vừa vặn",
+  "hv": "CHÍNH HẢO",
+  "use": "Dùng khi hai việc TRÙNG KHỚP một cách tình cờ, vừa may (vừa hay mình cũng đi đó), hoặc khi một thứ VỪA VẶN (cỡ, số tiền, giờ): 正好 + V / câu (正好我也去), 大小正好, 时间正好. ≠ 正在 (đang làm). Đứng đầu câu hoặc trước động từ; làm tính từ thì đứng sau danh từ: 这双鞋大小正好.",
+  "tip": "正 (đúng) + 好 (tốt): đúng vào lúc tốt → vừa may. Hán Việt CHÍNH HẢO.",
+  "ph": [
+   [
+    "正好我也去",
+    "zhènghǎo wǒ yě qù",
+    "vừa hay tôi cũng đi"
+   ],
+   [
+    "大小正好",
+    "dàxiǎo zhènghǎo",
+    "cỡ vừa vặn"
+   ]
+  ],
+  "se": [
+   [
+    "正好我也要去超市，一起去吧。",
+    "Zhènghǎo wǒ yě yào qù chāoshì, yìqǐ qù ba.",
+    "Vừa hay mình cũng định đi siêu thị, đi cùng nhé.",
+    "正好我也要去超市"
+   ],
+   [
+    "有一次我想给朋友打电话，正好他也给我打电话了。",
+    "Yǒu yí cì wǒ xiǎng gěi péngyou dǎ diànhuà, zhènghǎo tā yě gěi wǒ dǎ diànhuà le.",
+    "Có lần tôi định gọi cho bạn, vừa hay cậu ấy cũng gọi cho tôi.",
+    "正好他也给我打电话"
+   ]
+  ]
+ },
+ {
+  "hz": "熟悉",
+  "py": "shúxī",
+  "pos": "động từ / tính từ",
+  "vn": "quen thuộc, quen",
+  "hv": "THỤC TẤT",
+  "use": "Dùng khi đã BIẾT RÕ một nơi, một người, một việc vì đã gặp / làm nhiều lần (đường, môi trường, công việc): 熟悉 + N (路 / 环境 / 工作), 很熟悉, 对 + N + 很熟悉, 不熟悉. ≠ 认识 (biết, quen mặt), 熟悉 là biết RÕ; ≠ 习惯 (quen với một thói quen). Khẩu ngữ còn đọc shóuxi.",
+  "tip": "熟 (灬 lửa: nấu cho chín) + 悉 (釆 + 心: biết hết trong lòng): biết “chín” trong lòng → quen thuộc. Hán Việt THỤC như “thành thục”.",
+  "ph": [
+   [
+    "不熟悉路",
+    "bù shúxī lù",
+    "không quen đường"
+   ],
+   [
+    "很快就会熟悉的",
+    "hěn kuài jiù huì shúxī de",
+    "sẽ quen nhanh thôi"
+   ]
+  ],
+  "se": [
+   [
+    "刚来不熟悉很正常，你很快就会熟悉的。",
+    "Gāng lái bù shúxī hěn zhèngcháng, nǐ hěn kuài jiù huì shúxī de.",
+    "Mới đến chưa quen là bình thường, cậu sẽ quen nhanh thôi.",
+    "很快就会熟悉的"
+   ],
+   [
+    "我最熟悉河内，因为我在那儿上了四年大学。",
+    "Wǒ zuì shúxī Hénèi, yīnwèi wǒ zài nàr shàng le sì nián dàxué.",
+    "Tôi quen Hà Nội nhất, vì tôi học đại học ở đó bốn năm.",
+    "最熟悉河内"
+   ]
+  ]
+ },
+ {
+  "hz": "十字路口",
+  "py": "shízì lùkǒu",
+  "pos": "danh từ · n.",
+  "vn": "ngã tư",
+  "hv": "THẬP TỰ LỘ KHẨU",
+  "use": "Dùng khi chỉ đường, nói chỗ HAI CON ĐƯỜNG cắt nhau: 到 + 十字路口, 在十字路口 + V. Nói gọn là 路口.",
+  "tip": "十 hình chữ thập như hai con đường cắt nhau + 路口 (miệng đường): ngã tư hình chữ 十. Hán Việt THẬP TỰ LỘ KHẨU.",
+  "ph": [
+   [
+    "到十字路口",
+    "dào shízì lùkǒu",
+    "đến ngã tư"
+   ],
+   [
+    "下一个十字路口",
+    "xià yí gè shízì lùkǒu",
+    "ngã tư tiếp theo"
+   ]
+  ],
+  "se": [
+   [
+    "到十字路口不要过马路，直接右转就到小区门口了。",
+    "Dào shízì lùkǒu bú yào guò mǎlù, zhíjiē yòu zhuǎn jiù dào xiǎoqū ménkǒu le.",
+    "Đến ngã tư thì đừng qua đường, rẽ phải luôn là tới cổng khu.",
+    "到十字路口"
+   ],
+   [
+    "请在前边的十字路口停一下。",
+    "Qǐng zài qiánbian de shízì lùkǒu tíng yíxià.",
+    "Làm ơn dừng ở ngã tư phía trước một chút.",
+    "前边的十字路口"
+   ]
+  ]
+ },
+ {
+  "hz": "正",
+  "py": "zhèng",
+  "pos": "tính từ · adj.",
+  "vn": "thẳng, chính (hướng)",
+  "hv": "CHÍNH",
+  "use": "Dùng khi nói hướng ĐÚNG chính Đông / Tây / Nam / Bắc, hoặc vật thẳng, ngay ngắn: 正 + 东 / 南 / 西 / 北, 正南正北. 正 còn là phó từ “đang” (正在), ở đây là tính từ chỉ hướng.",
+  "tip": "一 (vạch đích) + 止 (bàn chân dừng): chân dừng đúng vạch → ngay, chính. Hán Việt CHÍNH như “chính Bắc”.",
+  "ph": [
+   [
+    "正南正北",
+    "zhèng nán zhèng běi",
+    "đúng hướng Nam–Bắc"
+   ],
+   [
+    "正前方",
+    "zhèng qiánfāng",
+    "ngay phía trước"
+   ]
+  ],
+  "se": [
+   [
+    "这边的路基本上都是正南正北、正东正西的，很好找。",
+    "Zhèbian de lù jīběnshang dōu shì zhèng nán zhèng běi, zhèng dōng zhèng xī de, hěn hǎo zhǎo.",
+    "Đường ở đây hầu như đều chạy thẳng hướng Nam–Bắc, Đông–Tây, dễ tìm lắm.",
+    "正南正北"
+   ],
+   [
+    "银行就在学校的正前方。",
+    "Yínháng jiù zài xuéxiào de zhèng qiánfāng.",
+    "Ngân hàng ở ngay phía trước cổng trường.",
+    "正前方"
+   ]
+  ]
+ },
+ {
+  "hz": "目的地",
+  "py": "mùdìdì",
+  "pos": "danh từ · n.",
+  "vn": "nơi đến, điểm đến",
+  "hv": "MỤC ĐÍCH ĐỊA",
+  "use": "Dùng khi nói NƠI mình định tới (chỉ đường, du lịch, app gọi xe): 到 / 找到 + 目的地, 旅游目的地. Chữ 的 ở đây đọc dì (thanh 4), không đọc de.",
+  "tip": "目的 (mục đích) + 地 (nơi): nơi là mục đích của chuyến đi. Hán Việt MỤC ĐÍCH ĐỊA.",
+  "ph": [
+   [
+    "找到目的地",
+    "zhǎodào mùdìdì",
+    "tìm được nơi cần đến"
+   ],
+   [
+    "到目的地",
+    "dào mùdìdì",
+    "tới nơi"
+   ]
+  ],
+  "se": [
+   [
+    "你也可以用手机地图，很容易就能找到目的地。",
+    "Nǐ yě kěyǐ yòng shǒujī dìtú, hěn róngyì jiù néng zhǎodào mùdìdì.",
+    "Cậu cũng có thể dùng bản đồ điện thoại, tìm nơi cần đến dễ thôi.",
+    "找到目的地"
+   ],
+   [
+    "还有十分钟就到目的地了。",
+    "Hái yǒu shí fēnzhōng jiù dào mùdìdì le.",
+    "Còn mười phút nữa là tới nơi.",
+    "到目的地"
+   ]
+  ]
+ },
+ {
+  "hz": "进行",
+  "py": "jìnxíng",
+  "pos": "động từ · v.",
+  "vn": "tiến hành, thực hiện",
+  "hv": "TIẾN HÀNH",
+  "use": "Dùng khi nói một việc ĐANG / SẼ được thực hiện chính thức, có quy trình (thông báo, văn viết): 进行 + động từ HAI CHỮ (支付 / 交流 / 研究 / 比赛), 正在进行, 还在进行. Tân ngữ của 进行 là ĐỘNG TỪ hai chữ, không phải danh từ thường: ✗ 进行饭 → 吃饭. Nói chuyện thường ngày ít dùng.",
+  "tip": "进 (tiến lên) + 行 (đi, làm): tiến lên mà làm. Hán Việt TIẾN HÀNH giống hệt tiếng Việt.",
+  "ph": [
+   [
+    "进行支付",
+    "jìnxíng zhīfù",
+    "tiến hành thanh toán"
+   ],
+   [
+    "正在进行",
+    "zhèngzài jìnxíng",
+    "đang diễn ra"
+   ]
+  ],
+  "se": [
+   [
+    "周五我们要进行一次考试。",
+    "Zhōuwǔ wǒmen yào jìnxíng yí cì kǎoshì.",
+    "Thứ Sáu chúng ta sẽ làm một bài kiểm tra.",
+    "进行一次考试"
+   ],
+   [
+    "我们公司最近进行了一次中文比赛。",
+    "Wǒmen gōngsī zuìjìn jìnxíng le yí cì Zhōngwén bǐsài.",
+    "Công ty tôi gần đây tổ chức một cuộc thi tiếng Trung.",
+    "进行了一次中文比赛"
+   ]
+  ]
+ },
+ {
+  "hz": "支付",
+  "py": "zhīfù",
+  "pos": "động từ · v.",
+  "vn": "thanh toán, trả tiền",
+  "hv": "CHI PHÓ",
+  "use": "Dùng khi nói việc THANH TOÁN, nhất là qua điện thoại, thẻ, app (trang trọng hơn 付钱): 用 + 手机 / 微信 + 支付, 扫码支付, 支付 + số tiền. Nói thường ngày hay dùng 付钱; 支付 hay gặp trên app, biển, thông báo. Đừng nhầm 支付 với 支持 (ủng hộ).",
+  "tip": "支 (chi ra) + 付 (亻 người + 寸 tay: tay đưa cho người): chi tiền đưa cho người → trả tiền. Hán Việt CHI PHÓ, “chi” như “chi tiền”.",
+  "ph": [
+   [
+    "手机支付",
+    "shǒujī zhīfù",
+    "thanh toán bằng điện thoại"
+   ],
+   [
+    "扫码支付",
+    "sǎomǎ zhīfù",
+    "quét mã thanh toán"
+   ]
+  ],
+  "se": [
+   [
+    "我用手机支付吧。",
+    "Wǒ yòng shǒujī zhīfù ba.",
+    "Tôi trả bằng điện thoại nhé.",
+    "用手机支付"
+   ],
+   [
+    "我一般用手机支付，很少用现金。",
+    "Wǒ yìbān yòng shǒujī zhīfù, hěn shǎo yòng xiànjīn.",
+    "Tôi thường trả bằng điện thoại, rất ít dùng tiền mặt.",
+    "用手机支付"
+   ]
+  ]
+ },
+ {
+  "hz": "不仅",
+  "py": "bùjǐn",
+  "pos": "liên từ · conj.",
+  "vn": "không những, không chỉ",
+  "hv": "BẤT CẬN",
+  "use": "Dùng khi nói một người / việc có THÊM một điểm nữa, mức độ tăng lên (không những… mà còn…): S + 不仅 A，还 / 而且 B. Cùng chủ ngữ thì đặt chủ ngữ TRƯỚC 不仅: ✗ 不仅我会扫码，我还会网购 → 我不仅会扫码，还会网购. ≈ 不但.",
+  "tip": "不 + 仅 (亻 + 又: chỉ một người): “không chỉ một” → còn nữa. Hán Việt BẤT CẬN, “cận” là chỉ, vỏn vẹn.",
+  "ph": [
+   [
+    "不仅会……，还会……",
+    "bùjǐn huì ..., hái huì ...",
+    "không những biết…, còn biết…"
+   ],
+   [
+    "不仅便宜，而且……",
+    "bùjǐn piányi, érqiě ...",
+    "không những rẻ, mà còn…"
+   ]
+  ],
+  "se": [
+   [
+    "她不仅中文很好，还会说英语。",
+    "Tā bùjǐn Zhōngwén hěn hǎo, hái huì shuō Yīngyǔ.",
+    "Chị ấy không những giỏi tiếng Trung mà còn nói được tiếng Anh.",
+    "不仅中文很好，还会说英语"
+   ],
+   [
+    "我的手机不仅能打电话，还能付钱、看电影。",
+    "Wǒ de shǒujī bùjǐn néng dǎ diànhuà, hái néng fù qián, kàn diànyǐng.",
+    "Điện thoại của tôi không chỉ gọi được, còn trả tiền, xem phim được.",
+    "不仅能打电话，还能付钱"
+   ]
+  ]
+ },
+ {
+  "hz": "订",
+  "py": "dìng",
+  "pos": "động từ · v.",
+  "vn": "đặt (trước)",
+  "hv": "ĐÍNH",
+  "use": "Dùng khi ĐẶT TRƯỚC một thứ (vé, phòng, đồ ăn, hàng) qua điện thoại hoặc mạng: 订 + 票 / 房间 / 饭 / 外卖, 在网上订, 订好了. ≠ 定 (quyết định, 决定), cùng âm dìng. Đặt mua hàng trên mạng: 在网上订了一台电脑.",
+  "tip": "讠 (lời nói) + 丁: nói trước một lời hẹn chắc chắn → đặt trước. Hán Việt ĐÍNH như “đính ước” (hẹn trước).",
+  "ph": [
+   [
+    "订票",
+    "dìng piào",
+    "đặt vé"
+   ],
+   [
+    "在网上订了",
+    "zài wǎngshàng dìng le",
+    "đặt trên mạng rồi"
+   ]
+  ],
+  "se": [
+   [
+    "我一般在手机上订票，很方便。",
+    "Wǒ yìbān zài shǒujī shàng dìng piào, hěn fāngbiàn.",
+    "Tôi thường đặt vé trên điện thoại, rất tiện.",
+    "订票"
+   ],
+   [
+    "好的，我马上在网上订机票。",
+    "Hǎo de, wǒ mǎshàng zài wǎngshàng dìng jīpiào.",
+    "Vâng, em đặt vé máy bay trên mạng ngay ạ.",
+    "在网上订机票"
+   ]
+  ]
+ },
+ {
+  "hz": "下载",
+  "py": "xiàzài",
+  "pos": "động từ · v.",
+  "vn": "tải về",
+  "hv": "HẠ TẢI",
+  "use": "Dùng khi TẢI app, phim, tài liệu từ mạng về máy: 下载 + 软件 / App / 文件. Đề cương xếp cấp 5. “Tải lên” là 上传.",
+  "tip": "下 (xuống) + 载 (chở): chở từ trên mạng xuống máy. Hán Việt HẠ TẢI, “tải” như “tải trọng”.",
+  "ph": [
+   [
+    "下载软件",
+    "xiàzài ruǎnjiàn",
+    "tải phần mềm"
+   ],
+   [
+    "免费下载",
+    "miǎnfèi xiàzài",
+    "tải miễn phí"
+   ]
+  ],
+  "se": [
+   [
+    "他帮我下载了微信和支付宝。",
+    "Tā bāng wǒ xiàzài le Wēixìn hé Zhīfùbǎo.",
+    "Cậu ấy tải giúp mình WeChat và Alipay.",
+    "下载了微信和支付宝"
+   ],
+   [
+    "这个App可以免费下载。",
+    "Zhè ge App kěyǐ miǎnfèi xiàzài.",
+    "App này tải miễn phí.",
+    "免费下载"
+   ]
+  ]
+ },
+ {
+  "hz": "软件",
+  "py": "ruǎnjiàn",
+  "pos": "danh từ · n.",
+  "vn": "phần mềm, app",
+  "hv": "NHUYỄN KIỆN",
+  "use": "Dùng khi nói CHƯƠNG TRÌNH trên điện thoại, máy tính: 下载 / 用 + 软件, 一个软件. Đề cương xếp cấp 5; nói thường hay dùng luôn chữ App.",
+  "tip": "软 (车 + 欠: mềm) + 件 (món): món “mềm” trong máy — phần mềm (ngược với 硬件 phần cứng). Hán Việt NHUYỄN là mềm.",
+  "ph": [
+   [
+    "这两个软件",
+    "zhè liǎng gè ruǎnjiàn",
+    "hai app này"
+   ],
+   [
+    "下载软件",
+    "xiàzài ruǎnjiàn",
+    "tải phần mềm"
+   ]
+  ],
+  "se": [
+   [
+    "他也教了我怎么用这两个软件。",
+    "Tā yě jiāo le wǒ zěnme yòng zhè liǎng gè ruǎnjiàn.",
+    "Cậu ấy cũng dạy mình cách dùng hai app này.",
+    "这两个软件"
+   ],
+   [
+    "这个软件很好用。",
+    "Zhè ge ruǎnjiàn hěn hǎoyòng.",
+    "Phần mềm này dùng rất tiện.",
+    "这个软件"
+   ]
+  ]
+ },
+ {
+  "hz": "扫码",
+  "py": "sǎomǎ",
+  "pos": "động từ · v.",
+  "vn": "quét mã",
+  "hv": "TẢO MÃ",
+  "use": "Dùng khi dùng điện thoại QUÉT mã QR để trả tiền, kết bạn, xem thông tin: 扫码 + 支付 / 结账, 扫一下码. Từ ly hợp: 扫一下码, 扫个码. Tên bài 手机扫一下 nghĩa là “lấy điện thoại quét một cái”.",
+  "tip": "扫 (扌 tay cầm chổi quét) + 码 (mã số): tay “quét” qua mã. Hán Việt TẢO MÃ, “tảo” là quét.",
+  "ph": [
+   [
+    "扫码结账",
+    "sǎomǎ jiézhàng",
+    "quét mã thanh toán hoá đơn"
+   ],
+   [
+    "扫码支付",
+    "sǎomǎ zhīfù",
+    "quét mã trả tiền"
+   ]
+  ],
+  "se": [
+   [
+    "现在我不仅会扫码结账，还会用手机在网上购物了。",
+    "Xiànzài wǒ bùjǐn huì sǎomǎ jiézhàng, hái huì yòng shǒujī zài wǎngshàng gòuwù le.",
+    "Giờ mình không chỉ biết quét mã thanh toán mà còn biết mua hàng online.",
+    "扫码结账"
+   ],
+   [
+    "您好，扫这里就可以付钱。",
+    "Nín hǎo, sǎo zhèlǐ jiù kěyǐ fù qián.",
+    "Chào anh/chị, quét ở đây là thanh toán được.",
+    "扫这里"
+   ]
+  ]
+ },
+ {
+  "hz": "结账",
+  "py": "jiézhàng",
+  "pos": "động từ · v.",
+  "vn": "thanh toán (hoá đơn)",
+  "hv": "KẾT TRƯƠNG",
+  "use": "Dùng khi TRẢ TIỀN lúc kết thúc ăn uống, mua sắm, ở khách sạn: 结账, 结一下账, 用 + cách trả + 结账. Từ ly hợp: 结一下账. Ở quán cũng hay gọi 买单.",
+  "tip": "结 (纟 thắt nút) + 账 (贝 tiền + 长: sổ tiền ghi dài): thắt nút sổ tiền → khoá sổ, trả tiền. Hán Việt KẾT TRƯƠNG, “trương” là sổ sách.",
+  "ph": [
+   [
+    "扫码结账",
+    "sǎomǎ jiézhàng",
+    "quét mã thanh toán"
+   ],
+   [
+    "用现金结账",
+    "yòng xiànjīn jiézhàng",
+    "trả bằng tiền mặt"
+   ]
+  ],
+  "se": [
+   [
+    "中国人在饭馆或超市结账时，几乎都用手机支付。",
+    "Zhōngguórén zài fànguǎn huò chāoshì jiézhàng shí, jīhū dōu yòng shǒujī zhīfù.",
+    "Người Trung Quốc khi thanh toán ở nhà hàng hay siêu thị hầu như đều trả bằng điện thoại.",
+    "结账时"
+   ],
+   [
+    "服务员，我们结账。",
+    "Fúwùyuán, wǒmen jiézhàng.",
+    "Bạn ơi, cho bọn mình thanh toán.",
+    "我们结账"
+   ]
+  ]
+ },
+ {
+  "hz": "购物",
+  "py": "gòuwù",
+  "pos": "động từ · v.",
+  "vn": "mua sắm",
+  "hv": "CẤU VẬT",
+  "use": "Dùng khi nói đi MUA SẮM nói chung (trang trọng hơn 买东西): 去 + nơi + 购物, 在网上购物, 购物习惯. 购物 không mang tân ngữ: ✗ 购物衣服 → 买衣服.",
+  "tip": "购 (贝 tiền + 勾 móc) + 物 (đồ vật): dùng tiền “móc” lấy đồ. Hán Việt CẤU VẬT, “cấu” là mua.",
+  "ph": [
+   [
+    "在网上购物",
+    "zài wǎngshàng gòuwù",
+    "mua sắm trên mạng"
+   ],
+   [
+    "去商场购物",
+    "qù shāngchǎng gòuwù",
+    "đi trung tâm thương mại mua sắm"
+   ]
+  ],
+  "se": [
+   [
+    "他还会用手机在网上购物了。",
+    "Tā hái huì yòng shǒujī zài wǎngshàng gòuwù le.",
+    "Cậu ấy còn biết mua sắm online bằng điện thoại.",
+    "在网上购物"
+   ],
+   [
+    "周末我喜欢去商场购物。",
+    "Zhōumò wǒ xǐhuan qù shāngchǎng gòuwù.",
+    "Cuối tuần mình thích đi trung tâm thương mại mua sắm.",
+    "去商场购物"
+   ]
+  ]
+ },
+ {
+  "hz": "快递",
+  "py": "kuàidì",
+  "pos": "danh từ · n.",
+  "vn": "chuyển phát nhanh; bưu kiện",
+  "hv": "KHOÁI ĐỆ",
+  "use": "Dùng khi nói GÓI HÀNG gửi nhanh hoặc dịch vụ giao nhanh: 寄 / 收 / 拿 + 快递, 快递员 (người giao hàng). 快递员 là shipper.",
+  "tip": "快 (nhanh) + 递 (辶 + 弟: chuyền tay đưa đi): chuyền đi thật nhanh. Hán Việt KHOÁI ĐỆ, “khoái” là nhanh.",
+  "ph": [
+   [
+    "快递员",
+    "kuàidìyuán",
+    "shipper, người giao hàng"
+   ],
+   [
+    "拿快递",
+    "ná kuàidì",
+    "lấy hàng"
+   ]
+  ],
+  "se": [
+   [
+    "快递员要到了，我得马上回去！",
+    "Kuàidìyuán yào dào le, wǒ děi mǎshàng huíqù!",
+    "Shipper sắp tới rồi, mình phải về ngay!",
+    "快递员"
+   ],
+   [
+    "我去楼下拿一下快递。",
+    "Wǒ qù lóuxià ná yíxià kuàidì.",
+    "Mình xuống dưới lấy hàng chút.",
+    "拿一下快递"
+   ]
+  ]
+ },
+ {
+  "hz": "甚至",
+  "py": "shènzhì",
+  "pos": "liên từ · conj.",
+  "vn": "thậm chí",
+  "hv": "THẬM CHÍ",
+  "use": "Dùng khi nêu một ví dụ VƯỢT QUÁ dự đoán, ở mức cao nhất (thậm chí đến cả…): A，甚至 (+ 还 / 都 / 也) + B; 甚至 + N + 都 / 也……. Dùng giống “thậm chí” tiếng Việt; ý sau 甚至 phải MẠNH hơn, bất ngờ hơn ý trước và thường đặt cuối.",
+  "tip": "甚 (rất, quá) + 至 (đến): quá lên đến mức đó. Hán Việt THẬM CHÍ y hệt tiếng Việt.",
+  "ph": [
+   [
+    "甚至改变了……",
+    "shènzhì gǎibiàn le ...",
+    "thậm chí đã thay đổi…"
+   ],
+   [
+    "甚至还有……",
+    "shènzhì hái yǒu ...",
+    "thậm chí còn có…"
+   ]
+  ],
+  "se": [
+   [
+    "他玩游戏玩了一个晚上，甚至忘了吃饭。",
+    "Tā wán yóuxì wán le yí gè wǎnshang, shènzhì wàng le chī fàn.",
+    "Cậu ấy chơi game cả một tối, thậm chí quên cả ăn.",
+    "甚至忘了吃饭"
+   ],
+   [
+    "我学中文以后喜欢看中国电影，甚至开始学做中国菜了。",
+    "Wǒ xué Zhōngwén yǐhòu xǐhuan kàn Zhōngguó diànyǐng, shènzhì kāishǐ xué zuò Zhōngguócài le.",
+    "Từ khi học tiếng Trung tôi thích xem phim Trung Quốc, thậm chí bắt đầu học nấu món Trung.",
+    "甚至开始学做中国菜"
+   ]
+  ]
+ },
+ {
+  "hz": "改变",
+  "py": "gǎibiàn",
+  "pos": "động từ · v.",
+  "vn": "thay đổi",
+  "hv": "CẢI BIẾN",
+  "use": "Dùng khi làm cho thói quen, kế hoạch, cách nghĩ, cuộc sống ĐỔI KHÁC đi (thường là thay đổi lớn, có tác nhân): 改变 + 习惯 / 计划 / 生活 / 想法, 改变了很多. ≠ 变 / 变成 (tự biến đổi): 改变 thường có tân ngữ, có người / việc làm cho đổi. ≠ 变化 (danh từ: sự thay đổi).",
+  "tip": "改 (己 mình + 攵 tay: tự tay sửa mình) + 变 (biến): tự tay sửa cho khác đi. Hán Việt CẢI BIẾN như “cải cách, biến đổi”.",
+  "ph": [
+   [
+    "改变习惯",
+    "gǎibiàn xíguàn",
+    "thay đổi thói quen"
+   ],
+   [
+    "改变了生活",
+    "gǎibiàn le shēnghuó",
+    "đã thay đổi cuộc sống"
+   ]
+  ],
+  "se": [
+   [
+    "我改变了习惯，现在喝茶。",
+    "Wǒ gǎibiàn le xíguàn, xiànzài hē chá.",
+    "Mình đổi thói quen rồi, giờ uống trà.",
+    "改变了习惯"
+   ],
+   [
+    "手机改变了我的购物习惯，现在我常常网购。",
+    "Shǒujī gǎibiàn le wǒ de gòuwù xíguàn, xiànzài wǒ chángcháng wǎnggòu.",
+    "Điện thoại đã thay đổi thói quen mua sắm của tôi, giờ tôi thường mua online.",
+    "改变了我的购物习惯"
+   ]
+  ]
+ },
+ {
+  "hz": "乱",
+  "py": "luàn",
+  "pos": "phó từ / tính từ",
+  "vn": "bừa, lung tung; lộn xộn",
+  "hv": "LOẠN",
+  "use": "Dùng (phó từ) khi làm một việc BỪA BÃI, không suy nghĩ (tiêu tiền bừa, nói bừa, vứt bừa); (tính từ) khi phòng, đồ đạc LỘN XỘN: 乱 + V (乱花钱 / 乱说 / 乱放), 别乱 + V, 很乱. Phó từ 乱 đứng ngay TRƯỚC động từ: ✗ 花钱乱 → 乱花钱. Hay đi với 别: 别乱说.",
+  "tip": "舌 (cái lưỡi) + 乚: lưỡi uốn lung tung → nói loạn, rối. Hán Việt LOẠN như “loạn xạ, hỗn loạn”.",
+  "ph": [
+   [
+    "乱花钱",
+    "luàn huā qián",
+    "tiêu tiền bừa"
+   ],
+   [
+    "房间很乱",
+    "fángjiān hěn luàn",
+    "phòng rất bừa bộn"
+   ]
+  ],
+  "se": [
+   [
+    "这个月别乱花钱了。",
+    "Zhè ge yuè bié luàn huā qián le.",
+    "Tháng này đừng tiêu tiền lung tung nữa.",
+    "别乱花钱"
+   ],
+   [
+    "我心情不好的时候会乱花钱。",
+    "Wǒ xīnqíng bù hǎo de shíhou huì luàn huā qián.",
+    "Lúc tâm trạng không tốt tôi hay tiêu tiền bừa.",
+    "乱花钱"
+   ]
+  ]
+ },
+ {
+  "hz": "管",
+  "py": "guǎn",
+  "pos": "động từ · v.",
+  "vn": "quản, trông; kiềm chế",
+  "hv": "QUẢN",
+  "use": "Dùng khi TRÔNG, QUẢN, kiểm soát người hoặc việc (bố mẹ quản con, tự kiềm chế mình, phụ trách một việc): 管 + người / việc, 管住 + 自己 / 嘴, (phụ trách) 他管电脑. 管住 là quản cho CHẶT (bổ ngữ kết quả 住). Khẩu ngữ thân mật: 别管我 = kệ tôi.",
+  "tip": "竹 (tre) + 官 (quan): ống tre của quan cầm để quản việc → QUẢN. Hán Việt QUẢN như “quản lý”.",
+  "ph": [
+   [
+    "管住自己",
+    "guǎnzhù zìjǐ",
+    "kiềm chế bản thân"
+   ],
+   [
+    "管孩子",
+    "guǎn háizi",
+    "quản con"
+   ]
+  ],
+  "se": [
+   [
+    "你要管住自己的嘴！",
+    "Nǐ yào guǎnzhù zìjǐ de zuǐ!",
+    "Cậu phải quản cái miệng của mình lại!",
+    "管住自己的嘴"
+   ],
+   [
+    "我小时候，爸爸妈妈管我看电视的时间。",
+    "Wǒ xiǎo shíhou, bàba māma guǎn wǒ kàn diànshì de shíjiān.",
+    "Hồi nhỏ, bố mẹ quản giờ xem ti vi của tôi.",
+    "管我看电视的时间"
+   ]
+  ]
+ },
+ {
+  "hz": "现金",
+  "py": "xiànjīn",
+  "pos": "danh từ · n.",
+  "vn": "tiền mặt",
+  "hv": "HIỆN KIM",
+  "use": "Dùng khi nói TIỀN GIẤY, tiền xu, đối lập với thẻ, app: 用现金 + 结账 / 支付, 带现金. Hán Việt “hiện kim” nghĩa là tiền mặt.",
+  "tip": "现 (có ngay trước mắt) + 金 (tiền): tiền có ngay trong tay. Hán Việt HIỆN KIM.",
+  "ph": [
+   [
+    "用现金结账",
+    "yòng xiànjīn jiézhàng",
+    "trả bằng tiền mặt"
+   ],
+   [
+    "带现金",
+    "dài xiànjīn",
+    "mang tiền mặt"
+   ]
+  ],
+  "se": [
+   [
+    "只有他们用现金结账。",
+    "Zhǐyǒu tāmen yòng xiànjīn jiézhàng.",
+    "Chỉ có họ trả bằng tiền mặt.",
+    "用现金结账"
+   ],
+   [
+    "现在出门不用带很多现金。",
+    "Xiànzài chū mén bú yòng dài hěn duō xiànjīn.",
+    "Bây giờ ra ngoài không cần mang nhiều tiền mặt.",
+    "带很多现金"
+   ]
+  ]
+ },
+ {
+  "hz": "网购",
+  "py": "wǎnggòu",
+  "pos": "động từ · v.",
+  "vn": "mua hàng online",
+  "hv": "VÕNG CẤU",
+  "use": "Dùng khi MUA ĐỒ TRÊN MẠNG: 网购, 网购 + đồ vật, nói đủ là 在网上购物. Khác 购物, 网购 mang được tân ngữ: 网购了一双鞋.",
+  "tip": "网 (mạng) + 购 (mua): viết tắt của 网上购物. Hán Việt VÕNG CẤU, “võng” là lưới, mạng.",
+  "ph": [
+   [
+    "在中国网购",
+    "zài Zhōngguó wǎnggòu",
+    "mua online ở Trung Quốc"
+   ],
+   [
+    "喜欢网购",
+    "xǐhuan wǎnggòu",
+    "thích mua online"
+   ]
+  ],
+  "se": [
+   [
+    "在中国网购，不仅选择多、价格不高，而且送货很快。",
+    "Zài Zhōngguó wǎnggòu, bùjǐn xuǎnzé duō, jiàgé bù gāo, érqiě sònghuò hěn kuài.",
+    "Mua online ở Trung Quốc không chỉ nhiều lựa chọn, giá không cao mà giao hàng còn nhanh.",
+    "在中国网购"
+   ],
+   [
+    "我昨天网购了一双鞋。",
+    "Wǒ zuótiān wǎnggòu le yì shuāng xié.",
+    "Hôm qua mình mua online một đôi giày.",
+    "网购了一双鞋"
+   ]
+  ]
+ },
+ {
+  "hz": "寄",
+  "py": "jì",
+  "pos": "động từ · v.",
+  "vn": "gửi (qua bưu điện, chuyển phát)",
+  "hv": "KÝ",
+  "use": "Dùng khi GỬI thư, hàng qua bưu điện / chuyển phát: 寄 + 快递 / 信 / 东西, 寄给 + người. ≠ 送 (đưa tận tay). Gửi tin nhắn là 发, không dùng 寄.",
+  "tip": "宀 (mái nhà) + 奇: gửi đồ nhờ dưới mái nhà người khác → gửi. Hán Việt KÝ như “ký gửi”.",
+  "ph": [
+   [
+    "寄快递",
+    "jì kuàidì",
+    "gửi chuyển phát"
+   ],
+   [
+    "寄给妈妈",
+    "jì gěi māma",
+    "gửi cho mẹ"
+   ]
+  ],
+  "se": [
+   [
+    "他们也都学会了用手机支付、网购、寄快递等等。",
+    "Tāmen yě dōu xuéhuì le yòng shǒujī zhīfù, wǎnggòu, jì kuàidì děngděng.",
+    "Họ cũng đều biết trả tiền bằng điện thoại, mua online, gửi chuyển phát, v.v.",
+    "寄快递"
+   ],
+   [
+    "我给妈妈寄了一些礼物。",
+    "Wǒ gěi māma jì le yìxiē lǐwù.",
+    "Mình gửi cho mẹ ít quà.",
+    "给妈妈寄了一些礼物"
+   ]
+  ]
+ },
+ {
+  "hz": "等",
+  "py": "děng",
+  "pos": "trợ từ · part.",
+  "vn": "vân vân, v.v.",
+  "hv": "ĐẲNG",
+  "use": "Dùng khi LIỆT KÊ chưa hết, còn những thứ khác cùng loại: A、B、C + 等 (+ N), ……等等. Một chữ nhiều nghĩa: 等 = đợi (HSK2) · 等 = vân vân (bài này). Có thể lặp 等等.",
+  "tip": "竹 (thẻ tre) + 寺: các thẻ tre xếp cùng một bậc → cùng loại, “vân vân”. Hán Việt ĐẲNG như “đẳng cấp” (cùng bậc).",
+  "ph": [
+   [
+    "……等等",
+    "... děngděng",
+    "… vân vân"
+   ],
+   [
+    "身份证号等个人信息",
+    "shēnfènzhèng hào děng gèrén xìnxī",
+    "số căn cước và các thông tin cá nhân khác"
+   ]
+  ],
+  "se": [
+   [
+    "他们都学会了用手机支付、网购、寄快递等等。",
+    "Tāmen dōu xuéhuì le yòng shǒujī zhīfù, wǎnggòu, jì kuàidì děngděng.",
+    "Họ đều biết trả tiền bằng điện thoại, mua online, gửi chuyển phát, v.v.",
+    "等等"
+   ],
+   [
+    "我们经常需要提供姓名、手机号、身份证号等个人信息。",
+    "Wǒmen jīngcháng xūyào tígōng xìngmíng, shǒujī hào, shēnfènzhèng hào děng gèrén xìnxī.",
+    "Ta thường phải cung cấp họ tên, số điện thoại, số căn cước… và các thông tin cá nhân khác.",
+    "身份证号等个人信息"
+   ]
+  ]
+ },
+ {
+  "hz": "货",
+  "py": "huò",
+  "pos": "danh từ · n.",
+  "vn": "hàng, hàng hoá",
+  "hv": "HOÁ",
+  "use": "Dùng khi nói HÀNG HOÁ được giao, được bán: 送货, 货 + 到了, 这些货. 送货 nghĩa là giao hàng.",
+  "tip": "化 (biến đổi) + 贝 (tiền): thứ đổi được ra tiền → hàng hoá. Hán Việt HOÁ như “hàng hoá”.",
+  "ph": [
+   [
+    "送货很快",
+    "sònghuò hěn kuài",
+    "giao hàng rất nhanh"
+   ],
+   [
+    "这些货",
+    "zhèxiē huò",
+    "số hàng này"
+   ]
+  ],
+  "se": [
+   [
+    "在中国网购，……而且送货很快。",
+    "Zài Zhōngguó wǎnggòu, ... érqiě sònghuò hěn kuài.",
+    "Mua online ở Trung Quốc… giao hàng lại rất nhanh.",
+    "送货很快"
+   ],
+   [
+    "你们能保证这些货下午就送到吗？",
+    "Nǐmen néng bǎozhèng zhèxiē huò xiàwǔ jiù sòngdào ma?",
+    "Các anh có bảo đảm số hàng này chiều nay giao tới không?",
+    "这些货"
+   ]
+  ]
+ },
+ {
+  "hz": "手指",
+  "py": "shǒuzhǐ",
+  "pos": "danh từ · n.",
+  "vn": "ngón tay",
+  "hv": "THỦ CHỈ",
+  "use": "Dùng khi nói NGÓN TAY: 动动手指, 用手指 + V. Đề cương xếp cấp 5. 指 còn là động từ “chỉ” (指路).",
+  "tip": "手 (tay) + 指 (扌 + 旨: tay chỉ trỏ): phần của bàn tay dùng để chỉ. Hán Việt THỦ CHỈ, “thủ” là tay.",
+  "ph": [
+   [
+    "动动手指",
+    "dòngdong shǒuzhǐ",
+    "động ngón tay"
+   ],
+   [
+    "用手指",
+    "yòng shǒuzhǐ",
+    "dùng ngón tay"
+   ]
+  ],
+  "se": [
+   [
+    "动动手指就能买到想要的东西。",
+    "Dòngdong shǒuzhǐ jiù néng mǎidào xiǎng yào de dōngxi.",
+    "Chỉ động ngón tay là mua được thứ mình muốn.",
+    "动动手指"
+   ],
+   [
+    "他用手指指了指前边的路口。",
+    "Tā yòng shǒuzhǐ zhǐ le zhǐ qiánbian de lùkǒu.",
+    "Anh ấy lấy ngón tay chỉ về phía ngã tư đằng trước.",
+    "用手指"
+   ]
+  ]
+ },
+ {
+  "hz": "提供",
+  "py": "tígōng",
+  "pos": "động từ · v.",
+  "vn": "cung cấp",
+  "hv": "ĐỀ CUNG",
+  "use": "Dùng khi ĐƯA RA cho người khác thứ họ cần (thông tin, dịch vụ, giúp đỡ, giấy tờ), hay dùng trong dịch vụ, văn bản: 提供 + 信息 / 服务 / 帮助 / 机会, 为 / 给 + người + 提供 + N. Hán Việt “đề cung” khác tiếng Việt nhưng nghĩa là “cung cấp”. Nói thân mật có thể dùng 给.",
+  "tip": "提 (扌 tay nâng lên) + 供 (亻 người + 共 cùng): nâng lên đưa cho mọi người. Hán Việt ĐỀ CUNG, “cung” như “cung cấp”.",
+  "ph": [
+   [
+    "提供信息",
+    "tígōng xìnxī",
+    "cung cấp thông tin"
+   ],
+   [
+    "提供帮助",
+    "tígōng bāngzhù",
+    "giúp đỡ, hỗ trợ"
+   ]
+  ],
+  "se": [
+   [
+    "办签证需要提供护照和照片。",
+    "Bàn qiānzhèng xūyào tígōng hùzhào hé zhàopiàn.",
+    "Làm visa cần nộp hộ chiếu và ảnh.",
+    "提供护照和照片"
+   ],
+   [
+    "我们公司为大家提供免费午饭。",
+    "Wǒmen gōngsī wèi dàjiā tígōng miǎnfèi wǔfàn.",
+    "Công ty tôi cung cấp bữa trưa miễn phí cho mọi người.",
+    "为大家提供免费午饭"
+   ]
+  ]
+ },
+ {
+  "hz": "保护",
+  "py": "bǎohù",
+  "pos": "động từ · v.",
+  "vn": "bảo vệ",
+  "hv": "BẢO HỘ",
+  "use": "Dùng khi GIỮ cho người, vật, thông tin KHÔNG BỊ tổn hại (môi trường, con vật, thông tin cá nhân, mắt): 保护 + 环境 / 动物 / 信息 / 眼睛, 得到保护, 保护好. Tiếng Việt hay nói “bảo vệ”, ít nói “bảo hộ”. ≠ 保证 (bảo đảm, cam đoan). Người gác cổng là 保安.",
+  "tip": "保 (亻 người ôm đứa trẻ) + 护 (扌 tay che chở): ôm và che chở → bảo vệ. Hán Việt BẢO HỘ như “bảo hộ lao động”.",
+  "ph": [
+   [
+    "保护环境",
+    "bǎohù huánjìng",
+    "bảo vệ môi trường"
+   ],
+   [
+    "保护个人信息",
+    "bǎohù gèrén xìnxī",
+    "bảo vệ thông tin cá nhân"
+   ]
+  ],
+  "se": [
+   [
+    "别看太长时间手机，要保护好眼睛。",
+    "Bié kàn tài cháng shíjiān shǒujī, yào bǎohù hǎo yǎnjing.",
+    "Đừng nhìn điện thoại lâu quá, phải bảo vệ mắt.",
+    "保护好眼睛"
+   ],
+   [
+    "我的个人信息能否得到保护？",
+    "Wǒ de gèrén xìnxī néngfǒu dédào bǎohù?",
+    "Thông tin cá nhân của tôi có được bảo vệ hay không?",
+    "得到保护"
+   ]
+  ]
+ },
+ {
+  "hz": "于是",
+  "py": "yúshì",
+  "pos": "liên từ · conj.",
+  "vn": "thế là, vì vậy liền",
+  "hv": "Ư THỊ",
+  "use": "Dùng khi KỂ chuyện: việc trước xảy ra rồi DẪN TỚI việc sau (thế là…), cho chuyện ĐÃ xảy ra: A，于是 (+ S) (+ 就) + B, 于是 đứng đầu vế sau. ≠ 所以: 于是 nhấn trình tự + kết quả khi kể lại; không dùng cho lời khuyên, tương lai (✗ 明天下雨，于是你带伞), không đi với 因为.",
+  "tip": "于 (ở) + 是 (này): “ở chỗ này” → thế là. Hán Việt Ư THỊ.",
+  "ph": [
+   [
+    "于是就……",
+    "yúshì jiù ...",
+    "thế là liền…"
+   ],
+   [
+    "于是他决定……",
+    "yúshì tā juédìng ...",
+    "thế là anh ấy quyết định…"
+   ]
+  ],
+  "se": [
+   [
+    "昨天我的手机没电了，于是我用朋友的手机给家里打了电话。",
+    "Zuótiān wǒ de shǒujī méi diàn le, yúshì wǒ yòng péngyou de shǒujī gěi jiā li dǎ le diànhuà.",
+    "Hôm qua điện thoại tôi hết pin, thế là tôi mượn máy bạn gọi về nhà.",
+    "于是我用朋友的手机"
+   ],
+   [
+    "我很喜欢中国电影，于是开始学中文了。",
+    "Wǒ hěn xǐhuan Zhōngguó diànyǐng, yúshì kāishǐ xué Zhōngwén le.",
+    "Tôi rất thích phim Trung Quốc, thế là bắt đầu học tiếng Trung.",
+    "于是开始学中文"
+   ]
+  ]
+ },
+ {
+  "hz": "随便",
+  "py": "suíbiàn",
+  "pos": "tính từ / động từ / liên từ",
+  "vn": "tuỳ ý, bừa; sao cũng được",
+  "hv": "TUỲ TIỆN",
+  "use": "Dùng khi làm việc KHÔNG cẩn thận, không suy nghĩ (随便告诉别人: bừa), hoặc khi để người khác TUỲ Ý (随便坐: cứ tự nhiên): 随便 + V (别随便……, 随便坐), 很随便, 随便你. ⚠ Bẫy Hán Việt: “tùy tiện” tiếng Việt luôn xấu, 随便 còn nghĩa tốt. Được hỏi “ăn gì” mà chỉ đáp 随便 dễ bị coi là thờ ơ.",
+  "tip": "随 (theo) + 便 (tiện): theo cái tiện của mình → tuỳ ý. Hán Việt TUỲ TIỆN nhưng không chỉ mang nghĩa xấu.",
+  "ph": [
+   [
+    "别随便告诉别人",
+    "bié suíbiàn gàosu biéren",
+    "đừng tuỳ tiện nói cho người khác"
+   ],
+   [
+    "随便坐",
+    "suíbiàn zuò",
+    "cứ ngồi tự nhiên"
+   ]
+  ],
+  "se": [
+   [
+    "别把密码随便告诉别人。",
+    "Bié bǎ mìmǎ suíbiàn gàosu biérén.",
+    "Đừng tuỳ tiện nói mật khẩu cho người khác.",
+    "随便告诉别人"
+   ],
+   [
+    "爸爸，别随便打开不认识的人发的信息。",
+    "Bàba, bié suíbiàn dǎkāi bú rènshi de rén fā de xìnxī.",
+    "Bố ơi, đừng tuỳ tiện mở tin nhắn của người lạ gửi đến.",
+    "别随便打开"
+   ]
+  ]
+ },
+ {
+  "hz": "保证",
+  "py": "bǎozhèng",
+  "pos": "động từ / danh từ",
+  "vn": "bảo đảm, cam đoan",
+  "hv": "BẢO CHỨNG",
+  "use": "Dùng khi CAM ĐOAN chắc chắn sẽ làm được (hứa), hoặc nói việc làm cho một thứ CHẮC CHẮN được giữ (an toàn, chất lượng, thời gian): 保证 + V / câu (我保证……), 保证 + 安全 / 质量 / 时间, 能保证……吗？ ≠ 保护 (che chở khỏi tổn hại). Lời hứa: 我保证下次不迟到了.",
+  "tip": "保 (giữ) + 证 (chứng): giữ có bằng chứng → bảo đảm. Hán Việt BẢO CHỨNG, gần với “bảo đảm”.",
+  "ph": [
+   [
+    "保证安全",
+    "bǎozhèng ānquán",
+    "bảo đảm an toàn"
+   ],
+   [
+    "我保证……",
+    "wǒ bǎozhèng ...",
+    "tôi cam đoan…"
+   ]
+  ],
+  "se": [
+   [
+    "您放心，我们保证两点前送到。",
+    "Nín fàngxīn, wǒmen bǎozhèng liǎng diǎn qián sòngdào.",
+    "Anh/chị yên tâm, chúng tôi bảo đảm giao trước hai giờ.",
+    "保证两点前送到"
+   ],
+   [
+    "我对老板保证过按时完成工作。",
+    "Wǒ duì lǎobǎn bǎozhèng guò ànshí wánchéng gōngzuò.",
+    "Tôi từng cam đoan với sếp là hoàn thành công việc đúng hạn.",
+    "对老板保证过"
+   ]
+  ]
+ },
+ {
+  "hz": "身份证",
+  "py": "shēnfènzhèng",
+  "pos": "danh từ · n.",
+  "vn": "thẻ căn cước, chứng minh thư",
+  "hv": "THÂN PHẬN CHỨNG",
+  "use": "Dùng khi nói GIẤY TỜ chứng minh mình là ai: 身份证号, 带身份证, 刷身份证. Ở Trung Quốc, người nước ngoài dùng 护照 thay cho 身份证.",
+  "tip": "身份 (thân phận: mình là ai) + 证 (giấy chứng nhận). Hán Việt THÂN PHẬN CHỨNG.",
+  "ph": [
+   [
+    "身份证号",
+    "shēnfènzhèng hào",
+    "số căn cước"
+   ],
+   [
+    "带身份证",
+    "dài shēnfènzhèng",
+    "mang căn cước"
+   ]
+  ],
+  "se": [
+   [
+    "我们经常需要提供姓名、手机号、身份证号等个人信息。",
+    "Wǒmen jīngcháng xūyào tígōng xìngmíng, shǒujī hào, shēnfènzhèng hào děng gèrén xìnxī.",
+    "Ta thường phải cung cấp họ tên, số điện thoại, số căn cước…",
+    "身份证号"
+   ],
+   [
+    "坐火车要带身份证。",
+    "Zuò huǒchē yào dài shēnfènzhèng.",
+    "Đi tàu hoả phải mang căn cước.",
+    "带身份证"
+   ]
+  ]
+ },
+ {
+  "hz": "个人",
+  "py": "gèrén",
+  "pos": "danh từ · n.",
+  "vn": "cá nhân",
+  "hv": "CÁ NHÂN",
+  "use": "Dùng khi nói thứ thuộc RIÊNG một người (đối lập với tập thể, công ty): 个人 + 信息 / 生活 / 问题, 我个人觉得……. Đề cương xếp cấp 5. 我个人觉得 là “theo cá nhân tôi”, cách nêu ý kiến khéo.",
+  "tip": "个 (một cái) + 人 (người): một người riêng lẻ. Hán Việt CÁ NHÂN giống hệt tiếng Việt.",
+  "ph": [
+   [
+    "个人信息",
+    "gèrén xìnxī",
+    "thông tin cá nhân"
+   ],
+   [
+    "我个人觉得",
+    "wǒ gèrén juéde",
+    "cá nhân tôi thấy"
+   ]
+  ],
+  "se": [
+   [
+    "网络安全法、个人信息保护法等就很好地保护了人们的个人信息。",
+    "Wǎngluò ānquánfǎ, gèrén xìnxī bǎohùfǎ děng jiù hěn hǎo de bǎohù le rénmen de gèrén xìnxī.",
+    "Luật An ninh mạng, Luật Bảo vệ thông tin cá nhân… đã bảo vệ rất tốt thông tin cá nhân của mọi người.",
+    "个人信息"
+   ],
+   [
+    "我个人觉得网购很方便。",
+    "Wǒ gèrén juéde wǎnggòu hěn fāngbiàn.",
+    "Cá nhân mình thấy mua online rất tiện.",
+    "我个人觉得"
+   ]
+  ]
+ },
+ {
+  "hz": "能否",
+  "py": "néngfǒu",
+  "pos": "động từ · v.",
+  "vn": "có thể … hay không",
+  "hv": "NĂNG PHỦ",
+  "use": "Dùng khi hỏi / băn khoăn một việc CÓ LÀM ĐƯỢC HAY KHÔNG (văn viết, trang trọng): 能否 + V……？ Bằng 能不能 (khẩu ngữ). Câu có 能否 không thêm 吗.",
+  "tip": "能 (có thể) + 否 (không): có thể hay không. Hán Việt NĂNG PHỦ, “phủ” như “phủ định”.",
+  "ph": [
+   [
+    "能否得到保护",
+    "néngfǒu dédào bǎohù",
+    "có được bảo vệ hay không"
+   ],
+   [
+    "能否参加",
+    "néngfǒu cānjiā",
+    "có thể tham gia không"
+   ]
+  ],
+  "se": [
+   [
+    "我的个人信息能否得到保护？",
+    "Wǒ de gèrén xìnxī néngfǒu dédào bǎohù?",
+    "Thông tin cá nhân của tôi có được bảo vệ hay không?",
+    "能否得到保护"
+   ],
+   [
+    "您明天能否来公司一趟？",
+    "Nín míngtiān néngfǒu lái gōngsī yí tàng?",
+    "Ngày mai anh/chị có thể đến công ty một chuyến không?",
+    "能否来公司一趟"
+   ]
+  ]
+ },
+ {
+  "hz": "密码",
+  "py": "mìmǎ",
+  "pos": "danh từ · n.",
+  "vn": "mật khẩu",
+  "hv": "MẬT MÃ",
+  "use": "Dùng khi nói MẬT KHẨU của tài khoản, thẻ, điện thoại: 忘了 / 改 + 密码, 银行卡密码. Đổi mật khẩu là 改密码; “nhập” mật khẩu là 输入.",
+  "tip": "密 (宀 + 必 + 山: giấu kín trong núi) + 码 (mã số): con số bí mật. Hán Việt MẬT MÃ.",
+  "ph": [
+   [
+    "忘了密码",
+    "wàng le mìmǎ",
+    "quên mật khẩu"
+   ],
+   [
+    "改密码",
+    "gǎi mìmǎ",
+    "đổi mật khẩu"
+   ]
+  ],
+  "se": [
+   [
+    "我忘了银行卡的密码。",
+    "Wǒ wàng le yínhángkǎ de mìmǎ.",
+    "Mình quên mật khẩu thẻ ngân hàng rồi.",
+    "忘了银行卡的密码"
+   ],
+   [
+    "别把密码随便告诉别人。",
+    "Bié bǎ mìmǎ suíbiàn gàosu biéren.",
+    "Đừng tuỳ tiện nói mật khẩu cho người khác.",
+    "把密码随便告诉别人"
+   ]
+  ]
+ },
+ {
+  "hz": "技术",
+  "py": "jìshù",
+  "pos": "danh từ · n.",
+  "vn": "kỹ thuật, công nghệ",
+  "hv": "KỸ THUẬT",
+  "use": "Dùng khi nói KỸ THUẬT, công nghệ, tay nghề: 新技术, 网络技术, 技术很好. Hán Việt “kỹ thuật” giống tiếng Việt.",
+  "tip": "技 (扌 tay + 支) + 术 (phép, cách làm): cách làm khéo bằng tay → kỹ thuật. Hán Việt KỸ THUẬT.",
+  "ph": [
+   [
+    "通过技术",
+    "tōngguò jìshù",
+    "thông qua kỹ thuật"
+   ],
+   [
+    "网络技术",
+    "wǎngluò jìshù",
+    "kỹ thuật mạng"
+   ]
+  ],
+  "se": [
+   [
+    "很多国家也通过技术、法律等手段来保证个人信息安全。",
+    "Hěn duō guójiā yě tōngguò jìshù, fǎlǜ děng shǒuduàn lái bǎozhèng gèrén xìnxī ānquán.",
+    "Nhiều nước cũng dùng các biện pháp kỹ thuật, pháp luật… để bảo đảm an toàn thông tin cá nhân.",
+    "通过技术"
+   ],
+   [
+    "这个工作要求对网络技术很了解。",
+    "Zhè ge gōngzuò yāoqiú duì wǎngluò jìshù hěn liǎojiě.",
+    "Công việc này đòi hỏi phải hiểu rõ kỹ thuật mạng.",
+    "网络技术"
+   ]
+  ]
+ },
+ {
+  "hz": "法律",
+  "py": "fǎlǜ",
+  "pos": "danh từ · n.",
+  "vn": "pháp luật",
+  "hv": "PHÁP LUẬT",
+  "use": "Dùng khi nói LUẬT pháp của nhà nước: 通过法律, 学法律, 法律手段. Đọc lǜ (có ü). Tên luật thường kết thúc bằng 法: 网络安全法.",
+  "tip": "法 (氵 nước + 去: phẳng như mặt nước) + 律 (彳 bước + 聿 bút: bước theo điều đã viết). Hán Việt PHÁP LUẬT giống hệt tiếng Việt.",
+  "ph": [
+   [
+    "法律手段",
+    "fǎlǜ shǒuduàn",
+    "biện pháp pháp luật"
+   ],
+   [
+    "学法律",
+    "xué fǎlǜ",
+    "học luật"
+   ]
+  ],
+  "se": [
+   [
+    "很多国家也通过技术、法律等手段来保证个人信息安全。",
+    "Hěn duō guójiā yě tōngguò jìshù, fǎlǜ děng shǒuduàn lái bǎozhèng gèrén xìnxī ānquán.",
+    "Nhiều nước cũng dùng biện pháp kỹ thuật, pháp luật… để bảo đảm an toàn thông tin cá nhân.",
+    "法律等手段"
+   ],
+   [
+    "他大学学的是法律。",
+    "Tā dàxué xué de shì fǎlǜ.",
+    "Đại học anh ấy học luật.",
+    "学的是法律"
+   ]
+  ]
+ },
+ {
+  "hz": "手段",
+  "py": "shǒuduàn",
+  "pos": "danh từ · n.",
+  "vn": "biện pháp, cách thức",
+  "hv": "THỦ ĐOẠN",
+  "use": "Dùng khi nói CÁCH, BIỆN PHÁP để đạt mục đích: 通过 + X + 手段, 技术手段, 法律手段. ⚠ Bẫy Hán Việt: “thủ đoạn” tiếng Việt là nghĩa XẤU; 手段 thường TRUNG TÍNH, nghĩa là “biện pháp”. Đề cương xếp cấp 5.",
+  "tip": "手 (tay) + 段 (đoạn, bước): từng bước làm bằng tay → cách làm. Hán Việt THỦ ĐOẠN nhưng không mang nghĩa xấu.",
+  "ph": [
+   [
+    "通过……手段",
+    "tōngguò ... shǒuduàn",
+    "thông qua biện pháp…"
+   ],
+   [
+    "法律手段",
+    "fǎlǜ shǒuduàn",
+    "biện pháp pháp luật"
+   ]
+  ],
+  "se": [
+   [
+    "很多国家也通过技术、法律等手段来保证个人信息安全。",
+    "Hěn duō guójiā yě tōngguò jìshù, fǎlǜ děng shǒuduàn lái bǎozhèng gèrén xìnxī ānquán.",
+    "Nhiều nước cũng dùng các biện pháp kỹ thuật, pháp luật…",
+    "通过技术、法律等手段"
+   ],
+   [
+    "学校用很多手段帮学生提高成绩。",
+    "Xuéxiào yòng hěn duō shǒuduàn bāng xuésheng tígāo chéngjì.",
+    "Nhà trường dùng nhiều cách để giúp học sinh nâng cao kết quả học.",
+    "很多手段"
+   ]
+  ]
+ },
+ {
+  "hz": "网络",
+  "py": "wǎngluò",
+  "pos": "danh từ · n.",
+  "vn": "mạng, mạng internet",
+  "hv": "VÕNG LẠC",
+  "use": "Dùng khi nói MẠNG internet hoặc mạng lưới: 网络 + 安全 / 技术, 网络不好. Đề cương xếp cấp 5; nói thường là 网 / 上网.",
+  "tip": "网 (lưới) + 络 (纟 sợi nối): các sợi nối thành lưới → mạng. Hán Việt VÕNG LẠC, “võng” là lưới.",
+  "ph": [
+   [
+    "网络安全",
+    "wǎngluò ānquán",
+    "an ninh mạng"
+   ],
+   [
+    "网络不好",
+    "wǎngluò bù hǎo",
+    "mạng kém"
+   ]
+  ],
+  "se": [
+   [
+    "中国的网络安全法……很好地保护了人们的个人信息。",
+    "Zhōngguó de wǎngluò ānquánfǎ ... hěn hǎo de bǎohù le rénmen de gèrén xìnxī.",
+    "Luật An ninh mạng của Trung Quốc… đã bảo vệ rất tốt thông tin cá nhân của mọi người.",
+    "网络安全法"
+   ],
+   [
+    "这里网络不太好，视频打不开。",
+    "Zhèlǐ wǎngluò bú tài hǎo, shìpín dǎ bu kāi.",
+    "Ở đây mạng không tốt lắm, video không mở được.",
+    "网络不太好"
+   ]
+  ]
+ }
+]
