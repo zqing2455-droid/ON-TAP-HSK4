@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="fc-key" content="flashcard-hsk4-bai10">
+<meta name="fc-han" content="南方不懂北方的冷">
+<meta name="fc-total" content="41">
+<meta name="fc-sub" content="41 từ mới">
+<meta name="fc-lesson" content="10">
+<title>Flashcard từ vựng · HSK4 Bài 10</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&family=Quicksand:wght@500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F6F4EC; --ink:#26221A; --soft:#7A6E64;
+  --accent:#E3963B; --rose:#C2697A; --green:#4F7E62; --blue:#4A7398;
+  --card:#FFFDF7; --line:#E4DCCB;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:'Quicksand',sans-serif; font-weight:600;
+  padding:18px 14px 80px; line-height:1.5;
+}
+.wrap{max-width:720px;margin:0 auto}
+.backlink{font-size:.85rem;margin-bottom:10px}
+.backlink a{color:var(--soft);text-decoration:none;font-weight:700}
+.backlink a:hover{color:var(--ink)}
+.han{font-family:'Noto Serif SC',serif}
+.py{font-family:'Space Mono',monospace}
+
+/* ---------- đầu trang ---------- */
+header{text-align:center;margin-bottom:14px}
+header .kicker{font-size:.78rem;letter-spacing:2px;text-transform:uppercase;color:var(--accent);font-weight:800}
+header h1{font-size:1.45rem;font-weight:800;letter-spacing:-.3px;margin-top:4px}
+header h1 .han{color:var(--rose)}
+header p{color:var(--soft);font-size:.9rem;margin-top:4px}
+
+/* ---------- thanh điều khiển ---------- */
+.bar{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:14px 0}
+.bar + .bar{margin-top:0}
+.btn{
+  font-family:inherit;font-weight:700;font-size:.88rem;cursor:pointer;
+  background:var(--card);color:var(--soft);border:1.5px solid var(--line);
+  border-radius:999px;padding:9px 15px;min-height:42px;transition:.15s;
+}
+.btn:hover{color:var(--ink);border-color:var(--soft)}
+.btn.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+/* ---------- thẻ lật ---------- */
+.flip{perspective:1600px;margin-bottom:16px}
+.inner{
+  position:relative;width:100%;
+  transform-style:preserve-3d;
+  transition:transform .6s cubic-bezier(.4,.1,.3,1), height .35s ease;
+}
+.inner.flipped{transform:rotateY(180deg)}
+.face{
+  position:absolute;top:0;left:0;width:100%;
+  -webkit-backface-visibility:hidden;backface-visibility:hidden;
+  background:var(--card);border:1.5px solid var(--line);border-radius:22px;
+  box-shadow:0 3px 0 var(--line);
+  padding:20px 18px;cursor:pointer;
+}
+.face.back{transform:rotateY(180deg)}
+
+/* --- mặt trước --- */
+.front .inner-front{
+  min-height:270px;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;text-align:center;gap:6px;
+}
+.front .hz{font-family:'Noto Serif SC',serif;font-weight:900;font-size:4.6rem;line-height:1.1;color:var(--rose)}
+.front .vnfront{font-size:1.75rem;font-weight:800;line-height:1.3;max-width:420px}
+
+.tag{
+  position:absolute;top:16px;left:16px;
+  width:30px;height:30px;border-radius:50%;
+  background:#F3E7D5;color:var(--accent);
+  font-size:.82rem;font-weight:800;
+  display:flex;align-items:center;justify-content:center;
+}
+.pos{
+  position:absolute;top:16px;right:16px;
+  font-size:.7rem;font-weight:800;letter-spacing:.4px;
+  color:#fff;background:var(--blue);border-radius:999px;padding:4px 10px;
+}
+.flipnote{
+  position:absolute;left:0;right:0;bottom:12px;text-align:center;
+  font-size:.74rem;color:var(--soft);opacity:.75;
+}
+.back .flipnote{position:static;margin-top:10px}
+
+/* ---------- phân loại ---------- */
+.state{
+  position:absolute;top:16px;right:16px;
+  font-size:.7rem;font-weight:800;border-radius:999px;padding:4px 10px;
+}
+.state.known{background:#E4EFE7;color:var(--green)}
+.state.review{background:#FAEBD5;color:#B0751E}
+.face.st-known{border-color:var(--green)}
+.face.st-review{border-color:var(--accent)}
+
+.acts{display:flex;gap:8px;margin-top:16px}
+.acts button{
+  flex:1 1 0;font-family:inherit;font-weight:800;font-size:.86rem;cursor:pointer;
+  border-radius:999px;padding:11px 8px;min-height:46px;
+  border:1.5px solid var(--line);background:var(--card);color:var(--soft);transition:.15s;
+}
+.acts button:hover{border-color:var(--soft);color:var(--ink)}
+.acts .ok.on{background:var(--green);border-color:var(--green);color:#fff}
+.acts .re.on{background:var(--accent);border-color:var(--accent);color:#fff}
+
+.counts{text-align:center;font-size:.82rem;color:var(--soft);margin:2px 0 14px}
+.counts .cK{color:var(--green);font-weight:800}
+.counts .cR{color:#B0751E;font-weight:800}
+.empty{
+  text-align:center;color:var(--soft);font-weight:700;
+  background:var(--card);border:1.5px dashed var(--line);border-radius:22px;padding:46px 20px;
+}
+
+/* --- mặt sau --- */
+.bhead{display:flex;align-items:center;gap:12px;margin:30px 0 4px}
+.bhead .hz{font-family:'Noto Serif SC',serif;font-weight:900;font-size:2.1rem;color:var(--rose);line-height:1.2}
+.bhead .pin{font-family:'Space Mono',monospace;font-size:.92rem;color:var(--soft)}
+.bhead .vnb{font-size:1.3rem;font-weight:800;line-height:1.3}
+
+.mean{
+  margin:10px 0 2px;
+  background:#FBF3E8;border:1.5px dashed var(--line);border-radius:14px;padding:10px 12px;
+}
+.mean .vn{font-size:1.12rem;font-weight:800;color:var(--ink)}
+.mean .hv{font-size:.72rem;font-weight:800;letter-spacing:1px;color:var(--accent);text-transform:uppercase;margin-top:3px}
+
+.use{
+  margin-top:10px;border-left:4px solid var(--green);
+  background:#F1F5F1;border-radius:0 12px 12px 0;padding:9px 12px;
+}
+.use .ulab{
+  font-size:.68rem;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;
+  color:var(--green);margin-bottom:2px;
+}
+.use .utxt{font-size:.9rem;font-weight:600;line-height:1.55}
+
+.tip{
+  margin-top:8px;border-left:4px solid var(--rose);
+  background:#FAF1F2;border-radius:0 12px 12px 0;padding:9px 12px;
+}
+.tip .ulab{
+  font-size:.68rem;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;
+  color:var(--rose);margin-bottom:2px;
+}
+.tip .utxt{font-size:.9rem;font-weight:600;line-height:1.55}
+
+.sec{margin-top:14px}
+.sec h3{
+  font-size:.7rem;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;
+  color:var(--soft);border-bottom:1.5px solid var(--line);padding-bottom:5px;margin-bottom:8px;
+}
+.item{display:flex;gap:10px;align-items:flex-start;padding:6px 0}
+.item + .item{border-top:1px dashed var(--line)}
+.item .body{flex:1 1 auto;min-width:0}
+.item .zh{font-family:'Noto Serif SC',serif;font-weight:700;font-size:1.18rem;line-height:1.35}
+.item .pz{font-family:'Space Mono',monospace;font-size:.74rem;color:var(--soft);margin-top:1px}
+.item .vn2{font-size:.9rem;color:var(--green);font-weight:700;margin-top:2px}
+.item .idx{font-family:'Quicksand',sans-serif;font-size:.8rem;color:var(--soft);margin-right:6px}
+.item .hl{color:var(--rose)}
+
+/* --- nút loa --- */
+.spk{
+  display:inline-flex;align-items:center;justify-content:center;
+  background:none;border:1.5px solid var(--line);border-radius:999px;
+  width:44px;height:44px;cursor:pointer;color:var(--accent);font-size:1.1rem;
+  transition:.15s;flex:0 0 auto;
+}
+.spk:hover{background:#F9F1E4;border-color:var(--accent)}
+.spk.sm{width:30px;height:30px;font-size:.8rem;margin-top:2px}
+.spk.playing{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+/* ---------- điều hướng ---------- */
+.nav{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:4px}
+.nav .arrow{
+  width:52px;height:52px;border-radius:50%;font-size:1.3rem;
+  background:var(--card);border:1.5px solid var(--line);color:var(--ink);
+  cursor:pointer;font-family:inherit;
+}
+.nav .arrow:hover{border-color:var(--soft)}
+.count{font-family:'Space Mono',monospace;font-size:.95rem;color:var(--soft);min-width:72px;text-align:center}
+.prog{height:6px;background:var(--line);border-radius:99px;margin-top:14px;overflow:hidden}
+.prog i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .25s}
+
+.hint{text-align:center;color:var(--soft);font-size:.78rem;margin-top:16px;line-height:1.75}
+.hidden{display:none}
+
+/* ---------- chế độ xem tất cả ---------- */
+#stage.grid .flip{margin-bottom:14px}
+#stage.grid .front .inner-front{min-height:190px}
+#stage.grid .front .hz{font-size:3rem}
+#stage.grid .front .vnfront{font-size:1.3rem}
+
+@media(max-width:480px){
+  .front .hz{font-size:3.3rem}
+  .front .vnfront{font-size:1.45rem}
+  .item .zh{font-size:1.1rem}
+  .pos{font-size:.66rem;padding:3px 9px}
+}
+</style>
+<!-- MAM-XANH:dau -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito:wght@500;600;700;800&family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/giao-dien.css">
+<!-- MAM-XANH:cuoi -->
+
+</head>
+<body>
+<div class="wrap">
+
+  <p class="backlink"><a href="./">← Danh sách flashcard</a></p>
+
+  <header>
+    <div class="kicker">新HSK教程 4 · Bài 10</div>
+    <h1><span class="han">南方不懂北方的冷</span></h1>
+    <p>Flashcard từ vựng — 41 từ mới</p>
+  </header>
+
+  <div class="bar">
+    <button class="btn on" id="dir-zh">汉字 → Việt</button>
+    <button class="btn" id="dir-vi">Việt → 汉字</button>
+  </div>
+  <div class="bar">
+    <button class="btn on" id="mode-deck">Lật từng thẻ</button>
+    <button class="btn" id="mode-grid">Xem tất cả</button>
+    <button class="btn" id="shuffle">Trộn thẻ</button>
+    <button class="btn" id="reset">Xoá phân loại</button>
+  </div>
+  <div class="bar">
+    <button class="btn on" id="f-all">Tất cả</button>
+    <button class="btn" id="f-new">Chưa phân loại</button>
+    <button class="btn" id="f-review">Cần ôn thêm</button>
+    <button class="btn" id="f-known">Đã thuộc</button>
+  </div>
+
+  <div class="counts" id="counts"></div>
+
+  <div id="stage"></div>
+
+  <div class="nav" id="nav">
+    <button class="arrow" id="prev" aria-label="Thẻ trước">‹</button>
+    <div class="count" id="count">1 / 41</div>
+    <button class="arrow" id="next" aria-label="Thẻ sau">›</button>
+  </div>
+  <div class="prog" id="progwrap"><i id="prog" style="width:2%"></i></div>
+
+  <p class="hint">
+    Chạm vào thẻ để lật · nhấn 🔊 để nghe đọc · lật xong thì chọn “Đã thuộc” hoặc “Cần ôn thêm”<br>
+    Bàn phím: ← → đổi thẻ · phím cách lật thẻ · phím 1 đã thuộc · phím 2 cần ôn thêm<br>
+    Phân loại được lưu lại trên máy, lần sau mở vẫn còn
+  </p>
+
+</div>
+
+<script>
+const DATA = {
+  lesson: 10,
+  words: [
+    {hz:"气温", py:"qìwēn", pos:"danh từ · n.", vn:"nhiệt độ không khí", hv:"KHÍ ÔN", use:"Dùng khi nói NHIỆT ĐỘ TRỜI ở một nơi, một lúc (dự báo thời tiết, kể chuyện đi chơi): 气温 + 高 / 低, 气温降到 / 升到 + số độ, 今天的气温. ≠ 温度 (nhiệt độ của mọi thứ: nước, phòng, cơ thể): nói trời → 气温 hoặc 温度 đều được; nói nước, phòng, người → chỉ 温度.", tip:"气 (không khí) + 温 (ấm — 氵 nước ấm): độ ấm của không khí. Hán Việt KHÍ ÔN, “ôn” như trong “ôn hoà”.",
+      ph:[["气温很低", "qìwēn hěn dī", "nhiệt độ rất thấp"], ["气温降到零下", "qìwēn jiàngdào língxià", "nhiệt độ xuống dưới 0 độ"]],
+      se:[["那里的气温有时候只有两三度，你要多带衣服。", "Nàli de qìwēn yǒu shíhou zhǐyǒu liǎng sān dù, nǐ yào duō dài yīfu.", "Nhiệt độ ở đó có lúc chỉ hai ba độ, bạn phải mang thêm quần áo.", "那里的气温"], ["我住的地方冬天气温一般十五度左右。", "Wǒ zhù de dìfang dōngtiān qìwēn yìbān shíwǔ dù zuǒyòu.", "Chỗ tôi ở mùa đông nhiệt độ thường khoảng mười lăm độ.", "冬天气温"]]},
+
+    {hz:"后悔", py:"hòuhuǐ", pos:"động từ · v.", vn:"hối hận, tiếc vì đã làm / không làm", hv:"HẬU HỐI", use:"Dùng khi TIẾC vì đã làm (hoặc đã không làm) một việc, giờ thấy kết quả không tốt: 后悔 + V / mệnh đề (后悔没……, 后悔……了), 很后悔, 不后悔. Tiếc cho người khác hay tiếc một cơ hội không do mình → 可惜; 后悔 là tiếc vì CHÍNH việc mình làm.", tip:"后 (sau) + 悔 (忄 lòng + 每): sau khi việc xảy ra, lòng cứ day dứt mãi. Hán Việt HẬU HỐI, “hối” như “hối hận”.",
+      ph:[["很后悔没……", "hěn hòuhuǐ méi……", "rất hối hận vì đã không…"], ["后悔穿少了", "hòuhuǐ chuān shǎo le", "hối hận vì mặc ít"]],
+      se:[["我很后悔昨天没带伞，全身都湿了。", "Wǒ hěn hòuhuǐ zuótiān méi dài sǎn, quánshēn dōu shī le.", "Tôi rất hối hận hôm qua không mang ô, ướt hết cả người.", "很后悔昨天没带伞"], ["我很后悔上大学的时候没有好好学英语。", "Wǒ hěn hòuhuǐ shàng dàxué de shíhou méiyǒu hǎohǎo xué Yīngyǔ.", "Tôi rất tiếc hồi học đại học đã không chịu học tiếng Anh cho tử tế.", "很后悔"]]},
+
+    {hz:"就是", py:"jiùshì", pos:"phó từ · adv.", vn:"đúng vậy, đúng thế (đáp lại)", hv:"TỰU THỊ", use:"Dùng khi ĐỒNG Ý MẠNH với điều người kia vừa nói, trong hội thoại thân mật: 就是 / 就是呢 / 就是啊 đứng một mình, đầu lượt lời. Khác 就是了 cuối câu đã học ở Bài 2 (“cứ… là được”): 就是 ở đây đứng ĐẦU câu, đáp lời. Với người trên → 是的 / 对 lịch sự hơn.", tip:"就 (chính) + 是 (là): “chính là như thế!”. Hán Việt TỰU THỊ, “tựu” như “tựu trung là…”.",
+      ph:[["就是呢", "jiùshì ne", "đúng thế đấy"], ["就是啊", "jiùshì a", "đúng vậy mà"]],
+      se:[["就是呢，现在买房子太难了。", "Jiùshì ne, xiànzài mǎi fángzi tài nán le.", "Đúng thế đấy, bây giờ mua nhà khó quá.", "就是呢"], ["就是啊，我写汉字常常写错。", "Jiùshì a, wǒ xiě Hànzì chángcháng xiě cuò.", "Đúng vậy mà, tôi viết chữ Hán cứ hay viết sai.", "就是啊"]]},
+
+    {hz:"厚", py:"hòu", pos:"tính từ · adj.", vn:"dày", hv:"HẬU", use:"Dùng khi nói đồ vật (áo, sách, chăn, tuyết) DÀY, nhiều lớp: 很厚, 厚 + 一点儿的 + N, 厚厚的 + N. Đối lập là 薄 (mỏng). “Áo ấm” tiếng Việt → 厚衣服 / 暖和的衣服, không dịch “热衣服”.", tip:"厂 (vách đá) + 日 + 子: lớp đất đá chồng chất dưới vách — DÀY. Hán Việt HẬU như “hậu hĩnh”.",
+      ph:[["厚衣服", "hòu yīfu", "áo dày"], ["这本书太厚了", "zhè běn shū tài hòu le", "cuốn sách này dày quá"]],
+      se:[["明天很冷，你要穿厚一点儿的衣服。", "Míngtiān hěn lěng, nǐ yào chuān hòu yìdiǎnr de yīfu.", "Mai lạnh lắm, con phải mặc áo dày hơn một chút.", "厚一点儿的衣服"], ["冬天我喜欢穿厚厚的毛衣。", "Dōngtiān wǒ xǐhuan chuān hòuhòu de máoyī.", "Mùa đông tôi thích mặc áo len dày sụ.", "厚厚的毛衣"]]},
+
+    {hz:"小伙子", py:"xiǎohuǒzi", pos:"danh từ · n.", vn:"chàng trai, cậu thanh niên", hv:"TIỂU HOẢ TỬ", use:"Dùng khi nói về một CHÀNG TRAI TRẺ, thân mật, người lớn tuổi hay dùng: 这个 / 那个 + 小伙子, 小伙子 + Adj. Con gái trẻ → 姑娘. Không dùng để tự gọi mình.", tip:"小 (nhỏ, trẻ) + 伙 (亻 người + 火 lửa: người cùng đốt chung bếp lửa → bạn) + 子: “cậu bạn trẻ”.",
+      ph:[["这个小伙子", "zhè ge xiǎohuǒzi", "chàng trai này"], ["年轻的小伙子", "niánqīng de xiǎohuǒzi", "chàng trai trẻ"]],
+      se:[["你看，这个小伙子从广州去哈尔滨出差。", "Nǐ kàn, zhè ge xiǎohuǒzi cóng Guǎngzhōu qù Hā'ěrbīn chūchāi.", "Cậu xem, chàng trai này từ Quảng Châu đi công tác Cáp Nhĩ Tân.", "这个小伙子"], ["那个小伙子很热情，帮我拿了行李。", "Nà ge xiǎohuǒzi hěn rèqíng, bāng wǒ ná le xíngli.", "Cậu thanh niên kia nhiệt tình lắm, xách hành lý giúp mình.", "那个小伙子"]]},
+
+    {hz:"零下", py:"líng xià", pos:"danh từ · n.", vn:"âm (độ), dưới 0 độ", hv:"LINH HẠ", use:"Dùng khi nói nhiệt độ DƯỚI 0 °C: 零下 + số + 度. Đọc −5 °C là 零下五度; trên 0 thì nói thẳng 五度.", tip:"零 (số không) + 下 (dưới): dưới số không. Hán Việt LINH HẠ, “linh” là số 0 như trong “một linh năm”.",
+      ph:[["零下二十度", "língxià èrshí dù", "âm hai mươi độ"], ["零下几度", "língxià jǐ dù", "âm mấy độ"]],
+      se:[["哈尔滨的气温降到了零下二十几度。", "Hā'ěrbīn de qìwēn jiàngdào le língxià èrshí jǐ dù.", "Nhiệt độ ở Cáp Nhĩ Tân xuống tới âm hai mươi mấy độ.", "零下二十几度"], ["明天零下五度，多穿点儿衣服。", "Míngtiān língxià wǔ dù, duō chuān diǎnr yīfu.", "Mai âm 5 độ, mặc thêm áo vào nhé.", "零下五度"]]},
+
+    {hz:"度", py:"dù", pos:"lượng từ · m.", vn:"độ (nhiệt độ)", hv:"ĐỘ", use:"Dùng khi nói số ĐỘ của nhiệt độ: số + 度, 多少度. Đề cương xếp cấp 5; chữ 度 đã gặp ở 速度 (Bài 4).", tip:"广 (mái) + 廿 + 又 (tay): dưới mái nhà dùng tay đo — đo lường → độ. Hán Việt ĐỘ giống hệt tiếng Việt.",
+      ph:[["二十度", "èrshí dù", "hai mươi độ"], ["多少度", "duōshao dù", "bao nhiêu độ"]],
+      se:[["今天三十五度，太热了！", "Jīntiān sānshíwǔ dù, tài rè le!", "Hôm nay 35 độ, nóng quá!", "三十五度"], ["北京现在多少度？", "Běijīng xiànzài duōshao dù?", "Bắc Kinh bây giờ bao nhiêu độ?", "多少度"]]},
+
+    {hz:"冻", py:"dòng", pos:"động từ · v.", vn:"rét cóng, đóng băng", hv:"ĐỐNG", use:"Dùng khi người bị LẠNH CÓNG, hoặc nước, đồ ăn bị ĐÔNG ĐÁ: 冻 + 坏 / 死, 把 + người + 冻坏了, 冻 + 在冰箱里. Đề cương xếp cấp 5. Không nhầm 冫 (băng, 2 chấm) với 氵 (nước, 3 chấm).", tip:"冫 (băng) + 东 (phía đông, gió bấc): gió lạnh thổi tới thì nước đóng băng. Hán Việt ĐỐNG như “đông cứng”.",
+      ph:[["冻坏了", "dòng huài le", "rét cóng cả người"], ["冻在冰箱里", "dòng zài bīngxiāng li", "để đông trong tủ lạnh"]],
+      se:[["哈尔滨太冷了，把他冻坏了。", "Hā'ěrbīn tài lěng le, bǎ tā dòng huài le.", "Cáp Nhĩ Tân lạnh quá, làm anh ấy rét cóng.", "冻坏了"], ["肉冻在冰箱里了。", "Ròu dòng zài bīngxiāng li le.", "Thịt để đông trong tủ lạnh rồi.", "冻在冰箱里"]]},
+
+    {hz:"温度", py:"wēndù", pos:"danh từ · n.", vn:"nhiệt độ", hv:"ÔN ĐỘ", use:"Dùng khi nói NHIỆT ĐỘ của bất kỳ thứ gì: trời, nước, phòng, cơ thể: X的温度, 温度 + 高 / 低. 温度 dùng cho mọi thứ, còn 气温 chỉ nhiệt độ không khí; thân nhiệt → 体温 (Bài 6).", tip:"温 (氵 nước ấm) + 度 (đo): độ ấm đo được. Hán Việt ÔN ĐỘ, “ôn” là ấm như “ôn hoà”.",
+      ph:[["温度很低", "wēndù hěn dī", "nhiệt độ rất thấp"], ["房间的温度", "fángjiān de wēndù", "nhiệt độ phòng"]],
+      se:[["冬天北方和南方的温度差别还是很大的。", "Dōngtiān běifāng hé nánfāng de wēndù chābié háishi hěn dà de.", "Mùa đông nhiệt độ miền Bắc và miền Nam chênh nhau khá nhiều.", "温度差别"], ["这个房间的温度太高了，开一下空调吧。", "Zhè ge fángjiān de wēndù tài gāo le, kāi yíxià kōngtiáo ba.", "Nhiệt độ phòng này cao quá, bật điều hoà lên đi.", "房间的温度"]]},
+
+    {hz:"差别", py:"chābié", pos:"danh từ · n.", vn:"sự khác biệt, chênh lệch", hv:"SAI BIỆT", use:"Dùng khi nói hai thứ KHÁC NHAU bao nhiêu: A 和 B 的差别, 差别 + 大 / 小 / 不大, 有 / 没有 + 差别. Đề cương xếp cấp 5, gần nghĩa 区别. 差 ở đây đọc chā, không phải chà.", tip:"差 (kém, lệch) + 别 (khác): chỗ lệch, chỗ khác. Hán Việt SAI BIỆT như “sai biệt, khác biệt”.",
+      ph:[["差别很大", "chābié hěn dà", "khác nhau rất nhiều"], ["没有什么差别", "méiyǒu shénme chābié", "không khác gì mấy"]],
+      se:[["冬天北方和南方的温度差别还是很大的。", "Dōngtiān běifāng hé nánfāng de wēndù chābié háishi hěn dà de.", "Mùa đông nhiệt độ hai miền chênh nhau khá lớn.", "差别还是很大的"], ["这两件衣服有什么差别？", "Zhè liǎng jiàn yīfu yǒu shénme chābié?", "Hai cái áo này khác nhau chỗ nào?", "有什么差别"]]},
+
+    {hz:"暖和", py:"nuǎnhuo", pos:"tính từ / động từ", vn:"ấm áp; sưởi cho ấm", hv:"NOÃN HOÀ", use:"Dùng khi nói thời tiết, phòng, quần áo ẤM dễ chịu (tính từ), hoặc làm cho người ấm lên (động từ): 很暖和, 暖和的 + N, 暖和暖和 (lặp ABAB: “cho ấm người”). 暖和 là ấm DỄ CHỊU; nóng quá → 热.", tip:"暖 (日 mặt trời + phần phải: tay kéo lại gần) + 和 (hoà): nắng chiếu dịu dàng → ấm áp. 和 ở đây đọc nhẹ: nuǎnhuo.",
+      ph:[["天气很暖和", "tiānqì hěn nuǎnhuo", "trời rất ấm"], ["进来暖和暖和", "jìnlái nuǎnhuo nuǎnhuo", "vào sưởi cho ấm người"]],
+      se:[["我觉得三月最暖和，不冷也不热。", "Wǒ juéde sānyuè zuì nuǎnhuo, bù lěng yě bú rè.", "Tôi thấy tháng Ba ấm nhất, không lạnh cũng không nóng.", "最暖和"], ["快进来喝杯热茶，暖和暖和吧！", "Kuài jìnlái hē bēi rè chá, nuǎnhuo nuǎnhuo ba!", "Mau vào uống cốc trà nóng cho ấm người đi!", "暖和暖和"]]},
+
+    {hz:"受不了", py:"shòubuliǎo", pos:"động từ · v.", vn:"không chịu nổi", hv:"THỤ BẤT LIỄU", use:"Dùng khi một thứ (lạnh, nóng, ồn, áp lực, tính người khác) vượt quá sức CHỊU ĐỰNG của mình: 受不了 + N (这儿的天气 / 他), 受不了了; chịu được là 受得了, hỏi: 受得了吗？ Đây là bổ ngữ khả năng V得了 / V不了 (Bài 4). ✗ 我不受了 → 我受不了了.", tip:"受 (nhận) + 不了 (không nổi): nhận không nổi nữa. Hán Việt THỤ BẤT LIỄU, “thụ” như “chịu đựng, tiếp thụ”.",
+      ph:[["受不了冷", "shòubuliǎo lěng", "không chịu nổi lạnh"], ["我受不了了", "wǒ shòubuliǎo le", "tôi chịu hết nổi rồi"]],
+      se:[["我最受不了又热又没有风的天气。", "Wǒ zuì shòubuliǎo yòu rè yòu méiyǒu fēng de tiānqì.", "Tôi chịu không nổi nhất là kiểu thời tiết vừa nóng vừa không có gió.", "最受不了"], ["邻居每天晚上都唱歌唱到很晚，我实在受不了。", "Línjū měi tiān wǎnshang dōu chànggē chàng dào hěn wǎn, wǒ shízài shòubuliǎo.", "Hàng xóm tối nào cũng hát đến khuya, tôi thực sự chịu không nổi.", "实在受不了"]]},
+
+    {hz:"举办", py:"jǔbàn", pos:"động từ · v.", vn:"tổ chức (sự kiện)", hv:"CỬ BIỆN", use:"Dùng khi một tổ chức, thành phố, trường ĐỨNG RA TỔ CHỨC một sự kiện (lễ hội, cuộc thi, triển lãm): 举办 + 活动 / 比赛 / 晚会, 在……举办. Gần 举行 (nhấn sự kiện DIỄN RA); 举办 nhấn AI đứng ra tổ chức. Đi chơi với bạn bè thì không dùng (✗ 我们举办吃饭 → 我们一起吃饭).", tip:"举 (giơ tay lên) + 办 (làm): giơ tay nhận đứng ra làm. Hán Việt CỬ BIỆN, “cử” như “tổ chức, cử hành”.",
+      ph:[["举办活动", "jǔbàn huódòng", "tổ chức hoạt động"], ["举办比赛", "jǔbàn bǐsài", "tổ chức cuộc thi"]],
+      se:[["我们城市每年春节都举办很多活动。", "Wǒmen chéngshì měi nián Chūnjié dōu jǔbàn hěn duō huódòng.", "Thành phố chúng tôi năm nào Tết cũng tổ chức rất nhiều hoạt động.", "举办很多活动"], ["我们公司下个月举办汉语比赛，你参加吗？", "Wǒmen gōngsī xià gè yuè jǔbàn Hànyǔ bǐsài, nǐ cānjiā ma?", "Công ty chúng tôi tháng sau tổ chức cuộc thi tiếng Trung, bạn tham gia không?", "举办汉语比赛"]]},
+
+    {hz:"各种", py:"gèzhǒng", pos:"đại từ · pron.", vn:"các loại, đủ loại", hv:"CÁC CHỦNG", use:"Dùng khi nói có NHIỀU LOẠI khác nhau của một thứ: 各种 + N (không thêm 的, không thêm lượng từ), 各种各样的 + N. ✗ 各种的花 → 各种花. ≠ 各 + lượng từ (Bài 5: 各个国家 — từng cái một).", tip:"各 (mỗi) + 种 (loại, zhǒng): mỗi loại một ít → đủ loại. Hán Việt CÁC CHỦNG, “chủng” như “chủng loại”.",
+      ph:[["各种植物", "gèzhǒng zhíwù", "đủ loại cây"], ["各种各样的活动", "gèzhǒng gèyàng de huódòng", "đủ các loại hoạt động"]],
+      se:[["那儿有各种好吃的东西，还有各种礼物。", "Nàr yǒu gèzhǒng hǎochī de dōngxi, hái yǒu gèzhǒng lǐwù.", "Ở đó có đủ loại đồ ăn ngon, còn có đủ loại quà nữa.", "各种好吃的东西"], ["我喜欢参加各种运动，特别是游泳。", "Wǒ xǐhuan cānjiā gèzhǒng yùndòng, tèbié shì yóuyǒng.", "Tôi thích tham gia đủ loại môn thể thao, nhất là bơi.", "各种运动"]]},
+
+    {hz:"寒假", py:"hánjià", pos:"danh từ · n.", vn:"kỳ nghỉ đông", hv:"HÀN GIẢ", use:"Dùng khi nói kỳ nghỉ MÙA ĐÔNG của trường học (ở Trung Quốc khoảng tháng 1–2, trùng Tết): 放寒假, 寒假 + 打算 / 计划. Nghỉ hè → 暑假.", tip:"寒 (宀 nhà + băng 冫 dưới chân: trong nhà vẫn rét) + 假 (nghỉ): kỳ nghỉ lúc trời rét. Hán Việt HÀN như “hàn đới”.",
+      ph:[["放寒假", "fàng hánjià", "nghỉ đông"], ["寒假计划", "hánjià jìhuà", "kế hoạch nghỉ đông"]],
+      se:[["我们学校一月底放寒假。", "Wǒmen xuéxiào yīyuè dǐ fàng hánjià.", "Trường mình cuối tháng Một nghỉ đông.", "放寒假"], ["寒假你们打算做什么呢？", "Hánjià nǐmen dǎsuàn zuò shénme ne?", "Nghỉ đông các bạn định làm gì?", "寒假"]]},
+
+    {hz:"低于", py:"dīyú", pos:"động từ · v.", vn:"thấp hơn, dưới (mức)", hv:"ĐÊ VU", use:"Dùng khi nói một con số THẤP HƠN một mức nào đó, trong văn viết, tin tức: A + 低于 + mức (số). Đối lập: 高于 (cao hơn). Nói thường → 比……低.", tip:"低 (thấp) + 于 (so với): thấp so với…. Hán Việt ĐÊ VU, “đê” là thấp như trong “đê điều” (bờ thấp).",
+      ph:[["低于零下十度", "dīyú língxià shí dù", "dưới âm mười độ"], ["低于平时", "dīyú píngshí", "thấp hơn mọi khi"]],
+      se:[["哈尔滨的气温一般都低于零下十摄氏度。", "Hā'ěrbīn de qìwēn yìbān dōu dīyú língxià shí shèshìdù.", "Nhiệt độ Cáp Nhĩ Tân thường dưới âm mười độ C.", "低于零下十摄氏度"], ["这次考试他的分数低于平时。", "Zhè cì kǎoshì tā de fēnshù dīyú píngshí.", "Lần thi này điểm của cậu ấy thấp hơn mọi khi.", "低于平时"]]},
+
+    {hz:"摄氏度", py:"shèshìdù", pos:"lượng từ · m.", vn:"độ C (°C)", hv:"NHIẾP THỊ ĐỘ", use:"Dùng khi đọc nhiệt độ một cách CHÍNH THỨC (dự báo thời tiết, văn viết): số + 摄氏度, viết °C. Nói thường chỉ cần 度: 三十度.", tip:"摄 (扌 tay + 聂) + 氏 (họ): “ông họ Nhiếp” — phiên âm tên nhà khoa học Celsius + 度.",
+      ph:[["零下二十摄氏度", "língxià èrshí shèshìdù", "âm hai mươi độ C"], ["三十摄氏度", "sānshí shèshìdù", "ba mươi độ C"]],
+      se:[["气温一般都低于零下十摄氏度。", "Qìwēn yìbān dōu dīyú língxià shí shèshìdù.", "Nhiệt độ thường dưới âm mười độ C.", "零下十摄氏度"], ["明天最高气温三十五摄氏度。", "Míngtiān zuì gāo qìwēn sānshíwǔ shèshìdù.", "Mai nhiệt độ cao nhất 35 °C.", "三十五摄氏度"]]},
+
+    {hz:"植物", py:"zhíwù", pos:"danh từ · n.", vn:"thực vật, cây cối", hv:"THỰC VẬT", use:"Dùng khi nói chung về CÂY CỎ, HOA LÁ: 各种植物, 种植物, 植物园. Động vật → 动物: 动 (cử động) ↔ 植 (trồng một chỗ).", tip:"植 (木 cây + 直 thẳng: cắm cây cho thẳng → trồng) + 物 (vật): vật được trồng. Hán Việt THỰC VẬT giống hệt tiếng Việt.",
+      ph:[["各种植物", "gèzhǒng zhíwù", "đủ loại cây"], ["植物园", "zhíwùyuán", "vườn thực vật"]],
+      se:[["听说广州的鲜花市场很有名，里面有各种植物。", "Tīngshuō Guǎngzhōu de xiānhuā shìchǎng hěn yǒumíng, lǐmiàn yǒu gèzhǒng zhíwù.", "Nghe nói chợ hoa Quảng Châu rất nổi tiếng, trong đó có đủ loại cây.", "各种植物"], ["我家阳台上有很多植物。", "Wǒ jiā yángtái shang yǒu hěn duō zhíwù.", "Ban công nhà mình có nhiều cây lắm.", "很多植物"]]},
+
+    {hz:"气候", py:"qìhòu", pos:"danh từ · n.", vn:"khí hậu", hv:"KHÍ HẬU", use:"Dùng khi nói thời tiết CHUNG, LÂU DÀI của một vùng (cả năm, các mùa), không phải thời tiết một ngày: 气候 + 好 / 冷 / 暖和 / 干, N + 的气候, 气候不同. ≠ 天气 (thời tiết từng ngày): 今天天气很好 (✗ 今天气候很好). Hán Việt “khí hậu” dùng giống tiếng Việt.", tip:"气 (khí trời) + 候 (lúc, thời): khí trời theo từng thời — khí hậu. Hán Việt KHÍ HẬU giống hệt tiếng Việt.",
+      ph:[["那里的气候", "nàli de qìhòu", "khí hậu ở đó"], ["气候不同", "qìhòu bù tóng", "khí hậu khác nhau"]],
+      se:[["大叻的气候一年四季都很凉快，什么时候去都可以。", "Dàlè de qìhòu yì nián sìjì dōu hěn liángkuai, shénme shíhou qù dōu kěyǐ.", "Khí hậu Đà Lạt quanh năm bốn mùa đều mát mẻ, đi lúc nào cũng được.", "大叻的气候"], ["我喜欢暖和的气候，因为我很怕冷。", "Wǒ xǐhuan nuǎnhuo de qìhòu, yīnwèi wǒ hěn pà lěng.", "Tôi thích khí hậu ấm áp, vì tôi rất sợ lạnh.", "暖和的气候"]]},
+
+    {hz:"而", py:"ér", pos:"liên từ · conj.", vn:"còn, mà (đối lập) · mà, và (tiếp nối) · nên (nhân quả)", hv:"NHI", use:"Dùng khi đặt HAI ĐIỀU cạnh nhau để so sánh đối lập (văn viết), hoặc nối tính từ / cách thức với động từ: A……，而 B…… (đối lập), Adj 而 Adj (紧张而兴奋), 因为 / 由于……而 + V. Văn viết, trang trọng; nói thường: đối lập → 可是 / 但是, nối tính từ → 又……又…….", tip:"Hình chòm râu rủ xuống dưới cằm — nối phần trên với phần dưới → chữ NỐI. Hán Việt NHI như trong “nhi” của 而且 (hơn nữa).",
+      ph:[["广州……，而哈尔滨……", "Guǎngzhōu……, ér Hā'ěrbīn……", "Quảng Châu…, còn Cáp Nhĩ Tân…"], ["因为……而……", "yīnwèi…… ér……", "vì… nên…"]],
+      se:[["河内冬天很冷，而胡志明市一年四季都很热。", "Hénèi dōngtiān hěn lěng, ér Húzhìmíng Shì yì nián sìjì dōu hěn rè.", "Hà Nội mùa đông rất lạnh, còn Thành phố Hồ Chí Minh quanh năm đều nóng.", "而胡志明市"], ["我喜欢安静，而我妹妹喜欢热闹。", "Wǒ xǐhuan ānjìng, ér wǒ mèimei xǐhuan rènao.", "Tôi thích yên tĩnh, còn em gái tôi thích náo nhiệt.", "而我妹妹"]]},
+
+    {hz:"引起", py:"yǐnqǐ", pos:"động từ · v.", vn:"gây ra, dẫn đến", hv:"DẪN KHỞI", use:"Dùng khi nói một việc GÂY RA một kết quả, thường là kết quả KHÔNG TỐT hoặc sự chú ý: 引起 + 误会 / 问题 / 注意 / 关注, A 可能会引起 B. Thường đi với kết quả xấu hoặc “sự chú ý” (引起注意); ✗ 引起开心.", tip:"引 (弓 cây cung + 丨 dây: kéo dây cung) + 起 (dậy): kéo cho việc khác “bật dậy”. Hán Việt DẪN KHỞI, “dẫn” như “dẫn đến”.",
+      ph:[["引起误会", "yǐnqǐ wùhuì", "gây hiểu lầm"], ["引起大家的注意", "yǐnqǐ dàjiā de zhùyì", "thu hút sự chú ý của mọi người"]],
+      se:[["在工作中这样开玩笑，可能会引起误会。", "Zài gōngzuò zhōng zhèyàng kāi wánxiào, kěnéng huì yǐnqǐ wùhuì.", "Trong công việc mà đùa kiểu này có thể gây hiểu lầm đấy.", "引起误会"], ["我觉得不按时完成工作会引起很多问题。", "Wǒ juéde bú ànshí wánchéng gōngzuò huì yǐnqǐ hěn duō wèntí.", "Tôi thấy không hoàn thành công việc đúng hạn sẽ gây ra rất nhiều vấn đề.", "引起很多问题"]]},
+
+    {hz:"误会", py:"wùhuì", pos:"danh từ / động từ", vn:"hiểu lầm; sự hiểu lầm", hv:"NGỘ HỘI", use:"Dùng khi một người HIỂU SAI ý người khác (vì nói không rõ, khác ngôn ngữ, khác văn hoá): 误会 + người (động từ), 引起 / 有 + 误会 (danh từ), 你误会了. Hán Việt “ngộ hội” không dùng trong tiếng Việt → nhớ là “hiểu lầm”. Hiểu lầm nặng, lâu dài → 误解.", tip:"误 (讠 lời + 吴: lời nói lệch đi) + 会 (hiểu): hiểu lệch. Hán Việt NGỘ như “ngộ nhận” (nhận lầm).",
+      ph:[["你误会了", "nǐ wùhuì le", "bạn hiểu lầm rồi"], ["引起误会", "yǐnqǐ wùhuì", "gây hiểu lầm"]],
+      se:[["你误会了，我没生气，我只是太忙了。", "Nǐ wùhuì le, wǒ méi shēngqì, wǒ zhǐshì tài máng le.", "Bạn hiểu lầm rồi, tôi không giận, chỉ là tôi bận quá thôi.", "你误会了"], ["有一次朋友误会我不想去他的生日聚会。", "Yǒu yí cì péngyou wùhuì wǒ bù xiǎng qù tā de shēngrì jùhuì.", "Có lần bạn tôi hiểu lầm là tôi không muốn đi dự sinh nhật cậu ấy.", "误会我不想去"]]},
+
+    {hz:"公里", py:"gōnglǐ", pos:"lượng từ · m.", vn:"ki-lô-mét (km)", hv:"CÔNG LÝ", use:"Dùng khi nói KHOẢNG CÁCH theo km: số + 公里, 多少公里, 离……有 + số + 公里. 1 公里 = 2 里 (dặm Trung Quốc). “Mét” → 米.", tip:"公 (chung, theo chuẩn) + 里 (dặm): dặm theo chuẩn chung → km. Hán Việt CÔNG LÝ, “lý” là dặm như “ngàn dặm xa xôi”.",
+      ph:[["三千多公里", "sānqiān duō gōnglǐ", "hơn ba nghìn ki-lô-mét"], ["多少公里", "duōshao gōnglǐ", "bao nhiêu ki-lô-mét"]],
+      se:[["两个城市之间的距离有三千多公里。", "Liǎng gè chéngshì zhī jiān de jùlí yǒu sānqiān duō gōnglǐ.", "Khoảng cách giữa hai thành phố hơn ba nghìn ki-lô-mét.", "三千多公里"], ["我家离公司十公里。", "Wǒ jiā lí gōngsī shí gōnglǐ.", "Nhà mình cách công ty 10 km.", "十公里"]]},
+
+    {hz:"此外", py:"cǐwài", pos:"liên từ · conj.", vn:"ngoài ra", hv:"THỬ NGOẠI", use:"Dùng khi THÊM một ý nữa sau khi đã nói xong một ý (văn viết, trình bày): ……。此外，…… (đầu câu, sau dấu chấm). ≈ 另外 (khẩu ngữ hơn).", tip:"此 (cái này — chữ đã gặp ở Bài 9) + 外 (ngoài): ngoài cái này ra. Hán Việt THỬ NGOẠI, “ngoại” như “ngoại trừ”.",
+      ph:[["此外，……", "Cǐwài, ……", "ngoài ra, …"], ["此外还", "cǐwài hái", "ngoài ra còn"]],
+      se:[["此外，两地的方言也不一样。", "Cǐwài, liǎng dì de fāngyán yě bù yíyàng.", "Ngoài ra, phương ngữ hai nơi cũng khác nhau.", "此外"], ["我们要学好知识，此外，还要多出去走走。", "Wǒmen yào xué hǎo zhīshi, cǐwài, hái yào duō chūqù zǒuzou.", "Chúng ta phải học tốt kiến thức, ngoài ra còn phải ra ngoài nhiều hơn.", "此外，还要"]]},
+
+    {hz:"方言", py:"fāngyán", pos:"danh từ · n.", vn:"phương ngữ, tiếng địa phương", hv:"PHƯƠNG NGÔN", use:"Dùng khi nói tiếng nói riêng của MỘT VÙNG: 说 / 讲 + 方言, X方言 (广州方言). Đề cương xếp cấp 6, chỉ cần hiểu. ⚠ Hán Việt “phương ngôn” trong tiếng Việt lại là “tục ngữ”!", tip:"方 (phương, vùng) + 言 (lời): lời nói của một vùng. Hán Việt PHƯƠNG NGÔN nhưng nghĩa là “phương ngữ”.",
+      ph:[["广州方言", "Guǎngzhōu fāngyán", "phương ngữ Quảng Châu"], ["说方言", "shuō fāngyán", "nói tiếng địa phương"]],
+      se:[["哈尔滨方言和普通话听起来比较像。", "Hā'ěrbīn fāngyán hé pǔtōnghuà tīng qǐlái bǐjiào xiàng.", "Phương ngữ Cáp Nhĩ Tân nghe khá giống tiếng phổ thông.", "哈尔滨方言"], ["我奶奶只会说方言。", "Wǒ nǎinai zhǐ huì shuō fāngyán.", "Bà mình chỉ biết nói tiếng địa phương.", "说方言"]]},
+
+    {hz:"普通话", py:"pǔtōnghuà", pos:"danh từ · n.", vn:"tiếng phổ thông (Hán ngữ chuẩn)", hv:"PHỔ THÔNG THOẠI", use:"Dùng khi nói tiếng Trung CHUẨN dùng chung cả nước: 说 / 学 + 普通话, 普通话 + 好 / 标准. Ở Đài Loan gọi 国语, ở Singapore gọi 华语.", tip:"普通 (thông thường, phổ biến — Bài 5) + 话 (tiếng): tiếng nói chung của mọi người. Hán Việt PHỔ THÔNG THOẠI.",
+      ph:[["学习普通话", "xuéxí pǔtōnghuà", "học tiếng phổ thông"], ["说普通话", "shuō pǔtōnghuà", "nói tiếng phổ thông"]],
+      se:[["中国人从小都要学习普通话。", "Zhōngguórén cóngxiǎo dōu yào xuéxí pǔtōnghuà.", "Người Trung Quốc từ nhỏ đều phải học tiếng phổ thông.", "学习普通话"], ["他的普通话说得很标准。", "Tā de pǔtōnghuà shuō de hěn biāozhǔn.", "Tiếng phổ thông của anh ấy rất chuẩn.", "普通话说得很标准"]]},
+
+    {hz:"较", py:"jiào", pos:"phó từ · adv.", vn:"tương đối, khá", hv:"GIẢO", use:"Dùng khi nói mức độ “KHÁ” trong văn viết (thông báo, bài báo): 较 + Adj đơn âm tiết, 较为; = 比较. Đề cương xếp cấp 5; trong khẩu ngữ dùng 比较.", tip:"车 (xe) + 交 (giao): hai xe đặt cạnh nhau để so → so sánh, “khá”. Hán Việt GIẢO như trong “so sánh, tỉ giảo”.",
+      ph:[["差别较大", "chābié jiào dà", "khác nhau khá nhiều"], ["较大", "jiào dà", "khá lớn"]],
+      se:[["广州方言和普通话差别较大。", "Guǎngzhōu fāngyán hé pǔtōnghuà chābié jiào dà.", "Phương ngữ Quảng Châu và tiếng phổ thông khác nhau khá nhiều.", "差别较大"], ["今天风较大，出门多穿点儿。", "Jīntiān fēng jiào dà, chūmén duō chuān diǎnr.", "Hôm nay gió khá to, ra ngoài mặc thêm áo.", "风较大"]]},
+
+    {hz:"使用", py:"shǐyòng", pos:"động từ · v.", vn:"sử dụng, dùng", hv:"SỬ DỤNG", use:"Dùng khi nói dùng đồ vật, ngôn ngữ, công cụ, sắc thái trang trọng hơn 用: 使用 + N (方言 / 手机 / 电脑). Nói thường → 用. Hán Việt “sử dụng” giống tiếng Việt.", tip:"使 (亻 người sai bảo — chữ đã gặp ở Bài 7) + 用 (dùng): đem ra dùng. Hán Việt SỬ DỤNG giống hệt tiếng Việt.",
+      ph:[["使用方言", "shǐyòng fāngyán", "dùng phương ngữ"], ["使用手机", "shǐyòng shǒujī", "dùng điện thoại"]],
+      se:[["如果广州人和哈尔滨人都只使用自己的方言，交流就很困难。", "Rúguǒ Guǎngzhōurén hé Hā'ěrbīnrén dōu zhǐ shǐyòng zìjǐ de fāngyán, jiāoliú jiù hěn kùnnan.", "Nếu người Quảng Châu và người Cáp Nhĩ Tân chỉ dùng phương ngữ của mình thì giao tiếp sẽ rất khó.", "使用自己的方言"], ["考试的时候不能使用手机。", "Kǎoshì de shíhou bù néng shǐyòng shǒujī.", "Lúc thi không được dùng điện thoại.", "使用手机"]]},
+
+    {hz:"再次", py:"zàicì", pos:"phó từ · adv.", vn:"lần nữa, một lần nữa", hv:"TÁI THỨ", use:"Dùng khi một việc xảy ra LẦN THỨ HAI / thêm một lần nữa, trong văn viết, lời trang trọng (thông báo, lời cảm ơn, chào mừng): 再次 + V (đứng TRƯỚC động từ), 再次感谢, 再次见到. Nói thường → 又 (đã xảy ra) / 再 (sẽ xảy ra). ✗ 我再次去了一次 → 我又去了一次 / 我再次去了那儿.", tip:"再 (lại) + 次 (lần): lại thêm một lần. Hán Việt TÁI THỨ, “tái” như “tái bản”, “thứ” như “lần thứ hai”.",
+      ph:[["再次感谢", "zàicì gǎnxiè", "một lần nữa cảm ơn"], ["再次见到", "zàicì jiàndào", "gặp lại lần nữa"]],
+      se:[["再次感谢您的帮助！", "Zàicì gǎnxiè nín de bāngzhù!", "Một lần nữa cảm ơn sự giúp đỡ của anh!", "再次感谢"], ["我去过一次大叻，很想再次去，因为那里的气候很舒服。", "Wǒ qù guò yí cì Dàlè, hěn xiǎng zàicì qù, yīnwèi nàli de qìhòu hěn shūfu.", "Tôi từng đi Đà Lạt một lần, rất muốn đi lần nữa, vì khí hậu ở đó rất dễ chịu.", "再次去"]]},
+
+    {hz:"拒绝", py:"jùjué", pos:"động từ · v.", vn:"từ chối, cự tuyệt", hv:"CỰ TUYỆT", use:"Dùng khi NÓI KHÔNG với lời mời, yêu cầu, đề nghị của người khác, hoặc kiên quyết không làm việc xấu: 拒绝 + N / V (拒绝邀请, 拒绝浪费), 被拒绝, 拒绝了 + người. Hán Việt “cự tuyệt” nghe rất nặng, 拒绝 dùng nhẹ hơn, hằng ngày: 他拒绝了我的邀请. Từ chối khéo khi nói → 不好意思，我……", tip:"拒 (扌 tay + 巨: giơ bàn tay to ra chặn) + 绝 (纟 sợi tơ bị cắt đứt): chặn lại và cắt đứt luôn. Hán Việt CỰ TUYỆT.",
+      ph:[["拒绝浪费", "jùjué làngfèi", "nói không với lãng phí"], ["被拒绝了", "bèi jùjué le", "bị từ chối rồi"]],
+      se:[["我拒绝了他，因为今天晚上我要复习HSK。", "Wǒ jùjué le tā, yīnwèi jīntiān wǎnshang wǒ yào fùxí HSK.", "Tôi đã từ chối anh ấy, vì tối nay tôi phải ôn HSK.", "拒绝了他"], ["如果我太忙，我会说：“不好意思，这次真的帮不了你。”", "Rúguǒ wǒ tài máng, wǒ huì shuō: “Bù hǎoyìsi, zhè cì zhēn de bāng bu liǎo nǐ.”", "Nếu bận quá, tôi sẽ nói: “Ngại quá, lần này thực sự không giúp bạn được.”", "不好意思，这次真的帮不了你"]]},
+
+    {hz:"浪费", py:"làngfèi", pos:"động từ · v.", vn:"lãng phí", hv:"LÃNG PHÍ", use:"Dùng khi dùng tiền, thời gian, đồ ăn, nước, điện NHIỀU HƠN CẦN hoặc bỏ đi vô ích: 浪费 + N (钱 / 时间 / 水 / 电), 太浪费了, 不要浪费. Hán Việt “lãng phí” giống tiếng Việt, dễ dùng; đối lập là 节约.", tip:"浪 (氵 sóng nước) + 费 (贝 tiền): tiền trôi theo sóng nước mất hết. Hán Việt LÃNG PHÍ giống hệt tiếng Việt.",
+      ph:[["浪费时间", "làngfèi shíjiān", "lãng phí thời gian"], ["太浪费了", "tài làngfèi le", "phí quá"]],
+      se:[["我觉得我最浪费时间，每天玩手机玩很久。", "Wǒ juéde wǒ zuì làngfèi shíjiān, měi tiān wán shǒujī wán hěn jiǔ.", "Tôi thấy mình lãng phí thời gian nhất, ngày nào cũng nghịch điện thoại rất lâu.", "浪费时间"], ["买这么多一样的衣服，太浪费钱了。", "Mǎi zhème duō yíyàng de yīfu, tài làngfèi qián le.", "Mua nhiều áo giống nhau thế này, phí tiền quá.", "太浪费钱了"]]},
+
+    {hz:"节约", py:"jiéyuē", pos:"động từ · v.", vn:"tiết kiệm", hv:"TIẾT ƯỚC", use:"Dùng khi dùng ÍT, dùng đúng mức để không phí (nước, điện, tiền, tài nguyên, thời gian): 节约 + 用水 / 用电 / 时间 / 资源 / 钱. ≈ 省 (Bài 4, khẩu ngữ: 省钱); 节约 trang trọng hơn, hay dùng trong khẩu hiệu, thông báo.", tip:"节 (đốt tre — chia từng đoạn) + 约 (纟 buộc lại): chia từng phần rồi buộc chặt, không để phí. Hán Việt TIẾT ƯỚC, “tiết” như “tiết kiệm”.",
+      ph:[["节约用水", "jiéyuē yòng shuǐ", "tiết kiệm nước"], ["节约资源", "jiéyuē zīyuán", "tiết kiệm tài nguyên"]],
+      se:[["刷牙的时候把水关上，要节约用水。", "Shuāyá de shíhou bǎ shuǐ guānshàng, yào jiéyuē yòng shuǐ.", "Lúc đánh răng thì khoá nước lại, phải tiết kiệm nước.", "节约用水"], ["节约资源，坚持一水多用。", "Jiéyuē zīyuán, jiānchí yì shuǐ duō yòng.", "Tiết kiệm tài nguyên, kiên trì dùng một nước cho nhiều việc.", "节约资源"]]},
+
+    {hz:"亲爱", py:"qīn’ài", pos:"tính từ · adj.", vn:"thân mến, thân yêu", hv:"THÂN ÁI", use:"Dùng khi MỞ ĐẦU thư, lời kêu gọi gửi người thân, bạn bè, người nghe: 亲爱的 + người (đầu thư). Đề cương xếp cấp 5. Gọi người yêu: 亲爱的 (= “anh/em yêu”).", tip:"亲 (thân, người nhà) + 爱 (yêu): thân yêu như người nhà. Hán Việt THÂN ÁI giống hệt tiếng Việt.",
+      ph:[["亲爱的同学们", "qīn’ài de tóngxuémen", "các bạn học sinh thân mến"], ["亲爱的妈妈", "qīn’ài de māma", "mẹ yêu"]],
+      se:[["亲爱的同学们：今年的“世界环境日”……", "Qīn’ài de tóngxuémen: jīnnián de “Shìjiè Huánjìng Rì”……", "Các bạn học sinh thân mến: “Ngày Môi trường Thế giới” năm nay…", "亲爱的同学们"], ["亲爱的妈妈，生日快乐！", "Qīn’ài de māma, shēngrì kuàilè!", "Mẹ yêu, chúc mẹ sinh nhật vui vẻ!", "亲爱的妈妈"]]},
+
+    {hz:"开展", py:"kāizhǎn", pos:"động từ · v.", vn:"triển khai, tổ chức (hoạt động)", hv:"KHAI TRIỂN", use:"Dùng khi một trường, tổ chức BẮT ĐẦU VÀ ĐẨY MẠNH một hoạt động, phong trào (văn viết): 开展 + 活动 / 工作. Đề cương xếp cấp 5. Gần 举办 nhưng nhấn phong trào kéo dài.", tip:"开 (mở) + 展 (trải ra): mở ra và trải rộng → triển khai. Hán Việt KHAI TRIỂN, đảo lại là “triển khai”.",
+      ph:[["开展“绿色生活”活动", "kāizhǎn “Lǜsè Shēnghuó” huódòng", "triển khai hoạt động “Sống xanh”"], ["开展活动", "kāizhǎn huódòng", "triển khai hoạt động"]],
+      se:[["我们再次开展“绿色生活”活动。", "Wǒmen zàicì kāizhǎn “Lǜsè Shēnghuó” huódòng.", "Chúng ta lại tổ chức hoạt động “Sống xanh”.", "开展“绿色生活”活动"], ["公司开展了很多帮助老人的活动。", "Gōngsī kāizhǎn le hěn duō bāngzhù lǎorén de huódòng.", "Công ty đã triển khai nhiều hoạt động giúp người già.", "开展了很多帮助老人的活动"]]},
+
+    {hz:"绿色", py:"lǜsè", pos:"tính từ · adj.", vn:"màu xanh lá; xanh (thân thiện môi trường)", hv:"LỤC SẮC", use:"Dùng khi nói màu XANH LÁ, hoặc lối sống / sản phẩm THÂN THIỆN với môi trường: 绿色 + 生活 / 出行 / 食品. Nghĩa “màu xanh lá” thuộc cấp 2, nghĩa “thân thiện môi trường” thuộc cấp 4. Xanh dương → 蓝色.", tip:"绿 (纟 sợi tơ + 录) + 色 (màu): màu của sợi tơ nhuộm lá → xanh lá. Hán Việt LỤC SẮC, “lục” như “màu lục”.",
+      ph:[["绿色生活", "lǜsè shēnghuó", "sống xanh"], ["绿色出行", "lǜsè chūxíng", "đi lại xanh"]],
+      se:[["我们再次开展“绿色生活”活动。", "Wǒmen zàicì kāizhǎn “Lǜsè Shēnghuó” huódòng.", "Chúng ta lại tổ chức hoạt động “Sống xanh”.", "绿色生活"], ["距离短时可以走路，这就是绿色出行。", "Jùlí duǎn shí kěyǐ zǒulù, zhè jiùshì lǜsè chūxíng.", "Quãng ngắn có thể đi bộ, đó chính là đi lại xanh.", "绿色出行"]]},
+
+    {hz:"环保", py:"huánbǎo", pos:"danh từ / tính từ", vn:"bảo vệ môi trường; thân thiện môi trường", hv:"HOÀN BẢO", use:"Dùng khi nói việc BẢO VỆ MÔI TRƯỜNG hoặc khen một thứ không hại môi trường: 环保活动, 很环保, 做环保. Có thể làm tính từ: 很环保 (✗ 很环境保护).", tip:"Viết tắt của 环境保护 (môi trường + bảo vệ): 环 + 保. Hán Việt HOÀN BẢO, ghép từ “hoàn cảnh” + “bảo vệ”.",
+      ph:[["环保活动", "huánbǎo huódòng", "hoạt động bảo vệ môi trường"], ["很环保", "hěn huánbǎo", "rất thân thiện với môi trường"]],
+      se:[["积极参加校园、小区环保活动。", "Jījí cānjiā xiàoyuán, xiǎoqū huánbǎo huódòng.", "Tích cực tham gia hoạt động bảo vệ môi trường ở trường và khu dân cư.", "环保活动"], ["骑自行车上班又健康又环保。", "Qí zìxíngchē shàngbān yòu jiànkāng yòu huánbǎo.", "Đạp xe đi làm vừa khoẻ vừa bảo vệ môi trường.", "又健康又环保"]]},
+
+    {hz:"资源", py:"zīyuán", pos:"danh từ · n.", vn:"tài nguyên", hv:"TƯ NGUYÊN", use:"Dùng khi nói những thứ con người dùng mà có hạn: nước, điện, dầu, rừng…: 节约 / 保护 + 资源, 水资源. Đề cương xếp cấp 5. Hán Việt “tư nguyên” không dùng, nhớ là “tài nguyên”.", tip:"资 (贝 tiền, của cải) + 源 (氵 nguồn nước): nguồn của cải. Hán Việt TƯ NGUYÊN nhưng tiếng Việt nói “tài nguyên”.",
+      ph:[["节约资源", "jiéyuē zīyuán", "tiết kiệm tài nguyên"], ["水资源", "shuǐ zīyuán", "tài nguyên nước"]],
+      se:[["节约资源，坚持一水多用。", "Jiéyuē zīyuán, jiānchí yì shuǐ duō yòng.", "Tiết kiệm tài nguyên, kiên trì dùng một nước cho nhiều việc.", "节约资源"], ["水资源越来越少了。", "Shuǐ zīyuán yuè lái yuè shǎo le.", "Tài nguyên nước ngày càng ít.", "水资源"]]},
+
+    {hz:"光", py:"guāng", pos:"tính từ · adj.", vn:"hết sạch, không còn gì", hv:"QUANG", use:"Dùng khi nói đồ ăn, tiền, đồ dùng đã DÙNG HẾT SẠCH: V + 光 (吃光 / 用光 / 卖光), 光盘. Nghĩa “ánh sáng” đã học ở 阳光 (Bài 9). 光盘 ở đây là “ăn sạch đĩa”, không phải “đĩa CD”.", tip:"Trên là ngọn lửa 火 biến dạng, dưới là người 儿: người cầm đuốc — ánh sáng soi tới đâu sạch tới đó. Hán Việt QUANG như “quang đãng”.",
+      ph:[["吃光", "chī guāng", "ăn hết sạch"], ["用光了", "yòng guāng le", "dùng hết sạch rồi"]],
+      se:[["餐餐都“光盘”。", "Cāncān dōu “guāngpán”.", "Bữa nào cũng ăn sạch đĩa.", "光盘"], ["这个月的钱都用光了。", "Zhè ge yuè de qián dōu yòng guāng le.", "Tiền tháng này tiêu hết sạch rồi.", "用光了"]]},
+
+    {hz:"垃圾", py:"lājī", pos:"danh từ · n.", vn:"rác", hv:"(PHIÊN ÂM, KHÔNG CÓ ÂM HÁN VIỆT)", use:"Dùng khi nói RÁC thải: 扔 + 垃圾, 垃圾 + 分类 / 桶. Thùng rác → 垃圾桶, thư rác → 垃圾邮件.", tip:"Hai chữ đều có 土 (đất): thứ bị vứt xuống đất. 立 + 土 = 垃 · 及 + 土 = 圾. Không có âm Hán Việt quen dùng, nhớ theo âm lājī.",
+      ph:[["垃圾分类", "lājī fēnlèi", "phân loại rác"], ["扔垃圾", "rēng lājī", "vứt rác"]],
+      se:[["学习垃圾分类知识，做好垃圾分类。", "Xuéxí lājī fēnlèi zhīshi, zuò hǎo lājī fēnlèi.", "Học kiến thức phân loại rác, làm tốt việc phân loại rác.", "垃圾分类"], ["请不要乱扔垃圾。", "Qǐng bú yào luàn rēng lājī.", "Xin đừng vứt rác bừa bãi.", "乱扔垃圾"]]},
+
+    {hz:"分类", py:"fēnlèi", pos:"động từ · v.", vn:"phân loại", hv:"PHÂN LOẠI", use:"Dùng khi CHIA đồ vật thành từng NHÓM theo loại: 把 + N + 分类, 垃圾分类, 分好类. Đề cương xếp cấp 5. Là từ ly hợp: 分好类, 分一下类.", tip:"分 (chia) + 类 (米 gạo + 大: gạo chia theo loại lớn nhỏ): chia theo loại. Hán Việt PHÂN LOẠI giống hệt tiếng Việt.",
+      ph:[["垃圾分类", "lājī fēnlèi", "phân loại rác"], ["分好类", "fēn hǎo lèi", "phân loại xong"]],
+      se:[["从小事做起，做好垃圾分类。", "Cóng xiǎo shì zuò qǐ, zuò hǎo lājī fēnlèi.", "Bắt đầu từ việc nhỏ, làm tốt phân loại rác.", "垃圾分类"], ["好的，我们马上就把它们分好类。", "Hǎo de, wǒmen mǎshàng jiù bǎ tāmen fēn hǎo lèi.", "Được, bọn mình phân loại chúng ngay.", "分好类"]]},
+
+    {hz:"日常", py:"rìcháng", pos:"tính từ · adj.", vn:"hằng ngày, thường ngày", hv:"NHẬT THƯỜNG", use:"Dùng khi nói những việc diễn ra MỖI NGÀY trong cuộc sống: 日常 + 生活 / 习惯 / 工作. Đứng TRƯỚC danh từ (日常生活); làm trạng ngữ “hằng ngày” → 每天 / 平时.", tip:"日 (ngày) + 常 (thường): việc thường ngày. Hán Việt NHẬT THƯỜNG, “nhật” là ngày như “nhật ký”.",
+      ph:[["日常习惯", "rìcháng xíguàn", "thói quen hằng ngày"], ["日常生活", "rìcháng shēnghuó", "cuộc sống hằng ngày"]],
+      se:[["让绿色生活成为我们的日常习惯！", "Ràng lǜsè shēnghuó chéngwéi wǒmen de rìcháng xíguàn!", "Hãy để sống xanh trở thành thói quen hằng ngày của chúng ta!", "日常习惯"], ["手机已经成为日常生活的一部分。", "Shǒujī yǐjīng chéngwéi rìcháng shēnghuó de yí bùfen.", "Điện thoại đã trở thành một phần của cuộc sống hằng ngày.", "日常生活"]]}
+  ]
+};
+
+/* ====================== phát âm ====================== */
+let zhVoice = null;
+function pickVoice(){
+  const vs = window.speechSynthesis ? speechSynthesis.getVoices() : [];
+  const zh = vs.filter(v => /^zh/i.test(v.lang));
+  zhVoice = zh.find(v => /CN|Hans|Chinese \(China\)|普通话|Mandarin/i.test(v.lang + v.name)) || zh[0] || null;
+}
+if (window.speechSynthesis){
+  pickVoice();
+  speechSynthesis.onvoiceschanged = pickVoice;
+}
+function speak(text, btn){
+  if (btn){
+    document.querySelectorAll('.spk.playing').forEach(b => b.classList.remove('playing'));
+    btn.classList.add('playing');
+    setTimeout(() => btn.classList.remove('playing'), 1400);
+  }
+  if (window.speechSynthesis && zhVoice){
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.voice = zhVoice; u.lang = zhVoice.lang; u.rate = 0.8;
+    speechSynthesis.speak(u);
+    return;
+  }
+  try{
+    const a = new Audio('https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=zh-CN&q=' + encodeURIComponent(text));
+    a.play().catch(() => {});
+  }catch(e){}
+}
+
+/* ====================== dựng thẻ ====================== */
+function esc(s){ return s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+const MARK = ['①','②','③','④','⑤'];
+
+function rows(list, hl){
+  return list.map((r, i) => {
+    let zh = esc(r[0]);
+    if (hl && r[3]){
+      const k = esc(r[3]);
+      zh = zh.replace(k, '<span class="hl">' + k + '</span>');
+    }
+    return `
+    <div class="item">
+      <button class="spk sm" data-say="${esc(r[0].replace(/[…]/g,''))}">🔊</button>
+      <div class="body">
+        <div class="zh han"><span class="idx">${MARK[i] || ''}</span>${zh}</div>
+        <div class="pz py">${esc(r[1])}</div>
+        <div class="vn2">${esc(r[2])}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function cardHTML(w, idx){
+  // mặt trước đổi theo chiều học
+  const front = (dir === 'zh')
+    ? `<div class="hz han">${esc(w.hz)}</div>
+       <button class="spk" data-say="${esc(w.hz)}" aria-label="Nghe đọc">🔊</button>`
+    : `<div class="vnfront">${esc(w.vn)}</div>`;
+
+  const st = marks[idx] || '';
+  const stCls = st ? ' st-' + st : '';
+  const pill = st
+    ? `<div class="state ${st}">${st === 'known' ? '✓ Đã thuộc' : '↻ Cần ôn thêm'}</div>`
+    : '';
+
+  return `
+  <div class="flip" data-i="${idx}">
+    <div class="inner">
+
+      <div class="face front${stCls}">
+        <div class="tag">${idx + 1}</div>
+        ${pill}
+        <div class="inner-front">${front}</div>
+        <div class="flipnote">chạm để lật ↻</div>
+      </div>
+
+      <div class="face back${stCls}">
+        <div class="tag">${idx + 1}</div>
+        <div class="pos">${esc(w.pos)}</div>
+
+        <div class="bhead">
+          <button class="spk" data-say="${esc(w.hz)}" aria-label="Nghe đọc">🔊</button>
+          <div>
+            <div class="hz han">${esc(w.hz)}</div>
+            <div class="pin py">${esc(w.py)}</div>
+          </div>
+        </div>
+
+        <div class="mean">
+          <div class="vn">${esc(w.vn)}</div>
+          <div class="hv">Hán Việt: ${esc(w.hv)}</div>
+        </div>
+
+        <div class="use">
+          <div class="ulab">Dùng khi nào</div>
+          <div class="utxt">${esc(w.use)}</div>
+        </div>
+
+        <div class="tip">
+          <div class="ulab">💡 Mẹo nhớ</div>
+          <div class="utxt">${esc(w.tip)}</div>
+        </div>
+
+        <div class="sec">
+          <h3>Cụm từ thường dùng</h3>
+          ${rows(w.ph, false)}
+        </div>
+
+        <div class="sec">
+          <h3>Câu ví dụ — theo thứ tự cụm từ ở trên</h3>
+          ${rows(w.se, true)}
+        </div>
+
+        <div class="acts">
+          <button class="ok${st === 'known' ? ' on' : ''}" data-mark="known">✓ Đã thuộc</button>
+          <button class="re${st === 'review' ? ' on' : ''}" data-mark="review">↻ Cần ôn thêm</button>
+        </div>
+        <div class="flipnote">chạm vào thẻ để lật lại ↺</div>
+      </div>
+
+    </div>
+  </div>`;
+}
+
+/* ====================== chiều cao thẻ lật ====================== */
+function fit(flipEl){
+  const inner = flipEl.querySelector('.inner');
+  const face = flipEl.querySelector(inner.classList.contains('flipped') ? '.back' : '.front');
+  inner.style.height = face.offsetHeight + 'px';
+}
+function fitAll(){ document.querySelectorAll('.flip').forEach(fit); }
+
+/* ====================== trạng thái ====================== */
+const stage = document.getElementById('stage');
+const nav = document.getElementById('nav');
+const progwrap = document.getElementById('progwrap');
+const countEl = document.getElementById('count');
+const progEl = document.getElementById('prog');
+
+const KEY = 'flashcard-hsk4-bai10';
+let marks = {};
+try{
+  const raw = localStorage.getItem(KEY);
+  if (raw) marks = JSON.parse(raw) || {};
+}catch(e){ marks = {}; }
+function save(){
+  try{ localStorage.setItem(KEY, JSON.stringify(marks)); }catch(e){}
+}
+
+let base = DATA.words.map((_, i) => i);
+let order = base.slice();
+let pos = 0;
+let mode = 'deck';
+let dir = 'zh';
+let filter = 'all';
+
+function applyFilter(){
+  order = base.filter(i => {
+    const m = marks[i];
+    if (filter === 'known')  return m === 'known';
+    if (filter === 'review') return m === 'review';
+    if (filter === 'new')    return !m;
+    return true;
+  });
+  if (pos >= order.length) pos = Math.max(0, order.length - 1);
+}
+
+function updateCounts(){
+  const vals = Object.values(marks);
+  const k = vals.filter(v => v === 'known').length;
+  const r = vals.filter(v => v === 'review').length;
+  const n = DATA.words.length - k - r;
+  document.getElementById('counts').innerHTML =
+    `<span class="cK">✓ Đã thuộc ${k}</span> · <span class="cR">↻ Cần ôn thêm ${r}</span> · Chưa phân loại ${n}`;
+}
+
+function mark(i, val){
+  if (marks[i] === val) delete marks[i]; else marks[i] = val;
+  save();
+  updateCounts();
+
+  const cur = order[pos];
+  applyFilter();
+
+  if (mode === 'grid'){ render(); return; }
+  if (order.length === 0){ render(); return; }
+
+  const at = order.indexOf(cur);
+  if (at === -1){ render(); }        // thẻ vừa phân loại đã bị bộ lọc ẩn đi
+  else { pos = at; go(1); }          // còn trong danh sách thì sang thẻ kế tiếp
+}
+
+function render(){
+  updateCounts();
+
+  if (order.length === 0){
+    stage.className = '';
+    stage.innerHTML = '<div class="empty">Không có thẻ nào trong mục này.</div>';
+    nav.classList.add('hidden');
+    progwrap.classList.add('hidden');
+    return;
+  }
+
+  if (mode === 'deck'){
+    stage.className = '';
+    stage.innerHTML = cardHTML(DATA.words[order[pos]], order[pos]);
+    nav.classList.remove('hidden');
+    progwrap.classList.remove('hidden');
+    countEl.textContent = (pos + 1) + ' / ' + order.length;
+    progEl.style.width = ((pos + 1) / order.length * 100) + '%';
+  } else {
+    stage.className = 'grid';
+    stage.innerHTML = order.map(i => cardHTML(DATA.words[i], i)).join('');
+    nav.classList.add('hidden');
+    progwrap.classList.add('hidden');
+  }
+  fitAll();
+  requestAnimationFrame(fitAll);
+}
+
+function go(d){
+  pos = (pos + d + order.length) % order.length;
+  render();
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function flip(flipEl){
+  const inner = flipEl.querySelector('.inner');
+  inner.classList.toggle('flipped');
+  fit(flipEl);
+}
+
+/* ====================== sự kiện ====================== */
+stage.addEventListener('click', e => {
+  const sp = e.target.closest('.spk');
+  if (sp){ e.stopPropagation(); speak(sp.dataset.say, sp); return; }
+  const mk = e.target.closest('[data-mark]');
+  if (mk){
+    e.stopPropagation();
+    mark(parseInt(mk.closest('.flip').dataset.i, 10), mk.dataset.mark);
+    return;
+  }
+  const fl = e.target.closest('.flip');
+  if (fl) flip(fl);
+});
+
+document.getElementById('prev').onclick = () => go(-1);
+document.getElementById('next').onclick = () => go(1);
+
+document.getElementById('mode-deck').onclick = function(){
+  mode = 'deck'; this.classList.add('on');
+  document.getElementById('mode-grid').classList.remove('on');
+  render();
+};
+document.getElementById('mode-grid').onclick = function(){
+  mode = 'grid'; this.classList.add('on');
+  document.getElementById('mode-deck').classList.remove('on');
+  render();
+};
+document.getElementById('dir-zh').onclick = function(){
+  dir = 'zh'; this.classList.add('on');
+  document.getElementById('dir-vi').classList.remove('on');
+  render();
+};
+document.getElementById('dir-vi').onclick = function(){
+  dir = 'vi'; this.classList.add('on');
+  document.getElementById('dir-zh').classList.remove('on');
+  render();
+};
+document.getElementById('shuffle').onclick = () => {
+  for (let i = base.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [base[i], base[j]] = [base[j], base[i]];
+  }
+  pos = 0; applyFilter(); render();
+};
+
+document.getElementById('reset').onclick = () => {
+  if (!Object.keys(marks).length) return;
+  if (!confirm('Xoá toàn bộ phân loại “đã thuộc / cần ôn thêm”?')) return;
+  marks = {}; save(); pos = 0; applyFilter(); render();
+};
+
+[['f-all','all'], ['f-new','new'], ['f-review','review'], ['f-known','known']].forEach(([id, val]) => {
+  document.getElementById(id).onclick = function(){
+    filter = val; pos = 0;
+    document.querySelectorAll('#f-all,#f-new,#f-review,#f-known').forEach(b => b.classList.remove('on'));
+    this.classList.add('on');
+    applyFilter(); render();
+  };
+});
+
+document.addEventListener('keydown', e => {
+  if (mode !== 'deck' || order.length === 0) return;
+  if (e.key === 'ArrowRight') go(1);
+  else if (e.key === 'ArrowLeft') go(-1);
+  else if (e.key === '1') mark(order[pos], 'known');
+  else if (e.key === '2') mark(order[pos], 'review');
+  else if (e.key === ' ' || e.key === 'Enter'){
+    e.preventDefault();
+    const fl = document.querySelector('.flip');
+    if (fl) flip(fl);
+  }
+});
+
+window.addEventListener('resize', fitAll);
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitAll);
+window.addEventListener('load', fitAll);
+
+render();
+</script>
+<!-- CHAY-NET:dau -->
+<script src="../assets/chay-net.js" defer></script>
+<!-- CHAY-NET:cuoi -->
+</body>
+</html>
