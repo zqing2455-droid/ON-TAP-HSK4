@@ -265,7 +265,7 @@
     var a = chuan(t);
     return {
       so: demHan(t),
-      ct: SP.cau_truc.filter(function (x) { return x[1].every(function (z) { return a.indexOf(z) >= 0; }); }).map(function (x) { return x[0]; }),
+      ct: SP.cau_truc.filter(function (x) { return x[1].every(function (z) { return z.charAt(0) === '/' ? new RegExp(z.slice(1)).test(a) : a.indexOf(z) >= 0; }); }).map(function (x) { return x[0]; }),
       tu: SP.tu_goi_y.filter(function (w) { return a.indexOf(w) >= 0; })
     };
   }
@@ -274,7 +274,7 @@
       return '<li><span class="chip">' + esc(x[0]) + '</span> <span class="han">' + esc(x[1]) + '</span></li>';
     }).join('') + '</ol>' +
       '<b>Từ vựng gợi ý</b>' + (VIET ? ' <span class="phu" style="font-size:13px">(chạm để chèn vào bài)</span>' : '') + '<div class="chips">' + SP.tu_goi_y.map(function (w) { return '<button class="chip-tu han" data-w="' + esc(w) + '">' + esc(w) + '</button>'; }).join('') + '</div>' +
-      '<b>Cấu trúc nên dùng</b><div class="chips">' + SP.cau_truc.map(function (x) { return '<span class="chip vang han">' + esc(x[0]) + '</span>'; }).join('') + '</div></div>';
+      (SP.bat_buoc ? '<b>Cấu trúc bắt buộc</b> <span class="phu" style="font-size:13px">(dùng ít nhất ' + SP.can_cau_truc + ')</span>' : '<b>Cấu trúc nên dùng</b>') + '<div class="chips">' + SP.cau_truc.map(function (x) { return '<span class="chip vang han">' + esc(x[0]) + '</span>'; }).join('') + '</div></div>';
   }
   function sanPham() { return VIET ? viet() : noi(); }
   function viet() {
@@ -299,7 +299,8 @@
     bam('#nop', function () {
       var loi = document.getElementById('loi'), so = demHan(S.vb);
       if (!so) { loi.textContent = 'Em chưa viết gì.'; loi.hidden = false; return; }
-      if (so < SP.chu_toi_thieu && loi.hidden) { loi.textContent = 'Đoạn mới có ' + so + ' chữ, chưa đủ ' + SP.chu_toi_thieu + '. Bấm lần nữa nếu em vẫn muốn nộp.'; loi.hidden = false; return; }
+      if (SP.bat_buoc && kiemDoan(S.vb).ct.length < SP.can_cau_truc) { loi.textContent = 'Đề yêu cầu dùng ít nhất ' + SP.can_cau_truc + ' cấu trúc của bài — em xem lại danh sách ở trên nhé.'; loi.hidden = false; return; }
+      if (so < SP.chu_toi_thieu && loi.dataset.nhac !== 'chu') { loi.dataset.nhac = 'chu'; loi.textContent = 'Đoạn mới có ' + so + ' chữ, chưa đủ ' + SP.chu_toi_thieu + '. Bấm lần nữa nếu em vẫn muốn nộp.'; loi.hidden = false; return; }
       sang('kq');
     });
   }
@@ -308,7 +309,14 @@
     ve('<div class="the"><span class="chip">🗣 Nói một đoạn</span><p class="han" style="font-size:21px;margin:10px 0 2px">' + esc(SP.de) + '</p><p class="phu">' + esc(SP.de_vi) + ' Nói ít nhất ' + SP.giay_toi_thieu + ' giây (khoảng 200 chữ). Nghĩ theo dàn ý khoảng 1 phút rồi hãy ghi.</p>' + goiY() + '</div>' +
       '<div class="the"><div class="ghi"><button class="tron" id="ghi" aria-label="Ghi âm">🎙</button><div class="so-giay" id="sg">' + (AM ? S.amGiay : 0) + ' / ' + SP.giay_toi_thieu + ' giây</div>' +
       '<div class="phu" id="tt">' + (AM ? 'Đã ghi xong. Nghe lại, chưa ưng thì bấm nút đỏ để ghi lại.' : 'Bấm nút đỏ để ghi, bấm lần nữa để dừng.') + '</div>' + (AM ? '<audio controls src="' + AM.url + '"></audio>' : '') + '</div>' +
+      (SP.bat_buoc ? '<div class="tu-chon"><b>Em đã dùng những cấu trúc nào trong bài nói?</b> <span class="phu" style="font-size:13px">(chọn ít nhất ' + SP.can_cau_truc + ' — cô sẽ nghe đối chiếu)</span><div class="chips">' +
+        SP.cau_truc.map(function (x, j) { return '<button class="chip-tu han' + ((S.ctChon || []).indexOf(j) >= 0 ? ' chon' : '') + '" data-ct="' + j + '">' + esc(x[0]) + '</button>'; }).join('') + '</div></div>' : '') +
       '<button class="nut rong" id="nop" style="margin-top:16px">Nộp bài</button><p class="canh-bao" id="loi" hidden></p></div>');
+    bam('[data-ct]', function (e) {
+      var j = +e.currentTarget.getAttribute('data-ct'), ds = S.ctChon = S.ctChon || [], v = ds.indexOf(j);
+      if (v >= 0) ds.splice(v, 1); else ds.push(j);
+      e.currentTarget.classList.toggle('chon', v < 0); luu();
+    });
     bam('#ghi', function () {
       var nut = document.getElementById('ghi'), tt = document.getElementById('tt'), sg = document.getElementById('sg');
       if (rec && rec.state === 'recording') { rec.stop(); return; }
@@ -330,7 +338,8 @@
     bam('#nop', function () {
       var loi = document.getElementById('loi');
       if (!AM) { loi.textContent = 'Em chưa ghi âm.'; loi.hidden = false; return; }
-      if (S.amGiay < SP.giay_toi_thieu && loi.hidden) { loi.textContent = 'Bài nói mới ' + S.amGiay + ' giây, chưa đủ ' + SP.giay_toi_thieu + '. Bấm lần nữa nếu em vẫn muốn nộp.'; loi.hidden = false; return; }
+      if (SP.bat_buoc && (S.ctChon || []).length < SP.can_cau_truc) { loi.textContent = 'Em đánh dấu những cấu trúc đã dùng (ít nhất ' + SP.can_cau_truc + ') rồi hãy nộp nhé.'; loi.hidden = false; return; }
+      if (S.amGiay < SP.giay_toi_thieu && loi.dataset.nhac !== 'giay') { loi.dataset.nhac = 'giay'; loi.textContent = 'Bài nói mới ' + S.amGiay + ' giây, chưa đủ ' + SP.giay_toi_thieu + '. Bấm lần nữa nếu em vẫn muốn nộp.'; loi.hidden = false; return; }
       sang('kq');
     });
   }
@@ -404,7 +413,7 @@
         luot_nghe: JSON.stringify(S.luot), cau: cau, cach: VIET ? 'viet' : 'noi',
         chon_nham: S.chon.filter(function (j) { return !R1.loi.some(function (L) { return L.i === j; }); }).map(function (j) { return R1.cau[j]; }).join(' / ') };
       if (VIET) { goi.baiviet = S.vb; goi.so_chu = k.so; goi.cau_truc = k.ct.join(' · '); goi.tu_goi_y = k.tu.join(' · '); }
-      else if (AM) { goi.amGiay = S.amGiay; goi.amLoai = AM.loai; goi.amThanh = AM.data; goi.amTen = 'HSK4-B' + D.bai + '-' + S.ten + '-' + S.ma; }
+      else if (AM) { if (SP.bat_buoc) goi.cau_truc = (S.ctChon || []).slice().sort().map(function (j) { return SP.cau_truc[j][0]; }).join(' · ') + ' (tự đánh dấu)'; goi.amGiay = S.amGiay; goi.amLoai = AM.loai; goi.amThanh = AM.data; goi.amTen = 'HSK4-B' + D.bai + '-' + S.ten + '-' + S.ma; }
       gui(goi);
     }
   }

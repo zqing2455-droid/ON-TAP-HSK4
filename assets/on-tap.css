@@ -180,3 +180,8 @@ footer { text-align: center; font-size: 12px; color: var(--chu-phu); margin-top:
 .nut-nho.toc { padding: 6px 8px; min-width: 48px; }
 .nut-nho.toc.chon { background: var(--la); border-color: var(--la); color: #fff; }
 .dk-nhan { font-size: 13px; font-weight: 700; color: var(--chu-phu); margin-right: 2px; }
+/* bài nói Bài 6–10: tự đánh dấu cấu trúc đã dùng */
+.tu-chon { margin-top: 16px; }
+.tu-chon .chips { margin-top: 8px; }
+.chip-tu.chon { background: var(--la); border-color: var(--la); color: #fff; }
+.chip-tu.chon::before { content: '✓ '; }
