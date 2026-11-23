@@ -1,0 +1,718 @@
+{
+ "so": 1,
+ "han": "我们来中国学习了",
+ "sub": "40 từ mới",
+ "pool": [
+  {
+   "h": "通知",
+   "p": "tōngzhī",
+   "v": "báo cho biết; thông báo",
+   "hv": "THÔNG TRI",
+   "loai": "động từ"
+  },
+  {
+   "h": "材料",
+   "p": "cáiliào",
+   "v": "hồ sơ, giấy tờ; vật liệu",
+   "hv": "TÀI LIỆU",
+   "loai": "danh từ"
+  },
+  {
+   "h": "任何",
+   "p": "rènhé",
+   "v": "bất kỳ, bất cứ",
+   "hv": "NHẬM HÀ",
+   "loai": "đại từ"
+  },
+  {
+   "h": "证",
+   "p": "zhèng",
+   "v": "giấy chứng nhận, thẻ",
+   "hv": "CHỨNG",
+   "loai": "danh từ"
+  },
+  {
+   "h": "证件",
+   "p": "zhèngjiàn",
+   "v": "giấy tờ (tùy thân)",
+   "hv": "CHỨNG KIỆN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "签证",
+   "p": "qiānzhèng",
+   "v": "thị thực, visa",
+   "hv": "THIÊM CHỨNG",
+   "loai": "danh từ"
+  },
+  {
+   "h": "入学",
+   "p": "rùxué",
+   "v": "nhập học",
+   "hv": "NHẬP HỌC",
+   "loai": "động từ"
+  },
+  {
+   "h": "申请",
+   "p": "shēnqǐng",
+   "v": "xin, nộp đơn xin",
+   "hv": "THÂN THỈNH",
+   "loai": "động từ"
+  },
+  {
+   "h": "表现",
+   "p": "biǎoxiàn",
+   "v": "thể hiện; biểu hiện (cách học, cách làm việc)",
+   "hv": "BIỂU HIỆN",
+   "loai": "động từ"
+  },
+  {
+   "h": "获得",
+   "p": "huòdé",
+   "v": "giành được, đạt được",
+   "hv": "HOẠCH ĐẮC",
+   "loai": "động từ"
+  },
+  {
+   "h": "压力",
+   "p": "yālì",
+   "v": "áp lực",
+   "hv": "ÁP LỰC",
+   "loai": "danh từ"
+  },
+  {
+   "h": "要是",
+   "p": "yàoshi",
+   "v": "nếu, giả sử",
+   "hv": "YẾU THỊ",
+   "loai": "liên từ"
+  },
+  {
+   "h": "食堂",
+   "p": "shítáng",
+   "v": "nhà ăn (của trường, cơ quan)",
+   "hv": "THỰC ĐƯỜNG",
+   "loai": "danh từ"
+  },
+  {
+   "h": "座",
+   "p": "zuò",
+   "v": "toà, ngọn (vật to, cố định)",
+   "hv": "TOẠ",
+   "loai": "lượng từ"
+  },
+  {
+   "h": "奖学金",
+   "p": "jiǎngxuéjīn",
+   "v": "học bổng",
+   "hv": "TƯỞNG HỌC KIM",
+   "loai": "danh từ"
+  },
+  {
+   "h": "经济",
+   "p": "jīngjì",
+   "v": "kinh tế; tài chính",
+   "hv": "KINH TẾ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "减轻",
+   "p": "jiǎnqīng",
+   "v": "giảm nhẹ",
+   "hv": "GIẢM KHINH",
+   "loai": "động từ"
+  },
+  {
+   "h": "加油",
+   "p": "jiāyóu",
+   "v": "cố lên; (gốc) đổ xăng",
+   "hv": "GIA DU",
+   "loai": "động từ"
+  },
+  {
+   "h": "专业",
+   "p": "zhuānyè",
+   "v": "chuyên ngành; chuyên nghiệp",
+   "hv": "CHUYÊN NGHIỆP",
+   "loai": "danh từ"
+  },
+  {
+   "h": "交流",
+   "p": "jiāoliú",
+   "v": "trao đổi, giao lưu",
+   "hv": "GIAO LƯU",
+   "loai": "động từ"
+  },
+  {
+   "h": "适应",
+   "p": "shìyìng",
+   "v": "thích nghi, quen dần với",
+   "hv": "THÍCH ỨNG",
+   "loai": "động từ"
+  },
+  {
+   "h": "随着",
+   "p": "suízhe",
+   "v": "cùng với, theo",
+   "hv": "TUỲ TRƯỚC",
+   "loai": "giới từ"
+  },
+  {
+   "h": "课程",
+   "p": "kèchéng",
+   "v": "chương trình học, khoá học",
+   "hv": "KHOÁ TRÌNH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "本科",
+   "p": "běnkē",
+   "v": "đại học (hệ cử nhân)",
+   "hv": "BẢN KHOA",
+   "loai": "danh từ"
+  },
+  {
+   "h": "硕士",
+   "p": "shuòshì",
+   "v": "thạc sĩ",
+   "hv": "THẠC SĨ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "研究",
+   "p": "yánjiū",
+   "v": "nghiên cứu",
+   "hv": "NGHIÊN CỨU",
+   "loai": "động từ"
+  },
+  {
+   "h": "研究生",
+   "p": "yánjiūshēng",
+   "v": "học viên sau đại học",
+   "hv": "NGHIÊN CỨU SINH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "博士",
+   "p": "bóshì",
+   "v": "tiến sĩ",
+   "hv": "BÁC SĨ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "活动",
+   "p": "huódòng",
+   "v": "hoạt động; vận động",
+   "hv": "HOẠT ĐỘNG",
+   "loai": "danh từ"
+  },
+  {
+   "h": "通过",
+   "p": "tōngguò",
+   "v": "thông qua; vượt qua",
+   "hv": "THÔNG QUÁ",
+   "loai": "giới từ"
+  },
+  {
+   "h": "将来",
+   "p": "jiānglái",
+   "v": "tương lai, sau này",
+   "hv": "TƯƠNG LAI",
+   "loai": "danh từ"
+  },
+  {
+   "h": "当",
+   "p": "dāng",
+   "v": "làm (nghề), đảm nhiệm",
+   "hv": "ĐƯƠNG",
+   "loai": "động từ"
+  },
+  {
+   "h": "成为",
+   "p": "chéngwéi",
+   "v": "trở thành",
+   "hv": "THÀNH VI",
+   "loai": "động từ"
+  },
+  {
+   "h": "方面",
+   "p": "fāngmiàn",
+   "v": "mặt, phương diện, lĩnh vực",
+   "hv": "PHƯƠNG DIỆN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "国际",
+   "p": "guójì",
+   "v": "quốc tế",
+   "hv": "QUỐC TẾ",
+   "loai": "tính từ"
+  },
+  {
+   "h": "贸易",
+   "p": "màoyì",
+   "v": "thương mại, buôn bán",
+   "hv": "MẬU DỊCH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "教育",
+   "p": "jiàoyù",
+   "v": "giáo dục",
+   "hv": "GIÁO DỤC",
+   "loai": "danh từ"
+  },
+  {
+   "h": "教师",
+   "p": "jiàoshī",
+   "v": "giáo viên (tên nghề)",
+   "hv": "GIÁO SƯ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "知识",
+   "p": "zhīshi",
+   "v": "kiến thức",
+   "hv": "TRI THỨC",
+   "loai": "danh từ"
+  },
+  {
+   "h": "另",
+   "p": "lìng",
+   "v": "khác",
+   "hv": "LÁNH",
+   "loai": "đại từ"
+  }
+ ],
+ "cloze": [
+  {
+   "q": "老师＿＿我们下周一开始上课。",
+   "a": "通知",
+   "o": [
+    "证",
+    "专业",
+    "硕士"
+   ],
+   "p": "Lǎoshī tōngzhī wǒmen xià zhōuyī kāishǐ shàngkè.",
+   "v": "Thầy cô báo chúng tôi thứ Hai tuần sau bắt đầu học."
+  },
+  {
+   "q": "＿＿我都准备好了。",
+   "a": "材料",
+   "o": [
+    "表现",
+    "通过",
+    "研究"
+   ],
+   "p": "Cáiliào wǒ dōu zhǔnbèi hǎo le.",
+   "v": "Hồ sơ tôi đã chuẩn bị xong hết rồi."
+  },
+  {
+   "q": "你有＿＿不懂的事情都可以问我。",
+   "a": "任何",
+   "o": [
+    "通过",
+    "食堂",
+    "座"
+   ],
+   "p": "Nǐ yǒu rènhé bù dǒng de shìqing dōu kěyǐ wèn wǒ.",
+   "v": "Có bất cứ việc gì không hiểu, bạn cứ hỏi tôi."
+  },
+  {
+   "q": "办好了，这是你们的学生＿＿。",
+   "a": "证",
+   "o": [
+    "交流",
+    "另",
+    "入学"
+   ],
+   "p": "Bàn hǎo le, zhè shì nǐmen de xuéshengzhèng.",
+   "v": "Xong rồi, đây là thẻ sinh viên của các em."
+  },
+  {
+   "q": "坐飞机的时候一定要带好＿＿。",
+   "a": "证件",
+   "o": [
+    "通过",
+    "交流",
+    "获得"
+   ],
+   "p": "Zuò fēijī de shíhou yídìng yào dài hǎo zhèngjiàn.",
+   "v": "Đi máy bay nhất định phải mang đủ giấy tờ."
+  },
+  {
+   "q": "我的＿＿已经办好了。",
+   "a": "签证",
+   "o": [
+    "加油",
+    "通过",
+    "研究"
+   ],
+   "p": "Wǒ de qiānzhèng yǐjīng bàn hǎo le.",
+   "v": "Visa của tôi đã làm xong rồi."
+  },
+  {
+   "q": "＿＿手续办好了吗？",
+   "a": "入学",
+   "o": [
+    "压力",
+    "经济",
+    "方面"
+   ],
+   "p": "Rùxué shǒuxù bàn hǎo le ma?",
+   "v": "Thủ tục nhập học làm xong chưa?"
+  },
+  {
+   "q": "我想＿＿奖学金去中国读硕士。",
+   "a": "申请",
+   "o": [
+    "另",
+    "课程",
+    "贸易"
+   ],
+   "p": "Wǒ xiǎng shēnqǐng jiǎngxuéjīn qù Zhōngguó dú shuòshì.",
+   "v": "Tôi muốn xin học bổng sang Trung Quốc học thạc sĩ."
+  },
+  {
+   "q": "经理说我最近＿＿很不错。",
+   "a": "表现",
+   "o": [
+    "活动",
+    "食堂",
+    "证件"
+   ],
+   "p": "Jīnglǐ shuō wǒ zuìjìn biǎoxiàn hěn búcuò.",
+   "v": "Giám đốc nói gần đây tôi làm việc rất tốt."
+  },
+  {
+   "q": "兰兰＿＿了三年的奖学金。",
+   "a": "获得",
+   "o": [
+    "国际",
+    "博士",
+    "专业"
+   ],
+   "p": "Lánlan huòdé le sān nián de jiǎngxuéjīn.",
+   "v": "Lan Lan giành được học bổng ba năm."
+  },
+  {
+   "q": "快考试了，我的＿＿很大。",
+   "a": "压力",
+   "o": [
+    "适应",
+    "当",
+    "减轻"
+   ],
+   "p": "Kuài kǎoshì le, wǒ de yālì hěn dà.",
+   "v": "Sắp thi rồi, áp lực của tôi lớn lắm."
+  },
+  {
+   "q": "＿＿周末不加班，我就跟你去爬山。",
+   "a": "要是",
+   "o": [
+    "通过",
+    "随着",
+    "申请"
+   ],
+   "p": "Yàoshi zhōumò bù jiābān, wǒ jiù gēn nǐ qù páshān.",
+   "v": "Nếu cuối tuần không tăng ca thì tôi đi leo núi với bạn."
+  },
+  {
+   "q": "咱们晚上别去＿＿吃饭了，我请你出去吃吧。",
+   "a": "食堂",
+   "o": [
+    "成为",
+    "通过",
+    "任何"
+   ],
+   "p": "Zánmen wǎnshang bié qù shítáng chī fàn le, wǒ qǐng nǐ chūqù chī ba.",
+   "v": "Tối nay mình đừng ăn ở nhà ăn nữa, tớ mời cậu ra ngoài ăn."
+  },
+  {
+   "q": "我家附近有一＿＿山。",
+   "a": "座",
+   "o": [
+    "教师",
+    "表现",
+    "任何"
+   ],
+   "p": "Wǒ jiā fùjìn yǒu yí zuò shān.",
+   "v": "Gần nhà tôi có một ngọn núi."
+  },
+  {
+   "q": "我想申请学校的＿＿。",
+   "a": "奖学金",
+   "o": [
+    "当",
+    "获得",
+    "表现"
+   ],
+   "p": "Wǒ xiǎng shēnqǐng xuéxiào de jiǎngxuéjīn.",
+   "v": "Tôi muốn xin học bổng của trường."
+  },
+  {
+   "q": "要是申请到奖学金，就能减轻不少＿＿压力。",
+   "a": "经济",
+   "o": [
+    "研究",
+    "任何",
+    "随着"
+   ],
+   "p": "Yàoshi shēnqǐng dào jiǎngxuéjīn, jiù néng jiǎnqīng bù shǎo jīngjì yālì.",
+   "v": "Nếu xin được học bổng thì đỡ được khá nhiều áp lực tiền bạc."
+  },
+  {
+   "q": "多做运动能＿＿压力。",
+   "a": "减轻",
+   "o": [
+    "将来",
+    "随着",
+    "方面"
+   ],
+   "p": "Duō zuò yùndòng néng jiǎnqīng yālì.",
+   "v": "Vận động nhiều giúp giảm áp lực."
+  },
+  {
+   "q": "明天就考试了，＿＿！",
+   "a": "加油",
+   "o": [
+    "通过",
+    "签证",
+    "经济"
+   ],
+   "p": "Míngtiān jiù kǎoshì le, jiāyóu!",
+   "v": "Mai thi rồi, cố lên!"
+  },
+  {
+   "q": "我学的是中文＿＿，因为我对中国文化感兴趣。",
+   "a": "专业",
+   "o": [
+    "入学",
+    "要是",
+    "成为"
+   ],
+   "p": "Wǒ xué de shì Zhōngwén zhuānyè, yīnwèi wǒ duì Zhōngguó wénhuà gǎn xìngqù.",
+   "v": "Tôi học ngành tiếng Trung, vì tôi thích văn hoá Trung Quốc."
+  },
+  {
+   "q": "你应该多跟中国人＿＿。",
+   "a": "交流",
+   "o": [
+    "经济",
+    "要是",
+    "知识"
+   ],
+   "p": "Nǐ yīnggāi duō gēn Zhōngguórén jiāoliú.",
+   "v": "Bạn nên trò chuyện nhiều với người Trung Quốc."
+  },
+  {
+   "q": "我已经＿＿新工作了。",
+   "a": "适应",
+   "o": [
+    "方面",
+    "证件",
+    "知识"
+   ],
+   "p": "Wǒ yǐjīng shìyìng xīn gōngzuò le.",
+   "v": "Tôi đã quen với công việc mới rồi."
+  },
+  {
+   "q": "＿＿中文水平的提高，我现在能看懂中文电影了。",
+   "a": "随着",
+   "o": [
+    "加油",
+    "知识",
+    "教育"
+   ],
+   "p": "Suízhe Zhōngwén shuǐpíng de tígāo, wǒ xiànzài néng kàn dǒng Zhōngwén diànyǐng le.",
+   "v": "Cùng với trình độ tiếng Trung tăng lên, giờ tôi xem hiểu được phim Trung Quốc."
+  },
+  {
+   "q": "他们可以先上一年的中文＿＿。",
+   "a": "课程",
+   "o": [
+    "任何",
+    "表现",
+    "交流"
+   ],
+   "p": "Tāmen kěyǐ xiān shàng yì nián de Zhōngwén kèchéng.",
+   "v": "Họ có thể học một năm tiếng Trung trước."
+  },
+  {
+   "q": "我＿＿学的是经济，现在想读硕士。",
+   "a": "本科",
+   "o": [
+    "要是",
+    "表现",
+    "交流"
+   ],
+   "p": "Wǒ běnkē xué de shì jīngjì, xiànzài xiǎng dú shuòshì.",
+   "v": "Đại học tôi học kinh tế, giờ muốn học thạc sĩ."
+  },
+  {
+   "q": "我打算明年去中国读＿＿。",
+   "a": "硕士",
+   "o": [
+    "通过",
+    "加油",
+    "成为"
+   ],
+   "p": "Wǒ dǎsuàn míngnián qù Zhōngguó dú shuòshì.",
+   "v": "Tôi định năm sau sang Trung Quốc học thạc sĩ."
+  },
+  {
+   "q": "我想认真＿＿中国的历史和文化。",
+   "a": "研究",
+   "o": [
+    "压力",
+    "专业",
+    "本科"
+   ],
+   "p": "Wǒ xiǎng rènzhēn yánjiū Zhōngguó de lìshǐ hé wénhuà.",
+   "v": "Tôi muốn nghiên cứu kỹ lịch sử và văn hoá Trung Quốc."
+  },
+  {
+   "q": "我打算考＿＿，提高自己的专业水平。",
+   "a": "研究生",
+   "o": [
+    "获得",
+    "适应",
+    "通知"
+   ],
+   "p": "Wǒ dǎsuàn kǎo yánjiūshēng, tígāo zìjǐ de zhuānyè shuǐpíng.",
+   "v": "Tôi định thi cao học để nâng cao trình độ chuyên môn."
+  },
+  {
+   "q": "李文回北京读医学＿＿。",
+   "a": "博士",
+   "o": [
+    "加油",
+    "减轻",
+    "适应"
+   ],
+   "p": "Lǐ Wén huí Běijīng dú yīxué bóshì.",
+   "v": "Lý Văn về Bắc Kinh học tiến sĩ y khoa."
+  },
+  {
+   "q": "今天下午公司有＿＿，我晚点儿回家。",
+   "a": "活动",
+   "o": [
+    "通知",
+    "座",
+    "当"
+   ],
+   "p": "Jīntiān xiàwǔ gōngsī yǒu huódòng, wǒ wǎn diǎnr huí jiā.",
+   "v": "Chiều nay công ty có hoạt động, tôi về nhà muộn một chút."
+  },
+  {
+   "q": "＿＿这些交流，外国学生能更快地适应中国的大学生活。",
+   "a": "通过",
+   "o": [
+    "经济",
+    "知识",
+    "硕士"
+   ],
+   "p": "Tōngguò zhèxiē jiāoliú, wàiguó xuésheng néng gèng kuài de shìyìng Zhōngguó de dàxué shēnghuó.",
+   "v": "Nhờ những lần giao lưu này, sinh viên nước ngoài thích nghi nhanh hơn với đời sống đại học ở Trung Quốc."
+  },
+  {
+   "q": "他＿＿想当老师。",
+   "a": "将来",
+   "o": [
+    "适应",
+    "获得",
+    "国际"
+   ],
+   "p": "Tā jiānglái xiǎng dāng lǎoshī.",
+   "v": "Sau này anh ấy muốn làm giáo viên."
+  },
+  {
+   "q": "我＿＿翻译两年了。",
+   "a": "当",
+   "o": [
+    "课程",
+    "通过",
+    "本科"
+   ],
+   "p": "Wǒ dāng fānyì liǎng nián le.",
+   "v": "Tôi làm phiên dịch hai năm rồi."
+  },
+  {
+   "q": "我姐姐学了七年医，现在＿＿了一名医生。",
+   "a": "成为",
+   "o": [
+    "国际",
+    "经济",
+    "任何"
+   ],
+   "p": "Wǒ jiějie xué le qī nián yī, xiànzài chéngwéi le yì míng yīshēng.",
+   "v": "Chị tôi học y bảy năm, giờ đã trở thành bác sĩ."
+  },
+  {
+   "q": "他希望将来在＿＿公司工作。",
+   "a": "国际",
+   "o": [
+    "任何",
+    "成为",
+    "另"
+   ],
+   "p": "Tā xīwàng jiānglái zài guójì gōngsī gōngzuò.",
+   "v": "Anh ấy mong sau này làm ở công ty quốc tế."
+  },
+  {
+   "q": "他想了解国际＿＿方面的知识。",
+   "a": "贸易",
+   "o": [
+    "适应",
+    "获得",
+    "成为"
+   ],
+   "p": "Tā xiǎng liǎojiě guójì màoyì fāngmiàn de zhīshi.",
+   "v": "Anh ấy muốn hiểu thêm kiến thức về thương mại quốc tế."
+  },
+  {
+   "q": "安妮要选择国际中文＿＿专业。",
+   "a": "教育",
+   "o": [
+    "入学",
+    "交流",
+    "适应"
+   ],
+   "p": "Ānnī yào xuǎnzé guójì Zhōngwén jiàoyù zhuānyè.",
+   "v": "Annie sẽ chọn ngành Giáo dục Hán ngữ quốc tế."
+  },
+  {
+   "q": "她想成为一名中文＿＿。",
+   "a": "教师",
+   "o": [
+    "适应",
+    "国际",
+    "要是"
+   ],
+   "p": "Tā xiǎng chéngwéi yì míng Zhōngwén jiàoshī.",
+   "v": "Cô ấy muốn trở thành giáo viên tiếng Trung."
+  },
+  {
+   "q": "来中国留学是为了学习语言和＿＿。",
+   "a": "知识",
+   "o": [
+    "减轻",
+    "任何",
+    "通过"
+   ],
+   "p": "Lái Zhōngguó liúxué shì wèile xuéxí yǔyán hé zhīshi.",
+   "v": "Sang Trung Quốc du học là để học ngôn ngữ và kiến thức."
+  },
+  {
+   "q": "这件太大了，我想看看＿＿一件。",
+   "a": "另",
+   "o": [
+    "压力",
+    "方面",
+    "经济"
+   ],
+   "p": "Zhè jiàn tài dà le, wǒ xiǎng kànkan lìng yí jiàn.",
+   "v": "Cái này to quá, tôi muốn xem cái khác."
+  }
+ ]
+}
