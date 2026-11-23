@@ -1,0 +1,675 @@
+{
+ "so": 2,
+ "han": "租到了合适的房子",
+ "sub": "37 từ mới",
+ "pool": [
+  {
+   "h": "租",
+   "p": "zū",
+   "v": "thuê",
+   "hv": "TÔ",
+   "loai": "động từ"
+  },
+  {
+   "h": "收拾",
+   "p": "shōushi",
+   "v": "dọn dẹp, thu dọn",
+   "hv": "THU THẬP",
+   "loai": "động từ"
+  },
+  {
+   "h": "就是",
+   "p": "jiùshì",
+   "v": "cứ… là được (cuối câu)",
+   "hv": "TỰU THỊ",
+   "loai": "trợ từ"
+  },
+  {
+   "h": "房东",
+   "p": "fángdōng",
+   "v": "chủ nhà (cho thuê)",
+   "hv": "PHÒNG ĐÔNG",
+   "loai": "danh từ"
+  },
+  {
+   "h": "出租",
+   "p": "chūzū",
+   "v": "cho thuê",
+   "hv": "XUẤT TÔ",
+   "loai": "động từ"
+  },
+  {
+   "h": "房租",
+   "p": "fángzū",
+   "v": "tiền thuê nhà",
+   "hv": "PHÒNG TÔ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "嗯",
+   "p": "ǹg",
+   "v": "ừ, ừm",
+   "hv": "(THÁN TỪ, KHÔNG CÓ ÂM HÁN VIỆT)",
+   "loai": "thán từ"
+  },
+  {
+   "h": "亮",
+   "p": "liàng",
+   "v": "sáng",
+   "hv": "LƯỢNG",
+   "loai": "tính từ"
+  },
+  {
+   "h": "周围",
+   "p": "zhōuwéi",
+   "v": "xung quanh",
+   "hv": "CHU VI",
+   "loai": "danh từ"
+  },
+  {
+   "h": "不过",
+   "p": "búguò",
+   "v": "nhưng, có điều",
+   "hv": "BẤT QUÁ",
+   "loai": "liên từ"
+  },
+  {
+   "h": "恐怕",
+   "p": "kǒngpà",
+   "v": "e rằng, sợ là",
+   "hv": "KHỦNG PHẠ",
+   "loai": "phó từ"
+  },
+  {
+   "h": "热闹",
+   "p": "rènao",
+   "v": "náo nhiệt, đông vui; vui vẻ cùng nhau",
+   "hv": "NHIỆT NÁO",
+   "loai": "tính từ"
+  },
+  {
+   "h": "种",
+   "p": "zhòng",
+   "v": "trồng",
+   "hv": "CHỦNG",
+   "loai": "động từ"
+  },
+  {
+   "h": "毕业",
+   "p": "bìyè",
+   "v": "tốt nghiệp",
+   "hv": "TẤT NGHIỆP",
+   "loai": "động từ"
+  },
+  {
+   "h": "入住",
+   "p": "rùzhù",
+   "v": "dọn vào ở; nhận phòng",
+   "hv": "NHẬP TRÚ",
+   "loai": "động từ"
+  },
+  {
+   "h": "顺利",
+   "p": "shùnlì",
+   "v": "suôn sẻ, trôi chảy",
+   "hv": "THUẬN LỢI",
+   "loai": "tính từ"
+  },
+  {
+   "h": "并",
+   "p": "bìng",
+   "v": "và, đồng thời; (trước phủ định) hoàn toàn không, thật ra không",
+   "hv": "TỊNH",
+   "loai": "liên từ"
+  },
+  {
+   "h": "平常",
+   "p": "píngcháng",
+   "v": "ngày thường; bình thường",
+   "hv": "BÌNH THƯỜNG",
+   "loai": "danh từ"
+  },
+  {
+   "h": "基本上",
+   "p": "jīběnshang",
+   "v": "về cơ bản, hầu như",
+   "hv": "CƠ BẢN THƯỢNG",
+   "loai": "phó từ"
+  },
+  {
+   "h": "日记",
+   "p": "rìjì",
+   "v": "nhật ký",
+   "hv": "NHẬT KÝ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "客厅",
+   "p": "kètīng",
+   "v": "phòng khách",
+   "hv": "KHÁCH SẢNH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "台",
+   "p": "tái",
+   "v": "chiếc (máy móc)",
+   "hv": "ĐÀI",
+   "loai": "lượng từ"
+  },
+  {
+   "h": "厨房",
+   "p": "chúfáng",
+   "v": "nhà bếp",
+   "hv": "TRÙ PHÒNG",
+   "loai": "danh từ"
+  },
+  {
+   "h": "整个",
+   "p": "zhěnggè",
+   "v": "cả, toàn bộ",
+   "hv": "CHỈNH CÁ",
+   "loai": "tính từ"
+  },
+  {
+   "h": "毛巾",
+   "p": "máojīn",
+   "v": "khăn mặt, khăn tắm",
+   "hv": "MAO CÂN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "建议",
+   "p": "jiànyì",
+   "v": "lời khuyên, đề xuất; khuyên, đề nghị",
+   "hv": "KIẾN NGHỊ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "接着",
+   "p": "jiēzhe",
+   "v": "tiếp đó, rồi tiếp; tiếp tục",
+   "hv": "TIẾP TRƯỚC",
+   "loai": "phó từ"
+  },
+  {
+   "h": "同时",
+   "p": "tóngshí",
+   "v": "đồng thời, cùng lúc",
+   "hv": "ĐỒNG THỜI",
+   "loai": "liên từ"
+  },
+  {
+   "h": "理想",
+   "p": "lǐxiǎng",
+   "v": "lý tưởng, đúng ý; ước mơ",
+   "hv": "LÝ TƯỞNG",
+   "loai": "tính từ"
+  },
+  {
+   "h": "由于",
+   "p": "yóuyú",
+   "v": "do, bởi vì",
+   "hv": "DO VU",
+   "loai": "liên từ"
+  },
+  {
+   "h": "查看",
+   "p": "chákàn",
+   "v": "xem xét, kiểm tra",
+   "hv": "TRA KHÁN",
+   "loai": "động từ"
+  },
+  {
+   "h": "信息",
+   "p": "xìnxī",
+   "v": "thông tin; tin nhắn",
+   "hv": "TÍN TỨC",
+   "loai": "danh từ"
+  },
+  {
+   "h": "查找",
+   "p": "cházhǎo",
+   "v": "tìm kiếm",
+   "hv": "TRA TRẢO",
+   "loai": "động từ"
+  },
+  {
+   "h": "位置",
+   "p": "wèizhi",
+   "v": "vị trí",
+   "hv": "VỊ TRÍ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "价格",
+   "p": "jiàgé",
+   "v": "giá cả",
+   "hv": "GIÁ CÁCH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "工资",
+   "p": "gōngzī",
+   "v": "tiền lương",
+   "hv": "CÔNG TƯ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "感",
+   "p": "gǎn",
+   "v": "(cảm giác) … — hậu tố",
+   "hv": "CẢM",
+   "loai": "hậu tố"
+  }
+ ],
+ "cloze": [
+  {
+   "q": "我在公司附近＿＿了一个房子。",
+   "a": "租",
+   "o": [
+    "客厅",
+    "并",
+    "房东"
+   ],
+   "p": "Wǒ zài gōngsī fùjìn zū le yí gè fángzi.",
+   "v": "Tôi thuê một căn nhà ở gần công ty."
+  },
+  {
+   "q": "下午有客人来，你快＿＿一下房间吧。",
+   "a": "收拾",
+   "o": [
+    "嗯",
+    "热闹",
+    "毛巾"
+   ],
+   "p": "Xiàwǔ yǒu kèrén lái, nǐ kuài shōushi yíxià fángjiān ba.",
+   "v": "Chiều nay có khách đến, em mau dọn phòng một chút đi."
+  },
+  {
+   "q": "我帮你，你放心＿＿了。",
+   "a": "就是",
+   "o": [
+    "理想",
+    "热闹",
+    "毛巾"
+   ],
+   "p": "Wǒ bāng nǐ, nǐ fàngxīn jiùshì le.",
+   "v": "Tôi giúp bạn, bạn cứ yên tâm là được."
+  },
+  {
+   "q": "＿＿告诉我，今天就可以搬进来。",
+   "a": "房东",
+   "o": [
+    "租",
+    "收拾",
+    "同时"
+   ],
+   "p": "Fángdōng gàosu wǒ, jīntiān jiù kěyǐ bān jìnlai.",
+   "v": "Chủ nhà bảo hôm nay dọn vào được luôn."
+  },
+  {
+   "q": "那个大房间＿＿，房租每月5500元。",
+   "a": "出租",
+   "o": [
+    "并",
+    "整个",
+    "价格"
+   ],
+   "p": "Nà ge dà fángjiān chūzū, fángzū měi yuè 5500 yuán.",
+   "v": "Phòng lớn kia cho thuê, tiền thuê 5.500 tệ một tháng."
+  },
+  {
+   "q": "这里＿＿合适，环境很好。",
+   "a": "房租",
+   "o": [
+    "理想",
+    "毕业",
+    "基本上"
+   ],
+   "p": "Zhèlǐ fángzū héshì, huánjìng hěn hǎo.",
+   "v": "Ở đây tiền thuê vừa phải, môi trường tốt."
+  },
+  {
+   "q": "＿＿，这个房间真不小，还挺亮。",
+   "a": "嗯",
+   "o": [
+    "收拾",
+    "感",
+    "毕业"
+   ],
+   "p": "Ǹg, zhè ge fángjiān zhēn bù xiǎo, hái tǐng liàng.",
+   "v": "Ừm, phòng này rộng thật, lại khá sáng."
+  },
+  {
+   "q": "这个房间真不小，还挺＿＿。",
+   "a": "亮",
+   "o": [
+    "房租",
+    "不过",
+    "信息"
+   ],
+   "p": "Zhè ge fángjiān zhēn bù xiǎo, hái tǐng liàng.",
+   "v": "Phòng này rộng thật, lại khá sáng."
+  },
+  {
+   "q": "我家＿＿不太安静，因为附近有很多饭馆。",
+   "a": "周围",
+   "o": [
+    "接着",
+    "不过",
+    "基本上"
+   ],
+   "p": "Wǒ jiā zhōuwéi bú tài ānjìng, yīnwèi fùjìn yǒu hěn duō fànguǎn.",
+   "v": "Xung quanh nhà tôi không yên tĩnh lắm, vì gần đó có nhiều quán ăn."
+  },
+  {
+   "q": "我很想去，＿＿今天晚上要加班。",
+   "a": "不过",
+   "o": [
+    "租",
+    "厨房",
+    "种"
+   ],
+   "p": "Wǒ hěn xiǎng qù, búguò jīntiān wǎnshang yào jiābān.",
+   "v": "Tôi rất muốn đi, có điều tối nay phải tăng ca."
+  },
+  {
+   "q": "我现在在机场，＿＿不能参加了。",
+   "a": "恐怕",
+   "o": [
+    "房租",
+    "查找",
+    "建议"
+   ],
+   "p": "Wǒ xiànzài zài jīchǎng, kǒngpà bù néng cānjiā le.",
+   "v": "Tôi đang ở sân bay, e là không tham gia được rồi."
+  },
+  {
+   "q": "我喜欢安静的地方，因为＿＿的地方让我觉得很累。",
+   "a": "热闹",
+   "o": [
+    "收拾",
+    "房东",
+    "恐怕"
+   ],
+   "p": "Wǒ xǐhuan ānjìng de dìfang, yīnwèi rènao de dìfang ràng wǒ juéde hěn lèi.",
+   "v": "Tôi thích nơi yên tĩnh, vì nơi náo nhiệt làm tôi thấy rất mệt."
+  },
+  {
+   "q": "这个小区到处是花，还＿＿了不少树。",
+   "a": "种",
+   "o": [
+    "接着",
+    "就是",
+    "工资"
+   ],
+   "p": "Zhè ge xiǎoqū dàochù shì huā, hái zhòng le bù shǎo shù.",
+   "v": "Khu này đâu đâu cũng có hoa, lại trồng khá nhiều cây."
+  },
+  {
+   "q": "很多刚＿＿的学生都租住在这里。",
+   "a": "毕业",
+   "o": [
+    "感",
+    "不过",
+    "理想"
+   ],
+   "p": "Hěn duō gāng bìyè de xuésheng dōu zūzhù zài zhèlǐ.",
+   "v": "Nhiều sinh viên mới ra trường thuê ở đây."
+  },
+  {
+   "q": "我决定租这个房子了，明天就＿＿新家。",
+   "a": "入住",
+   "o": [
+    "理想",
+    "平常",
+    "感"
+   ],
+   "p": "Wǒ juédìng zū zhè ge fángzi le, míngtiān jiù rùzhù xīn jiā.",
+   "v": "Mình quyết định thuê căn này rồi, mai dọn vào nhà mới luôn."
+  },
+  {
+   "q": "祝你面试＿＿！",
+   "a": "顺利",
+   "o": [
+    "基本上",
+    "价格",
+    "由于"
+   ],
+   "p": "Zhù nǐ miànshì shùnlì!",
+   "v": "Chúc bạn phỏng vấn suôn sẻ!"
+  },
+  {
+   "q": "昨天我收拾了房间，＿＿做了晚饭。",
+   "a": "并",
+   "o": [
+    "日记",
+    "客厅",
+    "位置"
+   ],
+   "p": "Zuótiān wǒ shōushi le fángjiān, bìng zuò le wǎnfàn.",
+   "v": "Hôm qua tôi dọn phòng và nấu bữa tối."
+  },
+  {
+   "q": "我＿＿开车上班，今天车坏了。",
+   "a": "平常",
+   "o": [
+    "由于",
+    "热闹",
+    "入住"
+   ],
+   "p": "Wǒ píngcháng kāichē shàngbān, jīntiān chē huài le.",
+   "v": "Ngày thường tôi lái xe đi làm, hôm nay xe hỏng rồi."
+  },
+  {
+   "q": "我＿＿不回家吃晚饭，都在公司吃。",
+   "a": "基本上",
+   "o": [
+    "台",
+    "平常",
+    "嗯"
+   ],
+   "p": "Wǒ jīběnshang bù huí jiā chī wǎnfàn, dōu zài gōngsī chī.",
+   "v": "Tôi hầu như không về nhà ăn tối, toàn ăn ở công ty."
+  },
+  {
+   "q": "我每天晚上写＿＿。",
+   "a": "日记",
+   "o": [
+    "整个",
+    "就是",
+    "同时"
+   ],
+   "p": "Wǒ měi tiān wǎnshang xiě rìjì.",
+   "v": "Tối nào mình cũng viết nhật ký."
+  },
+  {
+   "q": "＿＿里有椅子、沙发，还有一台大电视。",
+   "a": "客厅",
+   "o": [
+    "入住",
+    "收拾",
+    "并"
+   ],
+   "p": "Kètīng li yǒu yǐzi, shāfā, hái yǒu yì tái dà diànshì.",
+   "v": "Phòng khách có ghế, sofa, còn có một chiếc tivi lớn."
+  },
+  {
+   "q": "我租的房间里还有一＿＿空调。",
+   "a": "台",
+   "o": [
+    "种",
+    "理想",
+    "信息"
+   ],
+   "p": "Wǒ zū de fángjiān li hái yǒu yì tái kōngtiáo.",
+   "v": "Phòng mình thuê còn có một cái điều hoà."
+  },
+  {
+   "q": "＿＿里有冰箱和一些做饭用的东西。",
+   "a": "厨房",
+   "o": [
+    "理想",
+    "不过",
+    "同时"
+   ],
+   "p": "Chúfáng li yǒu bīngxiāng hé yìxiē zuòfàn yòng de dōngxi.",
+   "v": "Bếp có tủ lạnh và ít đồ nấu ăn."
+  },
+  {
+   "q": "看完＿＿房子后，我准备再去买几条毛巾。",
+   "a": "整个",
+   "o": [
+    "嗯",
+    "厨房",
+    "收拾"
+   ],
+   "p": "Kàn wán zhěnggè fángzi hòu, wǒ zhǔnbèi zài qù mǎi jǐ tiáo máojīn.",
+   "v": "Xem hết cả căn nhà xong, mình định đi mua thêm mấy chiếc khăn."
+  },
+  {
+   "q": "我准备再去买几条＿＿。",
+   "a": "毛巾",
+   "o": [
+    "由于",
+    "就是",
+    "热闹"
+   ],
+   "p": "Wǒ zhǔnbèi zài qù mǎi jǐ tiáo máojīn.",
+   "v": "Mình định đi mua thêm mấy chiếc khăn."
+  },
+  {
+   "q": "我＿＿你租公司附近的房子。",
+   "a": "建议",
+   "o": [
+    "入住",
+    "热闹",
+    "毕业"
+   ],
+   "p": "Wǒ jiànyì nǐ zū gōngsī fùjìn de fángzi.",
+   "v": "Tôi khuyên bạn thuê nhà gần công ty."
+  },
+  {
+   "q": "我起床以后先洗澡，＿＿吃早饭。",
+   "a": "接着",
+   "o": [
+    "查找",
+    "日记",
+    "查看"
+   ],
+   "p": "Wǒ qǐchuáng yǐhòu xiān xǐzǎo, jiēzhe chī zǎofàn.",
+   "v": "Sau khi dậy tôi tắm trước, tiếp đó ăn sáng."
+  },
+  {
+   "q": "学中文要多练口语，＿＿也要多写汉字。",
+   "a": "同时",
+   "o": [
+    "查看",
+    "毛巾",
+    "毕业"
+   ],
+   "p": "Xué Zhōngwén yào duō liàn kǒuyǔ, tóngshí yě yào duō xiě Hànzì.",
+   "v": "Học tiếng Trung phải luyện nói nhiều, đồng thời cũng phải viết chữ Hán nhiều."
+  },
+  {
+   "q": "我＿＿的房子离公司近，周围很安静，还有一个小花园。",
+   "a": "理想",
+   "o": [
+    "查找",
+    "信息",
+    "价格"
+   ],
+   "p": "Wǒ lǐxiǎng de fángzi lí gōngsī jìn, zhōuwéi hěn ānjìng, hái yǒu yí gè xiǎo huāyuán.",
+   "v": "Căn nhà lý tưởng của tôi gần công ty, xung quanh rất yên tĩnh, còn có một vườn hoa nhỏ."
+  },
+  {
+   "q": "＿＿很多人有事，会议下周五再开。",
+   "a": "由于",
+   "o": [
+    "入住",
+    "台",
+    "房租"
+   ],
+   "p": "Yóuyú hěn duō rén yǒu shì, huìyì xià zhōuwǔ zài kāi.",
+   "v": "Do nhiều người có việc, cuộc họp để thứ Sáu tuần sau mới họp."
+  },
+  {
+   "q": "她先在租房网站和App上＿＿有关信息。",
+   "a": "查看",
+   "o": [
+    "台",
+    "平常",
+    "同时"
+   ],
+   "p": "Tā xiān zài zūfáng wǎngzhàn hé App shang chákàn yǒuguān xìnxī.",
+   "v": "Trước tiên cô ấy xem thông tin trên trang web và app thuê nhà."
+  },
+  {
+   "q": "她在网上查找到一条出租＿＿。",
+   "a": "信息",
+   "o": [
+    "感",
+    "查看",
+    "同时"
+   ],
+   "p": "Tā zài wǎngshàng cházhǎo dào yì tiáo chūzū xìnxī.",
+   "v": "Cô ấy tìm được một tin cho thuê trên mạng."
+  },
+  {
+   "q": "她＿＿合适的房子，接着又去看了看房子。",
+   "a": "查找",
+   "o": [
+    "工资",
+    "位置",
+    "理想"
+   ],
+   "p": "Tā cházhǎo héshì de fángzi, jiēzhe yòu qù kàn le kàn fángzi.",
+   "v": "Cô ấy tìm nhà phù hợp, rồi tiếp đó đi xem nhà."
+  },
+  {
+   "q": "这家酒店＿＿很好，离地铁站很近。",
+   "a": "位置",
+   "o": [
+    "接着",
+    "租",
+    "基本上"
+   ],
+   "p": "Zhè jiā jiǔdiàn wèizhi hěn hǎo, lí dìtiězhàn hěn jìn.",
+   "v": "Khách sạn này vị trí rất tốt, gần ga tàu điện."
+  },
+  {
+   "q": "这个小区很安静，房子＿＿也不高。",
+   "a": "价格",
+   "o": [
+    "毕业",
+    "不过",
+    "亮"
+   ],
+   "p": "Zhè ge xiǎoqū hěn ānjìng, fángzi jiàgé yě bù gāo.",
+   "v": "Khu này rất yên tĩnh, giá nhà cũng không cao."
+  },
+  {
+   "q": "很多刚工作的年轻人＿＿还不太高。",
+   "a": "工资",
+   "o": [
+    "台",
+    "入住",
+    "嗯"
+   ],
+   "p": "Hěn duō gāng gōngzuò de niánqīngrén gōngzī hái bú tài gāo.",
+   "v": "Nhiều người trẻ mới đi làm lương còn chưa cao."
+  },
+  {
+   "q": "有自己的房子会更有安全＿＿。",
+   "a": "感",
+   "o": [
+    "平常",
+    "顺利",
+    "亮"
+   ],
+   "p": "Yǒu zìjǐ de fángzi huì gèng yǒu ānquángǎn.",
+   "v": "Có nhà riêng sẽ thấy an tâm hơn."
+  }
+ ]
+}

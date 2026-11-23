@@ -1,0 +1,711 @@
+{
+ "so": 4,
+ "han": "很高兴能帮到你",
+ "sub": "39 từ mới",
+ "pool": [
+  {
+   "h": "停",
+   "p": "tíng",
+   "v": "dừng, ngừng; đỗ (xe)",
+   "hv": "ĐÌNH",
+   "loai": "động từ"
+  },
+  {
+   "h": "交",
+   "p": "jiāo",
+   "v": "nộp, đóng (tiền, bài)",
+   "hv": "GIAO",
+   "loai": "động từ"
+  },
+  {
+   "h": "联系",
+   "p": "liánxì",
+   "v": "liên hệ, liên lạc",
+   "hv": "LIÊN HỆ",
+   "loai": "động từ"
+  },
+  {
+   "h": "客气",
+   "p": "kèqi",
+   "v": "khách sáo; lịch sự",
+   "hv": "KHÁCH KHÍ",
+   "loai": "động từ"
+  },
+  {
+   "h": "啊",
+   "p": "ā",
+   "v": "a, á, ôi (kêu lên)",
+   "hv": "A",
+   "loai": "thán từ"
+  },
+  {
+   "h": "费",
+   "p": "fèi",
+   "v": "phí, tiền phí; tốn",
+   "hv": "PHÍ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "信号",
+   "p": "xìnhào",
+   "v": "tín hiệu, sóng (điện thoại)",
+   "hv": "TÍN HIỆU",
+   "loai": "danh từ"
+  },
+  {
+   "h": "感谢",
+   "p": "gǎnxiè",
+   "v": "cảm ơn (trang trọng)",
+   "hv": "CẢM TẠ",
+   "loai": "động từ"
+  },
+  {
+   "h": "方式",
+   "p": "fāngshì",
+   "v": "cách thức, phương thức",
+   "hv": "PHƯƠNG THỨC",
+   "loai": "danh từ"
+  },
+  {
+   "h": "提",
+   "p": "tí",
+   "v": "xách",
+   "hv": "ĐỀ",
+   "loai": "động từ"
+  },
+  {
+   "h": "算",
+   "p": "suàn",
+   "v": "coi như, được tính là",
+   "hv": "TOÁN",
+   "loai": "động từ"
+  },
+  {
+   "h": "再说",
+   "p": "zàishuō",
+   "v": "vả lại, hơn nữa",
+   "hv": "TÁI THUYẾT",
+   "loai": "liên từ"
+  },
+  {
+   "h": "辛苦",
+   "p": "xīnkǔ",
+   "v": "vất vả; làm (ai) vất vả",
+   "hv": "TÂN KHỔ",
+   "loai": "động từ"
+  },
+  {
+   "h": "剩",
+   "p": "shèng",
+   "v": "còn lại, thừa",
+   "hv": "THẶNG",
+   "loai": "động từ"
+  },
+  {
+   "h": "袋子",
+   "p": "dàizi",
+   "v": "túi",
+   "hv": "ĐẠI TỬ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "重",
+   "p": "zhòng",
+   "v": "nặng; trọng lượng",
+   "hv": "TRỌNG",
+   "loai": "tính từ"
+  },
+  {
+   "h": "之间",
+   "p": "zhījiān",
+   "v": "giữa (hai / nhiều bên)",
+   "hv": "CHI GIAN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "互相",
+   "p": "hùxiāng",
+   "v": "lẫn nhau, với nhau",
+   "hv": "HỖ TƯƠNG",
+   "loai": "phó từ"
+  },
+  {
+   "h": "往往",
+   "p": "wǎngwǎng",
+   "v": "thường thường (theo quy luật)",
+   "hv": "VÃNG VÃNG",
+   "loai": "phó từ"
+  },
+  {
+   "h": "既",
+   "p": "jì",
+   "v": "vừa… (vừa…)",
+   "hv": "KÝ",
+   "loai": "phó từ"
+  },
+  {
+   "h": "流行",
+   "p": "liúxíng",
+   "v": "thịnh hành, đang mốt",
+   "hv": "LƯU HÀNH",
+   "loai": "động từ"
+  },
+  {
+   "h": "省",
+   "p": "shěng",
+   "v": "tiết kiệm, đỡ tốn",
+   "hv": "TỈNH",
+   "loai": "động từ"
+  },
+  {
+   "h": "出行",
+   "p": "chūxíng",
+   "v": "đi lại, ra ngoài đi đâu đó",
+   "hv": "XUẤT HÀNH",
+   "loai": "động từ"
+  },
+  {
+   "h": "距离",
+   "p": "jùlí",
+   "v": "khoảng cách; cách (bao xa)",
+   "hv": "CỰ LY",
+   "loai": "danh từ"
+  },
+  {
+   "h": "电动车",
+   "p": "diàndòngchē",
+   "v": "xe điện (xe máy điện)",
+   "hv": "ĐIỆN ĐỘNG XA",
+   "loai": "danh từ"
+  },
+  {
+   "h": "速度",
+   "p": "sùdù",
+   "v": "tốc độ",
+   "hv": "TỐC ĐỘ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "充电",
+   "p": "chōngdiàn",
+   "v": "sạc điện",
+   "hv": "SUNG ĐIỆN",
+   "loai": "động từ"
+  },
+  {
+   "h": "力气",
+   "p": "lìqi",
+   "v": "sức lực",
+   "hv": "LỰC KHÍ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "来得及",
+   "p": "láidejí",
+   "v": "kịp, còn kịp",
+   "hv": "LAI ĐẮC CẬP",
+   "loai": "động từ"
+  },
+  {
+   "h": "顺便",
+   "p": "shùnbiàn",
+   "v": "tiện thể, nhân tiện",
+   "hv": "THUẬN TIỆN",
+   "loai": "phó từ"
+  },
+  {
+   "h": "心情",
+   "p": "xīnqíng",
+   "v": "tâm trạng",
+   "hv": "TÂM TÌNH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "更加",
+   "p": "gèngjiā",
+   "v": "càng thêm, hơn nữa",
+   "hv": "CANH GIA",
+   "loai": "phó từ"
+  },
+  {
+   "h": "乘客",
+   "p": "chéngkè",
+   "v": "hành khách",
+   "hv": "THỪA KHÁCH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "购买",
+   "p": "gòumǎi",
+   "v": "mua (trang trọng)",
+   "hv": "CẤU MÃI",
+   "loai": "động từ"
+  },
+  {
+   "h": "食物",
+   "p": "shíwù",
+   "v": "thức ăn, đồ ăn",
+   "hv": "THỰC VẬT",
+   "loai": "danh từ"
+  },
+  {
+   "h": "免费",
+   "p": "miǎnfèi",
+   "v": "miễn phí",
+   "hv": "MIỄN PHÍ",
+   "loai": "động từ"
+  },
+  {
+   "h": "早餐",
+   "p": "zǎocān",
+   "v": "bữa sáng",
+   "hv": "TẢO XAN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "鲜花",
+   "p": "xiānhuā",
+   "v": "hoa tươi",
+   "hv": "TIÊN HOA",
+   "loai": "danh từ"
+  },
+  {
+   "h": "愉快",
+   "p": "yúkuài",
+   "v": "vui vẻ, dễ chịu",
+   "hv": "DU KHOÁI",
+   "loai": "tính từ"
+  }
+ ],
+ "cloze": [
+  {
+   "q": "师傅，请在小区门口＿＿一下。",
+   "a": "停",
+   "o": [
+    "愉快",
+    "电动车",
+    "互相"
+   ],
+   "p": "Shīfu, qǐng zài xiǎoqū ménkǒu tíng yíxià.",
+   "v": "Bác tài ơi, cho cháu dừng ở cổng khu chung cư một chút."
+  },
+  {
+   "q": "这个月的电费我已经＿＿了。",
+   "a": "交",
+   "o": [
+    "愉快",
+    "啊",
+    "方式"
+   ],
+   "p": "Zhè ge yuè de diànfèi wǒ yǐjīng jiāo le.",
+   "v": "Tiền điện tháng này con đóng rồi."
+  },
+  {
+   "q": "能告诉我您的＿＿方式吗？",
+   "a": "联系",
+   "o": [
+    "乘客",
+    "重",
+    "既"
+   ],
+   "p": "Néng gàosu wǒ nín de liánxì fāngshì ma?",
+   "v": "Anh/chị có thể cho tôi xin cách liên lạc được không?"
+  },
+  {
+   "q": "你太＿＿了！",
+   "a": "客气",
+   "o": [
+    "袋子",
+    "重",
+    "电动车"
+   ],
+   "p": "Nǐ tài kèqi le!",
+   "v": "Cậu khách sáo quá!"
+  },
+  {
+   "q": "＿＿，我忘了带钥匙！",
+   "a": "啊",
+   "o": [
+    "免费",
+    "信号",
+    "距离"
+   ],
+   "p": "Ā, wǒ wàng le dài yàoshi!",
+   "v": "Á, mình quên mang chìa khoá!"
+  },
+  {
+   "q": "我忘了交电话＿＿，手机停机了。",
+   "a": "费",
+   "o": [
+    "再说",
+    "算",
+    "购买"
+   ],
+   "p": "Wǒ wàng le jiāo diànhuàfèi, shǒujī tíngjī le.",
+   "v": "Mình quên đóng tiền điện thoại nên bị cắt mạng."
+  },
+  {
+   "q": "手机没有＿＿，上不了网。",
+   "a": "信号",
+   "o": [
+    "来得及",
+    "感谢",
+    "往往"
+   ],
+   "p": "Shǒujī méiyǒu xìnhào, shàng bu liǎo wǎng.",
+   "v": "Điện thoại mất sóng, không lên mạng được."
+  },
+  {
+   "q": "太＿＿你了，我要去北京大学站。",
+   "a": "感谢",
+   "o": [
+    "费",
+    "重",
+    "互相"
+   ],
+   "p": "Tài gǎnxiè nǐ le, wǒ yào qù Běijīng Dàxué zhàn.",
+   "v": "Cảm ơn bạn nhiều lắm, mình muốn đến ga Đại học Bắc Kinh."
+  },
+  {
+   "q": "能不能告诉我你的联系＿＿？",
+   "a": "方式",
+   "o": [
+    "充电",
+    "往往",
+    "省"
+   ],
+   "p": "Néng bu néng gàosu wǒ nǐ de liánxì fāngshì?",
+   "v": "Bạn cho mình xin cách liên lạc được không?"
+  },
+  {
+   "q": "奶奶，我帮您＿＿吧。",
+   "a": "提",
+   "o": [
+    "袋子",
+    "费",
+    "往往"
+   ],
+   "p": "Nǎinai, wǒ bāng nín tí ba.",
+   "v": "Bà ơi, để cháu xách giúp bà nhé."
+  },
+  {
+   "q": "我每天走半个小时，就＿＿锻炼身体了。",
+   "a": "算",
+   "o": [
+    "费",
+    "信号",
+    "愉快"
+   ],
+   "p": "Wǒ měi tiān zǒu bàn gè xiǎoshí, jiù suàn duànliàn shēntǐ le.",
+   "v": "Mỗi ngày tôi đi bộ nửa tiếng, coi như là tập thể dục rồi."
+  },
+  {
+   "q": "打车吧，太远了，＿＿天气这么热。",
+   "a": "再说",
+   "o": [
+    "辛苦",
+    "既",
+    "往往"
+   ],
+   "p": "Dǎchē ba, tài yuǎn le, zàishuō tiānqì zhème rè.",
+   "v": "Đi taxi đi, xa lắm, vả lại trời nóng thế này."
+  },
+  {
+   "q": "今天＿＿你了，明天我请你吃饭。",
+   "a": "辛苦",
+   "o": [
+    "早餐",
+    "心情",
+    "既"
+   ],
+   "p": "Jīntiān xīnkǔ nǐ le, míngtiān wǒ qǐng nǐ chī fàn.",
+   "v": "Hôm nay làm cậu vất vả rồi, mai mình mời cậu đi ăn."
+  },
+  {
+   "q": "我先休息一会儿，再去车里拿＿＿下的。",
+   "a": "剩",
+   "o": [
+    "力气",
+    "方式",
+    "鲜花"
+   ],
+   "p": "Wǒ xiān xiūxi yíhuìr, zài qù chē lǐ ná shèngxià de.",
+   "v": "Tôi nghỉ một lát rồi ra xe lấy chỗ còn lại."
+  },
+  {
+   "q": "这几个＿＿太重了，我自己拿吧。",
+   "a": "袋子",
+   "o": [
+    "停",
+    "感谢",
+    "啊"
+   ],
+   "p": "Zhè jǐ gè dàizi tài zhòng le, wǒ zìjǐ ná ba.",
+   "v": "Mấy cái túi này nặng lắm, để tôi tự cầm."
+  },
+  {
+   "q": "这几个袋子太＿＿了，我自己拿吧。",
+   "a": "重",
+   "o": [
+    "停",
+    "感谢",
+    "心情"
+   ],
+   "p": "Zhè jǐ gè dàizi tài zhòng le, wǒ zìjǐ ná ba.",
+   "v": "Mấy cái túi này nặng lắm, để tôi tự cầm."
+  },
+  {
+   "q": "邻居＿＿就是要互相帮助啊。",
+   "a": "之间",
+   "o": [
+    "剩",
+    "来得及",
+    "感谢"
+   ],
+   "p": "Línjū zhījiān jiùshì yào hùxiāng bāngzhù a.",
+   "v": "Hàng xóm với nhau thì phải giúp đỡ lẫn nhau chứ."
+  },
+  {
+   "q": "邻居之间就是要＿＿帮助啊。",
+   "a": "互相",
+   "o": [
+    "食物",
+    "鲜花",
+    "剩"
+   ],
+   "p": "Línjū zhījiān jiùshì yào hùxiāng bāngzhù a.",
+   "v": "Hàng xóm với nhau thì phải giúp đỡ lẫn nhau."
+  },
+  {
+   "q": "周末超市里＿＿人很多，你最好平时去。",
+   "a": "往往",
+   "o": [
+    "费",
+    "重",
+    "心情"
+   ],
+   "p": "Zhōumò chāoshì lǐ wǎngwǎng rén hěn duō, nǐ zuìhǎo píngshí qù.",
+   "v": "Cuối tuần siêu thị thường rất đông, bạn tốt nhất nên đi ngày thường."
+  },
+  {
+   "q": "骑自行车＿＿省钱，又能锻炼身体。",
+   "a": "既",
+   "o": [
+    "方式",
+    "提",
+    "啊"
+   ],
+   "p": "Qí zìxíngchē jì shěng qián, yòu néng duànliàn shēntǐ.",
+   "v": "Đi xe đạp vừa tiết kiệm tiền, vừa rèn luyện được sức khoẻ."
+  },
+  {
+   "q": "在越南，奶茶很＿＿。",
+   "a": "流行",
+   "o": [
+    "方式",
+    "更加",
+    "重"
+   ],
+   "p": "Zài Yuènán, nǎichá hěn liúxíng.",
+   "v": "Ở Việt Nam, trà sữa rất thịnh hành."
+  },
+  {
+   "q": "在网上点外卖能＿＿不少时间。",
+   "a": "省",
+   "o": [
+    "互相",
+    "啊",
+    "更加"
+   ],
+   "p": "Zài wǎngshàng diǎn wàimài néng shěng bù shǎo shíjiān.",
+   "v": "Đặt đồ ăn ngoài trên mạng tiết kiệm được khá nhiều thời gian."
+  },
+  {
+   "q": "在城市里，人们＿＿的方式越来越多。",
+   "a": "出行",
+   "o": [
+    "愉快",
+    "互相",
+    "更加"
+   ],
+   "p": "Zài chéngshì lǐ, rénmen chūxíng de fāngshì yuè lái yuè duō.",
+   "v": "Trong thành phố, cách đi lại của mọi người ngày càng nhiều."
+  },
+  {
+   "q": "短＿＿出行时，骑自行车往往是人们常见的选择。",
+   "a": "距离",
+   "o": [
+    "客气",
+    "互相",
+    "更加"
+   ],
+   "p": "Duǎn jùlí chūxíng shí, qí zìxíngchē wǎngwǎng shì rénmen chángjiàn de xuǎnzé.",
+   "v": "Khi đi quãng ngắn, đạp xe thường là lựa chọn phổ biến."
+  },
+  {
+   "q": "他最近打算买一辆＿＿。",
+   "a": "电动车",
+   "o": [
+    "再说",
+    "购买",
+    "提"
+   ],
+   "p": "Tā zuìjìn dǎsuàn mǎi yí liàng diàndòngchē.",
+   "v": "Gần đây anh ấy định mua một chiếc xe điện."
+  },
+  {
+   "q": "电动车＿＿快，价格不高。",
+   "a": "速度",
+   "o": [
+    "流行",
+    "出行",
+    "愉快"
+   ],
+   "p": "Diàndòngchē sùdù kuài, jiàgé bù gāo.",
+   "v": "Xe điện chạy nhanh, giá lại không cao."
+  },
+  {
+   "q": "电动车＿＿也很方便。",
+   "a": "充电",
+   "o": [
+    "顺便",
+    "互相",
+    "方式"
+   ],
+   "p": "Diàndòngchē chōngdiàn yě hěn fāngbiàn.",
+   "v": "Xe điện sạc cũng rất tiện."
+  },
+  {
+   "q": "为了省＿＿，他最近打算买一辆电动车。",
+   "a": "力气",
+   "o": [
+    "往往",
+    "停",
+    "出行"
+   ],
+   "p": "Wèile shěng lìqi, tā zuìjìn dǎsuàn mǎi yí liàng diàndòngchē.",
+   "v": "Để đỡ tốn sức, gần đây anh ấy định mua xe điện."
+  },
+  {
+   "q": "今天起晚了，没＿＿吃早饭。",
+   "a": "来得及",
+   "o": [
+    "心情",
+    "既",
+    "愉快"
+   ],
+   "p": "Jīntiān qǐ wǎn le, méi láidejí chī zǎofàn.",
+   "v": "Hôm nay dậy muộn, không kịp ăn sáng."
+  },
+  {
+   "q": "你去超市的话，能不能＿＿帮我买个面包？",
+   "a": "顺便",
+   "o": [
+    "客气",
+    "之间",
+    "免费"
+   ],
+   "p": "Nǐ qù chāoshì dehuà, néng bu néng shùnbiàn bāng wǒ mǎi gè miànbāo?",
+   "v": "Nếu cậu đi siêu thị thì tiện thể mua giúp mình một ổ bánh mì được không?"
+  },
+  {
+   "q": "经理表扬了我，所以今天＿＿特别好。",
+   "a": "心情",
+   "o": [
+    "愉快",
+    "联系",
+    "停"
+   ],
+   "p": "Jīnglǐ biǎoyáng le wǒ, suǒyǐ jīntiān xīnqíng tèbié hǎo.",
+   "v": "Sếp khen tôi nên hôm nay tâm trạng đặc biệt tốt."
+  },
+  {
+   "q": "我希望明年我的生活＿＿愉快。",
+   "a": "更加",
+   "o": [
+    "之间",
+    "再说",
+    "费"
+   ],
+   "p": "Wǒ xīwàng míngnián wǒ de shēnghuó gèngjiā yúkuài.",
+   "v": "Tôi mong năm sau cuộc sống của mình vui vẻ hơn nữa."
+  },
+  {
+   "q": "一位＿＿看到了，问她需不需要帮忙。",
+   "a": "乘客",
+   "o": [
+    "算",
+    "既",
+    "互相"
+   ],
+   "p": "Yí wèi chéngkè kàn dào le, wèn tā xū bu xūyào bāngmáng.",
+   "v": "Một hành khách nhìn thấy, hỏi cô ấy có cần giúp không."
+  },
+  {
+   "q": "乘客可以直接扫码＿＿食物和饮料。",
+   "a": "购买",
+   "o": [
+    "重",
+    "再说",
+    "费"
+   ],
+   "p": "Chéngkè kěyǐ zhíjiē sǎo mǎ gòumǎi shíwù hé yǐnliào.",
+   "v": "Hành khách có thể quét mã mua đồ ăn, đồ uống."
+  },
+  {
+   "q": "乘客可以在地铁站里购买＿＿和饮料。",
+   "a": "食物",
+   "o": [
+    "顺便",
+    "重",
+    "提"
+   ],
+   "p": "Chéngkè kěyǐ zài dìtiě zhàn lǐ gòumǎi shíwù hé yǐnliào.",
+   "v": "Hành khách có thể mua đồ ăn, đồ uống trong ga."
+  },
+  {
+   "q": "有的地铁站还提供＿＿借雨伞、发雨衣等服务。",
+   "a": "免费",
+   "o": [
+    "顺便",
+    "乘客",
+    "食物"
+   ],
+   "p": "Yǒude dìtiě zhàn hái tígōng miǎnfèi jiè yǔsǎn, fā yǔyī děng fúwù.",
+   "v": "Có ga còn có dịch vụ cho mượn ô, phát áo mưa miễn phí."
+  },
+  {
+   "q": "工作日站里还有＿＿车。",
+   "a": "早餐",
+   "o": [
+    "辛苦",
+    "互相",
+    "既"
+   ],
+   "p": "Gōngzuòrì zhàn lǐ hái yǒu zǎocānchē.",
+   "v": "Ngày thường trong ga còn có xe bán đồ ăn sáng."
+  },
+  {
+   "q": "有的地铁站里甚至还有＿＿店。",
+   "a": "鲜花",
+   "o": [
+    "辛苦",
+    "重",
+    "往往"
+   ],
+   "p": "Yǒude dìtiě zhàn lǐ shènzhì hái yǒu xiānhuādiàn.",
+   "v": "Có ga tàu điện còn có cả tiệm hoa tươi."
+  },
+  {
+   "q": "这些服务让大家的心情变得更加＿＿。",
+   "a": "愉快",
+   "o": [
+    "辛苦",
+    "早餐",
+    "既"
+   ],
+   "p": "Zhèxiē fúwù ràng dàjiā de xīnqíng biàn de gèngjiā yúkuài.",
+   "v": "Những dịch vụ này làm tâm trạng mọi người vui vẻ hơn."
+  }
+ ]
+}

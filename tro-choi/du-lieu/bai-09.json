@@ -1,0 +1,729 @@
+{
+ "so": 9,
+ "han": "遇见你，刚刚好",
+ "sub": "40 từ mới",
+ "pool": [
+  {
+   "h": "感动",
+   "p": "gǎndòng",
+   "v": "cảm động; làm cảm động",
+   "hv": "CẢM ĐỘNG",
+   "loai": "tính từ"
+  },
+  {
+   "h": "耐心",
+   "p": "nàixīn",
+   "v": "kiên nhẫn; lòng kiên nhẫn",
+   "hv": "NẠI TÂM",
+   "loai": "tính từ"
+  },
+  {
+   "h": "吸引",
+   "p": "xīyǐn",
+   "v": "thu hút, hấp dẫn",
+   "hv": "HẤP DẪN",
+   "loai": "động từ"
+  },
+  {
+   "h": "错过",
+   "p": "cuòguò",
+   "v": "lỡ, bỏ lỡ",
+   "hv": "THÁC QUÁ",
+   "loai": "động từ"
+  },
+  {
+   "h": "祝",
+   "p": "zhù",
+   "v": "chúc",
+   "hv": "CHÚC",
+   "loai": "động từ"
+  },
+  {
+   "h": "巧克力",
+   "p": "qiǎokèlì",
+   "v": "sô-cô-la",
+   "hv": "(PHIÊN ÂM, KHÔNG CÓ ÂM HÁN VIỆT)",
+   "loai": "danh từ"
+  },
+  {
+   "h": "浪漫",
+   "p": "làngmàn",
+   "v": "lãng mạn",
+   "hv": "LÃNG MẠN",
+   "loai": "tính từ"
+  },
+  {
+   "h": "幽默",
+   "p": "yōumò",
+   "v": "hài hước, dí dỏm",
+   "hv": "U MẶC",
+   "loai": "tính từ"
+  },
+  {
+   "h": "当时",
+   "p": "dāngshí",
+   "v": "lúc đó, khi ấy",
+   "hv": "ĐƯƠNG THỜI",
+   "loai": "danh từ"
+  },
+  {
+   "h": "幸运",
+   "p": "xìngyùn",
+   "v": "may mắn",
+   "hv": "HẠNH VẬN",
+   "loai": "tính từ"
+  },
+  {
+   "h": "尽管",
+   "p": "jǐnguǎn",
+   "v": "mặc dù, tuy",
+   "hv": "TẪN QUẢN",
+   "loai": "liên từ"
+  },
+  {
+   "h": "性格",
+   "p": "xìnggé",
+   "v": "tính cách",
+   "hv": "TÍNH CÁCH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "理解",
+   "p": "lǐjiě",
+   "v": "hiểu, thông cảm",
+   "hv": "LÝ GIẢI",
+   "loai": "động từ"
+  },
+  {
+   "h": "支持",
+   "p": "zhīchí",
+   "v": "ủng hộ, giúp đỡ",
+   "hv": "CHI TRÌ",
+   "loai": "động từ"
+  },
+  {
+   "h": "幸福",
+   "p": "xìngfú",
+   "v": "hạnh phúc",
+   "hv": "HẠNH PHÚC",
+   "loai": "tính từ"
+  },
+  {
+   "h": "共同",
+   "p": "gòngtóng",
+   "v": "chung; cùng nhau",
+   "hv": "CỘNG ĐỒNG",
+   "loai": "tính từ"
+  },
+  {
+   "h": "责任",
+   "p": "zérèn",
+   "v": "trách nhiệm",
+   "hv": "TRÁCH NHIỆM",
+   "loai": "danh từ"
+  },
+  {
+   "h": "相互",
+   "p": "xiānghù",
+   "v": "lẫn nhau",
+   "hv": "TƯƠNG HỖ",
+   "loai": "phó từ"
+  },
+  {
+   "h": "印象",
+   "p": "yìnxiàng",
+   "v": "ấn tượng",
+   "hv": "ẤN TƯỢNG",
+   "loai": "danh từ"
+  },
+  {
+   "h": "负责",
+   "p": "fùzé",
+   "v": "có trách nhiệm; phụ trách, chịu trách nhiệm",
+   "hv": "PHỤ TRÁCH",
+   "loai": "tính từ"
+  },
+  {
+   "h": "积极",
+   "p": "jījí",
+   "v": "tích cực, hăng hái",
+   "hv": "TÍCH CỰC",
+   "loai": "tính từ"
+  },
+  {
+   "h": "此",
+   "p": "cǐ",
+   "v": "này, đây (văn viết)",
+   "hv": "THỬ",
+   "loai": "đại từ"
+  },
+  {
+   "h": "产生",
+   "p": "chǎnshēng",
+   "v": "nảy sinh, sinh ra",
+   "hv": "SẢN SINH",
+   "loai": "động từ"
+  },
+  {
+   "h": "实在",
+   "p": "shízài",
+   "v": "thật thà; thực sự, quả thật",
+   "hv": "THỰC TẠI",
+   "loai": "tính từ"
+  },
+  {
+   "h": "阳光",
+   "p": "yángguāng",
+   "v": "ánh nắng; (tính cách) vui tươi, tích cực",
+   "hv": "DƯƠNG QUANG",
+   "loai": "danh từ"
+  },
+  {
+   "h": "从此",
+   "p": "cóngcǐ",
+   "v": "từ đó, từ đây",
+   "hv": "TÙNG THỬ",
+   "loai": "phó từ"
+  },
+  {
+   "h": "爱情",
+   "p": "àiqíng",
+   "v": "tình yêu (đôi lứa)",
+   "hv": "ÁI TÌNH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "间",
+   "p": "jiān",
+   "v": "giữa, (quan hệ) giữa … với …",
+   "hv": "GIAN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "友情",
+   "p": "yǒuqíng",
+   "v": "tình bạn",
+   "hv": "HỮU TÌNH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "美好",
+   "p": "měihǎo",
+   "v": "tốt đẹp",
+   "hv": "MỸ HẢO",
+   "loai": "tính từ"
+  },
+  {
+   "h": "精彩",
+   "p": "jīngcǎi",
+   "v": "đặc sắc, hay, tuyệt vời",
+   "hv": "TINH THÁI",
+   "loai": "tính từ"
+  },
+  {
+   "h": "感受",
+   "p": "gǎnshòu",
+   "v": "cảm nhận; cảm nhận được",
+   "hv": "CẢM THỤ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "尤其",
+   "p": "yóuqí",
+   "v": "nhất là, đặc biệt là",
+   "hv": "VƯU KỲ",
+   "loai": "phó từ"
+  },
+  {
+   "h": "从来",
+   "p": "cónglái",
+   "v": "từ trước tới nay, xưa nay",
+   "hv": "TÙNG LAI",
+   "loai": "phó từ"
+  },
+  {
+   "h": "人生",
+   "p": "rénshēng",
+   "v": "cuộc đời, đời người",
+   "hv": "NHÂN SINH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "感情",
+   "p": "gǎnqíng",
+   "v": "tình cảm",
+   "hv": "CẢM TÌNH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "深",
+   "p": "shēn",
+   "v": "sâu; sâu đậm",
+   "hv": "THÂM",
+   "loai": "tính từ"
+  },
+  {
+   "h": "经营",
+   "p": "jīngyíng",
+   "v": "kinh doanh; vun đắp, quản lý",
+   "hv": "KINH DOANH",
+   "loai": "động từ"
+  },
+  {
+   "h": "对方",
+   "p": "duìfāng",
+   "v": "đối phương, người kia",
+   "hv": "ĐỐI PHƯƠNG",
+   "loai": "danh từ"
+  },
+  {
+   "h": "日子",
+   "p": "rìzi",
+   "v": "ngày (cụ thể); cuộc sống",
+   "hv": "NHẬT TỬ",
+   "loai": "danh từ"
+  }
+ ],
+ "cloze": [
+  {
+   "q": "谢谢大家，我太＿＿了！",
+   "a": "感动",
+   "o": [
+    "当时",
+    "从此",
+    "爱情"
+   ],
+   "p": "Xièxie dàjiā, wǒ tài gǎndòng le!",
+   "v": "Cảm ơn mọi người, mình cảm động quá!"
+  },
+  {
+   "q": "我们老师很有＿＿，一个问题解释了五次。",
+   "a": "耐心",
+   "o": [
+    "理解",
+    "日子",
+    "产生"
+   ],
+   "p": "Wǒmen lǎoshī hěn yǒu nàixīn, yí gè wèntí jiěshì le wǔ cì.",
+   "v": "Cô giáo chúng tôi rất kiên nhẫn, một câu hỏi giải thích tới năm lần."
+  },
+  {
+   "q": "这家公司的工作环境很＿＿我。",
+   "a": "吸引",
+   "o": [
+    "实在",
+    "幸福",
+    "浪漫"
+   ],
+   "p": "Zhè jiā gōngsī de gōngzuò huánjìng hěn xīyǐn wǒ.",
+   "v": "Môi trường làm việc của công ty này rất cuốn hút tôi."
+  },
+  {
+   "q": "这么好的机会，我一定不能＿＿！",
+   "a": "错过",
+   "o": [
+    "感受",
+    "人生",
+    "当时"
+   ],
+   "p": "Zhème hǎo de jīhuì, wǒ yídìng bù néng cuòguò!",
+   "v": "Cơ hội tốt thế này, mình nhất định không thể bỏ lỡ!"
+  },
+  {
+   "q": "家月，给你的，＿＿你生日快乐！",
+   "a": "祝",
+   "o": [
+    "精彩",
+    "当时",
+    "感动"
+   ],
+   "p": "Jiāyuè, gěi nǐ de, zhù nǐ shēngrì kuàilè!",
+   "v": "Gia Nguyệt, tặng cậu này, chúc cậu sinh nhật vui vẻ!"
+  },
+  {
+   "q": "啊，好漂亮的花！还有＿＿！",
+   "a": "巧克力",
+   "o": [
+    "幽默",
+    "幸福",
+    "实在"
+   ],
+   "p": "Ā, hǎo piàoliang de huā! Hái yǒu qiǎokèlì!",
+   "v": "A, hoa đẹp quá! Còn có cả sô-cô-la nữa!"
+  },
+  {
+   "q": "你真是细心又＿＿。",
+   "a": "浪漫",
+   "o": [
+    "责任",
+    "性格",
+    "印象"
+   ],
+   "p": "Nǐ zhēn shì xìxīn yòu làngmàn.",
+   "v": "Cậu đúng là vừa tinh ý vừa lãng mạn."
+  },
+  {
+   "q": "你的＿＿与耐心就很吸引我。",
+   "a": "幽默",
+   "o": [
+    "间",
+    "友情",
+    "阳光"
+   ],
+   "p": "Nǐ de yōumò yǔ nàixīn jiù hěn xīyǐn wǒ.",
+   "v": "Sự hài hước và kiên nhẫn của cậu đã cuốn hút tớ."
+  },
+  {
+   "q": "不过我＿＿也只把你当普通朋友。",
+   "a": "当时",
+   "o": [
+    "精彩",
+    "美好",
+    "共同"
+   ],
+   "p": "Búguò wǒ dāngshí yě zhǐ bǎ nǐ dàng pǔtōng péngyou.",
+   "v": "Có điều lúc đó tớ chỉ coi cậu là bạn bình thường."
+  },
+  {
+   "q": "遇见你，我也觉得很＿＿。",
+   "a": "幸运",
+   "o": [
+    "爱情",
+    "吸引",
+    "从来"
+   ],
+   "p": "Yùjiàn nǐ, wǒ yě juéde hěn xìngyùn.",
+   "v": "Gặp được cậu, tớ cũng thấy mình thật may mắn."
+  },
+  {
+   "q": "＿＿工作很忙，但是我每天还是学习中文。",
+   "a": "尽管",
+   "o": [
+    "阳光",
+    "经营",
+    "印象"
+   ],
+   "p": "Jǐnguǎn gōngzuò hěn máng, dànshì wǒ měi tiān háishi xuéxí Zhōngwén.",
+   "v": "Dù công việc rất bận, nhưng ngày nào tôi vẫn học tiếng Trung."
+  },
+  {
+   "q": "我们的＿＿完全不同。",
+   "a": "性格",
+   "o": [
+    "从此",
+    "美好",
+    "此"
+   ],
+   "p": "Wǒmen de xìnggé wánquán bù tóng.",
+   "v": "Tính cách của chúng tôi hoàn toàn khác nhau."
+  },
+  {
+   "q": "没关系，我＿＿你。",
+   "a": "理解",
+   "o": [
+    "间",
+    "感受",
+    "当时"
+   ],
+   "p": "Méi guānxi, wǒ lǐjiě nǐ.",
+   "v": "Không sao, mình hiểu bạn mà."
+  },
+  {
+   "q": "我＿＿你去留学，加油！",
+   "a": "支持",
+   "o": [
+    "负责",
+    "从来",
+    "耐心"
+   ],
+   "p": "Wǒ zhīchí nǐ qù liúxué, jiāyóu!",
+   "v": "Mình ủng hộ cậu đi du học, cố lên!"
+  },
+  {
+   "q": "看到一飞和同乐结婚后这么＿＿，我也特别开心。",
+   "a": "幸福",
+   "o": [
+    "相互",
+    "印象",
+    "吸引"
+   ],
+   "p": "Kàndào Yīfēi hé Tónglè jiéhūn hòu zhème xìngfú, wǒ yě tèbié kāixīn.",
+   "v": "Thấy Nhất Phi và Đồng Lạc cưới nhau xong hạnh phúc thế này, mình cũng vui lắm."
+  },
+  {
+   "q": "他们尽管性格不同，但是有很多＿＿爱好。",
+   "a": "共同",
+   "o": [
+    "巧克力",
+    "人生",
+    "经营"
+   ],
+   "p": "Tāmen jǐnguǎn xìnggé bù tóng, dànshì yǒu hěn duō gòngtóng àihào.",
+   "v": "Họ tuy tính cách khác nhau nhưng có nhiều sở thích chung."
+  },
+  {
+   "q": "同乐人好，性格也好，很有＿＿感。",
+   "a": "责任",
+   "o": [
+    "感动",
+    "负责",
+    "祝"
+   ],
+   "p": "Tónglè rén hǎo, xìnggé yě hǎo, hěn yǒu zérèngǎn.",
+   "v": "Đồng Lạc tốt bụng, tính tình cũng tốt, rất có trách nhiệm."
+  },
+  {
+   "q": "同事之间要＿＿帮助。",
+   "a": "相互",
+   "o": [
+    "祝",
+    "感受",
+    "责任"
+   ],
+   "p": "Tóngshì zhījiān yào xiānghù bāngzhù.",
+   "v": "Đồng nghiệp với nhau phải giúp đỡ lẫn nhau."
+  },
+  {
+   "q": "河内给我＿＿最深的是老街。",
+   "a": "印象",
+   "o": [
+    "祝",
+    "相互",
+    "耐心"
+   ],
+   "p": "Hénèi gěi wǒ yìnxiàng zuì shēn de shì lǎojiē.",
+   "v": "Điều ở Hà Nội để lại cho tôi ấn tượng sâu nhất là phố cổ."
+  },
+  {
+   "q": "经理让我＿＿公司下个月的活动。",
+   "a": "负责",
+   "o": [
+    "理解",
+    "从此",
+    "此"
+   ],
+   "p": "Jīnglǐ ràng wǒ fùzé gōngsī xià gè yuè de huódòng.",
+   "v": "Giám đốc giao tôi phụ trách hoạt động tháng sau của công ty."
+  },
+  {
+   "q": "新同事工作很＿＿，有问题总是第一个回答。",
+   "a": "积极",
+   "o": [
+    "印象",
+    "经营",
+    "性格"
+   ],
+   "p": "Xīn tóngshì gōngzuò hěn jījí, yǒu wèntí zǒngshì dì yī gè huídá.",
+   "v": "Đồng nghiệp mới làm việc rất hăng hái, có câu hỏi nào cũng là người trả lời đầu tiên."
+  },
+  {
+   "q": "感谢您参加＿＿次活动。",
+   "a": "此",
+   "o": [
+    "吸引",
+    "当时",
+    "幸福"
+   ],
+   "p": "Gǎnxiè nín cānjiā cǐ cì huódòng.",
+   "v": "Cảm ơn quý vị đã tham gia hoạt động lần này."
+  },
+  {
+   "q": "我看了很多中国电影，对中文＿＿了兴趣。",
+   "a": "产生",
+   "o": [
+    "责任",
+    "积极",
+    "美好"
+   ],
+   "p": "Wǒ kàn le hěn duō Zhōngguó diànyǐng, duì Zhōngwén chǎnshēng le xìngqù.",
+   "v": "Tôi xem nhiều phim Trung Quốc nên nảy sinh hứng thú với tiếng Trung."
+  },
+  {
+   "q": "杨同乐人很＿＿，性格阳光。",
+   "a": "实在",
+   "o": [
+    "间",
+    "爱情",
+    "理解"
+   ],
+   "p": "Yáng Tónglè rén hěn shízài, xìnggé yángguāng.",
+   "v": "Dương Đồng Lạc là người thật thà, tính cách vui vẻ."
+  },
+  {
+   "q": "杨同乐人很实在，性格＿＿，工作负责。",
+   "a": "阳光",
+   "o": [
+    "错过",
+    "经营",
+    "共同"
+   ],
+   "p": "Yáng Tónglè rén hěn shízài, xìnggé yángguāng, gōngzuò fùzé.",
+   "v": "Đồng Lạc là người thật thà, tính cách vui tươi, làm việc có trách nhiệm."
+  },
+  {
+   "q": "此次出差，让两人熟悉了起来，＿＿成了好朋友。",
+   "a": "从此",
+   "o": [
+    "幽默",
+    "负责",
+    "产生"
+   ],
+   "p": "Cǐ cì chūchāi, ràng liǎng rén shúxī le qǐlai, cóngcǐ chéng le hǎo péngyou.",
+   "v": "Chuyến công tác này khiến hai người thân nhau hơn, từ đó thành bạn tốt."
+  },
+  {
+   "q": "两人之间慢慢产生了＿＿，最后成了夫妻。",
+   "a": "爱情",
+   "o": [
+    "从此",
+    "感动",
+    "耐心"
+   ],
+   "p": "Liǎng rén zhījiān mànmàn chǎnshēng le àiqíng, zuìhòu chéng le fūqī.",
+   "v": "Giữa hai người dần nảy sinh tình yêu, cuối cùng nên vợ nên chồng."
+  },
+  {
+   "q": "和王一雪这份同事＿＿的友情，给他带来了美好的爱情。",
+   "a": "间",
+   "o": [
+    "理解",
+    "错过",
+    "从此"
+   ],
+   "p": "Hé Wáng Yīxuě zhè fèn tóngshì jiān de yǒuqíng, gěi tā dàilái le měihǎo de àiqíng.",
+   "v": "Tình bạn đồng nghiệp với Vương Nhất Tuyết đã mang đến cho anh một tình yêu đẹp."
+  },
+  {
+   "q": "她们三个有很深的＿＿。",
+   "a": "友情",
+   "o": [
+    "共同",
+    "幸福",
+    "错过"
+   ],
+   "p": "Tāmen sān gè yǒu hěn shēn de yǒuqíng.",
+   "v": "Ba cô ấy có tình bạn rất sâu sắc."
+  },
+  {
+   "q": "同事间的友情，给他带来了＿＿的爱情。",
+   "a": "美好",
+   "o": [
+    "感情",
+    "感受",
+    "当时"
+   ],
+   "p": "Tóngshì jiān de yǒuqíng, gěi tā dàilái le měihǎo de àiqíng.",
+   "v": "Tình bạn đồng nghiệp đã mang đến cho anh một tình yêu đẹp."
+  },
+  {
+   "q": "今天的表演太＿＿了！",
+   "a": "精彩",
+   "o": [
+    "性格",
+    "间",
+    "巧克力"
+   ],
+   "p": "Jīntiān de biǎoyǎn tài jīngcǎi le!",
+   "v": "Buổi biểu diễn hôm nay hay tuyệt!"
+  },
+  {
+   "q": "这次去中国，你有什么＿＿？",
+   "a": "感受",
+   "o": [
+    "经营",
+    "尤其",
+    "深"
+   ],
+   "p": "Zhè cì qù Zhōngguó, nǐ yǒu shénme gǎnshòu?",
+   "v": "Lần này đi Trung Quốc, cậu có cảm nhận gì?"
+  },
+  {
+   "q": "中国菜我都喜欢，＿＿是饺子。",
+   "a": "尤其",
+   "o": [
+    "友情",
+    "尽管",
+    "感动"
+   ],
+   "p": "Zhōngguó cài wǒ dōu xǐhuan, yóuqí shì jiǎozi.",
+   "v": "Món Trung Quốc món nào tôi cũng thích, nhất là sủi cảo."
+  },
+  {
+   "q": "我＿＿没去过上海。",
+   "a": "从来",
+   "o": [
+    "幽默",
+    "当时",
+    "阳光"
+   ],
+   "p": "Wǒ cónglái méi qù guo Shànghǎi.",
+   "v": "Tôi chưa từng đi Thượng Hải bao giờ."
+  },
+  {
+   "q": "从此，他们的＿＿变得更加精彩。",
+   "a": "人生",
+   "o": [
+    "理解",
+    "美好",
+    "负责"
+   ],
+   "p": "Cóngcǐ, tāmen de rénshēng biàn de gèngjiā jīngcǎi.",
+   "v": "Từ đó, cuộc đời họ trở nên rực rỡ hơn."
+  },
+  {
+   "q": "他们认识后，＿＿越来越深。",
+   "a": "感情",
+   "o": [
+    "精彩",
+    "经营",
+    "错过"
+   ],
+   "p": "Tāmen rènshi hòu, gǎnqíng yuè lái yuè shēn.",
+   "v": "Quen nhau rồi, tình cảm của họ ngày càng sâu đậm."
+  },
+  {
+   "q": "我对那个电影的印象很＿＿。",
+   "a": "深",
+   "o": [
+    "吸引",
+    "感情",
+    "间"
+   ],
+   "p": "Wǒ duì nà ge diànyǐng de yìnxiàng hěn shēn.",
+   "v": "Mình có ấn tượng rất sâu về bộ phim đó."
+  },
+  {
+   "q": "美好的遇见只是爱的开始，爱更需要＿＿。",
+   "a": "经营",
+   "o": [
+    "对方",
+    "间",
+    "从来"
+   ],
+   "p": "Měihǎo de yùjiàn zhǐshì ài de kāishǐ, ài gèng xūyào jīngyíng.",
+   "v": "Cuộc gặp đẹp chỉ là khởi đầu, tình yêu còn cần vun đắp nhiều hơn."
+  },
+  {
+   "q": "两个人要多关注＿＿的感受。",
+   "a": "对方",
+   "o": [
+    "浪漫",
+    "祝",
+    "从此"
+   ],
+   "p": "Liǎng gè rén yào duō guānzhù duìfāng de gǎnshòu.",
+   "v": "Hai người phải quan tâm nhiều hơn tới cảm nhận của người kia."
+  },
+  {
+   "q": "结婚后，＿＿才能越过越好。",
+   "a": "日子",
+   "o": [
+    "相互",
+    "经营",
+    "从此"
+   ],
+   "p": "Jiéhūn hòu, rìzi cái néng yuè guò yuè hǎo.",
+   "v": "Cưới nhau rồi, cuộc sống mới ngày càng tốt đẹp."
+  }
+ ]
+}

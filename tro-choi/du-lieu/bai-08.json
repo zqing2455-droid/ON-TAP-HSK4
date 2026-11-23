@@ -1,0 +1,693 @@
+{
+ "so": 8,
+ "han": "该放松时就放松",
+ "sub": "38 từ mới",
+ "pool": [
+  {
+   "h": "紧张",
+   "p": "jǐnzhāng",
+   "v": "căng thẳng, hồi hộp; dồn dập, eo hẹp",
+   "hv": "KHẨN TRƯƠNG",
+   "loai": "tính từ"
+  },
+  {
+   "h": "放松",
+   "p": "fàngsōng",
+   "v": "thư giãn, thả lỏng",
+   "hv": "PHÓNG TÙNG",
+   "loai": "động từ"
+  },
+  {
+   "h": "不管",
+   "p": "bùguǎn",
+   "v": "dù, bất kể",
+   "hv": "BẤT QUẢN",
+   "loai": "liên từ"
+  },
+  {
+   "h": "主意",
+   "p": "zhǔyi",
+   "v": "ý, ý hay, cách làm",
+   "hv": "CHỦ Ý",
+   "loai": "danh từ"
+  },
+  {
+   "h": "戴",
+   "p": "dài",
+   "v": "đội, đeo",
+   "hv": "ĐÁI",
+   "loai": "động từ"
+  },
+  {
+   "h": "呀",
+   "p": "yā",
+   "v": "ôi, ơ, ồ (ngạc nhiên)",
+   "hv": "(THÁN TỪ, KHÔNG CÓ ÂM HÁN VIỆT)",
+   "loai": "thán từ"
+  },
+  {
+   "h": "郊区",
+   "p": "jiāoqū",
+   "v": "ngoại ô",
+   "hv": "GIAO KHU",
+   "loai": "danh từ"
+  },
+  {
+   "h": "游玩",
+   "p": "yóuwán",
+   "v": "đi chơi, vui chơi",
+   "hv": "DU NGOẠN",
+   "loai": "động từ"
+  },
+  {
+   "h": "外出",
+   "p": "wàichū",
+   "v": "ra ngoài, đi ra ngoài",
+   "hv": "NGOẠI XUẤT",
+   "loai": "động từ"
+  },
+  {
+   "h": "帽子",
+   "p": "màozi",
+   "v": "cái mũ",
+   "hv": "MẠO TỬ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "否则",
+   "p": "fǒuzé",
+   "v": "nếu không thì",
+   "hv": "PHỦ TẮC",
+   "loai": "liên từ"
+  },
+  {
+   "h": "值得",
+   "p": "zhídé",
+   "v": "đáng, xứng đáng",
+   "hv": "TRỊ ĐẮC",
+   "loai": "động từ"
+  },
+  {
+   "h": "失去",
+   "p": "shīqù",
+   "v": "mất, đánh mất",
+   "hv": "THẤT KHỨ",
+   "loai": "động từ"
+  },
+  {
+   "h": "之后",
+   "p": "zhīhòu",
+   "v": "sau khi, sau đó",
+   "hv": "CHI HẬU",
+   "loai": "danh từ"
+  },
+  {
+   "h": "项目",
+   "p": "xiàngmù",
+   "v": "dự án; hạng mục, môn thi",
+   "hv": "HẠNG MỤC",
+   "loai": "danh từ"
+  },
+  {
+   "h": "加班",
+   "p": "jiābān",
+   "v": "tăng ca, làm thêm giờ",
+   "hv": "GIA BAN",
+   "loai": "động từ"
+  },
+  {
+   "h": "熬夜",
+   "p": "áoyè",
+   "v": "thức khuya",
+   "hv": "NGAO DẠ",
+   "loai": "động từ"
+  },
+  {
+   "h": "暂停",
+   "p": "zàntíng",
+   "v": "tạm dừng",
+   "hv": "TẠM ĐÌNH",
+   "loai": "động từ"
+  },
+  {
+   "h": "风景",
+   "p": "fēngjǐng",
+   "v": "phong cảnh",
+   "hv": "PHONG CẢNH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "相比",
+   "p": "xiāngbǐ",
+   "v": "so với",
+   "hv": "TƯƠNG TỶ",
+   "loai": "động từ"
+  },
+  {
+   "h": "因此",
+   "p": "yīncǐ",
+   "v": "vì vậy, do đó",
+   "hv": "NHÂN THỬ",
+   "loai": "liên từ"
+  },
+  {
+   "h": "提醒",
+   "p": "tíxǐng",
+   "v": "nhắc, nhắc nhở",
+   "hv": "ĐỀ TỈNH",
+   "loai": "động từ"
+  },
+  {
+   "h": "下降",
+   "p": "xiàjiàng",
+   "v": "giảm, đi xuống",
+   "hv": "HẠ GIÁNG",
+   "loai": "động từ"
+  },
+  {
+   "h": "效率",
+   "p": "xiàolǜ",
+   "v": "hiệu suất, năng suất",
+   "hv": "HIỆU SUẤT",
+   "loai": "danh từ"
+  },
+  {
+   "h": "与",
+   "p": "yǔ",
+   "v": "với; và (văn viết)",
+   "hv": "DỮ",
+   "loai": "giới từ"
+  },
+  {
+   "h": "大自然",
+   "p": "dàzìrán",
+   "v": "thiên nhiên",
+   "hv": "ĐẠI TỰ NHIÊN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "美丽",
+   "p": "měilì",
+   "v": "đẹp (văn viết)",
+   "hv": "MỸ LỆ",
+   "loai": "tính từ"
+  },
+  {
+   "h": "景色",
+   "p": "jǐngsè",
+   "v": "cảnh sắc, cảnh vật",
+   "hv": "CẢNH SẮC",
+   "loai": "danh từ"
+  },
+  {
+   "h": "参观",
+   "p": "cānguān",
+   "v": "tham quan",
+   "hv": "THAM QUAN",
+   "loai": "động từ"
+  },
+  {
+   "h": "乘坐",
+   "p": "chéngzuò",
+   "v": "đi (phương tiện), đi bằng",
+   "hv": "THỪA TOẠ",
+   "loai": "động từ"
+  },
+  {
+   "h": "十分",
+   "p": "shífēn",
+   "v": "rất, hết sức",
+   "hv": "THẬP PHÂN",
+   "loai": "phó từ"
+  },
+  {
+   "h": "实际上",
+   "p": "shíjìshang",
+   "v": "thực ra, trên thực tế",
+   "hv": "THỰC TẾ THƯỢNG",
+   "loai": "phó từ"
+  },
+  {
+   "h": "首都",
+   "p": "shǒudū",
+   "v": "thủ đô",
+   "hv": "THỦ ĐÔ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "市区",
+   "p": "shìqū",
+   "v": "nội thành",
+   "hv": "THỊ KHU",
+   "loai": "danh từ"
+  },
+  {
+   "h": "眼前",
+   "p": "yǎnqián",
+   "v": "trước mắt",
+   "hv": "NHÃN TIỀN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "美景",
+   "p": "měijǐng",
+   "v": "cảnh đẹp",
+   "hv": "MỸ CẢNH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "景点",
+   "p": "jǐngdiǎn",
+   "v": "điểm tham quan, danh thắng",
+   "hv": "CẢNH ĐIỂM",
+   "loai": "danh từ"
+  },
+  {
+   "h": "交通",
+   "p": "jiāotōng",
+   "v": "giao thông, đi lại",
+   "hv": "GIAO THÔNG",
+   "loai": "danh từ"
+  }
+ ],
+ "cloze": [
+  {
+   "q": "别＿＿，你一定没问题！",
+   "a": "紧张",
+   "o": [
+    "美景",
+    "帽子",
+    "交通"
+   ],
+   "p": "Bié jǐnzhāng, nǐ yídìng méi wèntí!",
+   "v": "Đừng căng thẳng, bạn chắc chắn không sao đâu!"
+  },
+  {
+   "q": "压力大的时候，我会去跑步，＿＿自己。",
+   "a": "放松",
+   "o": [
+    "呀",
+    "景色",
+    "效率"
+   ],
+   "p": "Yālì dà de shíhou, wǒ huì qù pǎobù, fàngsōng zìjǐ.",
+   "v": "Lúc áp lực lớn, tôi sẽ đi chạy bộ để thư giãn."
+  },
+  {
+   "q": "＿＿多晚，我都回家吃晚饭。",
+   "a": "不管",
+   "o": [
+    "帽子",
+    "熬夜",
+    "参观"
+   ],
+   "p": "Bùguǎn duō wǎn, wǒ dōu huí jiā chī wǎnfàn.",
+   "v": "Dù muộn mấy, tôi cũng về nhà ăn tối."
+  },
+  {
+   "q": "好＿＿！我们一起去吧。",
+   "a": "主意",
+   "o": [
+    "戴",
+    "暂停",
+    "否则"
+   ],
+   "p": "Hǎo zhǔyi! Wǒmen yìqǐ qù ba.",
+   "v": "Ý hay đấy! Chúng mình cùng đi nhé."
+  },
+  {
+   "q": "明天太阳很大，出门记得＿＿帽子。",
+   "a": "戴",
+   "o": [
+    "因此",
+    "风景",
+    "紧张"
+   ],
+   "p": "Míngtiān tàiyáng hěn dà, chūmén jìde dài màozi.",
+   "v": "Mai nắng to, ra ngoài nhớ đội mũ nhé."
+  },
+  {
+   "q": "＿＿，正好我也想出去呢。",
+   "a": "呀",
+   "o": [
+    "放松",
+    "帽子",
+    "参观"
+   ],
+   "p": "Yā, zhènghǎo wǒ yě xiǎng chūqù ne.",
+   "v": "Ơ, đúng lúc tớ cũng muốn đi đây."
+  },
+  {
+   "q": "下周王老师要带咱们去＿＿游玩呢。",
+   "a": "郊区",
+   "o": [
+    "因此",
+    "呀",
+    "与"
+   ],
+   "p": "Xià zhōu Wáng lǎoshī yào dài zánmen qù jiāoqū yóuwán ne.",
+   "v": "Tuần sau thầy Vương sẽ dẫn bọn mình ra ngoại ô chơi đấy."
+  },
+  {
+   "q": "一到周末，很多人都喜欢外出＿＿。",
+   "a": "游玩",
+   "o": [
+    "十分",
+    "否则",
+    "不管"
+   ],
+   "p": "Yí dào zhōumò, hěn duō rén dōu xǐhuan wàichū yóuwán.",
+   "v": "Cứ đến cuối tuần nhiều người thích ra ngoài đi chơi."
+  },
+  {
+   "q": "＿＿记得戴帽子。",
+   "a": "外出",
+   "o": [
+    "眼前",
+    "景色",
+    "否则"
+   ],
+   "p": "Wàichū jìde dài màozi.",
+   "v": "Ra ngoài nhớ đội mũ."
+  },
+  {
+   "q": "外出记得戴＿＿。",
+   "a": "帽子",
+   "o": [
+    "否则",
+    "熬夜",
+    "失去"
+   ],
+   "p": "Wàichū jìde dài màozi.",
+   "v": "Ra ngoài nhớ đội mũ."
+  },
+  {
+   "q": "多穿点儿衣服，＿＿会感冒的。",
+   "a": "否则",
+   "o": [
+    "下降",
+    "景色",
+    "大自然"
+   ],
+   "p": "Duō chuān diǎnr yīfu, fǒuzé huì gǎnmào de.",
+   "v": "Mặc thêm áo vào, không thì sẽ bị cảm đấy."
+  },
+  {
+   "q": "这部电影很＿＿看。",
+   "a": "值得",
+   "o": [
+    "市区",
+    "交通",
+    "景色"
+   ],
+   "p": "Zhè bù diànyǐng hěn zhídé kàn.",
+   "v": "Bộ phim này rất đáng xem."
+  },
+  {
+   "q": "你一定要去，否则你会＿＿一个好机会。",
+   "a": "失去",
+   "o": [
+    "主意",
+    "美丽",
+    "交通"
+   ],
+   "p": "Nǐ yídìng yào qù, fǒuzé nǐ huì shīqù yí gè hǎo jīhuì.",
+   "v": "Bạn nhất định phải đi, không thì bạn sẽ mất một cơ hội tốt."
+  },
+  {
+   "q": "毕业两年＿＿，我搬到了河内。",
+   "a": "之后",
+   "o": [
+    "乘坐",
+    "参观",
+    "游玩"
+   ],
+   "p": "Bìyè liǎng nián zhīhòu, wǒ bān dào le Hénèi.",
+   "v": "Tốt nghiệp hai năm sau, tôi chuyển đến Hà Nội."
+  },
+  {
+   "q": "以前我参加了公司里的很多＿＿。",
+   "a": "项目",
+   "o": [
+    "暂停",
+    "游玩",
+    "不管"
+   ],
+   "p": "Yǐqián wǒ cānjiā le gōngsī lǐ de hěn duō xiàngmù.",
+   "v": "Trước đây anh tham gia rất nhiều dự án ở công ty."
+  },
+  {
+   "q": "他们经常＿＿、熬夜。",
+   "a": "加班",
+   "o": [
+    "项目",
+    "美丽",
+    "景色"
+   ],
+   "p": "Tāmen jīngcháng jiābān, áoyè.",
+   "v": "Họ thường tăng ca, thức khuya."
+  },
+  {
+   "q": "经常＿＿对身体不好。",
+   "a": "熬夜",
+   "o": [
+    "帽子",
+    "因此",
+    "首都"
+   ],
+   "p": "Jīngcháng áoyè duì shēntǐ bù hǎo.",
+   "v": "Hay thức khuya không tốt cho sức khoẻ."
+  },
+  {
+   "q": "我发现＿＿下来、好好休息之后，我能把工作做得更好。",
+   "a": "暂停",
+   "o": [
+    "因此",
+    "效率",
+    "与"
+   ],
+   "p": "Wǒ fāxiàn zàntíng xiàlai, hǎohǎo xiūxi zhīhòu, wǒ néng bǎ gōngzuò zuò de gèng hǎo.",
+   "v": "Tôi nhận ra sau khi tạm dừng lại, nghỉ ngơi tử tế thì tôi làm việc tốt hơn."
+  },
+  {
+   "q": "现在我周末常来郊区，在好山好水好＿＿中放松自己。",
+   "a": "风景",
+   "o": [
+    "提醒",
+    "熬夜",
+    "值得"
+   ],
+   "p": "Xiànzài wǒ zhōumò cháng lái jiāoqū, zài hǎo shān hǎo shuǐ hǎo fēngjǐng zhōng fàngsōng zìjǐ.",
+   "v": "Giờ cuối tuần anh hay ra ngoại ô, thư giãn giữa non xanh nước biếc."
+  },
+  {
+   "q": "跟在网上学＿＿，我更喜欢在教室上课。",
+   "a": "相比",
+   "o": [
+    "交通",
+    "大自然",
+    "景点"
+   ],
+   "p": "Gēn zài wǎngshàng xué xiāngbǐ, wǒ gèng xǐhuan zài jiàoshì shàngkè.",
+   "v": "So với học trên mạng, tôi thích học ở lớp hơn."
+  },
+  {
+   "q": "今天下大雨，＿＿我们的活动改到下周。",
+   "a": "因此",
+   "o": [
+    "效率",
+    "郊区",
+    "失去"
+   ],
+   "p": "Jīntiān xià dàyǔ, yīncǐ wǒmen de huódòng gǎi dào xià zhōu.",
+   "v": "Hôm nay mưa to, vì vậy hoạt động của chúng ta dời sang tuần sau."
+  },
+  {
+   "q": "明天你＿＿我带材料，好吗？",
+   "a": "提醒",
+   "o": [
+    "眼前",
+    "因此",
+    "效率"
+   ],
+   "p": "Míngtiān nǐ tíxǐng wǒ dài cáiliào, hǎo ma?",
+   "v": "Mai bạn nhắc tôi mang tài liệu nhé, được không?"
+  },
+  {
+   "q": "你最近总玩游戏，成绩＿＿了。",
+   "a": "下降",
+   "o": [
+    "美丽",
+    "实际上",
+    "交通"
+   ],
+   "p": "Nǐ zuìjìn zǒng wán yóuxì, chéngjì xiàjiàng le.",
+   "v": "Dạo này con toàn chơi game, điểm giảm rồi."
+  },
+  {
+   "q": "休息好了再工作，＿＿更高。",
+   "a": "效率",
+   "o": [
+    "暂停",
+    "外出",
+    "紧张"
+   ],
+   "p": "Xiūxi hǎo le zài gōngzuò, xiàolǜ gèng gāo.",
+   "v": "Nghỉ ngơi đủ rồi mới làm thì hiệu suất cao hơn."
+  },
+  {
+   "q": "杨同乐周末时或者＿＿朋友们去郊区游玩。",
+   "a": "与",
+   "o": [
+    "景色",
+    "呀",
+    "帽子"
+   ],
+   "p": "Yáng Tónglè zhōumò shí huòzhě yǔ péngyoumen qù jiāoqū yóuwán.",
+   "v": "Cuối tuần Dương Đồng Lạc hoặc cùng bạn bè ra ngoại ô chơi."
+  },
+  {
+   "q": "在＿＿美丽的景色中好好放松自己。",
+   "a": "大自然",
+   "o": [
+    "与",
+    "紧张",
+    "提醒"
+   ],
+   "p": "Zài dàzìrán měilì de jǐngsè zhōng hǎohǎo fàngsōng zìjǐ.",
+   "v": "Thư giãn giữa cảnh đẹp của thiên nhiên."
+  },
+  {
+   "q": "在大自然＿＿的景色中好好放松自己。",
+   "a": "美丽",
+   "o": [
+    "交通",
+    "与",
+    "提醒"
+   ],
+   "p": "Zài dàzìrán měilì de jǐngsè zhōng hǎohǎo fàngsōng zìjǐ.",
+   "v": "Thư giãn giữa cảnh sắc đẹp đẽ của thiên nhiên."
+  },
+  {
+   "q": "春天，这里的＿＿真漂亮！",
+   "a": "景色",
+   "o": [
+    "下降",
+    "失去",
+    "暂停"
+   ],
+   "p": "Chūntiān, zhèlǐ de jǐngsè zhēn piàoliang!",
+   "v": "Mùa xuân cảnh sắc ở đây đẹp thật!"
+  },
+  {
+   "q": "明天我带你们去＿＿文庙吧。",
+   "a": "参观",
+   "o": [
+    "项目",
+    "美景",
+    "眼前"
+   ],
+   "p": "Míngtiān wǒ dài nǐmen qù cānguān Wénmiào ba.",
+   "v": "Mai tôi đưa các bạn đi tham quan Văn Miếu nhé."
+  },
+  {
+   "q": "＿＿高铁的乘客，请准备好证件。",
+   "a": "乘坐",
+   "o": [
+    "景点",
+    "首都",
+    "项目"
+   ],
+   "p": "Chéngzuò gāotiě de chéngkè, qǐng zhǔnbèi hǎo zhèngjiàn.",
+   "v": "Hành khách đi tàu cao tốc, xin chuẩn bị sẵn giấy tờ."
+  },
+  {
+   "q": "房间很干净，服务员＿＿热情。",
+   "a": "十分",
+   "o": [
+    "参观",
+    "景色",
+    "放松"
+   ],
+   "p": "Fángjiān hěn gānjìng, fúwùyuán shífēn rèqíng.",
+   "v": "Phòng rất sạch, nhân viên hết sức nhiệt tình."
+  },
+  {
+   "q": "大家觉得他不好说话，＿＿他人很好。",
+   "a": "实际上",
+   "o": [
+    "戴",
+    "交通",
+    "相比"
+   ],
+   "p": "Dàjiā juéde tā bù hǎo shuōhuà, shíjìshang tā rén hěn hǎo.",
+   "v": "Mọi người thấy anh ấy khó nói chuyện, thực ra anh ấy rất tốt."
+  },
+  {
+   "q": "我生活在中国的＿＿——北京。",
+   "a": "首都",
+   "o": [
+    "熬夜",
+    "游玩",
+    "值得"
+   ],
+   "p": "Wǒ shēnghuó zài Zhōngguó de shǒudū — Běijīng.",
+   "v": "Tôi sống ở thủ đô của Trung Quốc — Bắc Kinh."
+  },
+  {
+   "q": "在北京，有人会在＿＿公园走走。",
+   "a": "市区",
+   "o": [
+    "呀",
+    "放松",
+    "实际上"
+   ],
+   "p": "Zài Běijīng, yǒu rén huì zài shìqū gōngyuán zǒuzou.",
+   "v": "Ở Bắc Kinh, có người đi dạo công viên trong nội thành."
+  },
+  {
+   "q": "有人会在市区公园走走，看看＿＿的美景。",
+   "a": "眼前",
+   "o": [
+    "与",
+    "实际上",
+    "呀"
+   ],
+   "p": "Yǒu rén huì zài shìqū gōngyuán zǒuzou, kànkan yǎnqián de měijǐng.",
+   "v": "Có người đi dạo công viên nội thành, ngắm cảnh đẹp trước mắt."
+  },
+  {
+   "q": "看看眼前的＿＿，心情就好了。",
+   "a": "美景",
+   "o": [
+    "实际上",
+    "十分",
+    "相比"
+   ],
+   "p": "Kànkan yǎnqián de měijǐng, xīnqíng jiù hǎo le.",
+   "v": "Ngắm cảnh đẹp trước mắt là tâm trạng tốt lên."
+  },
+  {
+   "q": "有人喜欢去参观长城、故宫等有名的＿＿。",
+   "a": "景点",
+   "o": [
+    "乘坐",
+    "值得",
+    "因此"
+   ],
+   "p": "Yǒu rén xǐhuan qù cānguān Chángchéng, Gùgōng děng yǒumíng de jǐngdiǎn.",
+   "v": "Có người thích đi tham quan các danh thắng nổi tiếng như Trường Thành, Cố Cung."
+  },
+  {
+   "q": "北京＿＿很方便。",
+   "a": "交通",
+   "o": [
+    "否则",
+    "十分",
+    "值得"
+   ],
+   "p": "Běijīng jiāotōng hěn fāngbiàn.",
+   "v": "Giao thông Bắc Kinh rất thuận tiện."
+  }
+ ]
+}

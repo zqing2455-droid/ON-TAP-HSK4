@@ -1,0 +1,671 @@
+{
+ "so": 5,
+ "han": "“不怕辣”和“怕不辣”",
+ "sub": "38 từ mới",
+ "pool": [
+  {
+   "h": "至少",
+   "p": "zhìshǎo",
+   "v": "ít nhất, tối thiểu; ít ra thì",
+   "hv": "CHÍ THIỂU",
+   "loai": "phó từ"
+  },
+  {
+   "h": "专门",
+   "p": "zhuānmén",
+   "v": "đặc biệt (dành riêng); chuyên (cho một việc)",
+   "hv": "CHUYÊN MÔN",
+   "loai": "phó từ"
+  },
+  {
+   "h": "熟",
+   "p": "shú / shóu",
+   "v": "chín (đồ ăn); quen (thân)",
+   "hv": "THỤC",
+   "loai": "tính từ"
+  },
+  {
+   "h": "道",
+   "p": "dào",
+   "v": "món (ăn); (câu hỏi, đề bài)",
+   "hv": "ĐẠO",
+   "loai": "lượng từ"
+  },
+  {
+   "h": "中餐",
+   "p": "zhōngcān",
+   "v": "đồ ăn Trung Quốc, bữa ăn kiểu Trung",
+   "hv": "TRUNG XAN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "煮",
+   "p": "zhǔ",
+   "v": "luộc, nấu (bằng nước)",
+   "hv": "CHỬ",
+   "loai": "động từ"
+  },
+  {
+   "h": "油",
+   "p": "yóu",
+   "v": "dầu, mỡ",
+   "hv": "DU",
+   "loai": "danh từ"
+  },
+  {
+   "h": "倒",
+   "p": "dào",
+   "v": "đổ, rót",
+   "hv": "ĐẢO",
+   "loai": "động từ"
+  },
+  {
+   "h": "辣椒",
+   "p": "làjiāo",
+   "v": "ớt",
+   "hv": "LẠT TIÊU",
+   "loai": "danh từ"
+  },
+  {
+   "h": "辣",
+   "p": "là",
+   "v": "cay",
+   "hv": "LẠT",
+   "loai": "tính từ"
+  },
+  {
+   "h": "敢",
+   "p": "gǎn",
+   "v": "dám",
+   "hv": "CẢM",
+   "loai": "trợ động từ"
+  },
+  {
+   "h": "够",
+   "p": "gòu",
+   "v": "đủ; (够……的) khá là, … ghê",
+   "hv": "CẤU",
+   "loai": "động từ"
+  },
+  {
+   "h": "达到",
+   "p": "dádào",
+   "v": "đạt tới, đạt được (mức)",
+   "hv": "ĐẠT ĐÁO",
+   "loai": "động từ"
+  },
+  {
+   "h": "相同",
+   "p": "xiāngtóng",
+   "v": "giống nhau, như nhau",
+   "hv": "TƯƠNG ĐỒNG",
+   "loai": "tính từ"
+  },
+  {
+   "h": "肚子",
+   "p": "dùzi",
+   "v": "bụng",
+   "hv": "ĐỖ TỬ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "顺序",
+   "p": "shùnxù",
+   "v": "thứ tự",
+   "hv": "THUẬN TỰ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "不够",
+   "p": "búgòu",
+   "v": "không đủ, chưa đủ",
+   "hv": "BẤT CẤU",
+   "loai": "động từ"
+  },
+  {
+   "h": "各",
+   "p": "gè",
+   "v": "mỗi, các; (各×各的) ai nấy",
+   "hv": "CÁC",
+   "loai": "đại từ"
+  },
+  {
+   "h": "付",
+   "p": "fù",
+   "v": "trả (tiền)",
+   "hv": "PHÓ",
+   "loai": "động từ"
+  },
+  {
+   "h": "聚餐",
+   "p": "jùcān",
+   "v": "tụ tập ăn uống, liên hoan",
+   "hv": "TỤ XAN",
+   "loai": "động từ"
+  },
+  {
+   "h": "凉",
+   "p": "liáng",
+   "v": "nguội, mát, lạnh",
+   "hv": "LƯƠNG",
+   "loai": "tính từ"
+  },
+  {
+   "h": "聚",
+   "p": "jù",
+   "v": "tụ họp, tụ tập",
+   "hv": "TỤ",
+   "loai": "động từ"
+  },
+  {
+   "h": "午餐",
+   "p": "wǔcān",
+   "v": "bữa trưa",
+   "hv": "NGỌ XAN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "咸",
+   "p": "xián",
+   "v": "mặn",
+   "hv": "HÀM",
+   "loai": "tính từ"
+  },
+  {
+   "h": "酸",
+   "p": "suān",
+   "v": "chua; (cơ) mỏi nhức",
+   "hv": "TOAN",
+   "loai": "tính từ"
+  },
+  {
+   "h": "汤",
+   "p": "tāng",
+   "v": "canh, súp",
+   "hv": "THANG",
+   "loai": "danh từ"
+  },
+  {
+   "h": "重视",
+   "p": "zhòngshì",
+   "v": "coi trọng",
+   "hv": "TRỌNG THỊ",
+   "loai": "động từ"
+  },
+  {
+   "h": "安排",
+   "p": "ānpái",
+   "v": "sắp xếp, bố trí; sự sắp xếp",
+   "hv": "AN BÀI",
+   "loai": "động từ"
+  },
+  {
+   "h": "按照",
+   "p": "ànzhào",
+   "v": "theo, dựa theo",
+   "hv": "ÁN CHIẾU",
+   "loai": "giới từ"
+  },
+  {
+   "h": "等",
+   "p": "děng",
+   "v": "đợi đến khi",
+   "hv": "ĐẲNG",
+   "loai": "giới từ"
+  },
+  {
+   "h": "尊重",
+   "p": "zūnzhòng",
+   "v": "tôn trọng",
+   "hv": "TÔN TRỌNG",
+   "loai": "động từ"
+  },
+  {
+   "h": "随意",
+   "p": "suíyì",
+   "v": "tuỳ ý, thoải mái",
+   "hv": "TUỲ Ý",
+   "loai": "tính từ"
+  },
+  {
+   "h": "正式",
+   "p": "zhèngshì",
+   "v": "chính thức, trang trọng",
+   "hv": "CHÍNH THỨC",
+   "loai": "tính từ"
+  },
+  {
+   "h": "普通",
+   "p": "pǔtōng",
+   "v": "bình thường, thông thường",
+   "hv": "PHỔ THÔNG",
+   "loai": "tính từ"
+  },
+  {
+   "h": "座位",
+   "p": "zuòwèi",
+   "v": "chỗ ngồi",
+   "hv": "TOẠ VỊ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "年龄",
+   "p": "niánlíng",
+   "v": "tuổi tác",
+   "hv": "NIÊN LINH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "面对",
+   "p": "miànduì",
+   "v": "đối diện, quay mặt về; đối mặt",
+   "hv": "DIỆN ĐỐI",
+   "loai": "động từ"
+  },
+  {
+   "h": "主人",
+   "p": "zhǔrén",
+   "v": "chủ nhà (người mời khách)",
+   "hv": "CHỦ NHÂN",
+   "loai": "danh từ"
+  }
+ ],
+ "cloze": [
+  {
+   "q": "从我家到机场＿＿要一个小时。",
+   "a": "至少",
+   "o": [
+    "油",
+    "不够",
+    "午餐"
+   ],
+   "p": "Cóng wǒ jiā dào jīchǎng zhìshǎo yào yí gè xiǎoshí.",
+   "v": "Từ nhà tôi đến sân bay ít nhất phải mất một tiếng."
+  },
+  {
+   "q": "我＿＿为我妈妈做过一顿越南菜。",
+   "a": "专门",
+   "o": [
+    "随意",
+    "聚餐",
+    "重视"
+   ],
+   "p": "Wǒ zhuānmén wèi wǒ māma zuò guo yí dùn Yuènán cài.",
+   "v": "Tôi đã từng nấu riêng cho mẹ một bữa cơm Việt Nam."
+  },
+  {
+   "q": "我跟他很＿＿，我们是五年的同事了。",
+   "a": "熟",
+   "o": [
+    "等",
+    "顺序",
+    "中餐"
+   ],
+   "p": "Wǒ gēn tā hěn shú, wǒmen shì wǔ nián de tóngshì le.",
+   "v": "Tôi với anh ấy thân lắm, chúng tôi là đồng nghiệp năm năm rồi."
+  },
+  {
+   "q": "你们这儿哪＿＿菜最好吃？",
+   "a": "道",
+   "o": [
+    "随意",
+    "不够",
+    "辣"
+   ],
+   "p": "Nǐmen zhèr nǎ dào cài zuì hǎochī?",
+   "v": "Ở chỗ các bạn món nào ngon nhất?"
+  },
+  {
+   "q": "你习惯吃＿＿了吗？",
+   "a": "中餐",
+   "o": [
+    "倒",
+    "达到",
+    "凉"
+   ],
+   "p": "Nǐ xíguàn chī zhōngcān le ma?",
+   "v": "Em đã quen ăn đồ Trung chưa?"
+  },
+  {
+   "q": "已经＿＿了十多分钟了，饺子熟了吧？",
+   "a": "煮",
+   "o": [
+    "凉",
+    "随意",
+    "敢"
+   ],
+   "p": "Yǐjīng zhǔ le shí duō fēnzhōng le, jiǎozi shú le ba?",
+   "v": "Luộc hơn mười phút rồi, sủi cảo chín rồi nhỉ?"
+  },
+  {
+   "q": "其实只有最上面那一层是＿＿。",
+   "a": "油",
+   "o": [
+    "辣",
+    "熟",
+    "正式"
+   ],
+   "p": "Qíshí zhǐyǒu zuì shàngmiàn nà yì céng shì yóu.",
+   "v": "Thật ra chỉ lớp trên cùng là dầu thôi."
+  },
+  {
+   "q": "我给你＿＿杯水吧。",
+   "a": "倒",
+   "o": [
+    "熟",
+    "随意",
+    "顺序"
+   ],
+   "p": "Wǒ gěi nǐ dào bēi shuǐ ba.",
+   "v": "Để mình rót cho cậu cốc nước."
+  },
+  {
+   "q": "最后再倒上＿＿油。",
+   "a": "辣椒",
+   "o": [
+    "重视",
+    "凉",
+    "专门"
+   ],
+   "p": "Zuìhòu zài dào shàng làjiāoyóu.",
+   "v": "Cuối cùng mới rưới dầu ớt lên."
+  },
+  {
+   "q": "老师，我不＿＿在大家面前说。",
+   "a": "敢",
+   "o": [
+    "熟",
+    "各",
+    "辣"
+   ],
+   "p": "Lǎoshī, wǒ bù gǎn zài dàjiā miànqián shuō.",
+   "v": "Thầy ơi, em không dám nói trước mọi người."
+  },
+  {
+   "q": "钱＿＿了，别担心。",
+   "a": "够",
+   "o": [
+    "随意",
+    "熟",
+    "等"
+   ],
+   "p": "Qián gòu le, bié dānxīn.",
+   "v": "Tiền đủ rồi, đừng lo."
+  },
+  {
+   "q": "我想明年＿＿HSK五级的水平。",
+   "a": "达到",
+   "o": [
+    "随意",
+    "敢",
+    "中餐"
+   ],
+   "p": "Wǒ xiǎng míngnián dádào HSK wǔ jí de shuǐpíng.",
+   "v": "Tôi muốn năm sau đạt tới trình độ HSK 5."
+  },
+  {
+   "q": "我们的生日是＿＿的！",
+   "a": "相同",
+   "o": [
+    "达到",
+    "至少",
+    "面对"
+   ],
+   "p": "Wǒmen de shēngrì shì xiāngtóng de!",
+   "v": "Sinh nhật của chúng mình giống nhau!"
+  },
+  {
+   "q": "吃完可能会＿＿不舒服。",
+   "a": "肚子",
+   "o": [
+    "道",
+    "聚",
+    "达到"
+   ],
+   "p": "Chī wán kěnéng huì dùzi bù shūfu.",
+   "v": "Ăn xong có khi bị khó chịu trong bụng."
+  },
+  {
+   "q": "请大家按照＿＿上车。",
+   "a": "顺序",
+   "o": [
+    "等",
+    "相同",
+    "熟"
+   ],
+   "p": "Qǐng dàjiā ànzhào shùnxù shàng chē.",
+   "v": "Mời mọi người lên xe theo thứ tự."
+  },
+  {
+   "q": "现在只有两天，时间＿＿。",
+   "a": "不够",
+   "o": [
+    "按照",
+    "至少",
+    "辣"
+   ],
+   "p": "Xiànzài zhǐyǒu liǎng tiān, shíjiān búgòu.",
+   "v": "Giờ chỉ còn hai ngày, không đủ thời gian."
+  },
+  {
+   "q": "我已经＿＿过钱了。",
+   "a": "付",
+   "o": [
+    "酸",
+    "凉",
+    "午餐"
+   ],
+   "p": "Wǒ yǐjīng fù guo qián le.",
+   "v": "Tôi trả tiền rồi."
+  },
+  {
+   "q": "年底了，我们大家一起＿＿吧！",
+   "a": "聚餐",
+   "o": [
+    "座位",
+    "午餐",
+    "汤"
+   ],
+   "p": "Niándǐ le, wǒmen dàjiā yìqǐ jùcān ba!",
+   "v": "Cuối năm rồi, cả nhà mình cùng đi liên hoan nhé!"
+  },
+  {
+   "q": "快吃吧，菜都＿＿了。",
+   "a": "凉",
+   "o": [
+    "煮",
+    "按照",
+    "中餐"
+   ],
+   "p": "Kuài chī ba, cài dōu liáng le.",
+   "v": "Ăn nhanh đi, đồ ăn nguội hết rồi."
+  },
+  {
+   "q": "周末，白家月、陈天中、李文和安妮＿＿在一起吃午餐。",
+   "a": "聚",
+   "o": [
+    "敢",
+    "顺序",
+    "正式"
+   ],
+   "p": "Zhōumò, Bái Jiāyuè, Chén Tiānzhōng, Lǐ Wén hé Ānnī jù zài yìqǐ chī wǔcān.",
+   "v": "Cuối tuần, Gia Nguyệt, Thiên Trung, Lý Văn và Annie tụ tập ăn trưa."
+  },
+  {
+   "q": "他们聚在一起吃＿＿。",
+   "a": "午餐",
+   "o": [
+    "聚餐",
+    "熟",
+    "随意"
+   ],
+   "p": "Tāmen jù zài yìqǐ chī wǔcān.",
+   "v": "Họ tụ tập ăn trưa."
+  },
+  {
+   "q": "你尝尝，这道菜是不是做得太＿＿了？",
+   "a": "咸",
+   "o": [
+    "油",
+    "够",
+    "汤"
+   ],
+   "p": "Nǐ chángchang, zhè dào cài shì bu shì zuò de tài xián le?",
+   "v": "Cậu nếm thử, món này có bị mặn quá không?"
+  },
+  {
+   "q": "安妮听说贵州＿＿汤很有名。",
+   "a": "酸",
+   "o": [
+    "油",
+    "至少",
+    "付"
+   ],
+   "p": "Ānnī tīngshuō Guìzhōu suāntāng hěn yǒumíng.",
+   "v": "Annie nghe nói canh chua Quý Châu rất nổi tiếng."
+  },
+  {
+   "q": "王一雪要了一个＿＿。",
+   "a": "汤",
+   "o": [
+    "随意",
+    "聚餐",
+    "辣"
+   ],
+   "p": "Wáng Yīxuě yào le yí gè tāng.",
+   "v": "Nhất Tuyết gọi một món canh."
+  },
+  {
+   "q": "我爸爸妈妈很＿＿我的学习。",
+   "a": "重视",
+   "o": [
+    "凉",
+    "按照",
+    "中餐"
+   ],
+   "p": "Wǒ bàba māma hěn zhòngshì wǒ de xuéxí.",
+   "v": "Bố mẹ tôi rất coi trọng việc học của tôi."
+  },
+  {
+   "q": "你这个周末有什么＿＿？",
+   "a": "安排",
+   "o": [
+    "酸",
+    "专门",
+    "随意"
+   ],
+   "p": "Nǐ zhè ge zhōumò yǒu shénme ānpái?",
+   "v": "Cuối tuần này cậu có dự định gì không?"
+  },
+  {
+   "q": "大家＿＿昨天的计划做吧。",
+   "a": "按照",
+   "o": [
+    "午餐",
+    "各",
+    "聚餐"
+   ],
+   "p": "Dàjiā ànzhào zuótiān de jìhuà zuò ba.",
+   "v": "Mọi người làm theo kế hoạch hôm qua nhé."
+  },
+  {
+   "q": "＿＿我忙完了，就去找你。",
+   "a": "等",
+   "o": [
+    "肚子",
+    "油",
+    "付"
+   ],
+   "p": "Děng wǒ máng wán le, jiù qù zhǎo nǐ.",
+   "v": "Đợi mình làm xong việc rồi mình đến tìm cậu."
+  },
+  {
+   "q": "去别的国家，要＿＿那里的习惯。",
+   "a": "尊重",
+   "o": [
+    "道",
+    "相同",
+    "敢"
+   ],
+   "p": "Qù biéde guójiā, yào zūnzhòng nàlǐ de xíguàn.",
+   "v": "Sang nước khác thì phải tôn trọng phong tục ở đó."
+  },
+  {
+   "q": "今天吃饭的时候，大家坐得比较＿＿。",
+   "a": "随意",
+   "o": [
+    "座位",
+    "面对",
+    "达到"
+   ],
+   "p": "Jīntiān chīfàn de shíhou, dàjiā zuò de bǐjiào suíyì.",
+   "v": "Hôm nay lúc ăn mọi người ngồi khá tuỳ ý."
+  },
+  {
+   "q": "＿＿聚餐和普通聚餐不同。",
+   "a": "正式",
+   "o": [
+    "倒",
+    "至少",
+    "付"
+   ],
+   "p": "Zhèngshì jùcān hé pǔtōng jùcān bùtóng.",
+   "v": "Bữa tiệc trang trọng khác bữa ăn bình thường."
+  },
+  {
+   "q": "正式聚餐和＿＿聚餐不同。",
+   "a": "普通",
+   "o": [
+    "倒",
+    "至少",
+    "付"
+   ],
+   "p": "Zhèngshì jùcān hé pǔtōng jùcān bùtóng.",
+   "v": "Bữa tiệc trang trọng khác bữa ăn bình thường."
+  },
+  {
+   "q": "请问，这个＿＿有人吗？",
+   "a": "座位",
+   "o": [
+    "不够",
+    "够",
+    "至少"
+   ],
+   "p": "Qǐngwèn, zhè ge zuòwèi yǒu rén ma?",
+   "v": "Xin hỏi, chỗ này có ai ngồi chưa?"
+  },
+  {
+   "q": "比如可以按照＿＿大小来安排。",
+   "a": "年龄",
+   "o": [
+    "辣",
+    "熟",
+    "付"
+   ],
+   "p": "Bǐrú kěyǐ ànzhào niánlíng dàxiǎo lái ānpái.",
+   "v": "Ví dụ có thể sắp xếp theo tuổi lớn nhỏ."
+  },
+  {
+   "q": "年龄比较大的客人往往会坐在＿＿门口的座位。",
+   "a": "面对",
+   "o": [
+    "油",
+    "随意",
+    "汤"
+   ],
+   "p": "Niánlíng bǐjiào dà de kèrén wǎngwǎng huì zuò zài miànduì ménkǒu de zuòwèi.",
+   "v": "Khách lớn tuổi thường ngồi ở chỗ quay mặt ra cửa."
+  },
+  {
+   "q": "大家坐下时，＿＿会请客人先坐。",
+   "a": "主人",
+   "o": [
+    "付",
+    "煮",
+    "凉"
+   ],
+   "p": "Dàjiā zuò xià shí, zhǔrén huì qǐng kèrén xiān zuò.",
+   "v": "Lúc mọi người ngồi xuống, chủ nhà sẽ mời khách ngồi trước."
+  }
+ ]
+}

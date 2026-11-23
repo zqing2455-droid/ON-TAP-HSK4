@@ -1,0 +1,729 @@
+{
+ "so": 3,
+ "han": "手机扫一下",
+ "sub": "40 từ mới",
+ "pool": [
+  {
+   "h": "直接",
+   "p": "zhíjiē",
+   "v": "trực tiếp, thẳng",
+   "hv": "TRỰC TIẾP",
+   "loai": "tính từ"
+  },
+  {
+   "h": "转",
+   "p": "zhuǎn",
+   "v": "rẽ; chuyển, đổi",
+   "hv": "CHUYỂN",
+   "loai": "động từ"
+  },
+  {
+   "h": "正好",
+   "p": "zhènghǎo",
+   "v": "vừa hay, vừa đúng lúc; vừa vặn",
+   "hv": "CHÍNH HẢO",
+   "loai": "phó từ"
+  },
+  {
+   "h": "熟悉",
+   "p": "shúxī",
+   "v": "quen thuộc, quen",
+   "hv": "THỤC TẤT",
+   "loai": "động từ"
+  },
+  {
+   "h": "十字路口",
+   "p": "shízì lùkǒu",
+   "v": "ngã tư",
+   "hv": "THẬP TỰ LỘ KHẨU",
+   "loai": "danh từ"
+  },
+  {
+   "h": "正",
+   "p": "zhèng",
+   "v": "thẳng, chính (hướng)",
+   "hv": "CHÍNH",
+   "loai": "tính từ"
+  },
+  {
+   "h": "目的地",
+   "p": "mùdìdì",
+   "v": "nơi đến, điểm đến",
+   "hv": "MỤC ĐÍCH ĐỊA",
+   "loai": "danh từ"
+  },
+  {
+   "h": "进行",
+   "p": "jìnxíng",
+   "v": "tiến hành, thực hiện",
+   "hv": "TIẾN HÀNH",
+   "loai": "động từ"
+  },
+  {
+   "h": "支付",
+   "p": "zhīfù",
+   "v": "thanh toán, trả tiền",
+   "hv": "CHI PHÓ",
+   "loai": "động từ"
+  },
+  {
+   "h": "不仅",
+   "p": "bùjǐn",
+   "v": "không những, không chỉ",
+   "hv": "BẤT CẬN",
+   "loai": "liên từ"
+  },
+  {
+   "h": "订",
+   "p": "dìng",
+   "v": "đặt (trước)",
+   "hv": "ĐÍNH",
+   "loai": "động từ"
+  },
+  {
+   "h": "下载",
+   "p": "xiàzài",
+   "v": "tải về",
+   "hv": "HẠ TẢI",
+   "loai": "động từ"
+  },
+  {
+   "h": "软件",
+   "p": "ruǎnjiàn",
+   "v": "phần mềm, app",
+   "hv": "NHUYỄN KIỆN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "扫码",
+   "p": "sǎomǎ",
+   "v": "quét mã",
+   "hv": "TẢO MÃ",
+   "loai": "động từ"
+  },
+  {
+   "h": "结账",
+   "p": "jiézhàng",
+   "v": "thanh toán (hoá đơn)",
+   "hv": "KẾT TRƯƠNG",
+   "loai": "động từ"
+  },
+  {
+   "h": "购物",
+   "p": "gòuwù",
+   "v": "mua sắm",
+   "hv": "CẤU VẬT",
+   "loai": "động từ"
+  },
+  {
+   "h": "快递",
+   "p": "kuàidì",
+   "v": "chuyển phát nhanh; bưu kiện",
+   "hv": "KHOÁI ĐỆ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "甚至",
+   "p": "shènzhì",
+   "v": "thậm chí",
+   "hv": "THẬM CHÍ",
+   "loai": "liên từ"
+  },
+  {
+   "h": "改变",
+   "p": "gǎibiàn",
+   "v": "thay đổi",
+   "hv": "CẢI BIẾN",
+   "loai": "động từ"
+  },
+  {
+   "h": "乱",
+   "p": "luàn",
+   "v": "bừa, lung tung; lộn xộn",
+   "hv": "LOẠN",
+   "loai": "phó từ"
+  },
+  {
+   "h": "管",
+   "p": "guǎn",
+   "v": "quản, trông; kiềm chế",
+   "hv": "QUẢN",
+   "loai": "động từ"
+  },
+  {
+   "h": "现金",
+   "p": "xiànjīn",
+   "v": "tiền mặt",
+   "hv": "HIỆN KIM",
+   "loai": "danh từ"
+  },
+  {
+   "h": "网购",
+   "p": "wǎnggòu",
+   "v": "mua hàng online",
+   "hv": "VÕNG CẤU",
+   "loai": "động từ"
+  },
+  {
+   "h": "寄",
+   "p": "jì",
+   "v": "gửi (qua bưu điện, chuyển phát)",
+   "hv": "KÝ",
+   "loai": "động từ"
+  },
+  {
+   "h": "等",
+   "p": "děng",
+   "v": "vân vân, v.v.",
+   "hv": "ĐẲNG",
+   "loai": "trợ từ"
+  },
+  {
+   "h": "货",
+   "p": "huò",
+   "v": "hàng, hàng hoá",
+   "hv": "HOÁ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "手指",
+   "p": "shǒuzhǐ",
+   "v": "ngón tay",
+   "hv": "THỦ CHỈ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "提供",
+   "p": "tígōng",
+   "v": "cung cấp",
+   "hv": "ĐỀ CUNG",
+   "loai": "động từ"
+  },
+  {
+   "h": "保护",
+   "p": "bǎohù",
+   "v": "bảo vệ",
+   "hv": "BẢO HỘ",
+   "loai": "động từ"
+  },
+  {
+   "h": "于是",
+   "p": "yúshì",
+   "v": "thế là, vì vậy liền",
+   "hv": "Ư THỊ",
+   "loai": "liên từ"
+  },
+  {
+   "h": "随便",
+   "p": "suíbiàn",
+   "v": "tuỳ ý, bừa; sao cũng được",
+   "hv": "TUỲ TIỆN",
+   "loai": "tính từ"
+  },
+  {
+   "h": "保证",
+   "p": "bǎozhèng",
+   "v": "bảo đảm, cam đoan",
+   "hv": "BẢO CHỨNG",
+   "loai": "động từ"
+  },
+  {
+   "h": "身份证",
+   "p": "shēnfènzhèng",
+   "v": "thẻ căn cước, chứng minh thư",
+   "hv": "THÂN PHẬN CHỨNG",
+   "loai": "danh từ"
+  },
+  {
+   "h": "个人",
+   "p": "gèrén",
+   "v": "cá nhân",
+   "hv": "CÁ NHÂN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "能否",
+   "p": "néngfǒu",
+   "v": "có thể … hay không",
+   "hv": "NĂNG PHỦ",
+   "loai": "động từ"
+  },
+  {
+   "h": "密码",
+   "p": "mìmǎ",
+   "v": "mật khẩu",
+   "hv": "MẬT MÃ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "技术",
+   "p": "jìshù",
+   "v": "kỹ thuật, công nghệ",
+   "hv": "KỸ THUẬT",
+   "loai": "danh từ"
+  },
+  {
+   "h": "法律",
+   "p": "fǎlǜ",
+   "v": "pháp luật",
+   "hv": "PHÁP LUẬT",
+   "loai": "danh từ"
+  },
+  {
+   "h": "手段",
+   "p": "shǒuduàn",
+   "v": "biện pháp, cách thức",
+   "hv": "THỦ ĐOẠN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "网络",
+   "p": "wǎngluò",
+   "v": "mạng, mạng internet",
+   "hv": "VÕNG LẠC",
+   "loai": "danh từ"
+  }
+ ],
+ "cloze": [
+  {
+   "q": "不用，你＿＿给经理打电话吧。",
+   "a": "直接",
+   "o": [
+    "个人",
+    "网络",
+    "手段"
+   ],
+   "p": "Bú yòng, nǐ zhíjiē gěi jīnglǐ dǎ diànhuà ba.",
+   "v": "Không cần đâu, cậu cứ gọi thẳng cho giám đốc đi."
+  },
+  {
+   "q": "师傅，前边十字路口右＿＿。",
+   "a": "转",
+   "o": [
+    "网络",
+    "甚至",
+    "手段"
+   ],
+   "p": "Shīfu, qiánbian shízì lùkǒu yòu zhuǎn.",
+   "v": "Bác tài ơi, đến ngã tư phía trước thì rẽ phải."
+  },
+  {
+   "q": "＿＿我也要去超市，一起去吧。",
+   "a": "正好",
+   "o": [
+    "手段",
+    "手指",
+    "目的地"
+   ],
+   "p": "Zhènghǎo wǒ yě yào qù chāoshì, yìqǐ qù ba.",
+   "v": "Vừa hay mình cũng định đi siêu thị, đi cùng nhé."
+  },
+  {
+   "q": "我最＿＿河内，因为我在那儿上了四年大学。",
+   "a": "熟悉",
+   "o": [
+    "等",
+    "直接",
+    "随便"
+   ],
+   "p": "Wǒ zuì shúxī Hénèi, yīnwèi wǒ zài nàr shàng le sì nián dàxué.",
+   "v": "Tôi quen Hà Nội nhất, vì tôi học đại học ở đó bốn năm."
+  },
+  {
+   "q": "到＿＿不要过马路，直接右转就到小区门口了。",
+   "a": "十字路口",
+   "o": [
+    "随便",
+    "不仅",
+    "购物"
+   ],
+   "p": "Dào shízì lùkǒu bú yào guò mǎlù, zhíjiē yòu zhuǎn jiù dào xiǎoqū ménkǒu le.",
+   "v": "Đến ngã tư thì đừng qua đường, rẽ phải luôn là tới cổng khu."
+  },
+  {
+   "q": "银行就在学校的＿＿前方。",
+   "a": "正",
+   "o": [
+    "保证",
+    "乱",
+    "甚至"
+   ],
+   "p": "Yínháng jiù zài xuéxiào de zhèng qiánfāng.",
+   "v": "Ngân hàng ở ngay phía trước cổng trường."
+  },
+  {
+   "q": "你也可以用手机地图，很容易就能找到＿＿。",
+   "a": "目的地",
+   "o": [
+    "直接",
+    "订",
+    "寄"
+   ],
+   "p": "Nǐ yě kěyǐ yòng shǒujī dìtú, hěn róngyì jiù néng zhǎodào mùdìdì.",
+   "v": "Cậu cũng có thể dùng bản đồ điện thoại, tìm nơi cần đến dễ thôi."
+  },
+  {
+   "q": "周五我们要＿＿一次考试。",
+   "a": "进行",
+   "o": [
+    "技术",
+    "甚至",
+    "手段"
+   ],
+   "p": "Zhōuwǔ wǒmen yào jìnxíng yí cì kǎoshì.",
+   "v": "Thứ Sáu chúng ta sẽ làm một bài kiểm tra."
+  },
+  {
+   "q": "我用手机＿＿吧。",
+   "a": "支付",
+   "o": [
+    "不仅",
+    "手段",
+    "现金"
+   ],
+   "p": "Wǒ yòng shǒujī zhīfù ba.",
+   "v": "Tôi trả bằng điện thoại nhé."
+  },
+  {
+   "q": "她＿＿中文很好，还会说英语。",
+   "a": "不仅",
+   "o": [
+    "网购",
+    "快递",
+    "正好"
+   ],
+   "p": "Tā bùjǐn Zhōngwén hěn hǎo, hái huì shuō Yīngyǔ.",
+   "v": "Chị ấy không những giỏi tiếng Trung mà còn nói được tiếng Anh."
+  },
+  {
+   "q": "我一般在手机上＿＿票，很方便。",
+   "a": "订",
+   "o": [
+    "乱",
+    "正",
+    "技术"
+   ],
+   "p": "Wǒ yìbān zài shǒujī shàng dìng piào, hěn fāngbiàn.",
+   "v": "Tôi thường đặt vé trên điện thoại, rất tiện."
+  },
+  {
+   "q": "他帮我＿＿了微信和支付宝。",
+   "a": "下载",
+   "o": [
+    "法律",
+    "货",
+    "十字路口"
+   ],
+   "p": "Tā bāng wǒ xiàzài le Wēixìn hé Zhīfùbǎo.",
+   "v": "Cậu ấy tải giúp mình WeChat và Alipay."
+  },
+  {
+   "q": "他也教了我怎么用这两个＿＿。",
+   "a": "软件",
+   "o": [
+    "乱",
+    "购物",
+    "提供"
+   ],
+   "p": "Tā yě jiāo le wǒ zěnme yòng zhè liǎng gè ruǎnjiàn.",
+   "v": "Cậu ấy cũng dạy mình cách dùng hai app này."
+  },
+  {
+   "q": "现在我不仅会＿＿结账，还会用手机在网上购物了。",
+   "a": "扫码",
+   "o": [
+    "于是",
+    "手段",
+    "正好"
+   ],
+   "p": "Xiànzài wǒ bùjǐn huì sǎomǎ jiézhàng, hái huì yòng shǒujī zài wǎngshàng gòuwù le.",
+   "v": "Giờ mình không chỉ biết quét mã thanh toán mà còn biết mua hàng online."
+  },
+  {
+   "q": "中国人在饭馆或超市＿＿时，几乎都用手机支付。",
+   "a": "结账",
+   "o": [
+    "甚至",
+    "直接",
+    "十字路口"
+   ],
+   "p": "Zhōngguórén zài fànguǎn huò chāoshì jiézhàng shí, jīhū dōu yòng shǒujī zhīfù.",
+   "v": "Người Trung Quốc khi thanh toán ở nhà hàng hay siêu thị hầu như đều trả bằng điện thoại."
+  },
+  {
+   "q": "他还会用手机在网上＿＿了。",
+   "a": "购物",
+   "o": [
+    "手指",
+    "乱",
+    "等"
+   ],
+   "p": "Tā hái huì yòng shǒujī zài wǎngshàng gòuwù le.",
+   "v": "Cậu ấy còn biết mua sắm online bằng điện thoại."
+  },
+  {
+   "q": "＿＿员要到了，我得马上回去！",
+   "a": "快递",
+   "o": [
+    "进行",
+    "扫码",
+    "保护"
+   ],
+   "p": "Kuàidìyuán yào dào le, wǒ děi mǎshàng huíqù!",
+   "v": "Shipper sắp tới rồi, mình phải về ngay!"
+  },
+  {
+   "q": "他玩游戏玩了一个晚上，＿＿忘了吃饭。",
+   "a": "甚至",
+   "o": [
+    "寄",
+    "身份证",
+    "个人"
+   ],
+   "p": "Tā wán yóuxì wán le yí gè wǎnshang, shènzhì wàng le chī fàn.",
+   "v": "Cậu ấy chơi game cả một tối, thậm chí quên cả ăn."
+  },
+  {
+   "q": "我＿＿了习惯，现在喝茶。",
+   "a": "改变",
+   "o": [
+    "正好",
+    "不仅",
+    "法律"
+   ],
+   "p": "Wǒ gǎibiàn le xíguàn, xiànzài hē chá.",
+   "v": "Mình đổi thói quen rồi, giờ uống trà."
+  },
+  {
+   "q": "这个月别＿＿花钱了。",
+   "a": "乱",
+   "o": [
+    "技术",
+    "支付",
+    "寄"
+   ],
+   "p": "Zhè ge yuè bié luàn huā qián le.",
+   "v": "Tháng này đừng tiêu tiền lung tung nữa."
+  },
+  {
+   "q": "你要＿＿住自己的嘴！",
+   "a": "管",
+   "o": [
+    "甚至",
+    "乱",
+    "快递"
+   ],
+   "p": "Nǐ yào guǎnzhù zìjǐ de zuǐ!",
+   "v": "Cậu phải quản cái miệng của mình lại!"
+  },
+  {
+   "q": "只有他们用＿＿结账。",
+   "a": "现金",
+   "o": [
+    "保护",
+    "转",
+    "等"
+   ],
+   "p": "Zhǐyǒu tāmen yòng xiànjīn jiézhàng.",
+   "v": "Chỉ có họ trả bằng tiền mặt."
+  },
+  {
+   "q": "在中国＿＿，不仅选择多、价格不高，而且送货很快。",
+   "a": "网购",
+   "o": [
+    "网络",
+    "等",
+    "手指"
+   ],
+   "p": "Zài Zhōngguó wǎnggòu, bùjǐn xuǎnzé duō, jiàgé bù gāo, érqiě sònghuò hěn kuài.",
+   "v": "Mua online ở Trung Quốc không chỉ nhiều lựa chọn, giá không cao mà giao hàng còn nhanh."
+  },
+  {
+   "q": "他们也都学会了用手机支付、网购、＿＿快递等等。",
+   "a": "寄",
+   "o": [
+    "网络",
+    "甚至",
+    "密码"
+   ],
+   "p": "Tāmen yě dōu xuéhuì le yòng shǒujī zhīfù, wǎnggòu, jì kuàidì děngděng.",
+   "v": "Họ cũng đều biết trả tiền bằng điện thoại, mua online, gửi chuyển phát, v.v."
+  },
+  {
+   "q": "我们经常需要提供姓名、手机号、身份证号＿＿个人信息。",
+   "a": "等",
+   "o": [
+    "保证",
+    "乱",
+    "转"
+   ],
+   "p": "Wǒmen jīngcháng xūyào tígōng xìngmíng, shǒujī hào, shēnfènzhèng hào děng gèrén xìnxī.",
+   "v": "Ta thường phải cung cấp họ tên, số điện thoại, số căn cước… và các thông tin cá nhân khác."
+  },
+  {
+   "q": "在中国网购，……而且送＿＿很快。",
+   "a": "货",
+   "o": [
+    "提供",
+    "下载",
+    "管"
+   ],
+   "p": "Zài Zhōngguó wǎnggòu, ... érqiě sònghuò hěn kuài.",
+   "v": "Mua online ở Trung Quốc… giao hàng lại rất nhanh."
+  },
+  {
+   "q": "动动＿＿就能买到想要的东西。",
+   "a": "手指",
+   "o": [
+    "下载",
+    "寄",
+    "转"
+   ],
+   "p": "Dòngdong shǒuzhǐ jiù néng mǎidào xiǎng yào de dōngxi.",
+   "v": "Chỉ động ngón tay là mua được thứ mình muốn."
+  },
+  {
+   "q": "办签证需要＿＿护照和照片。",
+   "a": "提供",
+   "o": [
+    "乱",
+    "目的地",
+    "个人"
+   ],
+   "p": "Bàn qiānzhèng xūyào tígōng hùzhào hé zhàopiàn.",
+   "v": "Làm visa cần nộp hộ chiếu và ảnh."
+  },
+  {
+   "q": "别看太长时间手机，要＿＿好眼睛。",
+   "a": "保护",
+   "o": [
+    "不仅",
+    "随便",
+    "法律"
+   ],
+   "p": "Bié kàn tài cháng shíjiān shǒujī, yào bǎohù hǎo yǎnjing.",
+   "v": "Đừng nhìn điện thoại lâu quá, phải bảo vệ mắt."
+  },
+  {
+   "q": "昨天我的手机没电了，＿＿我用朋友的手机给家里打了电话。",
+   "a": "于是",
+   "o": [
+    "技术",
+    "快递",
+    "订"
+   ],
+   "p": "Zuótiān wǒ de shǒujī méi diàn le, yúshì wǒ yòng péngyou de shǒujī gěi jiā li dǎ le diànhuà.",
+   "v": "Hôm qua điện thoại tôi hết pin, thế là tôi mượn máy bạn gọi về nhà."
+  },
+  {
+   "q": "别把密码＿＿告诉别人。",
+   "a": "随便",
+   "o": [
+    "保证",
+    "快递",
+    "十字路口"
+   ],
+   "p": "Bié bǎ mìmǎ suíbiàn gàosu biérén.",
+   "v": "Đừng tuỳ tiện nói mật khẩu cho người khác."
+  },
+  {
+   "q": "您放心，我们＿＿两点前送到。",
+   "a": "保证",
+   "o": [
+    "手指",
+    "技术",
+    "现金"
+   ],
+   "p": "Nín fàngxīn, wǒmen bǎozhèng liǎng diǎn qián sòngdào.",
+   "v": "Anh/chị yên tâm, chúng tôi bảo đảm giao trước hai giờ."
+  },
+  {
+   "q": "我们经常需要提供姓名、手机号、＿＿号等个人信息。",
+   "a": "身份证",
+   "o": [
+    "保证",
+    "乱",
+    "转"
+   ],
+   "p": "Wǒmen jīngcháng xūyào tígōng xìngmíng, shǒujī hào, shēnfènzhèng hào děng gèrén xìnxī.",
+   "v": "Ta thường phải cung cấp họ tên, số điện thoại, số căn cước…"
+  },
+  {
+   "q": "我＿＿觉得网购很方便。",
+   "a": "个人",
+   "o": [
+    "能否",
+    "管",
+    "熟悉"
+   ],
+   "p": "Wǒ gèrén juéde wǎnggòu hěn fāngbiàn.",
+   "v": "Cá nhân mình thấy mua online rất tiện."
+  },
+  {
+   "q": "我的个人信息＿＿得到保护？",
+   "a": "能否",
+   "o": [
+    "货",
+    "网络",
+    "随便"
+   ],
+   "p": "Wǒ de gèrén xìnxī néngfǒu dédào bǎohù?",
+   "v": "Thông tin cá nhân của tôi có được bảo vệ hay không?"
+  },
+  {
+   "q": "我忘了银行卡的＿＿。",
+   "a": "密码",
+   "o": [
+    "甚至",
+    "保护",
+    "寄"
+   ],
+   "p": "Wǒ wàng le yínhángkǎ de mìmǎ.",
+   "v": "Mình quên mật khẩu thẻ ngân hàng rồi."
+  },
+  {
+   "q": "很多国家也通过＿＿、法律等手段来保证个人信息安全。",
+   "a": "技术",
+   "o": [
+    "网购",
+    "直接",
+    "保护"
+   ],
+   "p": "Hěn duō guójiā yě tōngguò jìshù, fǎlǜ děng shǒuduàn lái bǎozhèng gèrén xìnxī ānquán.",
+   "v": "Nhiều nước cũng dùng các biện pháp kỹ thuật, pháp luật… để bảo đảm an toàn thông tin cá nhân."
+  },
+  {
+   "q": "很多国家也通过技术、＿＿等手段来保证个人信息安全。",
+   "a": "法律",
+   "o": [
+    "网购",
+    "直接",
+    "保护"
+   ],
+   "p": "Hěn duō guójiā yě tōngguò jìshù, fǎlǜ děng shǒuduàn lái bǎozhèng gèrén xìnxī ānquán.",
+   "v": "Nhiều nước cũng dùng biện pháp kỹ thuật, pháp luật… để bảo đảm an toàn thông tin cá nhân."
+  },
+  {
+   "q": "很多国家也通过技术、法律等＿＿来保证个人信息安全。",
+   "a": "手段",
+   "o": [
+    "网购",
+    "直接",
+    "保护"
+   ],
+   "p": "Hěn duō guójiā yě tōngguò jìshù, fǎlǜ děng shǒuduàn lái bǎozhèng gèrén xìnxī ānquán.",
+   "v": "Nhiều nước cũng dùng các biện pháp kỹ thuật, pháp luật…"
+  },
+  {
+   "q": "中国的＿＿安全法……很好地保护了人们的个人信息。",
+   "a": "网络",
+   "o": [
+    "于是",
+    "直接",
+    "不仅"
+   ],
+   "p": "Zhōngguó de wǎngluò ānquánfǎ ... hěn hǎo de bǎohù le rénmen de gèrén xìnxī.",
+   "v": "Luật An ninh mạng của Trung Quốc… đã bảo vệ rất tốt thông tin cá nhân của mọi người."
+  }
+ ]
+}

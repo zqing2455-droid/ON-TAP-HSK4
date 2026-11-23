@@ -1,0 +1,711 @@
+{
+ "so": 7,
+ "han": "在工作中学习",
+ "sub": "39 từ mới",
+ "pool": [
+  {
+   "h": "打扰",
+   "p": "dǎrǎo",
+   "v": "làm phiền",
+   "hv": "ĐẢ NHIỄU",
+   "loai": "động từ"
+  },
+  {
+   "h": "调查",
+   "p": "diàochá",
+   "v": "khảo sát, điều tra",
+   "hv": "ĐIỀU TRA",
+   "loai": "động từ"
+  },
+  {
+   "h": "改",
+   "p": "gǎi",
+   "v": "sửa, đổi",
+   "hv": "CẢI",
+   "loai": "động từ"
+  },
+  {
+   "h": "细心",
+   "p": "xìxīn",
+   "v": "cẩn thận, tỉ mỉ",
+   "hv": "TẾ TÂM",
+   "loai": "tính từ"
+  },
+  {
+   "h": "及时",
+   "p": "jíshí",
+   "v": "kịp thời, ngay",
+   "hv": "CẬP THỜI",
+   "loai": "tính từ"
+  },
+  {
+   "h": "市场",
+   "p": "shìchǎng",
+   "v": "chợ; thị trường",
+   "hv": "THỊ TRƯỜNG",
+   "loai": "danh từ"
+  },
+  {
+   "h": "计划",
+   "p": "jìhuà",
+   "v": "kế hoạch; dự định",
+   "hv": "KẾ HOẠCH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "内容",
+   "p": "nèiróng",
+   "v": "nội dung",
+   "hv": "NỘI DUNG",
+   "loai": "danh từ"
+  },
+  {
+   "h": "客户",
+   "p": "kèhù",
+   "v": "khách hàng (của công ty)",
+   "hv": "KHÁCH HỘ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "真正",
+   "p": "zhēnzhèng",
+   "v": "thật sự",
+   "hv": "CHÂN CHÍNH",
+   "loai": "tính từ"
+  },
+  {
+   "h": "想法",
+   "p": "xiǎngfǎ",
+   "v": "suy nghĩ, ý tưởng",
+   "hv": "TƯỞNG PHÁP",
+   "loai": "danh từ"
+  },
+  {
+   "h": "任务",
+   "p": "rènwu",
+   "v": "nhiệm vụ",
+   "hv": "NHẬM VỤ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "出差",
+   "p": "chūchāi",
+   "v": "đi công tác",
+   "hv": "XUẤT SAI",
+   "loai": "động từ"
+  },
+  {
+   "h": "经验",
+   "p": "jīngyàn",
+   "v": "kinh nghiệm",
+   "hv": "KINH NGHIỆM",
+   "loai": "danh từ"
+  },
+  {
+   "h": "提前",
+   "p": "tíqián",
+   "v": "trước, sớm hơn (dự định)",
+   "hv": "ĐỀ TIỀN",
+   "loai": "động từ"
+  },
+  {
+   "h": "既然",
+   "p": "jìrán",
+   "v": "đã … thì",
+   "hv": "KÝ NHIÊN",
+   "loai": "liên từ"
+  },
+  {
+   "h": "采访",
+   "p": "cǎifǎng",
+   "v": "phỏng vấn (lấy tin, lấy ý kiến)",
+   "hv": "THÁI PHỎNG",
+   "loai": "động từ"
+  },
+  {
+   "h": "产品",
+   "p": "chǎnpǐn",
+   "v": "sản phẩm",
+   "hv": "SẢN PHẨM",
+   "loai": "danh từ"
+  },
+  {
+   "h": "看法",
+   "p": "kànfǎ",
+   "v": "cách nhìn, ý kiến",
+   "hv": "KHÁN PHÁP",
+   "loai": "danh từ"
+  },
+  {
+   "h": "便于",
+   "p": "biànyú",
+   "v": "để tiện, giúp dễ (làm gì)",
+   "hv": "TIỆN VU",
+   "loai": "động từ"
+  },
+  {
+   "h": "谈",
+   "p": "tán",
+   "v": "nói chuyện, bàn bạc",
+   "hv": "ĐÀM",
+   "loai": "động từ"
+  },
+  {
+   "h": "困难",
+   "p": "kùnnan",
+   "v": "khó khăn",
+   "hv": "KHỐN NAN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "实际",
+   "p": "shíjì",
+   "v": "thực tế",
+   "hv": "THỰC TẾ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "效果",
+   "p": "xiàoguǒ",
+   "v": "hiệu quả, tác dụng",
+   "hv": "HIỆU QUẢ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "笔",
+   "p": "bǐ",
+   "v": "khoản (tiền), vụ (làm ăn)",
+   "hv": "BÚT",
+   "loai": "lượng từ"
+  },
+  {
+   "h": "生意",
+   "p": "shēngyi",
+   "v": "việc làm ăn, buôn bán",
+   "hv": "SINH Ý",
+   "loai": "danh từ"
+  },
+  {
+   "h": "优点",
+   "p": "yōudiǎn",
+   "v": "ưu điểm",
+   "hv": "ƯU ĐIỂM",
+   "loai": "danh từ"
+  },
+  {
+   "h": "缺点",
+   "p": "quēdiǎn",
+   "v": "nhược điểm",
+   "hv": "KHUYẾT ĐIỂM",
+   "loai": "danh từ"
+  },
+  {
+   "h": "点",
+   "p": "diǎn",
+   "v": "điểm, khía cạnh",
+   "hv": "ĐIỂM",
+   "loai": "danh từ"
+  },
+  {
+   "h": "一下",
+   "p": "yíxià",
+   "v": "ngay lập tức, bỗng chốc",
+   "hv": "NHẤT HẠ",
+   "loai": "phó từ"
+  },
+  {
+   "h": "积累",
+   "p": "jīlěi",
+   "v": "tích luỹ",
+   "hv": "TÍCH LUỸ",
+   "loai": "động từ"
+  },
+  {
+   "h": "使",
+   "p": "shǐ",
+   "v": "khiến, làm cho",
+   "hv": "SỬ",
+   "loai": "động từ"
+  },
+  {
+   "h": "基础",
+   "p": "jīchǔ",
+   "v": "nền tảng, căn bản",
+   "hv": "CƠ SỞ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "能力",
+   "p": "nénglì",
+   "v": "năng lực, khả năng",
+   "hv": "NĂNG LỰC",
+   "loai": "danh từ"
+  },
+  {
+   "h": "份",
+   "p": "fèn",
+   "v": "phần, bản (công việc, quà, giấy tờ)",
+   "hv": "PHẦN",
+   "loai": "lượng từ"
+  },
+  {
+   "h": "进入",
+   "p": "jìnrù",
+   "v": "bước vào",
+   "hv": "TIẾN NHẬP",
+   "loai": "động từ"
+  },
+  {
+   "h": "社会",
+   "p": "shèhuì",
+   "v": "xã hội",
+   "hv": "XÃ HỘI",
+   "loai": "danh từ"
+  },
+  {
+   "h": "管理",
+   "p": "guǎnlǐ",
+   "v": "quản lý",
+   "hv": "QUẢN LÝ",
+   "loai": "động từ"
+  },
+  {
+   "h": "今后",
+   "p": "jīnhòu",
+   "v": "từ nay về sau",
+   "hv": "KIM HẬU",
+   "loai": "danh từ"
+  }
+ ],
+ "cloze": [
+  {
+   "q": "经理，＿＿您一下，我有个问题想问您。",
+   "a": "打扰",
+   "o": [
+    "及时",
+    "经验",
+    "产品"
+   ],
+   "p": "Jīnglǐ, dǎrǎo nín yíxià, wǒ yǒu gè wèntí xiǎng wèn nín.",
+   "v": "Sếp ơi, làm phiền sếp một chút, em có một câu hỏi muốn hỏi sếp."
+  },
+  {
+   "q": "经理让我这周＿＿一下客户对新产品的看法。",
+   "a": "调查",
+   "o": [
+    "细心",
+    "生意",
+    "既然"
+   ],
+   "p": "Jīnglǐ ràng wǒ zhè zhōu diàochá yíxià kèhù duì xīn chǎnpǐn de kànfǎ.",
+   "v": "Sếp bảo tôi tuần này khảo sát một chút xem khách hàng nghĩ gì về sản phẩm mới."
+  },
+  {
+   "q": "客户想把开会的时间＿＿到周三。",
+   "a": "改",
+   "o": [
+    "实际",
+    "看法",
+    "真正"
+   ],
+   "p": "Kèhù xiǎng bǎ kāihuì de shíjiān gǎi dào zhōusān.",
+   "v": "Khách hàng muốn đổi thời gian họp sang thứ Tư."
+  },
+  {
+   "q": "检查数字的时候一定要＿＿。",
+   "a": "细心",
+   "o": [
+    "出差",
+    "能力",
+    "计划"
+   ],
+   "p": "Jiǎnchá shùzì de shíhou yídìng yào xìxīn.",
+   "v": "Lúc kiểm tra số liệu nhất định phải cẩn thận."
+  },
+  {
+   "q": "有问题要＿＿告诉我。",
+   "a": "及时",
+   "o": [
+    "客户",
+    "看法",
+    "想法"
+   ],
+   "p": "Yǒu wèntí yào jíshí gàosu wǒ.",
+   "v": "Có vấn đề gì phải báo tôi ngay."
+  },
+  {
+   "q": "＿＿调查的计划书我昨天发到您邮箱了。",
+   "a": "市场",
+   "o": [
+    "改",
+    "出差",
+    "笔"
+   ],
+   "p": "Shìchǎng diàochá de jìhuàshū wǒ zuótiān fā dào nín yóuxiāng le.",
+   "v": "Bản kế hoạch khảo sát thị trường em gửi vào email chị hôm qua rồi."
+  },
+  {
+   "q": "市场调查的＿＿书写得不错。",
+   "a": "计划",
+   "o": [
+    "既然",
+    "细心",
+    "一下"
+   ],
+   "p": "Shìchǎng diàochá de jìhuàshū xiě de búcuò.",
+   "v": "Bản kế hoạch khảo sát thị trường viết khá tốt."
+  },
+  {
+   "q": "在＿＿方面，您觉得有需要改的吗？",
+   "a": "内容",
+   "o": [
+    "真正",
+    "一下",
+    "提前"
+   ],
+   "p": "Zài nèiróng fāngmiàn, nín juéde yǒu xūyào gǎi de ma?",
+   "v": "Về mặt nội dung, chị thấy có chỗ nào cần sửa không ạ?"
+  },
+  {
+   "q": "做调查的时候要注意了解＿＿真正的想法。",
+   "a": "客户",
+   "o": [
+    "便于",
+    "既然",
+    "笔"
+   ],
+   "p": "Zuò diàochá de shíhou yào zhùyì liǎojiě kèhù zhēnzhèng de xiǎngfǎ.",
+   "v": "Khi làm khảo sát phải chú ý tìm hiểu suy nghĩ thật của khách hàng."
+  },
+  {
+   "q": "注意了解客户＿＿的想法。",
+   "a": "真正",
+   "o": [
+    "出差",
+    "点",
+    "积累"
+   ],
+   "p": "Zhùyì liǎojiě kèhù zhēnzhèng de xiǎngfǎ.",
+   "v": "Chú ý tìm hiểu suy nghĩ thật sự của khách hàng."
+  },
+  {
+   "q": "他和同事交流了一下，了解了大家的＿＿。",
+   "a": "想法",
+   "o": [
+    "打扰",
+    "谈",
+    "份"
+   ],
+   "p": "Tā hé tóngshì jiāoliú le yíxià, liǎojiě le dàjiā de xiǎngfǎ.",
+   "v": "Anh ấy trao đổi với đồng nghiệp, hiểu được suy nghĩ của mọi người."
+  },
+  {
+   "q": "明白了，我会认真准备，按时完成＿＿。",
+   "a": "任务",
+   "o": [
+    "积累",
+    "笔",
+    "调查"
+   ],
+   "p": "Míngbai le, wǒ huì rènzhēn zhǔnbèi, ànshí wánchéng rènwu.",
+   "v": "Em hiểu rồi, em sẽ chuẩn bị kỹ, hoàn thành nhiệm vụ đúng hạn."
+  },
+  {
+   "q": "下周我去胡志明市＿＿。",
+   "a": "出差",
+   "o": [
+    "效果",
+    "今后",
+    "任务"
+   ],
+   "p": "Xià zhōu wǒ qù Húzhìmíng Shì chūchāi.",
+   "v": "Tuần sau tôi đi công tác Thành phố Hồ Chí Minh."
+  },
+  {
+   "q": "我有两年的工作＿＿。",
+   "a": "经验",
+   "o": [
+    "细心",
+    "改",
+    "调查"
+   ],
+   "p": "Wǒ yǒu liǎng nián de gōngzuò jīngyàn.",
+   "v": "Tôi có hai năm kinh nghiệm làm việc."
+  },
+  {
+   "q": "面试最好＿＿一点儿到。",
+   "a": "提前",
+   "o": [
+    "实际",
+    "任务",
+    "看法"
+   ],
+   "p": "Miànshì zuì hǎo tíqián yìdiǎnr dào.",
+   "v": "Đi phỏng vấn tốt nhất nên đến sớm một chút."
+  },
+  {
+   "q": "＿＿票已经买了，你就去吧。",
+   "a": "既然",
+   "o": [
+    "进入",
+    "出差",
+    "计划"
+   ],
+   "p": "Jìrán piào yǐjīng mǎi le, nǐ jiù qù ba.",
+   "v": "Vé đã mua rồi thì bạn cứ đi đi."
+  },
+  {
+   "q": "去四天，打算＿＿一些客户，了解他们对新产品的看法。",
+   "a": "采访",
+   "o": [
+    "任务",
+    "效果",
+    "困难"
+   ],
+   "p": "Qù sì tiān, dǎsuàn cǎifǎng yìxiē kèhù, liǎojiě tāmen duì xīn chǎnpǐn de kànfǎ.",
+   "v": "Đi bốn ngày, em định phỏng vấn một số khách hàng để biết ý kiến của họ về sản phẩm mới."
+  },
+  {
+   "q": "了解他们对新＿＿的看法。",
+   "a": "产品",
+   "o": [
+    "及时",
+    "出差",
+    "打扰"
+   ],
+   "p": "Liǎojiě tāmen duì xīn chǎnpǐn de kànfǎ.",
+   "v": "Tìm hiểu ý kiến của họ về sản phẩm mới."
+  },
+  {
+   "q": "了解他们对新产品的＿＿。",
+   "a": "看法",
+   "o": [
+    "及时",
+    "出差",
+    "打扰"
+   ],
+   "p": "Liǎojiě tāmen duì xīn chǎnpǐn de kànfǎ.",
+   "v": "Tìm hiểu cách nhìn của họ về sản phẩm mới."
+  },
+  {
+   "q": "那你要提前准备好问题，＿＿和客户交流。",
+   "a": "便于",
+   "o": [
+    "能力",
+    "及时",
+    "内容"
+   ],
+   "p": "Nà nǐ yào tíqián zhǔnbèi hǎo wèntí, biànyú hé kèhù jiāoliú.",
+   "v": "Vậy em phải chuẩn bị trước câu hỏi cho dễ trao đổi với khách."
+  },
+  {
+   "q": "我最近跟经理＿＿了明年的计划。",
+   "a": "谈",
+   "o": [
+    "想法",
+    "客户",
+    "任务"
+   ],
+   "p": "Wǒ zuìjìn gēn jīnglǐ tán le míngnián de jìhuà.",
+   "v": "Gần đây tôi đã bàn với giám đốc về kế hoạch năm sau."
+  },
+  {
+   "q": "你有什么＿＿，就告诉我。",
+   "a": "困难",
+   "o": [
+    "及时",
+    "便于",
+    "改"
+   ],
+   "p": "Nǐ yǒu shénme kùnnan, jiù gàosu wǒ.",
+   "v": "Bạn có khó khăn gì cứ nói với tôi."
+  },
+  {
+   "q": "看起来很容易，＿＿上很累。",
+   "a": "实际",
+   "o": [
+    "出差",
+    "真正",
+    "及时"
+   ],
+   "p": "Kàn qǐlái hěn róngyì, shíjìshang hěn lèi.",
+   "v": "Nhìn thì rất dễ, thực tế rất mệt."
+  },
+  {
+   "q": "＿＿很好，吃了两天就不咳嗽了。",
+   "a": "效果",
+   "o": [
+    "既然",
+    "采访",
+    "打扰"
+   ],
+   "p": "Xiàoguǒ hěn hǎo, chī le liǎng tiān jiù bù késou le.",
+   "v": "Hiệu quả lắm, uống hai ngày là hết ho."
+  },
+  {
+   "q": "前段时间，杨同乐的同事谈成了一＿＿不错的生意。",
+   "a": "笔",
+   "o": [
+    "产品",
+    "进入",
+    "使"
+   ],
+   "p": "Qián duàn shíjiān, Yáng Tónglè de tóngshì tán chéng le yì bǐ búcuò de shēngyi.",
+   "v": "Thời gian trước, đồng nghiệp của Dương Đồng Lạc chốt được một vụ làm ăn khá tốt."
+  },
+  {
+   "q": "因为他们很有能力，所以谈成了一笔大＿＿。",
+   "a": "生意",
+   "o": [
+    "调查",
+    "进入",
+    "管理"
+   ],
+   "p": "Yīnwèi tāmen hěn yǒu nénglì, suǒyǐ tán chéng le yì bǐ dà shēngyi.",
+   "v": "Vì họ rất có năng lực nên đã chốt được một vụ làm ăn lớn."
+  },
+  {
+   "q": "经理说他的＿＿是很会和别人交流。",
+   "a": "优点",
+   "o": [
+    "管理",
+    "笔",
+    "份"
+   ],
+   "p": "Jīnglǐ shuō tā de yōudiǎn shì hěn huì hé biérén jiāoliú.",
+   "v": "Giám đốc nói ưu điểm của anh ấy là rất giỏi giao tiếp với người khác."
+  },
+  {
+   "q": "每个人都有优点和＿＿。",
+   "a": "缺点",
+   "o": [
+    "调查",
+    "改",
+    "出差"
+   ],
+   "p": "Měi gè rén dōu yǒu yōudiǎn hé quēdiǎn.",
+   "v": "Ai cũng có ưu điểm và nhược điểm."
+  },
+  {
+   "q": "不同年龄、不同性别的客户对产品的关注＿＿是不一样的。",
+   "a": "点",
+   "o": [
+    "谈",
+    "采访",
+    "便于"
+   ],
+   "p": "Bù tóng niánlíng, bù tóng xìngbié de kèhù duì chǎnpǐn de guānzhùdiǎn shì bù yíyàng de.",
+   "v": "Khách hàng khác tuổi, khác giới quan tâm tới những điểm khác nhau của sản phẩm."
+  },
+  {
+   "q": "效果＿＿就好了很多。",
+   "a": "一下",
+   "o": [
+    "社会",
+    "经验",
+    "看法"
+   ],
+   "p": "Xiàoguǒ yíxià jiù hǎo le hěn duō.",
+   "v": "Hiệu quả lập tức tốt lên rất nhiều."
+  },
+  {
+   "q": "我想多＿＿一些工作经验。",
+   "a": "积累",
+   "o": [
+    "点",
+    "想法",
+    "优点"
+   ],
+   "p": "Wǒ xiǎng duō jīlěi yìxiē gōngzuò jīngyàn.",
+   "v": "Tôi muốn tích luỹ thêm một chút kinh nghiệm làm việc."
+  },
+  {
+   "q": "这次调查＿＿公司更了解客户了。",
+   "a": "使",
+   "o": [
+    "优点",
+    "想法",
+    "缺点"
+   ],
+   "p": "Zhè cì diàochá shǐ gōngsī gèng liǎojiě kèhù le.",
+   "v": "Đợt khảo sát này giúp công ty hiểu khách hàng hơn."
+  },
+  {
+   "q": "你要先把＿＿打好。",
+   "a": "基础",
+   "o": [
+    "进入",
+    "采访",
+    "一下"
+   ],
+   "p": "Nǐ yào xiān bǎ jīchǔ dǎ hǎo.",
+   "v": "Bạn phải xây chắc nền tảng trước đã."
+  },
+  {
+   "q": "他虽然年轻，但是很有＿＿。",
+   "a": "能力",
+   "o": [
+    "及时",
+    "调查",
+    "改"
+   ],
+   "p": "Tā suīrán niánqīng, dànshì hěn yǒu nénglì.",
+   "v": "Anh ấy tuy trẻ nhưng rất có năng lực."
+  },
+  {
+   "q": "有的年轻人经常换工作，总觉得下一＿＿工作会更好。",
+   "a": "份",
+   "o": [
+    "能力",
+    "效果",
+    "管理"
+   ],
+   "p": "Yǒude niánqīngrén jīngcháng huàn gōngzuò, zǒng juéde xià yí fèn gōngzuò huì gèng hǎo.",
+   "v": "Có bạn trẻ hay đổi việc, lúc nào cũng nghĩ công việc tiếp theo sẽ tốt hơn."
+  },
+  {
+   "q": "我认为，年轻人刚＿＿社会时，不能只关心工资的高低。",
+   "a": "进入",
+   "o": [
+    "能力",
+    "笔",
+    "计划"
+   ],
+   "p": "Wǒ rènwéi, niánqīngrén gāng jìnrù shèhuì shí, bù néng zhǐ guānxīn gōngzī de gāodī.",
+   "v": "Tôi cho rằng người trẻ mới bước vào đời không thể chỉ quan tâm lương cao hay thấp."
+  },
+  {
+   "q": "年轻人刚进入＿＿时，更要重视学习。",
+   "a": "社会",
+   "o": [
+    "谈",
+    "真正",
+    "调查"
+   ],
+   "p": "Niánqīngrén gāng jìnrù shèhuì shí, gèng yào zhòngshì xuéxí.",
+   "v": "Người trẻ mới ra đời càng phải coi trọng việc học."
+  },
+  {
+   "q": "了解公司的＿＿方式。",
+   "a": "管理",
+   "o": [
+    "困难",
+    "细心",
+    "生意"
+   ],
+   "p": "Liǎojiě gōngsī de guǎnlǐ fāngshì.",
+   "v": "Tìm hiểu cách quản lý của công ty."
+  },
+  {
+   "q": "只有把这些基础打好，＿＿才会有更好的发展机会。",
+   "a": "今后",
+   "o": [
+    "使",
+    "及时",
+    "便于"
+   ],
+   "p": "Zhǐyǒu bǎ zhèxiē jīchǔ dǎ hǎo, jīnhòu cái huì yǒu gèng hǎo de fāzhǎn jīhuì.",
+   "v": "Chỉ khi xây chắc nền tảng này, sau này mới có cơ hội phát triển tốt hơn."
+  }
+ ]
+}

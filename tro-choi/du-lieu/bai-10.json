@@ -1,0 +1,747 @@
+{
+ "so": 10,
+ "han": "南方不懂北方的冷",
+ "sub": "41 từ mới",
+ "pool": [
+  {
+   "h": "气温",
+   "p": "qìwēn",
+   "v": "nhiệt độ không khí",
+   "hv": "KHÍ ÔN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "后悔",
+   "p": "hòuhuǐ",
+   "v": "hối hận, tiếc vì đã làm / không làm",
+   "hv": "HẬU HỐI",
+   "loai": "động từ"
+  },
+  {
+   "h": "就是",
+   "p": "jiùshì",
+   "v": "đúng vậy, đúng thế (đáp lại)",
+   "hv": "TỰU THỊ",
+   "loai": "phó từ"
+  },
+  {
+   "h": "厚",
+   "p": "hòu",
+   "v": "dày",
+   "hv": "HẬU",
+   "loai": "tính từ"
+  },
+  {
+   "h": "小伙子",
+   "p": "xiǎohuǒzi",
+   "v": "chàng trai, cậu thanh niên",
+   "hv": "TIỂU HOẢ TỬ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "零下",
+   "p": "líng xià",
+   "v": "âm (độ), dưới 0 độ",
+   "hv": "LINH HẠ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "度",
+   "p": "dù",
+   "v": "độ (nhiệt độ)",
+   "hv": "ĐỘ",
+   "loai": "lượng từ"
+  },
+  {
+   "h": "冻",
+   "p": "dòng",
+   "v": "rét cóng, đóng băng",
+   "hv": "ĐỐNG",
+   "loai": "động từ"
+  },
+  {
+   "h": "温度",
+   "p": "wēndù",
+   "v": "nhiệt độ",
+   "hv": "ÔN ĐỘ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "差别",
+   "p": "chābié",
+   "v": "sự khác biệt, chênh lệch",
+   "hv": "SAI BIỆT",
+   "loai": "danh từ"
+  },
+  {
+   "h": "暖和",
+   "p": "nuǎnhuo",
+   "v": "ấm áp; sưởi cho ấm",
+   "hv": "NOÃN HOÀ",
+   "loai": "tính từ"
+  },
+  {
+   "h": "受不了",
+   "p": "shòubuliǎo",
+   "v": "không chịu nổi",
+   "hv": "THỤ BẤT LIỄU",
+   "loai": "động từ"
+  },
+  {
+   "h": "举办",
+   "p": "jǔbàn",
+   "v": "tổ chức (sự kiện)",
+   "hv": "CỬ BIỆN",
+   "loai": "động từ"
+  },
+  {
+   "h": "各种",
+   "p": "gèzhǒng",
+   "v": "các loại, đủ loại",
+   "hv": "CÁC CHỦNG",
+   "loai": "đại từ"
+  },
+  {
+   "h": "寒假",
+   "p": "hánjià",
+   "v": "kỳ nghỉ đông",
+   "hv": "HÀN GIẢ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "低于",
+   "p": "dīyú",
+   "v": "thấp hơn, dưới (mức)",
+   "hv": "ĐÊ VU",
+   "loai": "động từ"
+  },
+  {
+   "h": "摄氏度",
+   "p": "shèshìdù",
+   "v": "độ C (°C)",
+   "hv": "NHIẾP THỊ ĐỘ",
+   "loai": "lượng từ"
+  },
+  {
+   "h": "植物",
+   "p": "zhíwù",
+   "v": "thực vật, cây cối",
+   "hv": "THỰC VẬT",
+   "loai": "danh từ"
+  },
+  {
+   "h": "气候",
+   "p": "qìhòu",
+   "v": "khí hậu",
+   "hv": "KHÍ HẬU",
+   "loai": "danh từ"
+  },
+  {
+   "h": "而",
+   "p": "ér",
+   "v": "còn, mà (đối lập) · mà, và (tiếp nối) · nên (nhân quả)",
+   "hv": "NHI",
+   "loai": "liên từ"
+  },
+  {
+   "h": "引起",
+   "p": "yǐnqǐ",
+   "v": "gây ra, dẫn đến",
+   "hv": "DẪN KHỞI",
+   "loai": "động từ"
+  },
+  {
+   "h": "误会",
+   "p": "wùhuì",
+   "v": "hiểu lầm; sự hiểu lầm",
+   "hv": "NGỘ HỘI",
+   "loai": "danh từ"
+  },
+  {
+   "h": "公里",
+   "p": "gōnglǐ",
+   "v": "ki-lô-mét (km)",
+   "hv": "CÔNG LÝ",
+   "loai": "lượng từ"
+  },
+  {
+   "h": "此外",
+   "p": "cǐwài",
+   "v": "ngoài ra",
+   "hv": "THỬ NGOẠI",
+   "loai": "liên từ"
+  },
+  {
+   "h": "方言",
+   "p": "fāngyán",
+   "v": "phương ngữ, tiếng địa phương",
+   "hv": "PHƯƠNG NGÔN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "普通话",
+   "p": "pǔtōnghuà",
+   "v": "tiếng phổ thông (Hán ngữ chuẩn)",
+   "hv": "PHỔ THÔNG THOẠI",
+   "loai": "danh từ"
+  },
+  {
+   "h": "较",
+   "p": "jiào",
+   "v": "tương đối, khá",
+   "hv": "GIẢO",
+   "loai": "phó từ"
+  },
+  {
+   "h": "使用",
+   "p": "shǐyòng",
+   "v": "sử dụng, dùng",
+   "hv": "SỬ DỤNG",
+   "loai": "động từ"
+  },
+  {
+   "h": "再次",
+   "p": "zàicì",
+   "v": "lần nữa, một lần nữa",
+   "hv": "TÁI THỨ",
+   "loai": "phó từ"
+  },
+  {
+   "h": "拒绝",
+   "p": "jùjué",
+   "v": "từ chối, cự tuyệt",
+   "hv": "CỰ TUYỆT",
+   "loai": "động từ"
+  },
+  {
+   "h": "浪费",
+   "p": "làngfèi",
+   "v": "lãng phí",
+   "hv": "LÃNG PHÍ",
+   "loai": "động từ"
+  },
+  {
+   "h": "节约",
+   "p": "jiéyuē",
+   "v": "tiết kiệm",
+   "hv": "TIẾT ƯỚC",
+   "loai": "động từ"
+  },
+  {
+   "h": "亲爱",
+   "p": "qīn’ài",
+   "v": "thân mến, thân yêu",
+   "hv": "THÂN ÁI",
+   "loai": "tính từ"
+  },
+  {
+   "h": "开展",
+   "p": "kāizhǎn",
+   "v": "triển khai, tổ chức (hoạt động)",
+   "hv": "KHAI TRIỂN",
+   "loai": "động từ"
+  },
+  {
+   "h": "绿色",
+   "p": "lǜsè",
+   "v": "màu xanh lá; xanh (thân thiện môi trường)",
+   "hv": "LỤC SẮC",
+   "loai": "tính từ"
+  },
+  {
+   "h": "环保",
+   "p": "huánbǎo",
+   "v": "bảo vệ môi trường; thân thiện môi trường",
+   "hv": "HOÀN BẢO",
+   "loai": "danh từ"
+  },
+  {
+   "h": "资源",
+   "p": "zīyuán",
+   "v": "tài nguyên",
+   "hv": "TƯ NGUYÊN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "光",
+   "p": "guāng",
+   "v": "hết sạch, không còn gì",
+   "hv": "QUANG",
+   "loai": "tính từ"
+  },
+  {
+   "h": "垃圾",
+   "p": "lājī",
+   "v": "rác",
+   "hv": "(PHIÊN ÂM, KHÔNG CÓ ÂM HÁN VIỆT)",
+   "loai": "danh từ"
+  },
+  {
+   "h": "分类",
+   "p": "fēnlèi",
+   "v": "phân loại",
+   "hv": "PHÂN LOẠI",
+   "loai": "động từ"
+  },
+  {
+   "h": "日常",
+   "p": "rìcháng",
+   "v": "hằng ngày, thường ngày",
+   "hv": "NHẬT THƯỜNG",
+   "loai": "tính từ"
+  }
+ ],
+ "cloze": [
+  {
+   "q": "那里的＿＿有时候只有两三度，你要多带衣服。",
+   "a": "气温",
+   "o": [
+    "此外",
+    "分类",
+    "而"
+   ],
+   "p": "Nàli de qìwēn yǒu shíhou zhǐyǒu liǎng sān dù, nǐ yào duō dài yīfu.",
+   "v": "Nhiệt độ ở đó có lúc chỉ hai ba độ, bạn phải mang thêm quần áo."
+  },
+  {
+   "q": "我很＿＿昨天没带伞，全身都湿了。",
+   "a": "后悔",
+   "o": [
+    "度",
+    "方言",
+    "而"
+   ],
+   "p": "Wǒ hěn hòuhuǐ zuótiān méi dài sǎn, quánshēn dōu shī le.",
+   "v": "Tôi rất hối hận hôm qua không mang ô, ướt hết cả người."
+  },
+  {
+   "q": "＿＿呢，现在买房子太难了。",
+   "a": "就是",
+   "o": [
+    "低于",
+    "气候",
+    "此外"
+   ],
+   "p": "Jiùshì ne, xiànzài mǎi fángzi tài nán le.",
+   "v": "Đúng thế đấy, bây giờ mua nhà khó quá."
+  },
+  {
+   "q": "明天很冷，你要穿＿＿一点儿的衣服。",
+   "a": "厚",
+   "o": [
+    "节约",
+    "公里",
+    "垃圾"
+   ],
+   "p": "Míngtiān hěn lěng, nǐ yào chuān hòu yìdiǎnr de yīfu.",
+   "v": "Mai lạnh lắm, con phải mặc áo dày hơn một chút."
+  },
+  {
+   "q": "你看，这个＿＿从广州去哈尔滨出差。",
+   "a": "小伙子",
+   "o": [
+    "厚",
+    "冻",
+    "后悔"
+   ],
+   "p": "Nǐ kàn, zhè ge xiǎohuǒzi cóng Guǎngzhōu qù Hā'ěrbīn chūchāi.",
+   "v": "Cậu xem, chàng trai này từ Quảng Châu đi công tác Cáp Nhĩ Tân."
+  },
+  {
+   "q": "哈尔滨的气温降到了＿＿二十几度。",
+   "a": "零下",
+   "o": [
+    "后悔",
+    "而",
+    "分类"
+   ],
+   "p": "Hā'ěrbīn de qìwēn jiàngdào le língxià èrshí jǐ dù.",
+   "v": "Nhiệt độ ở Cáp Nhĩ Tân xuống tới âm hai mươi mấy độ."
+  },
+  {
+   "q": "今天三十五＿＿，太热了！",
+   "a": "度",
+   "o": [
+    "光",
+    "气温",
+    "举办"
+   ],
+   "p": "Jīntiān sānshíwǔ dù, tài rè le!",
+   "v": "Hôm nay 35 độ, nóng quá!"
+  },
+  {
+   "q": "哈尔滨太冷了，把他＿＿坏了。",
+   "a": "冻",
+   "o": [
+    "公里",
+    "方言",
+    "误会"
+   ],
+   "p": "Hā'ěrbīn tài lěng le, bǎ tā dòng huài le.",
+   "v": "Cáp Nhĩ Tân lạnh quá, làm anh ấy rét cóng."
+  },
+  {
+   "q": "冬天北方和南方的＿＿差别还是很大的。",
+   "a": "温度",
+   "o": [
+    "浪费",
+    "较",
+    "受不了"
+   ],
+   "p": "Dōngtiān běifāng hé nánfāng de wēndù chābié háishi hěn dà de.",
+   "v": "Mùa đông nhiệt độ miền Bắc và miền Nam chênh nhau khá nhiều."
+  },
+  {
+   "q": "冬天北方和南方的温度＿＿还是很大的。",
+   "a": "差别",
+   "o": [
+    "浪费",
+    "较",
+    "受不了"
+   ],
+   "p": "Dōngtiān běifāng hé nánfāng de wēndù chābié háishi hěn dà de.",
+   "v": "Mùa đông nhiệt độ hai miền chênh nhau khá lớn."
+  },
+  {
+   "q": "我觉得三月最＿＿，不冷也不热。",
+   "a": "暖和",
+   "o": [
+    "此外",
+    "较",
+    "垃圾"
+   ],
+   "p": "Wǒ juéde sānyuè zuì nuǎnhuo, bù lěng yě bú rè.",
+   "v": "Tôi thấy tháng Ba ấm nhất, không lạnh cũng không nóng."
+  },
+  {
+   "q": "我最＿＿又热又没有风的天气。",
+   "a": "受不了",
+   "o": [
+    "普通话",
+    "而",
+    "各种"
+   ],
+   "p": "Wǒ zuì shòubuliǎo yòu rè yòu méiyǒu fēng de tiānqì.",
+   "v": "Tôi chịu không nổi nhất là kiểu thời tiết vừa nóng vừa không có gió."
+  },
+  {
+   "q": "我们城市每年春节都＿＿很多活动。",
+   "a": "举办",
+   "o": [
+    "就是",
+    "小伙子",
+    "各种"
+   ],
+   "p": "Wǒmen chéngshì měi nián Chūnjié dōu jǔbàn hěn duō huódòng.",
+   "v": "Thành phố chúng tôi năm nào Tết cũng tổ chức rất nhiều hoạt động."
+  },
+  {
+   "q": "我喜欢参加＿＿运动，特别是游泳。",
+   "a": "各种",
+   "o": [
+    "寒假",
+    "小伙子",
+    "使用"
+   ],
+   "p": "Wǒ xǐhuan cānjiā gèzhǒng yùndòng, tèbié shì yóuyǒng.",
+   "v": "Tôi thích tham gia đủ loại môn thể thao, nhất là bơi."
+  },
+  {
+   "q": "我们学校一月底放＿＿。",
+   "a": "寒假",
+   "o": [
+    "暖和",
+    "就是",
+    "举办"
+   ],
+   "p": "Wǒmen xuéxiào yīyuè dǐ fàng hánjià.",
+   "v": "Trường mình cuối tháng Một nghỉ đông."
+  },
+  {
+   "q": "哈尔滨的气温一般都＿＿零下十摄氏度。",
+   "a": "低于",
+   "o": [
+    "亲爱",
+    "方言",
+    "垃圾"
+   ],
+   "p": "Hā'ěrbīn de qìwēn yìbān dōu dīyú língxià shí shèshìdù.",
+   "v": "Nhiệt độ Cáp Nhĩ Tân thường dưới âm mười độ C."
+  },
+  {
+   "q": "气温一般都低于零下十＿＿。",
+   "a": "摄氏度",
+   "o": [
+    "绿色",
+    "分类",
+    "厚"
+   ],
+   "p": "Qìwēn yìbān dōu dīyú língxià shí shèshìdù.",
+   "v": "Nhiệt độ thường dưới âm mười độ C."
+  },
+  {
+   "q": "听说广州的鲜花市场很有名，里面有各种＿＿。",
+   "a": "植物",
+   "o": [
+    "绿色",
+    "冻",
+    "低于"
+   ],
+   "p": "Tīngshuō Guǎngzhōu de xiānhuā shìchǎng hěn yǒumíng, lǐmiàn yǒu gèzhǒng zhíwù.",
+   "v": "Nghe nói chợ hoa Quảng Châu rất nổi tiếng, trong đó có đủ loại cây."
+  },
+  {
+   "q": "大叻的＿＿一年四季都很凉快，什么时候去都可以。",
+   "a": "气候",
+   "o": [
+    "受不了",
+    "较",
+    "就是"
+   ],
+   "p": "Dàlè de qìhòu yì nián sìjì dōu hěn liángkuai, shénme shíhou qù dōu kěyǐ.",
+   "v": "Khí hậu Đà Lạt quanh năm bốn mùa đều mát mẻ, đi lúc nào cũng được."
+  },
+  {
+   "q": "河内冬天很冷，＿＿胡志明市一年四季都很热。",
+   "a": "而",
+   "o": [
+    "再次",
+    "方言",
+    "浪费"
+   ],
+   "p": "Hénèi dōngtiān hěn lěng, ér Húzhìmíng Shì yì nián sìjì dōu hěn rè.",
+   "v": "Hà Nội mùa đông rất lạnh, còn Thành phố Hồ Chí Minh quanh năm đều nóng."
+  },
+  {
+   "q": "在工作中这样开玩笑，可能会＿＿误会。",
+   "a": "引起",
+   "o": [
+    "亲爱",
+    "植物",
+    "各种"
+   ],
+   "p": "Zài gōngzuò zhōng zhèyàng kāi wánxiào, kěnéng huì yǐnqǐ wùhuì.",
+   "v": "Trong công việc mà đùa kiểu này có thể gây hiểu lầm đấy."
+  },
+  {
+   "q": "你＿＿了，我没生气，我只是太忙了。",
+   "a": "误会",
+   "o": [
+    "光",
+    "浪费",
+    "使用"
+   ],
+   "p": "Nǐ wùhuì le, wǒ méi shēngqì, wǒ zhǐshì tài máng le.",
+   "v": "Bạn hiểu lầm rồi, tôi không giận, chỉ là tôi bận quá thôi."
+  },
+  {
+   "q": "两个城市之间的距离有三千多＿＿。",
+   "a": "公里",
+   "o": [
+    "开展",
+    "各种",
+    "就是"
+   ],
+   "p": "Liǎng gè chéngshì zhī jiān de jùlí yǒu sānqiān duō gōnglǐ.",
+   "v": "Khoảng cách giữa hai thành phố hơn ba nghìn ki-lô-mét."
+  },
+  {
+   "q": "＿＿，两地的方言也不一样。",
+   "a": "此外",
+   "o": [
+    "气温",
+    "寒假",
+    "植物"
+   ],
+   "p": "Cǐwài, liǎng dì de fāngyán yě bù yíyàng.",
+   "v": "Ngoài ra, phương ngữ hai nơi cũng khác nhau."
+  },
+  {
+   "q": "哈尔滨＿＿和普通话听起来比较像。",
+   "a": "方言",
+   "o": [
+    "亲爱",
+    "就是",
+    "举办"
+   ],
+   "p": "Hā'ěrbīn fāngyán hé pǔtōnghuà tīng qǐlái bǐjiào xiàng.",
+   "v": "Phương ngữ Cáp Nhĩ Tân nghe khá giống tiếng phổ thông."
+  },
+  {
+   "q": "中国人从小都要学习＿＿。",
+   "a": "普通话",
+   "o": [
+    "冻",
+    "就是",
+    "暖和"
+   ],
+   "p": "Zhōngguórén cóngxiǎo dōu yào xuéxí pǔtōnghuà.",
+   "v": "Người Trung Quốc từ nhỏ đều phải học tiếng phổ thông."
+  },
+  {
+   "q": "广州方言和普通话差别＿＿大。",
+   "a": "较",
+   "o": [
+    "引起",
+    "厚",
+    "摄氏度"
+   ],
+   "p": "Guǎngzhōu fāngyán hé pǔtōnghuà chābié jiào dà.",
+   "v": "Phương ngữ Quảng Châu và tiếng phổ thông khác nhau khá nhiều."
+  },
+  {
+   "q": "如果广州人和哈尔滨人都只＿＿自己的方言，交流就很困难。",
+   "a": "使用",
+   "o": [
+    "小伙子",
+    "亲爱",
+    "度"
+   ],
+   "p": "Rúguǒ Guǎngzhōurén hé Hā'ěrbīnrén dōu zhǐ shǐyòng zìjǐ de fāngyán, jiāoliú jiù hěn kùnnan.",
+   "v": "Nếu người Quảng Châu và người Cáp Nhĩ Tân chỉ dùng phương ngữ của mình thì giao tiếp sẽ rất khó."
+  },
+  {
+   "q": "＿＿感谢您的帮助！",
+   "a": "再次",
+   "o": [
+    "绿色",
+    "亲爱",
+    "零下"
+   ],
+   "p": "Zàicì gǎnxiè nín de bāngzhù!",
+   "v": "Một lần nữa cảm ơn sự giúp đỡ của anh!"
+  },
+  {
+   "q": "我＿＿了他，因为今天晚上我要复习HSK。",
+   "a": "拒绝",
+   "o": [
+    "较",
+    "光",
+    "寒假"
+   ],
+   "p": "Wǒ jùjué le tā, yīnwèi jīntiān wǎnshang wǒ yào fùxí HSK.",
+   "v": "Tôi đã từ chối anh ấy, vì tối nay tôi phải ôn HSK."
+  },
+  {
+   "q": "我觉得我最＿＿时间，每天玩手机玩很久。",
+   "a": "浪费",
+   "o": [
+    "资源",
+    "度",
+    "较"
+   ],
+   "p": "Wǒ juéde wǒ zuì làngfèi shíjiān, měi tiān wán shǒujī wán hěn jiǔ.",
+   "v": "Tôi thấy mình lãng phí thời gian nhất, ngày nào cũng nghịch điện thoại rất lâu."
+  },
+  {
+   "q": "刷牙的时候把水关上，要＿＿用水。",
+   "a": "节约",
+   "o": [
+    "度",
+    "公里",
+    "小伙子"
+   ],
+   "p": "Shuāyá de shíhou bǎ shuǐ guānshàng, yào jiéyuē yòng shuǐ.",
+   "v": "Lúc đánh răng thì khoá nước lại, phải tiết kiệm nước."
+  },
+  {
+   "q": "＿＿的同学们：今年的“世界环境日”……",
+   "a": "亲爱",
+   "o": [
+    "方言",
+    "温度",
+    "浪费"
+   ],
+   "p": "Qīn’ài de tóngxuémen: jīnnián de “Shìjiè Huánjìng Rì”……",
+   "v": "Các bạn học sinh thân mến: “Ngày Môi trường Thế giới” năm nay…"
+  },
+  {
+   "q": "我们再次＿＿“绿色生活”活动。",
+   "a": "开展",
+   "o": [
+    "公里",
+    "就是",
+    "方言"
+   ],
+   "p": "Wǒmen zàicì kāizhǎn “Lǜsè Shēnghuó” huódòng.",
+   "v": "Chúng ta lại tổ chức hoạt động “Sống xanh”."
+  },
+  {
+   "q": "我们再次开展“＿＿生活”活动。",
+   "a": "绿色",
+   "o": [
+    "公里",
+    "就是",
+    "方言"
+   ],
+   "p": "Wǒmen zàicì kāizhǎn “Lǜsè Shēnghuó” huódòng.",
+   "v": "Chúng ta lại tổ chức hoạt động “Sống xanh”."
+  },
+  {
+   "q": "积极参加校园、小区＿＿活动。",
+   "a": "环保",
+   "o": [
+    "各种",
+    "低于",
+    "光"
+   ],
+   "p": "Jījí cānjiā xiàoyuán, xiǎoqū huánbǎo huódòng.",
+   "v": "Tích cực tham gia hoạt động bảo vệ môi trường ở trường và khu dân cư."
+  },
+  {
+   "q": "节约＿＿，坚持一水多用。",
+   "a": "资源",
+   "o": [
+    "而",
+    "暖和",
+    "开展"
+   ],
+   "p": "Jiéyuē zīyuán, jiānchí yì shuǐ duō yòng.",
+   "v": "Tiết kiệm tài nguyên, kiên trì dùng một nước cho nhiều việc."
+  },
+  {
+   "q": "餐餐都“＿＿盘”。",
+   "a": "光",
+   "o": [
+    "分类",
+    "差别",
+    "寒假"
+   ],
+   "p": "Cāncān dōu “guāngpán”.",
+   "v": "Bữa nào cũng ăn sạch đĩa."
+  },
+  {
+   "q": "请不要乱扔＿＿。",
+   "a": "垃圾",
+   "o": [
+    "摄氏度",
+    "就是",
+    "度"
+   ],
+   "p": "Qǐng bú yào luàn rēng lājī.",
+   "v": "Xin đừng vứt rác bừa bãi."
+  },
+  {
+   "q": "从小事做起，做好垃圾＿＿。",
+   "a": "分类",
+   "o": [
+    "普通话",
+    "度",
+    "资源"
+   ],
+   "p": "Cóng xiǎo shì zuò qǐ, zuò hǎo lājī fēnlèi.",
+   "v": "Bắt đầu từ việc nhỏ, làm tốt phân loại rác."
+  },
+  {
+   "q": "让绿色生活成为我们的＿＿习惯！",
+   "a": "日常",
+   "o": [
+    "举办",
+    "差别",
+    "气温"
+   ],
+   "p": "Ràng lǜsè shēnghuó chéngwéi wǒmen de rìcháng xíguàn!",
+   "v": "Hãy để sống xanh trở thành thói quen hằng ngày của chúng ta!"
+  }
+ ]
+}

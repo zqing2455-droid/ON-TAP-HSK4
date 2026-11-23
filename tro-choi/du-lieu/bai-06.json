@@ -1,0 +1,700 @@
+{
+ "so": 6,
+ "han": "我陪你去看病",
+ "sub": "39 từ mới",
+ "pool": [
+  {
+   "h": "厉害",
+   "p": "lìhai",
+   "v": "dữ dội, ghê; (khẩu ngữ) giỏi, cừ",
+   "hv": "LỆ HẠI",
+   "loai": "tính từ"
+  },
+  {
+   "h": "严重",
+   "p": "yánzhòng",
+   "v": "nghiêm trọng, nặng",
+   "hv": "NGHIÊM TRỌNG",
+   "loai": "tính từ"
+  },
+  {
+   "h": "赶快",
+   "p": "gǎnkuài",
+   "v": "mau, nhanh lên",
+   "hv": "CẢN KHOÁI",
+   "loai": "phó từ"
+  },
+  {
+   "h": "陪",
+   "p": "péi",
+   "v": "đi cùng, ở bên (ai)",
+   "hv": "BỒI",
+   "loai": "động từ"
+  },
+  {
+   "h": "咳嗽",
+   "p": "késou",
+   "v": "ho",
+   "hv": "KHÁI THẤU",
+   "loai": "động từ"
+  },
+  {
+   "h": "咳",
+   "p": "ké",
+   "v": "ho (dạng ngắn của 咳嗽)",
+   "hv": "KHÁI",
+   "loai": "động từ"
+  },
+  {
+   "h": "翻译",
+   "p": "fānyì",
+   "v": "dịch; người phiên dịch",
+   "hv": "PHIÊN DỊCH",
+   "loai": "động từ"
+  },
+  {
+   "h": "表",
+   "p": "biǎo",
+   "v": "tờ khai, bảng biểu",
+   "hv": "BIỂU",
+   "loai": "danh từ"
+  },
+  {
+   "h": "挂号",
+   "p": "guàhào",
+   "v": "lấy số (khám bệnh), đăng ký khám",
+   "hv": "QUẢI HIỆU",
+   "loai": "động từ"
+  },
+  {
+   "h": "排队",
+   "p": "páiduì",
+   "v": "xếp hàng",
+   "hv": "BÀI ĐỘI",
+   "loai": "động từ"
+  },
+  {
+   "h": "护士",
+   "p": "hùshi",
+   "v": "y tá",
+   "hv": "HỘ SĨ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "性别",
+   "p": "xìngbié",
+   "v": "giới tính",
+   "hv": "TÍNH BIỆT",
+   "loai": "danh từ"
+  },
+  {
+   "h": "国籍",
+   "p": "guójí",
+   "v": "quốc tịch",
+   "hv": "QUỐC TỊCH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "家庭",
+   "p": "jiātíng",
+   "v": "gia đình (văn viết)",
+   "hv": "GIA ĐÌNH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "地址",
+   "p": "dìzhǐ",
+   "v": "địa chỉ",
+   "hv": "ĐỊA CHỈ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "大厅",
+   "p": "dàtīng",
+   "v": "sảnh lớn",
+   "hv": "ĐẠI SẢNH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "偶尔",
+   "p": "ǒu’ěr",
+   "v": "thỉnh thoảng, đôi khi (rất ít)",
+   "hv": "NGẪU NHĨ",
+   "loai": "phó từ"
+  },
+  {
+   "h": "结果",
+   "p": "jiéguǒ",
+   "v": "kết quả; kết cục là, rốt cuộc",
+   "hv": "KẾT QUẢ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "光",
+   "p": "guāng",
+   "v": "chỉ, chỉ riêng",
+   "hv": "QUANG",
+   "loai": "phó từ"
+  },
+  {
+   "h": "按时",
+   "p": "ànshí",
+   "v": "đúng giờ, đúng hạn (theo lịch)",
+   "hv": "ÁN THỜI",
+   "loai": "phó từ"
+  },
+  {
+   "h": "感觉",
+   "p": "gǎnjué",
+   "v": "cảm thấy; cảm giác",
+   "hv": "CẢM GIÁC",
+   "loai": "động từ"
+  },
+  {
+   "h": "难受",
+   "p": "nánshòu",
+   "v": "khó chịu (trong người); buồn bực (trong lòng)",
+   "hv": "NAN THỤ",
+   "loai": "tính từ"
+  },
+  {
+   "h": "身",
+   "p": "shēn",
+   "v": "thân người; (lượng từ) cả người, một bộ",
+   "hv": "THÂN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "性",
+   "p": "xìng",
+   "v": "(tính) … — hậu tố",
+   "hv": "TÍNH",
+   "loai": "hậu tố"
+  },
+  {
+   "h": "体温",
+   "p": "tǐwēn",
+   "v": "nhiệt độ cơ thể",
+   "hv": "THỂ ÔN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "降",
+   "p": "jiàng",
+   "v": "hạ xuống, giảm",
+   "hv": "GIÁNG",
+   "loai": "động từ"
+  },
+  {
+   "h": "打针",
+   "p": "dǎzhēn",
+   "v": "tiêm",
+   "hv": "ĐẢ CHÂM",
+   "loai": "động từ"
+  },
+  {
+   "h": "有效",
+   "p": "yǒuxiào",
+   "v": "có hiệu quả; còn hiệu lực",
+   "hv": "HỮU HIỆU",
+   "loai": "động từ"
+  },
+  {
+   "h": "汗",
+   "p": "hàn",
+   "v": "mồ hôi",
+   "hv": "HÃN",
+   "loai": "danh từ"
+  },
+  {
+   "h": "醒",
+   "p": "xǐng",
+   "v": "tỉnh dậy, thức giấc",
+   "hv": "TỈNH",
+   "loai": "động từ"
+  },
+  {
+   "h": "低",
+   "p": "dī",
+   "v": "thấp",
+   "hv": "ĐÊ",
+   "loai": "tính từ"
+  },
+  {
+   "h": "过程",
+   "p": "guòchéng",
+   "v": "quá trình",
+   "hv": "QUÁ TRÌNH",
+   "loai": "danh từ"
+  },
+  {
+   "h": "情况",
+   "p": "qíngkuàng",
+   "v": "tình hình, tình trạng",
+   "hv": "TÌNH HUỐNG",
+   "loai": "danh từ"
+  },
+  {
+   "h": "好",
+   "p": "hǎo",
+   "v": "để, để cho (dễ…)",
+   "hv": "HẢO",
+   "loai": "động từ"
+  },
+  {
+   "h": "通",
+   "p": "tōng",
+   "v": "thông, hiểu được (ngôn ngữ)",
+   "hv": "THÔNG",
+   "loai": "động từ"
+  },
+  {
+   "h": "部",
+   "p": "bù",
+   "v": "bộ phận, khoa, ban",
+   "hv": "BỘ",
+   "loai": "danh từ"
+  },
+  {
+   "h": "收费",
+   "p": "shōufèi",
+   "v": "thu phí; phí",
+   "hv": "THU PHÍ",
+   "loai": "động từ"
+  },
+  {
+   "h": "治疗",
+   "p": "zhìliáo",
+   "v": "điều trị",
+   "hv": "TRỊ LIỆU",
+   "loai": "động từ"
+  },
+  {
+   "h": "步",
+   "p": "bù",
+   "v": "bước",
+   "hv": "BỘ",
+   "loai": "danh từ"
+  }
+ ],
+ "cloze": [
+  {
+   "q": "我牙疼得很＿＿，去看医生了。",
+   "a": "厉害",
+   "o": [
+    "通",
+    "情况",
+    "打针"
+   ],
+   "p": "Wǒ yá téng de hěn lìhai, qù kàn yīshēng le.",
+   "v": "Tôi đau răng dữ quá, đi khám bác sĩ rồi."
+  },
+  {
+   "q": "你的脚＿＿吗？要不要去医院？",
+   "a": "严重",
+   "o": [
+    "过程",
+    "治疗",
+    "身"
+   ],
+   "p": "Nǐ de jiǎo yánzhòng ma? Yào bu yào qù yīyuàn?",
+   "v": "Chân bạn có nặng không? Có cần đi bệnh viện không?"
+  },
+  {
+   "q": "要下雨了，＿＿把衣服拿进来！",
+   "a": "赶快",
+   "o": [
+    "严重",
+    "难受",
+    "翻译"
+   ],
+   "p": "Yào xià yǔ le, gǎnkuài bǎ yīfu ná jìnlái!",
+   "v": "Sắp mưa rồi, mau mang quần áo vào!"
+  },
+  {
+   "q": "别担心，明天我＿＿你去医院。",
+   "a": "陪",
+   "o": [
+    "难受",
+    "过程",
+    "厉害"
+   ],
+   "p": "Bié dānxīn, míngtiān wǒ péi nǐ qù yīyuàn.",
+   "v": "Đừng lo, mai tôi đi bệnh viện cùng bạn."
+  },
+  {
+   "q": "对，我还发烧，一直＿＿，咳得很厉害。",
+   "a": "咳嗽",
+   "o": [
+    "性别",
+    "表",
+    "赶快"
+   ],
+   "p": "Duì, wǒ hái fāshāo, yìzhí késou, ké de hěn lìhai.",
+   "v": "Ừ, tớ còn sốt, ho suốt, ho dữ lắm."
+  },
+  {
+   "q": "我＿＿得很厉害，晚上睡不好。",
+   "a": "咳",
+   "o": [
+    "性别",
+    "难受",
+    "过程"
+   ],
+   "p": "Wǒ ké de hěn lìhai, wǎnshang shuì bu hǎo.",
+   "v": "Mình ho dữ quá, tối ngủ không ngon."
+  },
+  {
+   "q": "我陪你一起去，还能帮你＿＿。",
+   "a": "翻译",
+   "o": [
+    "情况",
+    "按时",
+    "国籍"
+   ],
+   "p": "Wǒ péi nǐ yìqǐ qù, hái néng bāng nǐ fānyì.",
+   "v": "Tớ đi cùng cậu, còn phiên dịch giúp cậu được."
+  },
+  {
+   "q": "请先填一下这张＿＿，然后去挂号。",
+   "a": "表",
+   "o": [
+    "按时",
+    "降",
+    "厉害"
+   ],
+   "p": "Qǐng xiān tián yíxià zhè zhāng biǎo, ránhòu qù guàhào.",
+   "v": "Mời anh/chị điền tờ này trước, rồi đi lấy số."
+  },
+  {
+   "q": "先去＿＿，然后再去找医生。",
+   "a": "挂号",
+   "o": [
+    "性",
+    "国籍",
+    "过程"
+   ],
+   "p": "Xiān qù guàhào, ránhòu zài qù zhǎo yīshēng.",
+   "v": "Đi lấy số trước, rồi mới đi gặp bác sĩ."
+  },
+  {
+   "q": "＿＿，您好，我的这位外国朋友生病了。",
+   "a": "护士",
+   "o": [
+    "厉害",
+    "挂号",
+    "翻译"
+   ],
+   "p": "Hùshi, nín hǎo, wǒ de zhè wèi wàiguó péngyou shēngbìng le.",
+   "v": "Chào chị y tá, bạn nước ngoài của em bị ốm."
+  },
+  {
+   "q": "请在这张表上写上病人的姓名、＿＿……",
+   "a": "性别",
+   "o": [
+    "陪",
+    "有效",
+    "厉害"
+   ],
+   "p": "Qǐng zài zhè zhāng biǎo shàng xiě shàng bìngrén de xìngmíng, xìngbié……",
+   "v": "Anh điền vào tờ này họ tên, giới tính của bệnh nhân…"
+  },
+  {
+   "q": "……写上病人的姓名、性别、＿＿、年龄……",
+   "a": "国籍",
+   "o": [
+    "好",
+    "降",
+    "严重"
+   ],
+   "p": "……xiě shàng bìngrén de xìngmíng, xìngbié, guójí, niánlíng……",
+   "v": "…ghi họ tên, giới tính, quốc tịch, tuổi của bệnh nhân…"
+  },
+  {
+   "q": "……电话号码和＿＿地址。",
+   "a": "家庭",
+   "o": [
+    "通",
+    "低",
+    "挂号"
+   ],
+   "p": "……diànhuà hàomǎ hé jiātíng dìzhǐ.",
+   "v": "…số điện thoại và địa chỉ nhà."
+  },
+  {
+   "q": "把你的＿＿给我吧，我给你寄点儿东西。",
+   "a": "地址",
+   "o": [
+    "陪",
+    "赶快",
+    "挂号"
+   ],
+   "p": "Bǎ nǐ de dìzhǐ gěi wǒ ba, wǒ gěi nǐ jì diǎnr dōngxi.",
+   "v": "Cho mình địa chỉ của cậu, mình gửi ít đồ cho cậu."
+  },
+  {
+   "q": "你先在＿＿休息，别着急。",
+   "a": "大厅",
+   "o": [
+    "赶快",
+    "治疗",
+    "挂号"
+   ],
+   "p": "Nǐ xiān zài dàtīng xiūxi, bié zháojí.",
+   "v": "Cậu ngồi nghỉ ở sảnh trước, đừng sốt ruột."
+  },
+  {
+   "q": "我＿＿喝一点儿。",
+   "a": "偶尔",
+   "o": [
+    "厉害",
+    "情况",
+    "感觉"
+   ],
+   "p": "Wǒ ǒu’ěr hē yìdiǎnr.",
+   "v": "Tôi thỉnh thoảng uống một chút thôi."
+  },
+  {
+   "q": "我以为今天不会下雨，＿＿下了大雨。",
+   "a": "结果",
+   "o": [
+    "降",
+    "好",
+    "打针"
+   ],
+   "p": "Wǒ yǐwéi jīntiān bú huì xià yǔ, jiéguǒ xià le dàyǔ.",
+   "v": "Tôi tưởng hôm nay không mưa, rốt cuộc mưa to."
+  },
+  {
+   "q": "＿＿少吃不够，还要多运动。",
+   "a": "光",
+   "o": [
+    "好",
+    "性",
+    "身"
+   ],
+   "p": "Guāng shǎo chī bú gòu, hái yào duō yùndòng.",
+   "v": "Chỉ ăn ít thôi chưa đủ, còn phải tập thể dục nhiều nữa."
+  },
+  {
+   "q": "报告一定要在周五＿＿交。",
+   "a": "按时",
+   "o": [
+    "国籍",
+    "好",
+    "翻译"
+   ],
+   "p": "Bàogào yídìng yào zài zhōuwǔ ànshí jiāo.",
+   "v": "Báo cáo nhất định phải nộp đúng hạn vào thứ Sáu."
+  },
+  {
+   "q": "吃了药以后，我＿＿好多了。",
+   "a": "感觉",
+   "o": [
+    "过程",
+    "性",
+    "按时"
+   ],
+   "p": "Chī le yào yǐhòu, wǒ gǎnjué hǎo duō le.",
+   "v": "Uống thuốc xong, tôi thấy đỡ hơn nhiều rồi."
+  },
+  {
+   "q": "我头疼，很＿＿，想请一天假。",
+   "a": "难受",
+   "o": [
+    "光",
+    "国籍",
+    "治疗"
+   ],
+   "p": "Wǒ tóuténg, hěn nánshòu, xiǎng qǐng yì tiān jià.",
+   "v": "Tôi đau đầu, khó chịu lắm, muốn xin nghỉ một ngày."
+  },
+  {
+   "q": "她头也一直疼，＿＿上一点儿力气都没有。",
+   "a": "身",
+   "o": [
+    "降",
+    "性",
+    "陪"
+   ],
+   "p": "Tā tóu yě yìzhí téng, shēnshang yìdiǎnr lìqi dōu méiyǒu.",
+   "v": "Đầu cô ấy cũng đau suốt, người không còn chút sức nào."
+  },
+  {
+   "q": "发现她得了比较严重的流行＿＿感冒。",
+   "a": "性",
+   "o": [
+    "醒",
+    "护士",
+    "治疗"
+   ],
+   "p": "Fāxiàn tā dé le bǐjiào yánzhòng de liúxíngxìng gǎnmào.",
+   "v": "Mới biết cô ấy bị cúm khá nặng."
+  },
+  {
+   "q": "现在需要把＿＿降下来。",
+   "a": "体温",
+   "o": [
+    "严重",
+    "有效",
+    "通"
+   ],
+   "p": "Xiànzài xūyào bǎ tǐwēn jiàng xiàlái.",
+   "v": "Bây giờ cần hạ nhiệt độ cơ thể xuống."
+  },
+  {
+   "q": "现在需要把体温＿＿下来。",
+   "a": "降",
+   "o": [
+    "汗",
+    "部",
+    "护士"
+   ],
+   "p": "Xiànzài xūyào bǎ tǐwēn jiàng xiàlái.",
+   "v": "Bây giờ cần hạ sốt."
+  },
+  {
+   "q": "光吃药恐怕不够，＿＿会更有效。",
+   "a": "打针",
+   "o": [
+    "护士",
+    "按时",
+    "大厅"
+   ],
+   "p": "Guāng chī yào kǒngpà bú gòu, dǎzhēn huì gèng yǒuxiào.",
+   "v": "Chỉ uống thuốc e là không đủ, tiêm sẽ hiệu quả hơn."
+  },
+  {
+   "q": "打针会更＿＿。",
+   "a": "有效",
+   "o": [
+    "严重",
+    "厉害",
+    "按时"
+   ],
+   "p": "Dǎzhēn huì gèng yǒuxiào.",
+   "v": "Tiêm sẽ hiệu quả hơn."
+  },
+  {
+   "q": "晚上，白家月睡觉时出了一身＿＿。",
+   "a": "汗",
+   "o": [
+    "咳嗽",
+    "挂号",
+    "治疗"
+   ],
+   "p": "Wǎnshang, Bái Jiāyuè shuìjiào shí chū le yì shēn hàn.",
+   "v": "Tối đó, lúc ngủ Gia Nguyệt ra mồ hôi khắp người."
+  },
+  {
+   "q": "第二天＿＿来时，她感觉头不那么疼了。",
+   "a": "醒",
+   "o": [
+    "国籍",
+    "体温",
+    "家庭"
+   ],
+   "p": "Dì èr tiān xǐnglái shí, tā gǎnjué tóu bú nàme téng le.",
+   "v": "Sáng hôm sau tỉnh dậy, cô thấy đầu bớt đau."
+  },
+  {
+   "q": "体温也＿＿了一些。",
+   "a": "低",
+   "o": [
+    "挂号",
+    "偶尔",
+    "陪"
+   ],
+   "p": "Tǐwēn yě dī le yìxiē.",
+   "v": "Nhiệt độ cũng hạ bớt."
+  },
+  {
+   "q": "办签证的＿＿不太复杂。",
+   "a": "过程",
+   "o": [
+    "难受",
+    "挂号",
+    "严重"
+   ],
+   "p": "Bàn qiānzhèng de guòchéng bú tài fùzá.",
+   "v": "Quá trình làm visa không phức tạp lắm."
+  },
+  {
+   "q": "经理想了解一下最近的工作＿＿。",
+   "a": "情况",
+   "o": [
+    "通",
+    "严重",
+    "低"
+   ],
+   "p": "Jīnglǐ xiǎng liǎojiě yíxià zuìjìn de gōngzuò qíngkuàng.",
+   "v": "Giám đốc muốn nắm tình hình công việc gần đây."
+  },
+  {
+   "q": "你今天早点儿睡，明天＿＿早点儿起床去机场。",
+   "a": "好",
+   "o": [
+    "大厅",
+    "身",
+    "护士"
+   ],
+   "p": "Nǐ jīntiān zǎo diǎnr shuì, míngtiān hǎo zǎo diǎnr qǐchuáng qù jīchǎng.",
+   "v": "Hôm nay bạn ngủ sớm đi, để mai dậy sớm ra sân bay."
+  },
+  {
+   "q": "外国人第一次在中国看病，可能会担心语言不＿＿。",
+   "a": "通",
+   "o": [
+    "家庭",
+    "严重",
+    "表"
+   ],
+   "p": "Wàiguórén dì yī cì zài Zhōngguó kànbìng, kěnéng huì dānxīn yǔyán bù tōng.",
+   "v": "Người nước ngoài lần đầu khám ở Trung Quốc có thể lo không hiểu tiếng."
+  },
+  {
+   "q": "有的医院有国际＿＿。",
+   "a": "部",
+   "o": [
+    "性",
+    "收费",
+    "排队"
+   ],
+   "p": "Yǒu de yīyuàn yǒu guójìbù.",
+   "v": "Có bệnh viện có khoa quốc tế."
+  },
+  {
+   "q": "国际部的＿＿比较高。",
+   "a": "收费",
+   "o": [
+    "护士",
+    "地址",
+    "步"
+   ],
+   "p": "Guójìbù de shōufèi bǐjiào gāo.",
+   "v": "Phí ở khoa quốc tế khá cao."
+  },
+  {
+   "q": "医生会做一些检查，好给出合适的＿＿方法。",
+   "a": "治疗",
+   "o": [
+    "按时",
+    "表",
+    "汗"
+   ],
+   "p": "Yīshēng huì zuò yìxiē jiǎnchá, hǎo gěichū héshì de zhìliáo fāngfǎ.",
+   "v": "Bác sĩ làm vài xét nghiệm để đưa ra cách điều trị phù hợp."
+  },
+  {
+   "q": "第一＿＿是挂号。",
+   "a": "步",
+   "o": [
+    "醒",
+    "打针",
+    "咳嗽"
+   ],
+   "p": "Dì yī bù shì guàhào.",
+   "v": "Bước đầu tiên là lấy số."
+  }
+ ]
+}
