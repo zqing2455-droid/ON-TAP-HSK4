@@ -98,12 +98,12 @@ footer{margin-top:44px; padding-top:16px; border-top:1px solid var(--line); font
     </div>
     <div class="prog" id="fcNum">&nbsp;</div>
   </a>
-  <a class="les soon" id="tcCard">
-    <div class="seal">说</div>
+  <a class="les" href="tro-choi/" id="tcCard">
+    <div class="seal">玩</div>
     <div class="body">
-      <div class="meta">Trò chơi · sắp có</div>
-      <div class="ttl">Luyện nói · ôn từ vựng · ngữ pháp</div>
-      <div class="tags"><span>Đang soạn</span></div>
+      <div class="meta">Trò chơi<span class="new-tag">MỚI</span></div>
+      <div class="ttl">Ôn từ vựng qua trò chơi gấu trúc</div>
+      <div class="tags"><span>Gấu trúc câu cá</span><span>Đường đua rừng trúc</span><span>Ai trốn sau bụi trúc?</span></div>
     </div>
     <div class="prog" id="tcNum">&nbsp;</div>
   </a>
@@ -222,17 +222,18 @@ async function readLesson(n){
   });
 })();
 
-/* Đếm số bài trong thư mục flashcard/ và tro-choi/ để hiện lên thẻ dẫn đường. */
-async function demBai(thuMuc, id){
+/* Đếm số bài có bộ thẻ (flashcard/bai-NN.html) và có trò chơi (tro-choi/du-lieu/bai-NN.json) để hiện lên thẻ dẫn đường. */
+async function demBai(mau, id){
   const el=document.getElementById(id); if(!el) return;
   let n=0;
   for(let i=1;i<=60;i++){
-    try{ const r=await fetch(thuMuc+'/bai-'+String(i).padStart(2,'0')+'.html',{method:'HEAD',cache:'no-cache'});
+    try{ const r=await fetch(mau.replace('NN',String(i).padStart(2,'0')),{method:'HEAD',cache:'no-cache'});
          if(!r.ok) break; n++; }catch(e){ break; }
   }
   el.textContent = n ? n+' bài' : '';
 }
-demBai('flashcard','fcNum');
+demBai('flashcard/bai-NN.html','fcNum');
+demBai('tro-choi/du-lieu/bai-NN.json','tcNum');
 </script>
 </body>
 </html>
