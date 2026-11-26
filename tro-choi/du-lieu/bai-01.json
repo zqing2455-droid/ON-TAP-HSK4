@@ -144,6 +144,13 @@
    "loai": "động từ"
   },
   {
+   "h": "通过",
+   "p": "tōngguò",
+   "v": "thông qua, nhờ; vượt qua (kỳ thi)",
+   "hv": "THÔNG QUÁ",
+   "loai": "giới từ"
+  },
+  {
    "h": "适应",
    "p": "shìyìng",
    "v": "thích nghi, quen dần với",
@@ -205,13 +212,6 @@
    "v": "hoạt động; vận động",
    "hv": "HOẠT ĐỘNG",
    "loai": "danh từ"
-  },
-  {
-   "h": "通过",
-   "p": "tōngguò",
-   "v": "thông qua; vượt qua",
-   "hv": "THÔNG QUÁ",
-   "loai": "giới từ"
   },
   {
    "h": "将来",
@@ -506,6 +506,17 @@
    "v": "Bạn nên trò chuyện nhiều với người Trung Quốc."
   },
   {
+   "q": "＿＿每天跟中国朋友说中文，我的口语提高得很快。",
+   "a": "通过",
+   "o": [
+    "教师",
+    "入学",
+    "博士"
+   ],
+   "p": "Tōngguò měi tiān gēn Zhōngguó péngyou shuō Zhōngwén, wǒ de kǒuyǔ tígāo de hěn kuài.",
+   "v": "Nhờ ngày nào cũng nói tiếng Trung với bạn Trung Quốc, khẩu ngữ của tôi tiến bộ rất nhanh."
+  },
+  {
    "q": "我已经＿＿新工作了。",
    "a": "适应",
    "o": [
@@ -603,17 +614,6 @@
    ],
    "p": "Jīntiān xiàwǔ gōngsī yǒu huódòng, wǒ wǎn diǎnr huí jiā.",
    "v": "Chiều nay công ty có hoạt động, tôi về nhà muộn một chút."
-  },
-  {
-   "q": "＿＿这些交流，外国学生能更快地适应中国的大学生活。",
-   "a": "通过",
-   "o": [
-    "经济",
-    "知识",
-    "硕士"
-   ],
-   "p": "Tōngguò zhèxiē jiāoliú, wàiguó xuésheng néng gèng kuài de shìyìng Zhōngguó de dàxué shēnghuó.",
-   "v": "Nhờ những lần giao lưu này, sinh viên nước ngoài thích nghi nhanh hơn với đời sống đại học ở Trung Quốc."
   },
   {
    "q": "他＿＿想当老师。",
