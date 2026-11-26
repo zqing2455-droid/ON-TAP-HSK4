@@ -700,6 +700,41 @@
   ]
  },
  {
+  "hz": "通过",
+  "py": "tōngguò",
+  "pos": "giới từ / động từ",
+  "vn": "thông qua, nhờ; vượt qua (kỳ thi)",
+  "hv": "THÔNG QUÁ",
+  "use": "Dùng khi nói CÁCH giúp mình đạt kết quả (giới từ) hoặc khi kể đã qua được kỳ thi (động từ): 通过 + cách thức，S + kết quả (đứng đầu câu), 通过 + 考试 / 面试. Đừng đặt ra sau như tiếng Việt: nói 我通过看电影学中文, không nói 我学中文通过看电影.",
+  "tip": "通 (thông) + 过 (qua): đi thông qua một con đường là nhờ cách đó; đi qua được là thi đỗ. Hán Việt THÔNG QUÁ.",
+  "ph": [
+   [
+    "通过学习",
+    "tōngguò xuéxí",
+    "qua việc học"
+   ],
+   [
+    "通过考试",
+    "tōngguò kǎoshì",
+    "thi đỗ, qua kỳ thi"
+   ]
+  ],
+  "se": [
+   [
+    "通过每天跟中国朋友说中文，我的口语提高得很快。",
+    "Tōngguò měi tiān gēn Zhōngguó péngyou shuō Zhōngwén, wǒ de kǒuyǔ tígāo de hěn kuài.",
+    "Nhờ ngày nào cũng nói tiếng Trung với bạn Trung Quốc, khẩu ngữ của tôi tiến bộ rất nhanh.",
+    "通过每天跟中国朋友说中文"
+   ],
+   [
+    "我通过看中国电影学习中文。",
+    "Wǒ tōngguò kàn Zhōngguó diànyǐng xuéxí Zhōngwén.",
+    "Tôi học tiếng Trung qua việc xem phim Trung Quốc.",
+    "通过看中国电影"
+   ]
+  ]
+ },
+ {
   "hz": "适应",
   "py": "shìyìng",
   "pos": "động từ · v.",
@@ -1011,41 +1046,6 @@
     "Zuò le yì tiān le, qǐlái huódòng huódòng ba.",
     "Ngồi cả ngày rồi, đứng dậy vận động chút đi.",
     "活动活动"
-   ]
-  ]
- },
- {
-  "hz": "通过",
-  "py": "tōngguò",
-  "pos": "giới từ / động từ",
-  "vn": "thông qua; vượt qua",
-  "hv": "THÔNG QUÁ",
-  "use": "Giới từ: nói CÁCH hay CON ĐƯỜNG để đạt kết quả, cụm 通过… thường đứng đầu câu, có dấu phẩy: 通过交流，…. Động từ: qua được kỳ thi: 通过考试.",
-  "tip": "通 (thông) + 过 (qua): đi thông qua một con đường là nhờ cách đó; đi qua được là thi đỗ. Hán Việt THÔNG QUÁ.",
-  "ph": [
-   [
-    "通过交流",
-    "tōngguò jiāoliú",
-    "thông qua giao lưu"
-   ],
-   [
-    "通过考试",
-    "tōngguò kǎoshì",
-    "thi đỗ, qua kỳ thi"
-   ]
-  ],
-  "se": [
-   [
-    "通过这些交流，外国学生能更快地适应中国的大学生活。",
-    "Tōngguò zhèxiē jiāoliú, wàiguó xuésheng néng gèng kuài de shìyìng Zhōngguó de dàxué shēnghuó.",
-    "Nhờ những lần giao lưu này, sinh viên nước ngoài thích nghi nhanh hơn với đời sống đại học ở Trung Quốc.",
-    "通过这些交流"
-   ],
-   [
-    "他通过了HSK四级考试。",
-    "Tā tōngguò le HSK sì jí kǎoshì.",
-    "Anh ấy đã thi đỗ HSK cấp 4.",
-    "通过了HSK四级考试"
    ]
   ]
  },
