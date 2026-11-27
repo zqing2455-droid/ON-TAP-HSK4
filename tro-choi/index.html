@@ -93,12 +93,18 @@ footer{margin-top:40px; padding-top:16px; border-top:1px solid var(--line); font
 <header>
   <div class="eyebrow">《新 HSK 教程 4》</div>
   <h1>Trò chơi <span class="zh">游戏</span></h1>
-  <p class="sub">Chọn trò chơi, rồi chọn bài. Ba trò đều dùng đúng bộ từ trong flashcard của từng bài,
-  nên chơi xong là ôn được từ vừa học. Máy nhớ giúp em kết quả tốt nhất của từng trò.</p>
+  <p class="sub">Chọn trò chơi, rồi chọn bài. Trò luyện nói thì quay vòng, nhìn ảnh và nói thành câu với từ trọng tâm;
+  ba trò ôn từ vựng dùng đúng bộ từ trong flashcard của từng bài. Máy nhớ giúp em kết quả của từng trò.</p>
 </header>
 
 <h2 class="sec">Chọn trò chơi</h2>
 <div class="kinds">
+  <div class="kgroup">
+    <div class="klabel">Luyện nói</div>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" data-k="nhin-anh">Nhìn ảnh nói câu</button>
+    </div>
+  </div>
   <div class="kgroup">
     <div class="klabel">Ôn từ vựng</div>
     <div class="tabs" role="tablist">
@@ -123,13 +129,18 @@ footer{margin-top:40px; padding-top:16px; border-top:1px solid var(--line); font
    cau-ca, duong-dua, bui-truc → dùng chung trang choi.html?tro=…&bai=N,
    dữ liệu từng bài ở du-lieu/bai-NN.json (dựng bằng assets/dung-tro-choi.py từ bộ flashcard).
    Trang tự dò du-lieu/bai-01.json, bai-02.json… cho tới khi không thấy file tiếp theo — thêm bài mới không phải sửa trang này.
-   (Web HSK2 còn có trò “Nhìn ảnh nói câu” vòng xoay và hai trò ngữ pháp; HSK4 chưa dùng.) */
+   nhin-anh → mỗi bài một tệp bai-NN.html trong thư mục này (ảnh nhúng sẵn), dựng bằng assets/dung-nhin-anh.py
+   từ web dạy học; trang dò tệp qua thẻ <meta name="tc-han|tc-key|tc-total">. */
 const NUM='零一二三四五六七八九十';
 const cn=n=> n<=10?NUM[n] : n<20?'十'+(n%10?NUM[n%10]:'') : NUM[Math.floor(n/10)]+'十'+(n%10?NUM[n%10]:'');
 const pad=n=>String(n).padStart(2,'0');
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
 const LOAI={
+  'nhin-anh':{ten:'Nhìn ảnh nói câu', tags:['Vòng xoay từ trọng tâm','Nói thành tiếng'], how:
+    '<p>Bấm <b>Quay chọn từ</b>. Vòng dừng ở từ nào thì ô đó mở ra: một bức ảnh và một câu hỏi.</p>'+
+    '<p>Nhìn ảnh, <b>nói thành tiếng</b> một câu trả lời có dùng từ đó, rồi mới bấm “Xem câu mẫu” để đối chiếu.</p>'+
+    '<p>Tự chấm <b>Nói được rồi</b> hoặc <b>Cần luyện lại</b>. Ô cần luyện lại vẫn nằm trong vòng để quay trúng lại.</p>'},
   'cau-ca':{ten:'Gấu trúc câu cá', tags:['Nghe → chữ','Nghĩa → chữ','10 lượt'], how:
     '<p><b>Nghe → chữ</b> — nghe một từ, bấm con cá mang đúng chữ đó để câu lên. Chưa rõ thì bấm “Nghe lại” hoặc “Chậm”.</p>'+
     '<p><b>Nghĩa → chữ</b> — xem nghĩa tiếng Việt, câu con cá mang chữ Hán tương ứng.</p>'+
