@@ -165,7 +165,8 @@ function known(key){
 /* File trò chơi nặng vì có ảnh — chỉ xin vài KB đầu để đọc thẻ <meta name="tc-…">. */
 async function readSet(n){
   const file='bai-'+pad(n)+'.html';
-  let r; try{ r=await fetch(file,{cache:'no-cache',headers:{Range:'bytes=0-4095'}}); }catch(e){ return null; }
+  // cache:'no-store' + ?tc= : phần 4 KB đọc thử KHÔNG được nằm lại trong bộ nhớ đệm, nếu không lúc mở bài trình duyệt trả đúng bản cụt 4 KB đó
+  let r; try{ r=await fetch(file+'?tc=meta',{cache:'no-store',headers:{Range:'bytes=0-4095'}}); }catch(e){ return null; }
   if(!r.ok) return null;
   const html=await r.text();
   const tag=k=>(html.match(new RegExp('<meta\\s+name="tc-'+k+'"\\s+content="([^"]*)"'))||[])[1];
