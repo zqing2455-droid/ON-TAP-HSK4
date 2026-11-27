@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="tc-han" content="__HAN__">
+<meta name="tc-key" content="__KEY__">
+<meta name="tc-total" content="__TONG__">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Nhìn Ảnh Nói Câu · HSK4 Bài __SO__ · Vòng xoay từ vựng</title>
+<style>
+/* TRÒ CHƠI "NHÌN ẢNH NÓI CÂU" — giao diện Mầm xanh (thay toàn bộ CSS nền tối của khuôn HSK1).
+   Giữ nguyên tên lớp nên phần JS của trò chơi không phải sửa gì. */
+:root{
+  --nen:#FAF7F1; --the:#FFFFFF; --the-2:#F5F1EA; --vien:#ECE5D8;
+  --la:#3F5B4C; --la-dam:#2C4236; --la-nhat:#E8EEE6; --la-vua:#9DB4A2;
+  --hong:#D9958A; --hong-nhat:#F9E7E2; --dao:#F8EBDA; --tim:#ECE8F6;
+  --vang:#DDA640; --vang-nhat:#FBF1DC;
+  --chu:#2F3A33; --chu-phu:#7C877F;
+  --bong:0 1px 0 rgba(44,66,54,.04),0 12px 28px -16px rgba(44,66,54,.22);
+  --f-han:"Noto Serif SC",'Songti SC',serif;
+  --f-viet:'Nunito',system-ui,-apple-system,sans-serif;
+  --f-serif:'Fraunces','Noto Serif SC',Georgia,serif;
+  --f-tay:'Patrick Hand','Nunito',cursive;
+  color-scheme:light;
+  --mam:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 134'%3E%3Cg fill='none' stroke='%233F5B4C' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M60 32V14'/%3E%3Cpath d='M60 20C52 7 37 7 32 13c8 9 19 11 28 7z' fill='%239DB4A2'/%3E%3Cpath d='M60 16c8-13 24-13 29-7-8 10-20 12-29 7z' fill='%239DB4A2'/%3E%3Cpath d='M60 32C31 32 16 62 16 90c0 24 20 38 44 38s44-14 44-38C104 62 89 32 60 32z' fill='%23FBF5EA'/%3E%3Cpath d='M41 77q6 6 12 0M67 77q6 6 12 0M54 89q6 5 12 0'/%3E%3C/g%3E%3Cellipse cx='37' cy='89' rx='7' ry='4.5' fill='%23F1B9AE'/%3E%3Cellipse cx='83' cy='89' rx='7' ry='4.5' fill='%23F1B9AE'/%3E%3Cpath d='M60 120c-10-8-16-14-12-20 3-4 9-3 12 2 3-5 9-6 12-2 4 6-2 12-12 20z' fill='%23D9958A' stroke='%233F5B4C' stroke-width='2.5' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --mam-vui:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 134'%3E%3Cg fill='none' stroke='%233F5B4C' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M60 32V14'/%3E%3Cpath d='M60 20C52 7 37 7 32 13c8 9 19 11 28 7z' fill='%239DB4A2'/%3E%3Cpath d='M60 16c8-13 24-13 29-7-8 10-20 12-29 7z' fill='%239DB4A2'/%3E%3Cpath d='M60 32C31 32 16 62 16 90c0 24 20 38 44 38s44-14 44-38C104 62 89 32 60 32z' fill='%23FBF5EA'/%3E%3Cpath d='M41 79q6-7 12 0M67 79q6-7 12 0'/%3E%3Cpath d='M51 88q9 11 18 0z' fill='%23D9958A'/%3E%3Cpath d='M16 84l-10-12M104 84l10-12'/%3E%3C/g%3E%3Cellipse cx='36' cy='91' rx='7' ry='4.5' fill='%23F1B9AE'/%3E%3Cellipse cx='84' cy='91' rx='7' ry='4.5' fill='%23F1B9AE'/%3E%3Cpath d='M98 26l3 6 6 1-5 4 1 6-5-3-5 3 1-6-5-4 6-1z' fill='%23DDA640'/%3E%3Cpath d='M20 22l2 4 4 1-3 3 1 4-4-2-4 2 1-4-3-3 4-1z' fill='%23DDA640'/%3E%3C/svg%3E");
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{height:100%}
+body{margin:0;background:var(--nen);color:var(--chu);font-family:var(--f-viet);-webkit-font-smoothing:antialiased}
+.wrap{min-height:100%;display:flex;flex-direction:column;gap:18px;padding-block:20px 26px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  max-width:1120px;margin-inline:auto}
+
+/* ── quay về danh sách ── */
+.ve{margin:0 0 -4px}
+.ve a{color:var(--la);font-weight:800;font-size:13.5px;text-decoration:none}
+.ve a:hover{text-decoration:underline}
+
+/* ── đầu trang: linh vật · tên trò chơi · tiến độ ── */
+.dau{display:flex;flex-wrap:wrap;align-items:flex-end;gap:14px 22px}
+.ten{position:relative;display:flex;flex-direction:column;gap:4px;min-width:0;padding-left:78px;min-height:74px;justify-content:center}
+.ten::before{content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);width:66px;height:74px;
+  background:var(--mam) no-repeat center/contain}
+.ten h1{margin:0;font-family:var(--f-serif);font-weight:700;font-size:clamp(24px,4.4vw,36px);
+  letter-spacing:-.01em;color:var(--la-dam);line-height:1.1;text-wrap:balance}
+.ten h1 em{font-style:normal;color:var(--la)}
+.ten p{margin:0;font-size:13.5px;color:var(--chu-phu);line-height:1.5}
+.tien{margin-left:auto;display:flex;flex-direction:column;gap:7px;min-width:220px}
+.tien .so{font-weight:800;font-size:15px;color:var(--la-dam);text-align:right}
+.tien .so b{font-family:var(--f-serif);font-size:26px;color:var(--la);line-height:1}
+.thanh{height:8px;border-radius:999px;background:var(--the-2);overflow:hidden}
+.thanh i{display:block;height:100%;width:0;background:var(--la-vua);transition:width .35s}
+.lam-lai{align-self:flex-end;font:700 12.5px/1 var(--f-viet);color:var(--chu-phu);background:var(--the);
+  border:1.5px solid var(--vien);border-radius:999px;padding:8px 14px;cursor:pointer}
+.lam-lai:hover{color:var(--la);border-color:var(--la-vua)}
+
+/* ── vòng xoay ── */
+.khu{display:grid;grid-template-columns:minmax(250px,320px) 1fr;gap:18px;align-items:start}
+@media (max-width:760px){.khu{grid-template-columns:1fr}}
+.vong{display:flex;flex-direction:column;align-items:center;gap:12px;padding:18px;
+  border-radius:22px;background:var(--the);border:1px solid var(--vien);box-shadow:var(--bong)}
+.dia{position:relative;width:100%;max-width:270px;aspect-ratio:1}
+.dia canvas{width:100%;height:100%;display:block}
+.kim{position:absolute;top:-4px;left:50%;transform:translateX(-50%);width:0;height:0;
+  border-left:11px solid transparent;border-right:11px solid transparent;
+  border-top:20px solid var(--hong);filter:drop-shadow(0 2px 2px rgba(44,66,54,.25))}
+.quay{width:100%;padding:14px 18px;border-radius:999px;cursor:pointer;border:none;
+  background:var(--la);color:#fff;font:800 16px/1 var(--f-viet);letter-spacing:.02em;
+  box-shadow:0 8px 18px -10px rgba(44,66,54,.55)}
+.quay:hover{background:var(--la-dam)}
+.quay:disabled{opacity:.45;cursor:default;box-shadow:none}
+.trung{min-height:42px;text-align:center;font-weight:800;font-size:clamp(16px,2.6vw,20px);color:var(--la-dam);margin:0}
+.trung b{font-family:var(--f-han);font-size:1.3em;color:var(--la)}
+.trung span{color:var(--chu-phu);font-weight:600;font-size:13px;display:block;margin-top:3px;font-family:var(--f-tay);font-size:16px}
+
+/* ── bảng thẻ: ô pastel xoay vòng đào · tím · rêu, giống hàng thẻ trong mẫu ── */
+.bang{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(96px,1fr));align-content:start}
+.the{position:relative;aspect-ratio:1;border:1px solid transparent;cursor:pointer;border-radius:20px;
+  background:var(--dao);color:var(--la-dam);display:flex;flex-direction:column;align-items:center;
+  justify-content:center;gap:5px;padding:8px;transition:transform .12s,box-shadow .12s}
+.the:nth-child(3n+2){background:var(--tim)}
+.the:nth-child(3n+3){background:var(--la-nhat)}
+.the:hover{transform:translateY(-3px);box-shadow:var(--bong)}
+.the:active{transform:translateY(1px)}
+.the .n{font-family:var(--f-han);font-weight:700;font-size:clamp(24px,4.6vw,34px);line-height:1.05;text-align:center}
+.the .cat{font-size:10.5px;font-weight:700;color:var(--chu-phu);text-align:center;line-height:1.3}
+.the .dau-x{position:absolute;top:7px;right:9px;font-size:14px;line-height:1}
+.the.xong{background:var(--la)!important;color:#fff}
+.the.xong .cat{color:#D7E3D9}
+.the.lai{background:var(--hong-nhat)!important;color:#8A4136;border-color:#E2AFA6}
+.the.lai .cat{color:#A8695E}
+.the.nhay,.the:focus-visible{outline:3px solid var(--la-vua);outline-offset:3px}
+
+/* ── ô câu hỏi ── */
+.hoi{position:fixed;inset:0;z-index:20;display:flex;flex-direction:column;background:var(--nen);overflow:auto;
+  padding-block:max(18px,env(safe-area-inset-top,0px)) max(18px,env(safe-area-inset-bottom,0px));
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.hoi-in{margin:auto;width:100%;max-width:880px;display:flex;flex-direction:column;gap:16px}
+.nhan-cat{align-self:flex-start;font-size:12.5px;font-weight:800;letter-spacing:.04em;
+  color:var(--la);background:var(--la-nhat);padding:6px 14px;border-radius:999px}
+.nhan-cat b{font-family:var(--f-han);font-size:1.15em}
+.anh{width:100%;max-height:34vh;object-fit:contain;border-radius:22px;background:var(--the);
+  border:1px solid var(--vien);box-shadow:var(--bong)}
+.cau{margin:0;font-family:var(--f-serif);font-size:clamp(18px,2.8vw,24px);font-weight:600;line-height:1.45;color:var(--la-dam);text-wrap:balance}
+.cau b{font-family:var(--f-han);font-weight:700;font-size:1.15em;color:var(--la)}
+.nhac{margin:0;font-family:var(--f-tay);font-size:17px;color:var(--chu-phu)}
+.mo{align-self:flex-start;padding:13px 22px;border-radius:999px;cursor:pointer;border:1.5px solid var(--vien);
+  background:var(--the);color:var(--la);font:800 15px/1 var(--f-viet)}
+.mo:hover{border-color:var(--la-vua)}
+.mau{display:grid;gap:9px}
+.mau>div{padding:14px 18px;border-radius:18px;background:var(--the);border:1px solid var(--vien);box-shadow:var(--bong)}
+.mau .z{font-family:var(--f-han);font-weight:700;font-size:clamp(20px,3.2vw,27px);color:var(--la-dam);line-height:1.35}
+.mau .y{font-size:14px;color:var(--la);margin-top:3px;font-weight:700}
+.mau .v{font-size:14px;color:var(--chu-phu);margin-top:2px}
+.giai{margin:0;padding:14px 18px;border-radius:18px;background:var(--vang-nhat);
+  font-size:clamp(14px,2vw,16px);line-height:1.6;color:#5A4A2A}
+.giai b{font-family:var(--f-han);font-size:1.12em;color:var(--la-dam)}
+.giai i{color:#8A6A2E;font-style:italic}
+.cham{display:flex;flex-wrap:wrap;gap:10px}
+.cham button{flex:1 1 180px;padding:14px 16px;border-radius:999px;cursor:pointer;min-width:0;
+  font:800 15px/1.2 var(--f-viet);border:1.5px solid transparent}
+.cham .ga{background:var(--la);color:#fff;box-shadow:0 8px 18px -10px rgba(44,66,54,.55)}
+.cham .gb{background:var(--hong-nhat);color:#8A4136;border-color:#E2AFA6}
+.cham button:hover{filter:brightness(1.05)}
+.dong{align-self:center;background:transparent;border:none;color:var(--chu-phu);
+  font:700 13px/1 var(--f-viet);cursor:pointer;padding:8px}
+.dong:hover{color:var(--la)}
+
+/* ── màn kết ── */
+.ket{text-align:center;display:flex;flex-direction:column;gap:14px;align-items:center}
+.ket::before{content:"";width:104px;height:116px;background:var(--mam-vui) no-repeat center/contain}
+.ket h2{margin:0;font-family:var(--f-han);font-weight:700;font-size:clamp(28px,5vw,42px);color:var(--la-dam)}
+.ket .tyso{font-family:var(--f-serif);font-weight:700;font-size:clamp(22px,5vw,34px);line-height:1.25;color:var(--la);text-wrap:balance}
+.ket p{margin:0;color:var(--chu-phu);font-size:15px;line-height:1.7}
+.ket p b{font-family:var(--f-han);color:var(--la-dam)}
+.ket .nut{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.ket .nut button{padding:14px 26px;border-radius:999px;cursor:pointer;border:none;font:800 15px/1 var(--f-viet)}
+.ket .v1{background:var(--la);color:#fff}
+.ket .v2{background:var(--the);border:1.5px solid var(--vien)!important;color:var(--la)}
+.chan{margin-top:auto;font-size:12.5px;color:var(--chu-phu);text-align:center;line-height:1.7;
+  padding-top:14px;border-top:1px solid var(--vien)}
+.chan b{color:var(--la-dam);font-weight:800}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* HSK4: ô ghi cả từ 2–3 chữ · câu hỏi có pinyin + nghĩa */
+.the .n.doi{font-size:clamp(22px,3.8vw,30px)}
+.the .n.dai{font-size:clamp(17px,2.9vw,23px);letter-spacing:-.02em}
+.cau .py-hoi{display:block;font-size:.72em;font-weight:600;color:var(--chu-phu);margin-top:4px}
+.cau .vi-hoi{display:block;font-size:.72em;font-weight:600;color:var(--la);margin-top:2px}
+.cau .yeu-cau{display:inline-block;margin-top:10px;font-size:.66em;font-weight:700;color:var(--chu-phu);background:var(--vang-nhat);border-radius:999px;padding:4px 12px}
+.cau .yeu-cau b{font-size:1.25em}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito:wght@500;600;700;800&family=Patrick+Hand&family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrap">
+  <p class="ve"><a href="./">← Danh sách trò chơi</a></p>
+  <header class="dau">
+    <div class="ten">
+      <h1>看图说话 · <em>Nhìn ảnh nói câu</em></h1>
+      <p>HSK4 · Bài __SO__ 《__HAN__》 — quay vòng chọn TỪ TRỌNG TÂM, vòng dừng ở từ nào thì nhìn ảnh, trả lời câu hỏi bằng một câu có từ đó.</p>
+    </div>
+    <div class="tien">
+      <div class="so">Nói được <b id="soDung">0</b> <span id="soTong">/ __TONG__</span></div>
+      <div class="thanh"><i id="vach"></i></div>
+      <button type="button" class="lam-lai" id="lamLai">Xoá hết, quay lại từ đầu</button>
+    </div>
+  </header>
+
+  <section class="khu">
+    <div class="vong">
+      <div class="dia"><canvas id="dia" width="520" height="520" aria-hidden="true"></canvas><span class="kim"></span></div>
+      <button type="button" class="quay" id="quay">QUAY CHỌN TỪ</button>
+      <p class="trung" id="trung" role="status" aria-live="polite"><span>Bấm quay để bốc một từ</span></p>
+    </div>
+    <main class="bang" id="bang"></main>
+  </section>
+
+  <p class="chan">
+    <b>Cách chơi</b> — Bấm quay, vòng dừng ở từ nào thì ô đó tự mở ra. Nhìn ảnh, NÓI THÀNH TIẾNG trước đã,
+    nói xong mới bấm “Xem câu mẫu” để đối chiếu rồi chấm: <b>Nói được</b> (ô xanh) hoặc <b>Cần luyện lại</b> (ô hồng).<br>
+    Ô đã nói được thì rời khỏi vòng xoay, nên vòng hẹp dần và không bốc trùng. Ô còn hồng vẫn nằm trong vòng để quay trúng lại.
+    Bấm thẳng vào ô trên bảng cũng mở được, không cần quay.<br>
+    Máy nhớ kết quả ngay trên máy em · ảnh là ảnh dạy từ trên lớp của Bài __SO__ · câu mẫu nào cũng dùng đúng từ trọng tâm ★ · phím Esc để đóng ô.
+  </p>
+</div>
+
+<div class="hoi" id="manHoi" hidden>
+  <div class="hoi-in">
+    <span class="nhan-cat" id="cat"></span>
+    <img class="anh" id="anh" alt="">
+    <p class="cau" id="cau"></p>
+    <p class="nhac">Nói thành tiếng trước, rồi mới mở câu mẫu — nhìn đáp án trước thì không luyện được gì.</p>
+    <button type="button" class="mo" id="moMau">Xem câu mẫu</button>
+    <div class="mau" id="mau" hidden></div>
+    <p class="giai" id="giai" hidden></p>
+    <div class="cham" id="cham" hidden>
+      <button type="button" class="ga" data-ok="1">Nói được rồi</button>
+      <button type="button" class="gb" data-ok="0">Cần luyện lại</button>
+    </div>
+    <button type="button" class="dong" id="dong">Đóng, chưa chấm</button>
+  </div>
+</div>
+
+<div class="hoi" id="manKet" hidden>
+  <div class="hoi-in ket">
+    <h2 id="ketTitle">说得好！</h2>
+    <div class="tyso" id="ketTop"></div>
+    <p id="ketPhu"></p>
+    <div class="nut">
+      <button type="button" class="v1" id="luyenDo">Quay lại những mẫu còn đỏ</button>
+      <button type="button" class="v2" id="ketDong">Về bảng</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const NH = __NH__;
+const KEY = "__KEY__";
+const TONG = NH.length;
+const MAU_O = ["#B9CCBC","#F3D2AE","#D3CBEC","#ECB9AF","#ECD594","#B3D3C1","#DCC0DE","#C2D3E2","#E6C7A8"];
+
+const $ = id => document.getElementById(id);
+let kq = {};                        // {chỉ số: 1 nói được · 0 cần luyện lại}
+try{ kq = JSON.parse(localStorage.getItem(KEY) || "{}"); }catch(e){ kq = {}; }
+const luu = () => { try{ localStorage.setItem(KEY, JSON.stringify(kq)); }catch(e){} };
+
+let oDangMo = -1, goc = 0, dangQuay = false;
+
+/* những ô còn nằm trong vòng xoay: chưa chấm, hoặc đã chấm là CẦN LUYỆN LẠI */
+const conLai = () => NH.map((d,i)=>i).filter(i => kq[i] !== 1);
+
+/* ═══════════ BẢNG Ô ═══════════ */
+function veBang(){
+  const b = $("bang"); b.innerHTML = "";
+  NH.forEach((d,i)=>{
+    const t = document.createElement("button");
+    t.type = "button";
+    t.className = "the" + (kq[i]===1 ? " xong" : kq[i]===0 ? " lai" : "");
+    t.dataset.i = i;
+    const dau = kq[i]===1 ? "✓" : kq[i]===0 ? "↻" : "";
+    t.innerHTML = `${dau?`<span class="dau-x">${dau}</span>`:""}<span class="n${d.ch.length > 2 ? ' dai' : d.ch.length > 1 ? ' doi' : ''}">${d.ch}</span><span class="cat">${d.cat}</span>`;
+    t.setAttribute("aria-label", `Từ ${d.ch}` + (kq[i]===1?", đã nói được":kq[i]===0?", cần luyện lại":""));
+    t.onclick = ()=>moO(i);
+    b.append(t);
+  });
+  const dung = Object.values(kq).filter(v=>v===1).length;
+  $("soDung").textContent = dung;
+  $("soTong").textContent = "/ " + TONG;
+  $("vach").style.width = (dung/TONG*100) + "%";
+  $("quay").disabled = conLai().length === 0;
+}
+
+/* ═══════════ VÒNG XOAY CÂU HỎI ═══════════ */
+const cv = $("dia"), cx = cv.getContext("2d");
+function veVong(g){
+  const ds = conLai(), R = cv.width/2, r = R-6;
+  cx.clearRect(0,0,cv.width,cv.height);
+  if(!ds.length){
+    cx.beginPath(); cx.arc(R,R,r,0,7); cx.fillStyle="#EEF2EA"; cx.fill();
+    cx.fillStyle="#7C877F"; cx.font="700 34px 'Noto Serif SC',serif";
+    cx.textAlign="center"; cx.textBaseline="middle"; cx.fillText("全对", R, R);
+    return;
+  }
+  const SEG = 2*Math.PI/ds.length;
+  ds.forEach((idx,k)=>{
+    const a0 = g + k*SEG, a1 = a0 + SEG;
+    cx.beginPath(); cx.moveTo(R,R); cx.arc(R,R,r,a0,a1); cx.closePath();
+    cx.fillStyle = kq[idx]===0 ? "#F4D3CC" : MAU_O[idx % MAU_O.length];
+    cx.fill();
+    cx.strokeStyle = "#FFFFFF"; cx.lineWidth = 3; cx.stroke();
+    cx.save(); cx.translate(R,R); cx.rotate(a0 + SEG/2);
+    cx.fillStyle = "#2C4236"; cx.textAlign = "right"; cx.textBaseline = "middle";
+    cx.font = "900 " + Math.max(17, 40 - ds.length*1.1) + "px 'Noto Serif SC',serif";
+    cx.fillText(NH[idx].ch, r-16, 0); cx.restore();
+  });
+  cx.beginPath(); cx.arc(R,R,22,0,7); cx.fillStyle="#FFFFFF"; cx.fill();
+  cx.strokeStyle="#3F5B4C"; cx.lineWidth=3; cx.stroke();
+}
+
+function quayVong(){
+  const ds = conLai();
+  if(dangQuay || !ds.length) return;
+  dangQuay = true; $("quay").disabled = true;
+  const SEG = 2*Math.PI/ds.length;
+  const k = Math.random()*ds.length|0;
+  const dich = -Math.PI/2 - (k*SEG + SEG/2) + 2*Math.PI*6;
+  const bd = performance.now(), g0 = goc, g1 = g0 + dich - (g0 % (2*Math.PI));
+  (function buoc(t){
+    const p = Math.min(1,(t-bd)/3000), e = 1-Math.pow(1-p,4);
+    goc = g0 + (g1-g0)*e; veVong(goc);
+    if(p<1) requestAnimationFrame(buoc);
+    else{
+      dangQuay = false;
+      const idx = ds[k];
+      $("trung").innerHTML = 'Từ <b>' + NH[idx].ch + '</b> · ' + NH[idx].cat + '<span>Nhìn ảnh, nói một câu có từ này</span>';
+      const o = document.querySelector('.the[data-i="'+idx+'"]');
+      if(o){ o.classList.add("nhay"); o.scrollIntoView({block:"nearest",behavior:"smooth"}); }
+      setTimeout(()=>{ if(o) o.classList.remove("nhay"); moO(idx); }, 700);
+      $("quay").disabled = conLai().length === 0;
+    }
+  })(bd);
+}
+
+/* ═══════════ MÀN NHIỆM VỤ ═══════════ */
+function moO(i){
+  const d = NH[i]; oDangMo = i;
+  $("cat").innerHTML = "TỪ TRỌNG TÂM · <b>" + d.ch + "</b> " + d.cat;
+  $("anh").src = d.img; $("anh").alt = "Ảnh gợi ý cho từ " + d.ch;
+  $("cau").innerHTML = d.task;
+  $("mau").hidden = true; $("mau").innerHTML = "";
+  $("giai").hidden = true; $("cham").hidden = true; $("moMau").hidden = false;
+  $("manHoi").hidden = false; $("moMau").focus();
+}
+$("moMau").onclick = ()=>{
+  const d = NH[oDangMo];
+  $("mau").innerHTML = d.mau.map(m =>
+    `<div><div class="z">${m[0]}</div><div class="y">${m[1]}</div><div class="v">${m[2]}</div></div>`).join("");
+  $("giai").innerHTML = d.note;
+  $("mau").hidden = false; $("giai").hidden = false;
+  $("cham").hidden = false; $("moMau").hidden = true;
+};
+$("cham").onclick = e => {
+  const b = e.target.closest("button"); if(!b) return;
+  kq[oDangMo] = +b.dataset.ok;
+  luu(); $("manHoi").hidden = true;
+  veBang(); veVong(goc);
+  if(conLai().length === 0 || Object.keys(kq).length === TONG) ketThuc();
+};
+$("dong").onclick = ()=>{ $("manHoi").hidden = true; };
+document.addEventListener("keydown", e => {
+  if(e.key === "Escape"){ $("manHoi").hidden = true; $("manKet").hidden = true; }
+});
+
+/* ═══════════ TỔNG KẾT ═══════════ */
+function ketThuc(){
+  const dung = Object.values(kq).filter(v=>v===1).length;
+  const do_ = NH.map((d,i)=>i).filter(i=>kq[i]===0);
+  $("ketTitle").textContent = dung === TONG ? "太好了！" : "说得好！";
+  $("ketTop").textContent = `Nói được ${dung} / ${TONG} từ thành câu`;
+  $("ketPhu").innerHTML = do_.length
+    ? "Còn " + do_.length + " từ cần luyện lại: " + do_.map(i=>"<b>"+NH[i].ch+"</b>").join(" · ")
+    : "__HET__";
+  $("luyenDo").hidden = do_.length === 0;
+  $("manKet").hidden = false;
+}
+$("luyenDo").onclick = ()=>{                       // trả các ô đỏ về trạng thái chưa chấm
+  Object.keys(kq).forEach(k => { if(kq[k] === 0) delete kq[k]; });
+  luu(); $("manKet").hidden = true; veBang(); veVong(goc);
+};
+$("ketDong").onclick = ()=>{ $("manKet").hidden = true; };
+$("lamLai").onclick = ()=>{
+  if(!confirm("Xoá hết kết quả đã chấm và quay lại từ đầu?")) return;
+  kq = {}; luu(); veBang(); veVong(goc);
+  $("trung").innerHTML = '<span>Bấm quay để bốc một từ</span>';
+};
+$("quay").onclick = quayVong;
+
+veBang(); veVong(0);
+</script>
+</body>
+</html>

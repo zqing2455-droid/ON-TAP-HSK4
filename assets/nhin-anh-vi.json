@@ -1,0 +1,852 @@
+{
+ "1": [
+  {
+   "w": "通知",
+   "q_vi": "Bạn đã thấy thông báo của trường chưa?",
+   "d_vi": "Thấy rồi, trường thông báo ngày mai bọn mình được nghỉ học."
+  },
+  {
+   "w": "材料",
+   "q_vi": "Đây là gì? Bạn cần chuẩn bị những giấy tờ gì?",
+   "d_vi": "Đây là hồ sơ để nộp đơn, có hộ chiếu, ảnh và tờ khai."
+  },
+  {
+   "w": "任何",
+   "q_vi": "Bạn muốn đi du lịch ở đâu?",
+   "d_vi": "Bất cứ nơi nào trên thế giới mình cũng muốn đi!"
+  },
+  {
+   "w": "申请",
+   "q_vi": "Cô ấy đang làm gì?",
+   "d_vi": "Cô ấy đang viết đơn xin nhập học. / Cô ấy đang xin học bổng."
+  },
+  {
+   "w": "表现",
+   "q_vi": "Anh ấy thể hiện trong công việc thế nào?",
+   "d_vi": "Anh ấy thể hiện trong công việc rất tốt."
+  },
+  {
+   "w": "获得",
+   "q_vi": "Cuộc thi lần này, họ giành được gì?",
+   "d_vi": "Họ giành được giải nhất."
+  },
+  {
+   "w": "压力",
+   "q_vi": "Anh ấy sao vậy?",
+   "d_vi": "Dạo này anh ấy bị áp lực công việc rất lớn."
+  },
+  {
+   "w": "要是",
+   "q_vi": "Nếu ngày mai thi thì tối nay bạn làm gì?",
+   "d_vi": "Nếu ngày mai thi thì tối nay mình sẽ ôn bài thật kỹ."
+  },
+  {
+   "w": "专业",
+   "q_vi": "Bạn học chuyên ngành gì?",
+   "d_vi": "Mình học chuyên ngành kinh tế."
+  },
+  {
+   "w": "交流",
+   "q_vi": "Họ đang làm gì?",
+   "d_vi": "Họ đang giao lưu với các bạn học sinh Trung Quốc."
+  },
+  {
+   "w": "通过",
+   "q_vi": "Sao cô ấy vui thế?",
+   "d_vi": "Vì cô ấy đã vượt qua kỳ thi."
+  },
+  {
+   "w": "适应",
+   "q_vi": "Hồi mới vào công ty mới, bạn thấy thế nào?",
+   "d_vi": "Lúc đầu mình chưa quen lắm, giờ thì đã thích nghi với công việc mới rồi."
+  },
+  {
+   "w": "随着",
+   "q_vi": "Bây giờ cuộc sống của mọi người có thay đổi gì?",
+   "d_vi": "Cùng với sự phát triển của điện thoại, mọi người ngày càng thích đọc tin tức trên điện thoại."
+  },
+  {
+   "w": "将来",
+   "q_vi": "Sau này họ muốn làm nghề gì?",
+   "d_vi": "Cô bé sau này muốn làm đầu bếp, cậu bé sau này muốn làm cảnh sát."
+  },
+  {
+   "w": "当",
+   "q_vi": "Cô ấy làm nghề gì?",
+   "d_vi": "Cô ấy làm giáo viên."
+  },
+  {
+   "w": "成为",
+   "q_vi": "Bây giờ anh ấy làm nghề gì?",
+   "d_vi": "Cuối cùng anh ấy đã trở thành bác sĩ."
+  },
+  {
+   "w": "方面",
+   "q_vi": "Bạn thích những mặt nào của văn hoá Trung Quốc?",
+   "d_vi": "Về mặt âm nhạc, mình thích nhạc Trung; về mặt ăn uống, mình thích món Trung Quốc."
+  }
+ ],
+ "2": [
+  {
+   "w": "租",
+   "q_vi": "Anh ấy đang làm gì?",
+   "d_vi": "Anh ấy đã thuê một chiếc xe."
+  },
+  {
+   "w": "收拾",
+   "q_vi": "Cô ấy đang làm gì?",
+   "d_vi": "Cô ấy đang dọn dẹp phòng."
+  },
+  {
+   "w": "就是",
+   "q_vi": "Bạn lo không tìm được nhà, anh ấy nói gì?",
+   "d_vi": "Yên tâm đi, cứ giao cho mình là được!"
+  },
+  {
+   "w": "周围",
+   "q_vi": "Xung quanh cô ấy có những ai?",
+   "d_vi": "Xung quanh cô ấy có rất nhiều bạn học."
+  },
+  {
+   "w": "不过",
+   "q_vi": "Họ thấy ý tưởng này thế nào?",
+   "d_vi": "Ý tưởng này hay đấy, có điều vẫn cần bàn thêm chút nữa."
+  },
+  {
+   "w": "恐怕",
+   "q_vi": "Nó làm xong việc chưa?",
+   "d_vi": "Việc nhiều quá, e là hôm nay làm không xong rồi."
+  },
+  {
+   "w": "热闹",
+   "q_vi": "Ở đây thế nào?",
+   "d_vi": "Ở đây đông người lắm, rất náo nhiệt."
+  },
+  {
+   "w": "顺利",
+   "q_vi": "Ngày mai bạn của bạn thi, bạn nói gì với cậu ấy?",
+   "d_vi": "Chúc cậu thi cử suôn sẻ!"
+  },
+  {
+   "w": "并",
+   "q_vi": "Anh ấy đã làm gì cho bạn mình?",
+   "d_vi": "Anh ấy giúp bạn trồng hoa, đồng thời chỉ cho cô ấy cách chăm sóc chỗ hoa này."
+  },
+  {
+   "w": "平常",
+   "q_vi": "Ngày thường tan làm xong cô ấy làm gì?",
+   "d_vi": "Ngày thường tan làm xong, cô ấy thích ngồi yên lặng một lúc."
+  },
+  {
+   "w": "基本上",
+   "q_vi": "Làm xong việc chưa?",
+   "d_vi": "Về cơ bản là làm xong rồi."
+  },
+  {
+   "w": "建议",
+   "q_vi": "Bác sĩ khuyên cô ấy làm gì?",
+   "d_vi": "Bác sĩ khuyên cô ấy nghỉ ngơi nhiều, uống nhiều nước."
+  },
+  {
+   "w": "接着",
+   "q_vi": "Họ đang làm gì?",
+   "d_vi": "Người thứ nhất nói xong, người thứ hai nói tiếp."
+  },
+  {
+   "w": "同时",
+   "q_vi": "Họ đang làm gì?",
+   "d_vi": "Họ đang chơi trò chơi, hai người cùng lúc đưa tay ra."
+  },
+  {
+   "w": "理想",
+   "q_vi": "Ước mơ của bạn là gì?",
+   "d_vi": "Ước mơ của mình là trở thành giáo viên."
+  },
+  {
+   "w": "由于",
+   "q_vi": "Sao cô ấy khóc?",
+   "d_vi": "Do anh ấy nói nhiều lời khó nghe nên cô ấy khóc."
+  }
+ ],
+ "3": [
+  {
+   "w": "直接",
+   "q_vi": "Các phóng viên có câu hỏi thì làm sao?",
+   "d_vi": "Họ có thể hỏi thẳng chú mèo."
+  },
+  {
+   "w": "转",
+   "q_vi": "Đến ngã tư thì đi thế nào?",
+   "d_vi": "Đến ngã tư thì rẽ trái."
+  },
+  {
+   "w": "正好",
+   "q_vi": "Anh ấy thấy cặp kính này thế nào?",
+   "d_vi": "Cặp kính này vừa vặn, anh ấy rất thích!"
+  },
+  {
+   "w": "熟悉",
+   "q_vi": "Họ có quen nhau không?",
+   "d_vi": "Quen chứ, họ biết nhau nhiều năm rồi, rất quen thuộc với nhau."
+  },
+  {
+   "w": "进行",
+   "q_vi": "Họ đang làm gì?",
+   "d_vi": "Họ đang tiến hành thảo luận."
+  },
+  {
+   "w": "支付",
+   "q_vi": "Anh ấy trả tiền bằng cách nào?",
+   "d_vi": "Anh ấy dùng điện thoại quét mã để thanh toán."
+  },
+  {
+   "w": "不仅",
+   "q_vi": "Con mèo này biết làm gì?",
+   "d_vi": "Nó không những biết đọc sách mà còn biết viết chữ."
+  },
+  {
+   "w": "订",
+   "q_vi": "Khi đi du lịch, bạn đặt khách sạn thế nào?",
+   "d_vi": "Mình thường đặt khách sạn trên mạng."
+  },
+  {
+   "w": "甚至",
+   "q_vi": "Anh ấy sao thế?",
+   "d_vi": "Anh ấy mua sắm online tốn quá nhiều tiền, giờ thậm chí không còn tiền ăn cơm nữa."
+  },
+  {
+   "w": "改变",
+   "q_vi": "Nhiều việc thế mà sao anh ấy vẫn vui vậy?",
+   "d_vi": "Anh ấy đã thay đổi suy nghĩ của mình, thấy công việc cũng rất thú vị."
+  },
+  {
+   "w": "乱",
+   "q_vi": "Căn phòng này thế nào?",
+   "d_vi": "Căn phòng này bừa bộn quá, mau dọn dẹp đi."
+  },
+  {
+   "w": "管",
+   "q_vi": "Bố mẹ đang làm gì?",
+   "d_vi": "Bố mẹ đang quản con, không cho bạn ấy chơi game."
+  },
+  {
+   "w": "提供",
+   "q_vi": "Sao anh ấy vui thế?",
+   "d_vi": "Vì công ty mới cung cấp cho anh ấy mức lương rất cao."
+  },
+  {
+   "w": "保护",
+   "q_vi": "Bức tranh này nói về điều gì?",
+   "d_vi": "Chúng ta phải bảo vệ môi trường, bảo vệ các loài động vật nhỏ."
+  },
+  {
+   "w": "于是",
+   "q_vi": "Sao anh ấy nhảy một mình?",
+   "d_vi": "Bạn bè đều không đến, thế là anh ấy đành nhảy một mình."
+  },
+  {
+   "w": "随便",
+   "q_vi": "Nhiều tiền thế, anh ấy sẽ tiêu thế nào?",
+   "d_vi": "Nhiều tiền thế này, anh ấy có thể tuỳ ý mua sắm."
+  },
+  {
+   "w": "保证",
+   "q_vi": "Phần mềm này có an toàn không?",
+   "d_vi": "Phần mềm này có thể bảo đảm an toàn thông tin cho chúng ta."
+  }
+ ],
+ "4": [
+  {
+   "w": "停",
+   "q_vi": "Sao ở đây nhiều xe thế?",
+   "d_vi": "Đây là bãi đỗ xe, nhiều người đỗ xe ở đây."
+  },
+  {
+   "w": "交",
+   "q_vi": "Anh ấy đang làm gì?",
+   "d_vi": "Anh ấy đang nộp hồ sơ, nộp xong là có thể về."
+  },
+  {
+   "w": "联系",
+   "q_vi": "Anh ấy đang nói gì?",
+   "d_vi": "Có việc gì thì gọi điện cho mình, liên lạc với mình nhé!"
+  },
+  {
+   "w": "客气",
+   "q_vi": "Mèo con tặng cá cho bạn, bạn ngại không dám nhận. Mèo con nói gì?",
+   "d_vi": "Đừng khách sáo, đừng khách sáo! Con cá này tặng cậu đấy."
+  },
+  {
+   "w": "提",
+   "q_vi": "Người này tay đang xách gì?",
+   "d_vi": "Người này đang xách một chiếc vali."
+  },
+  {
+   "w": "算",
+   "q_vi": "Bài này có khó không? Anh ấy tính ra chưa?",
+   "d_vi": "Bài này không tính là khó, nhưng anh ấy nghĩ mãi vẫn chưa tính ra."
+  },
+  {
+   "w": "再说",
+   "q_vi": "Anh ấy đọc xong tài liệu này thấy thế nào?",
+   "d_vi": "Anh ấy thấy tài liệu này viết không rõ ràng, vả lại trong đó còn nhiều lỗi chính tả."
+  },
+  {
+   "w": "辛苦",
+   "q_vi": "Công việc của anh ấy thế nào?",
+   "d_vi": "Ngày nào anh ấy cũng chở đồ rất nặng lên núi, công việc rất vất vả."
+  },
+  {
+   "w": "往往",
+   "q_vi": "Giờ tan làm, đường có đông xe không?",
+   "d_vi": "Giờ tan làm, đường thường rất đông xe, dễ tắc đường lắm."
+  },
+  {
+   "w": "既",
+   "q_vi": "Hai người họ có quan hệ gì?",
+   "d_vi": "Họ vừa là đồng nghiệp, vừa là bạn thân."
+  },
+  {
+   "w": "流行",
+   "q_vi": "Quần áo mấy bạn trẻ này mặc thế nào?",
+   "d_vi": "Họ mặc toàn đồ thịnh hành nhất năm nay, trông rất đẹp."
+  },
+  {
+   "w": "省",
+   "q_vi": "Bức tranh này nói về điều gì?",
+   "d_vi": "Mỗi ngày tiết kiệm một ít tiền, sau này sẽ mua được thứ mình muốn."
+  },
+  {
+   "w": "来得及",
+   "q_vi": "Tàu chạy lúc mười giờ rưỡi, bây giờ còn kịp không?",
+   "d_vi": "Bây giờ mới hơn mười giờ, chúng mình còn kịp."
+  },
+  {
+   "w": "顺便",
+   "q_vi": "Trên đường đến trường cô ấy đã làm gì?",
+   "d_vi": "Trên đường đến trường, cô ấy tiện thể gửi một lá thư."
+  },
+  {
+   "w": "心情",
+   "q_vi": "Tâm trạng anh ấy thế nào?",
+   "d_vi": "Trông anh ấy rất vui, tâm trạng cực kỳ tốt."
+  },
+  {
+   "w": "更加",
+   "q_vi": "Luyện tập ba tháng rồi, anh ấy chạy thế nào?",
+   "d_vi": "Sau ba tháng luyện tập, anh ấy chạy nhanh hơn, cơ thể cũng càng khoẻ mạnh hơn."
+  }
+ ],
+ "5": [
+  {
+   "w": "至少",
+   "q_vi": "Làm xong việc này mất bao lâu?",
+   "d_vi": "Việc này ít nhất phải mất nửa tiếng mới làm xong."
+  },
+  {
+   "w": "专门",
+   "q_vi": "Đây là cửa hàng gì?",
+   "d_vi": "Đây là một tiệm nhỏ chuyên may quần áo cho khách."
+  },
+  {
+   "w": "熟",
+   "q_vi": "Sủi cảo chín chưa?",
+   "d_vi": "Sủi cảo vẫn chưa chín, luộc thêm năm phút nữa nhé."
+  },
+  {
+   "w": "道",
+   "q_vi": "Bạn muốn nếm thử món nào?",
+   "d_vi": "Mình muốn nếm thử món Việt Nam này, trông ngon quá."
+  },
+  {
+   "w": "敢",
+   "q_vi": "Anh ấy nhảy từ chỗ cao thế này xuống, bạn có dám không?",
+   "d_vi": "Mình không dám, nguy hiểm quá!"
+  },
+  {
+   "w": "够",
+   "q_vi": "Mỗi ngày cô ấy uống bao nhiêu nước?",
+   "d_vi": "Ngày nào cô ấy cũng uống đủ tám cốc nước, nên rất khoẻ."
+  },
+  {
+   "w": "达到",
+   "q_vi": "Anh ấy leo lên núi chưa?",
+   "d_vi": "Leo lên rồi, cuối cùng anh ấy đã đạt được mục tiêu của mình."
+  },
+  {
+   "w": "相同",
+   "q_vi": "Mấy chiếc máy bay giấy này có giống nhau không?",
+   "d_vi": "Mấy chiếc máy bay giấy màu trắng đều giống nhau, chỉ có một chiếc màu đỏ."
+  },
+  {
+   "w": "各",
+   "q_vi": "Mấy hộp quà này có giống nhau không?",
+   "d_vi": "Mỗi hộp quà một màu riêng, không có hộp nào giống hộp nào."
+  },
+  {
+   "w": "付",
+   "q_vi": "Cô ấy trả tiền ở siêu thị bằng cách nào?",
+   "d_vi": "Cô ấy trả tiền bằng điện thoại, rất tiện."
+  },
+  {
+   "w": "聚餐",
+   "q_vi": "Họ đang làm gì?",
+   "d_vi": "Bạn bè đang tụ tập ăn uống ở nhà hàng, ai cũng rất vui."
+  },
+  {
+   "w": "凉",
+   "q_vi": "Bây giờ là mùa gì? Thời tiết thế nào?",
+   "d_vi": "Bây giờ là mùa thu, trời mát dần rồi."
+  },
+  {
+   "w": "重视",
+   "q_vi": "Sao mẹ lại cùng con xem kế hoạch học tập?",
+   "d_vi": "Vì mẹ rất coi trọng việc học của con."
+  },
+  {
+   "w": "安排",
+   "q_vi": "Trên mấy mẩu giấy nhỏ này viết gì?",
+   "d_vi": "Đây là những việc anh ấy sắp xếp cho tuần này, việc cần làm đều ghi cả trên đó."
+  },
+  {
+   "w": "按照",
+   "q_vi": "Họ hoàn thành nhiệm vụ bằng cách nào?",
+   "d_vi": "Họ làm theo kế hoạch, hoàn thành nhiệm vụ từng bước một."
+  },
+  {
+   "w": "等",
+   "q_vi": "Những người xếp hàng phía sau khi nào mới được lên làm thủ tục?",
+   "d_vi": "Đợi đến khi người phía trước làm xong, họ mới lên."
+  },
+  {
+   "w": "尊重",
+   "q_vi": "Hai người này lần đầu gặp mặt, họ cư xử thế nào?",
+   "d_vi": "Cả hai đều rất lịch sự, tôn trọng lẫn nhau."
+  }
+ ],
+ "6": [
+  {
+   "w": "厉害",
+   "q_vi": "Cậu ấy lại đứng nhất kỳ thi, mọi người nói gì?",
+   "d_vi": "Mọi người đều nói: “Cậu giỏi thật đấy!”"
+  },
+  {
+   "w": "严重",
+   "q_vi": "Bệnh của ông thế nào?",
+   "d_vi": "Bệnh của ông rất nặng, bây giờ đang nằm viện."
+  },
+  {
+   "w": "赶快",
+   "q_vi": "Cô ấy đang nói gì?",
+   "d_vi": "Muộn rồi, mau đi thôi!"
+  },
+  {
+   "w": "陪",
+   "q_vi": "Mẹ đang làm gì?",
+   "d_vi": "Mẹ đang ngồi cùng con gái vẽ tranh."
+  },
+  {
+   "w": "表",
+   "q_vi": "Anh ấy đang làm gì?",
+   "d_vi": "Anh ấy đang điền thông tin của mình vào tờ khai này."
+  },
+  {
+   "w": "挂号",
+   "q_vi": "Họ đang làm gì?",
+   "d_vi": "Họ đang xếp hàng lấy số khám bệnh."
+  },
+  {
+   "w": "排队",
+   "q_vi": "Nhiều người thế này đang làm gì?",
+   "d_vi": "Họ đang xếp hàng, hàng dài lắm."
+  },
+  {
+   "w": "偶尔",
+   "q_vi": "Mỗi tuần anh ấy đi phòng gym mấy lần?",
+   "d_vi": "Anh ấy ít đi lắm, một tuần thỉnh thoảng mới đi một lần."
+  },
+  {
+   "w": "结果",
+   "q_vi": "Anh ấy trồng cây này ba năm rồi, kết quả thế nào?",
+   "d_vi": "Ngày nào anh ấy cũng chăm cây cẩn thận, kết quả là năm nay cây sai trĩu quả."
+  },
+  {
+   "w": "光",
+   "q_vi": "Cô ấy uống nhiều thuốc thế, khỏi bệnh chưa?",
+   "d_vi": "Chưa khỏi. Chỉ uống thuốc thôi thì chưa đủ, còn phải uống nhiều nước, nghỉ ngơi nhiều."
+  },
+  {
+   "w": "按时",
+   "q_vi": "Nhiều việc thế, anh ấy làm xong chưa?",
+   "d_vi": "Xong rồi, anh ấy đã hoàn thành tất cả công việc đúng hạn."
+  },
+  {
+   "w": "感觉",
+   "q_vi": "Nghe nhạc một lúc, cô ấy cảm thấy thế nào?",
+   "d_vi": "Cô ấy cảm thấy trong lòng rất dễ chịu, tâm trạng cũng tốt hơn nhiều."
+  },
+  {
+   "w": "难受",
+   "q_vi": "Cô ấy sao vậy?",
+   "d_vi": "Cô ấy đau đầu dữ dội, khó chịu lắm."
+  },
+  {
+   "w": "过程",
+   "q_vi": "Quá trình khám bệnh diễn ra thế nào?",
+   "d_vi": "Quá trình khám bệnh gồm bốn bước: trước tiên lấy số, rồi gặp bác sĩ, sau đó làm xét nghiệm, cuối cùng lấy thuốc."
+  },
+  {
+   "w": "情况",
+   "q_vi": "Bảng này cho chúng ta biết điều gì?",
+   "d_vi": "Bảng này giúp chúng ta nắm được tình hình gần đây: tình hình ngày càng tốt lên."
+  },
+  {
+   "w": "好",
+   "q_vi": "Anh ấy đang nói gì với mọi người?",
+   "d_vi": "“Yên tâm đi!” Anh ấy đã chuẩn bị xong hết đồ đạc để mọi người khỏi phải lo."
+  }
+ ],
+ "7": [
+  {
+   "w": "打扰",
+   "q_vi": "Anh ấy đang làm gì? Anh ấy muốn người khác làm gì?",
+   "d_vi": "Anh ấy đang uống cà phê nghỉ ngơi, không muốn ai làm phiền."
+  },
+  {
+   "w": "调查",
+   "q_vi": "Anh ấy đang làm gì trên điện thoại?",
+   "d_vi": "Anh ấy đang làm một bài khảo sát online trên điện thoại, chọn hài lòng hay không hài lòng."
+  },
+  {
+   "w": "改",
+   "q_vi": "Viết sai chữ thì làm sao?",
+   "d_vi": "Viết sai cũng không sao, sửa lại là được."
+  },
+  {
+   "w": "细心",
+   "q_vi": "Sao mẹ vui thế?",
+   "d_vi": "Vì con gái làm bài tập rất cẩn thận, không viết sai chữ nào."
+  },
+  {
+   "w": "及时",
+   "q_vi": "Cô ấy giao đồ thế nào?",
+   "d_vi": "Cô ấy giao rất kịp thời, không trễ phút nào."
+  },
+  {
+   "w": "出差",
+   "q_vi": "Anh ấy sắp đi làm gì?",
+   "d_vi": "Anh ấy sắp đi công tác Thượng Hải, tuần sau mới về."
+  },
+  {
+   "w": "经验",
+   "q_vi": "Trong số họ ai có kinh nghiệm nhất?",
+   "d_vi": "Vị giám đốc lớn tuổi đứng phía trước là người có kinh nghiệm nhất."
+  },
+  {
+   "w": "提前",
+   "q_vi": "Cuộc họp bắt đầu lúc mười hai giờ, anh ấy đến lúc mười một giờ năm mươi. Anh ấy đến sớm à?",
+   "d_vi": "Sớm đấy, anh ấy đến trước mười phút."
+  },
+  {
+   "w": "既然",
+   "q_vi": "Anh ấy không biết đường, cô ấy nói gì?",
+   "d_vi": "Đã không biết đường thì cậu tra bản đồ trên điện thoại đi."
+  },
+  {
+   "w": "谈",
+   "q_vi": "Họ đang làm gì?",
+   "d_vi": "Họ đang bàn công việc trong văn phòng."
+  },
+  {
+   "w": "困难",
+   "q_vi": "Cô ấy sao vậy?",
+   "d_vi": "Cô ấy gặp khó khăn trong công việc, không biết phải làm sao."
+  },
+  {
+   "w": "实际",
+   "q_vi": "Anh ấy nói mình không sao, thực tế có đúng vậy không?",
+   "d_vi": "Không. Anh ấy nói mình không sao, nhưng thực tế là anh ấy bị ốm, vừa truyền nước vừa làm việc."
+  },
+  {
+   "w": "效果",
+   "q_vi": "Bức ảnh này chụp dưới nước, hiệu quả thế nào?",
+   "d_vi": "Hiệu quả rất tốt, màu sắc rất đẹp, trông như một bức tranh."
+  },
+  {
+   "w": "积累",
+   "q_vi": "Bức tranh này cho chúng ta biết điều gì?",
+   "d_vi": "Kinh nghiệm và kiến thức đều phải tích luỹ dần dần từng chút một."
+  },
+  {
+   "w": "使",
+   "q_vi": "Sao cô ấy vừa làm bài tập vừa ngủ gật?",
+   "d_vi": "Hôm qua cô ấy ngủ muộn quá, điều đó khiến hôm nay cô ấy đặc biệt mệt, làm bài tập mà cứ buồn ngủ."
+  },
+  {
+   "w": "基础",
+   "q_vi": "Sao cậu ấy làm sai nhiều bài thế?",
+   "d_vi": "Nền tảng toán của cậu ấy chưa vững, đến bài dễ nhất cũng làm sai, phải xây chắc nền tảng trước đã."
+  },
+  {
+   "w": "能力",
+   "q_vi": "Ai chạy nhanh nhất?",
+   "d_vi": "Người màu xanh lá kia chạy nhanh nhất, năng lực của anh ấy mạnh nhất."
+  }
+ ],
+ "8": [
+  {
+   "w": "紧张",
+   "q_vi": "Anh ấy sao vậy?",
+   "d_vi": "Anh ấy sắp phải họp với giám đốc nên rất căng thẳng."
+  },
+  {
+   "w": "放松",
+   "q_vi": "Cô ấy đang làm gì?",
+   "d_vi": "Làm việc cả ngày rồi, cô ấy ngồi xuống thư giãn một chút."
+  },
+  {
+   "w": "不管",
+   "q_vi": "Anh ấy đang phỏng vấn, thể hiện thế nào?",
+   "d_vi": "Bất kể người ta hỏi gì, anh ấy đều trả lời nghiêm túc, không hề căng thẳng."
+  },
+  {
+   "w": "主意",
+   "q_vi": "Anh ấy đang nghĩ gì?",
+   "d_vi": "Anh ấy nghĩ ra một ý hay rồi!"
+  },
+  {
+   "w": "戴",
+   "q_vi": "Cô ấy đang đội gì?",
+   "d_vi": "Cô ấy đang đội một chiếc mũ to màu vàng."
+  },
+  {
+   "w": "否则",
+   "q_vi": "Anh ấy sao vậy? Bạn khuyên anh ấy thế nào?",
+   "d_vi": "Anh ấy mệt quá rồi, đầu óc không nghĩ nổi nữa. Hôm nay phải ngủ sớm một chút, nếu không thì mai cũng học không vào."
+  },
+  {
+   "w": "值得",
+   "q_vi": "Anh ấy mua một cặp kính mới, thấy thế nào?",
+   "d_vi": "Tuy hơi đắt nhưng anh ấy thấy rất đáng, đeo vào trông đẹp hẳn."
+  },
+  {
+   "w": "失去",
+   "q_vi": "Anh ấy sao vậy?",
+   "d_vi": "Anh ấy mất việc rồi, trong lòng rất buồn."
+  },
+  {
+   "w": "之后",
+   "q_vi": "Sao anh ấy lại thành ra thế này?",
+   "d_vi": "Sau khi nhận lương, anh ấy mua rất nhiều đồ. Chưa được mấy ngày đã tiêu sạch tiền."
+  },
+  {
+   "w": "相比",
+   "q_vi": "Hai cây bút chì này cây nào dài hơn?",
+   "d_vi": "So với cây bút chì bên phải, cây bên trái dài hơn."
+  },
+  {
+   "w": "因此",
+   "q_vi": "Sao anh ấy mua hoa?",
+   "d_vi": "Hôm nay là sinh nhật mẹ, vì vậy anh ấy mua một bó hoa rất đẹp tặng mẹ."
+  },
+  {
+   "w": "提醒",
+   "q_vi": "Điện thoại sao thế?",
+   "d_vi": "Điện thoại đang nhắc mình: ba giờ chiều có họp."
+  },
+  {
+   "w": "下降",
+   "q_vi": "Biểu đồ này nói về điều gì?",
+   "d_vi": "Mấy tháng nay, giá cả liên tục giảm."
+  },
+  {
+   "w": "参观",
+   "q_vi": "Họ đang làm gì?",
+   "d_vi": "Bố đưa con trai đến tham quan, hướng dẫn viên đang giới thiệu cho hai bố con."
+  },
+  {
+   "w": "乘坐",
+   "q_vi": "Những người này đang làm gì?",
+   "d_vi": "Họ đang đi tàu điện ngầm để đi làm và tan làm."
+  },
+  {
+   "w": "十分",
+   "q_vi": "Lúc tan làm anh ấy thế nào?",
+   "d_vi": "Anh ấy tăng ca cả ngày, lúc tan làm mệt hết sức."
+  },
+  {
+   "w": "实际上",
+   "q_vi": "Anh ấy có đang chăm chỉ làm việc không?",
+   "d_vi": "Trông anh ấy có vẻ đang chăm chỉ làm việc, nhưng thực ra anh ấy mệt đến sắp ngủ gật rồi."
+  }
+ ],
+ "9": [
+  {
+   "w": "感动",
+   "q_vi": "Sao mẹ khóc?",
+   "d_vi": "Con gái tặng mẹ một món quà, mẹ cảm động đến phát khóc."
+  },
+  {
+   "w": "耐心",
+   "q_vi": "Bố mẹ đang làm gì?",
+   "d_vi": "Bố mẹ đang kiên nhẫn dạy các con làm bài tập."
+  },
+  {
+   "w": "吸引",
+   "q_vi": "Hình người nhỏ màu vàng kia sao vậy?",
+   "d_vi": "Cậu ấy bị thứ ở phía trên thu hút nên tách khỏi mọi người."
+  },
+  {
+   "w": "错过",
+   "q_vi": "Cô ấy sao vậy?",
+   "d_vi": "Cô ấy đến muộn, có lẽ sắp lỡ chuyến bay rồi."
+  },
+  {
+   "w": "尽管",
+   "q_vi": "Sao anh ấy khoẻ thế?",
+   "d_vi": "Mặc dù công việc rất bận nhưng ngày nào anh ấy cũng kiên trì tập thể dục."
+  },
+  {
+   "w": "性格",
+   "q_vi": "Tính cách hai người họ thế nào?",
+   "d_vi": "Tính cách hai người khá giống nhau, đều vui vẻ, hay cười, nói chuyện với ai cũng hợp."
+  },
+  {
+   "w": "理解",
+   "q_vi": "Vợ tâm trạng không tốt, chồng đã nói gì?",
+   "d_vi": "Chồng nói: “Đừng buồn nữa, anh hiểu em mà.”"
+  },
+  {
+   "w": "支持",
+   "q_vi": "Bức tranh này có ý nghĩa gì?",
+   "d_vi": "Mọi người đặt tay lên nhau, ủng hộ lẫn nhau, cùng nhau cố gắng."
+  },
+  {
+   "w": "印象",
+   "q_vi": "Sao anh ấy không vui thế?",
+   "d_vi": "Lần đầu gặp mặt anh ấy đã đến muộn, để lại ấn tượng không tốt cho mọi người."
+  },
+  {
+   "w": "负责",
+   "q_vi": "Cô ấy làm việc thế nào?",
+   "d_vi": "Cô ấy làm việc rất có trách nhiệm, tài liệu nào cũng kiểm tra cẩn thận."
+  },
+  {
+   "w": "积极",
+   "q_vi": "Các bạn học trên lớp thế nào?",
+   "d_vi": "Các bạn học rất tích cực, ai cũng giơ tay trả lời câu hỏi."
+  },
+  {
+   "w": "此",
+   "q_vi": "Anh ấy đang nói gì?",
+   "d_vi": "Anh ấy nói: “Mời mọi người đợi tôi ở đây.”"
+  },
+  {
+   "w": "产生",
+   "q_vi": "Hai người họ sao thế?",
+   "d_vi": "Giữa hai người nảy sinh chút chuyện nhỏ, đang cãi nhau kìa."
+  },
+  {
+   "w": "精彩",
+   "q_vi": "Mọi người thấy màn biểu diễn thế nào?",
+   "d_vi": "Màn biểu diễn rất đặc sắc, ai cũng rất vui."
+  },
+  {
+   "w": "感受",
+   "q_vi": "Trên mấy tờ giấy này vẽ gì?",
+   "d_vi": "Vẽ những cảm nhận khác nhau của con người, có vui, cũng có buồn."
+  },
+  {
+   "w": "尤其",
+   "q_vi": "Con mèo này đang nghĩ gì?",
+   "d_vi": "Nó đang nghĩ hôm nay ăn gì. Món gì nó cũng thích, nhất là cá."
+  },
+  {
+   "w": "从来",
+   "q_vi": "Mèo con có hiểu bài trên bảng không?",
+   "d_vi": "Không hiểu. Bài khó thế này, từ trước tới nay nó chưa gặp bao giờ."
+  }
+ ],
+ "10": [
+  {
+   "w": "气温",
+   "q_vi": "Nhiệt độ hôm nay thế nào?",
+   "d_vi": "Hôm nay nắng to, nhiệt độ rất cao."
+  },
+  {
+   "w": "后悔",
+   "q_vi": "Anh ấy sao vậy?",
+   "d_vi": "Anh ấy rất hối hận, thấy mình đã làm sai."
+  },
+  {
+   "w": "就是",
+   "q_vi": "A: “Trà sữa quán này ngon thật!” Anh ấy trả lời thế nào?",
+   "d_vi": "Đúng thế, mình cũng thấy ngon cực!"
+  },
+  {
+   "w": "厚",
+   "q_vi": "Hai cuốn vở này thế nào?",
+   "d_vi": "Hai cuốn vở này đều rất dày, viết được nhiều thứ."
+  },
+  {
+   "w": "暖和",
+   "q_vi": "Lúc trời lạnh, làm sao cho người ấm lên?",
+   "d_vi": "Mặc áo dày vào, uống thêm một cốc cà phê nóng là ấm ngay."
+  },
+  {
+   "w": "受不了",
+   "q_vi": "Cô ấy sao vậy?",
+   "d_vi": "Việc nhiều quá, cô ấy đau đầu không chịu nổi."
+  },
+  {
+   "w": "举办",
+   "q_vi": "Nhà trường đang làm gì?",
+   "d_vi": "Nhà trường đang tổ chức thi đấu bóng đá."
+  },
+  {
+   "w": "各种",
+   "q_vi": "Trong tiệm này có gì?",
+   "d_vi": "Tiệm này có đủ loại bánh mì, trông cái nào cũng ngon."
+  },
+  {
+   "w": "气候",
+   "q_vi": "Khí hậu ở đây thế nào?",
+   "d_vi": "Khí hậu ở đây rất dễ chịu, không lạnh quá cũng không nóng quá, hay có mưa."
+  },
+  {
+   "w": "而",
+   "q_vi": "Trong lòng anh ấy có thật sự vui không?",
+   "d_vi": "Không. Ngoài mặt anh ấy cười rất tươi, còn trong lòng thì thật ra đang rất tức giận."
+  },
+  {
+   "w": "引起",
+   "q_vi": "Mèo con hát thế nào?",
+   "d_vi": "Nó hát rất to, gây sự chú ý của mọi người."
+  },
+  {
+   "w": "误会",
+   "q_vi": "Họ sao vậy?",
+   "d_vi": "Bạn gái hiểu lầm anh ấy, anh ấy không biết giải thích thế nào."
+  },
+  {
+   "w": "再次",
+   "q_vi": "Mũ của cô ấy sao thế?",
+   "d_vi": "Cô ấy vừa nhặt mũ lên, gió to thổi một cái, mũ lại bị thổi bay lần nữa."
+  },
+  {
+   "w": "拒绝",
+   "q_vi": "Anh ấy đang làm gì?",
+   "d_vi": "Anh ấy giơ hai tay lên, từ chối yêu cầu của người khác."
+  },
+  {
+   "w": "浪费",
+   "q_vi": "Người này ăn xong chưa?",
+   "d_vi": "Trong đĩa vẫn còn thừa nhiều cơm, lãng phí quá!"
+  },
+  {
+   "w": "节约",
+   "q_vi": "Bức tranh này muốn nói với chúng ta điều gì?",
+   "d_vi": "Nước là nguồn tài nguyên rất quan trọng, chúng ta phải tiết kiệm nước."
+  }
+ ]
+}
