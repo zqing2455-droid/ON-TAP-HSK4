@@ -7,7 +7,7 @@
 Nguồn:
   · Web dạy học đã dựng `../WEB-DAY-HOC/bai-NN.html` (DATA + MEDIA): từ ★, ảnh dạy từ, câu hỏi “Nhìn ảnh” (anh_q)
     và câu mẫu (anh_d) — pinyin đã soát ở bộ dựng web dạy học, nên sửa câu/ảnh thì sửa bên đó rồi dựng lại web trước.
-  · `assets/nhin-anh-vi.json`: bản dịch tiếng Việt câu hỏi (q_vi) và câu mẫu (d_vi), theo đúng thứ tự từ ★.
+  · `assets/nhin-anh-vi.json`: bản dịch tiếng Việt (q_vi, d_vi) — hiện KHÔNG hiển thị (trò chỉ dùng tiếng Trung), chỉ dùng để soát thứ tự từ ★.
   · Khuôn `assets/khuon-nhin-anh.html` (giao diện Mầm xanh, JS giống trò HSK1/HSK2).
 Trang danh sách tro-choi/index.html tự dò bai-NN.html qua thẻ <meta name="tc-…">.
 """
@@ -38,16 +38,12 @@ def dung(n):
     for w, v in zip(tu, vi):
         assert w.get('anh_ppt') and w['anh_ppt'] in M, 'Bài %d: %s chưa có ảnh' % (n, w['w'])
         assert w['w'] in w['anh_d'], 'Bài %d: câu mẫu của %s không chứa từ' % (n, w['w'])
-        nghia = re.split(r'[;；]', w['nghia'])[0].strip()
-        note = '<b>Dùng thế nào:</b> ' + esc(w.get('the', ''))
-        if w.get('canh'): note += '<br><b>Lưu ý:</b> ' + esc(w['canh'])
+        # Chỉ tiếng Trung: không pinyin, không dịch, không ghi chú tiếng Việt (cô dặn 28/11/2026)
         NH.append(dict(
-            ch=w['w'], cat=nghia, img=nen_anh(M[w['anh_ppt']]),
-            task=('<b>%s</b><span class="py-hoi">%s</span><span class="vi-hoi">%s</span>'
-                  '<span class="yeu-cau">Trả lời bằng một câu có <b class="zh">%s</b> (%s)</span>')
-                 % (esc(w['anh_q']), esc(w['anh_q_py']), esc(v['q_vi']), esc(w['w']), esc(w['py'])),
-            mau=[[w['anh_d'], w['anh_d_py'], v['d_vi']]],
-            note=note))
+            ch=w['w'], cat='', img=nen_anh(M[w['anh_ppt']]),
+            task='<b>%s</b><span class="yeu-cau">用「<b class="zh">%s</b>」回答。</span>' % (esc(w['anh_q']), esc(w['w'])),
+            mau=[[w['anh_d']]],
+            note=''))
     het = 'Cả %d từ trọng tâm của Bài %d đều nói được thành câu rồi.' % (len(NH), n) + (' Sang Bài %d được đấy!' % (n + 1) if n < 10 else ' Hết sách 4上 rồi đấy!')
     key = 'hsk4-nhin-anh-noi-cau-bai%d' % n
     out = (KHUON.replace('__NH__', json.dumps(NH, ensure_ascii=False)).replace('__HAN__', esc(han)).replace('__KEY__', key)

@@ -144,7 +144,7 @@ body{margin:0;background:var(--nen);color:var(--chu);font-family:var(--f-viet);-
 .chan b{color:var(--la-dam);font-weight:800}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 
-/* HSK4: ô ghi cả từ 2–3 chữ · câu hỏi có pinyin + nghĩa */
+/* HSK4: ô ghi cả từ 2–3 chữ · câu hỏi chỉ có chữ Hán */
 .the .n.doi{font-size:clamp(22px,3.8vw,30px)}
 .the .n.dai{font-size:clamp(17px,2.9vw,23px);letter-spacing:-.02em}
 .cau .py-hoi{display:block;font-size:.72em;font-weight:600;color:var(--chu-phu);margin-top:4px}
@@ -243,7 +243,7 @@ function veBang(){
     t.className = "the" + (kq[i]===1 ? " xong" : kq[i]===0 ? " lai" : "");
     t.dataset.i = i;
     const dau = kq[i]===1 ? "✓" : kq[i]===0 ? "↻" : "";
-    t.innerHTML = `${dau?`<span class="dau-x">${dau}</span>`:""}<span class="n${d.ch.length > 2 ? ' dai' : d.ch.length > 1 ? ' doi' : ''}">${d.ch}</span><span class="cat">${d.cat}</span>`;
+    t.innerHTML = `${dau?`<span class="dau-x">${dau}</span>`:""}<span class="n${d.ch.length > 2 ? ' dai' : d.ch.length > 1 ? ' doi' : ''}">${d.ch}</span>${d.cat ? `<span class="cat">${d.cat}</span>` : ''}`;
     t.setAttribute("aria-label", `Từ ${d.ch}` + (kq[i]===1?", đã nói được":kq[i]===0?", cần luyện lại":""));
     t.onclick = ()=>moO(i);
     b.append(t);
@@ -297,7 +297,7 @@ function quayVong(){
     else{
       dangQuay = false;
       const idx = ds[k];
-      $("trung").innerHTML = 'Từ <b>' + NH[idx].ch + '</b> · ' + NH[idx].cat + '<span>Nhìn ảnh, nói một câu có từ này</span>';
+      $("trung").innerHTML = 'Từ <b>' + NH[idx].ch + '</b>' + (NH[idx].cat ? ' · ' + NH[idx].cat : '') + '<span>Nhìn ảnh, nói một câu có từ này</span>';
       const o = document.querySelector('.the[data-i="'+idx+'"]');
       if(o){ o.classList.add("nhay"); o.scrollIntoView({block:"nearest",behavior:"smooth"}); }
       setTimeout(()=>{ if(o) o.classList.remove("nhay"); moO(idx); }, 700);
@@ -309,7 +309,7 @@ function quayVong(){
 /* ═══════════ MÀN NHIỆM VỤ ═══════════ */
 function moO(i){
   const d = NH[i]; oDangMo = i;
-  $("cat").innerHTML = "TỪ TRỌNG TÂM · <b>" + d.ch + "</b> " + d.cat;
+  $("cat").innerHTML = "TỪ TRỌNG TÂM · <b>" + d.ch + "</b>" + (d.cat ? " " + d.cat : "");
   $("anh").src = d.img; $("anh").alt = "Ảnh gợi ý cho từ " + d.ch;
   $("cau").innerHTML = d.task;
   $("mau").hidden = true; $("mau").innerHTML = "";
@@ -319,9 +319,9 @@ function moO(i){
 $("moMau").onclick = ()=>{
   const d = NH[oDangMo];
   $("mau").innerHTML = d.mau.map(m =>
-    `<div><div class="z">${m[0]}</div><div class="y">${m[1]}</div><div class="v">${m[2]}</div></div>`).join("");
+    `<div><div class="z">${m[0]}</div>${m[1] ? `<div class="y">${m[1]}</div>` : ""}${m[2] ? `<div class="v">${m[2]}</div>` : ""}</div>`).join("");
   $("giai").innerHTML = d.note;
-  $("mau").hidden = false; $("giai").hidden = false;
+  $("mau").hidden = false; $("giai").hidden = !d.note;
   $("cham").hidden = false; $("moMau").hidden = true;
 };
 $("cham").onclick = e => {
